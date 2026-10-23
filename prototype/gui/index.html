@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en" translate="no" class="notranslate">
+<head>
+  <meta charset="utf-8">
+  <meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thedas World State Studio</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="interface-art/favicon.png">
+  <link rel="stylesheet" href="style.css?v=__BUILD_ID__">
+  <link rel="stylesheet" href="tapestry-layout.css?v=__BUILD_ID__">
+  <link rel="stylesheet" href="keep-interactions.css?v=__BUILD_ID__">
+  <script src="backend.js?v=__BUILD_ID__" defer></script>
+  <script src="choice-controls.js?v=__BUILD_ID__" defer></script>
+  <script src="app.js?v=__BUILD_ID__" defer></script>
+</head>
+<body>
+  <svg class="symbols" aria-hidden="true"><defs>
+    <symbol id="i-diamond" viewBox="0 0 40 48"><path d="M20 2 37 24 20 46 3 24Z M20 10 31 24 20 38 9 24Z M20 2V46 M3 24H37"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><path d="M3 3H12V14H3Z M16 3H21V9H16Z M16 13H21V21H16Z M3 18H12V21H3Z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1V4 M12 20V23 M1 12H4 M20 12H23 M4 4 6 6 M18 18 20 20 M4 20 6 18 M18 6 20 4"/></symbol>
+    <symbol id="i-feather" viewBox="0 0 24 24"><path d="M3 21 18 6 M6 18C1 10 9 1 21 3 23 14 15 21 6 18 M9 15V9 M13 11H19"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4V20 M4 12H20"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12H20 M14 6 20 12 14 18"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3V16 M7 11 12 16 17 11 M4 16V21H20V16"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12 9 17 20 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19 M19 5 5 19"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 5H21 M8 12H21 M8 19H21 M2 5H3 M2 12H3 M2 19H3"/></symbol>
+    <symbol id="i-dots" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 4H21V20H3Z M7 8H18 M7 12H18 M7 16H18"/></symbol>
+  </defs></svg>
+  <div class="app-shell">
+    <button id="menu-backdrop" class="menu-backdrop" aria-label="Close navigation backdrop" tabindex="-1" hidden></button>
+    <aside id="side-menu" class="sidebar" aria-label="World State navigation" hidden inert>
+      <div class="drawer-heading"><a href="#" class="brand" aria-label="Thedas World State Studio"><svg><use href="#i-diamond"/></svg><span>THEDAS<small>WORLD STATE STUDIO</small></span></a><button id="close-menu" class="icon-button" aria-label="Close navigation"><svg><use href="#i-close"/></svg></button></div>
+      <div class="side-rule"></div>
+      <p class="eyebrow side-label">THE TAPESTRY</p>
+      <nav class="drawer-nav" aria-label="Editor navigation"><button id="drawer-tapestry" class="nav-item"><svg><use href="#i-grid"/></svg><span>Tapestry</span></button><button id="drawer-profiles" class="nav-item"><svg><use href="#i-list"/></svg><span>Manage World States</span></button><button id="drawer-fbmod-settings" class="nav-item"><svg><use href="#i-download"/></svg><span>FBMOD settings</span></button></nav>
+      <div class="saved-heading"><p class="eyebrow">YOUR WORLD STATES</p><button id="new-sidebar" class="icon-button" aria-label="Create World State"><svg><use href="#i-plus"/></svg></button></div>
+      <div id="profile-list" class="profile-list"><p class="side-hint">Your saved histories will appear here.</p></div>
+      <button id="import-profile" class="sidebar-link">Import a World State <span>↗</span></button>
+      <div class="side-bottom"><small class="artwork-credit">Original artwork © EA / BioWare<br>Unofficial fan project</small></div>
+    </aside>
+    <input type="file" id="import-file" accept=".json,application/json" hidden>
+    <input type="file" id="save-import-file" accept=".das" hidden>
+    <input type="file" id="dao-save-import-file" accept=".das" hidden>
+    <input type="file" id="new-save-import-file" accept=".das" hidden>
+
+    <main id="studio-main">
+      <header class="topbar">
+        <div class="topbar-left"><button id="menu-toggle" class="icon-button menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="side-menu"><svg><use href="#i-menu"/></svg></button><div class="masthead-title">Tapestry<small>THEDAS · WORLD STATE STUDIO</small></div></div>
+        <svg class="banner-sigil" aria-hidden="true"><use href="#i-diamond"/></svg>
+        <section class="profile-heading" aria-label="Current World State">
+          <div class="heading-copy"><label class="sr-only" for="profile-name">World State name</label><input id="profile-name" class="profile-name" maxlength="120" value="A New Beginning"><div class="profile-meta"><span id="revision-label" aria-live="polite">Unsaved World State</span><span class="meta-dot">·</span><span id="preset-label">Early-test baseline</span></div></div>
+          <div class="profile-actions"><button id="profile-menu" class="button subtle" aria-haspopup="dialog">Manage World States</button><button id="save-profile" class="button secondary">Save changes</button><button id="import-save" class="button secondary" aria-haspopup="dialog" aria-controls="import-save-game-dialog">Import Save</button><button id="export-mod" class="button primary"><svg><use href="#i-download"/></svg>Export as FBMod</button></div>
+        </section>
+        <div class="topbar-right"><span class="build-tag diagnostic">EARLY PREVIEW</span><div class="view-options"><button id="view-options" class="icon-button" aria-label="Options" aria-expanded="false" aria-controls="options-panel"><svg><use href="#i-dots"/></svg></button><div id="options-panel" class="options-panel" hidden><p class="eyebrow">OPTIONS</p>
+          <label class="toggle-label"><input id="enable-quick" type="checkbox"><span>Show quick editor</span></label>
+          <label class="toggle-label"><input id="enable-search" type="checkbox"><span>Show search and filters</span></label>
+          <label class="toggle-label"><input id="show-import-review" type="checkbox"><span>Show import review</span></label>
+          <label class="toggle-label"><input id="show-diagnostics" type="checkbox"><span>Show diagnostic data</span></label>
+          <label class="toggle-label"><input id="story-unrestricted" type="checkbox"><span>No Story Restrictions</span></label>
+          <div id="mode-switch" class="mode-switch" role="group" aria-label="Editor view" hidden><button id="tapestry-view" class="selected" aria-pressed="true">Tapestry</button><button id="quick-view" aria-pressed="false">Quick editor</button></div></div></div></div>
+      </header>
+      <div class="navigation-dock" id="navigation-dock">
+        <nav class="tapestry-trail" aria-label="Tapestry location">
+          <div class="game-ribbon"><button id="game-home" class="game-home" title="Return to the game's tapestry">Dragon Age: Origins</button><button id="game-select" class="game-select" aria-label="Choose game" aria-haspopup="menu" aria-expanded="false" aria-controls="game-menu"><span class="ribbon-arrow" aria-hidden="true"></span></button><svg class="ribbon-focus" viewBox="0 0 285 84" preserveAspectRatio="none" aria-hidden="true"><polygon points="3,3 257,3 281,42 257,81 3,81" vector-effect="non-scaling-stroke"/></svg></div>
+          <div id="breadcrumbs" class="trail-segments"></div>
+        </nav>
+        <div id="game-menu" class="game-menu" role="menu" aria-label="Game" hidden>
+          <span class="game-menu-crest" aria-hidden="true"></span>
+          <div class="game-menu-inner" role="none">
+            <button role="menuitemradio" aria-checked="true" data-game="dao" tabindex="-1">Dragon Age: Origins<span aria-hidden="true">✓</span></button>
+            <button role="menuitemradio" aria-checked="false" data-game="da2" tabindex="-1">Dragon Age II<span aria-hidden="true">✓</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+
+        <div id="validation" class="validation-message" role="status" hidden></div>
+        <button id="review-story" class="button secondary" hidden>Review related changes</button>
+
+        <h1 id="view-title" class="sr-only" tabindex="-1">The tapestry</h1>
+
+        <section id="choice-tools" class="choice-tools" aria-label="Search and filter choices" hidden>
+          <label class="sr-only" for="choice-search">Search choices</label><input id="choice-search" class="text-input" type="search" placeholder="Search this game" maxlength="200">
+          <label class="toggle-label"><input id="unchosen-choices-only" type="checkbox"><span>Not yet chosen</span></label>
+          <button id="clear-choice-search" class="text-button" type="button">Clear</button><span id="choice-results-count" role="status" aria-live="polite"></span>
+          <button id="leave-remaining-review" class="text-button" type="button" hidden>Back to tapestry</button>
+        </section>
+        <div id="category-settings" class="category-settings" hidden></div>
+        <div id="tapestry" class="tapestry" aria-label="World State tapestry"></div>
+        <section id="quick-editor" class="quick-editor" aria-label="Quick editor" hidden><div id="quick-rows"></div></section>
+
+        <section id="choice-view" class="choice-view" aria-labelledby="choice-question" hidden>
+          <div class="choice-heading"><span class="choice-ornament" aria-hidden="true">◇</span><h1 id="choice-question" tabindex="-1"></h1><p id="choice-description" aria-live="polite"></p><p id="choice-verification" class="mapping-note" hidden></p></div>
+          <div class="answer-browser"><button id="previous-answer" class="carousel-arrow previous" aria-label="Previous answer"><svg><use href="#i-arrow"/></svg></button><div id="answer-cards" class="answer-carousel" role="group" aria-label="Illustrated answers"></div><button id="next-answer" class="carousel-arrow next" aria-label="Next answer"><svg><use href="#i-arrow"/></svg></button></div>
+          <div class="answer-approval"><p id="answer-position" class="diagnostic" aria-live="polite"></p><button id="approve-answer" class="approve-answer">Choose this answer</button><p id="choice-current" class="diagnostic"></p></div>
+          <div class="choice-footer"><button id="cancel-choice" class="text-button">Back to choices</button><span id="choice-origin" class="diagnostic"></span><button id="inherit-choice" class="text-button">Use base World State</button></div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <dialog id="story-change-dialog" class="small-dialog story-change-dialog" aria-labelledby="story-change-title" aria-describedby="story-change-description">
+    <h2 id="story-change-title">Confirm World State Change</h2>
+    <p id="story-change-description">This choice depends on other choices. Review the changes needed to keep your World State consistent.</p>
+    <div id="story-change-list" class="story-change-list"></div>
+    <div class="form-buttons"><button id="cancel-story-change" class="button secondary">No, cancel changes</button><button id="apply-story-change" class="button primary">Yes, make changes</button></div>
+  </dialog>
+
+  <dialog id="fbmod-settings-dialog" class="small-dialog fbmod-settings-dialog" aria-labelledby="fbmod-settings-title">
+    <div class="dialog-bar"><span class="eyebrow accent">EXPORT SETTINGS</span><button class="icon-button" data-close="fbmod-settings-dialog" aria-label="Close FBMOD settings"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="fbmod-settings-title">FBMOD settings</h2>
+    <form id="fbmod-settings-form">
+      <label class="field-label" for="fbmod-author">Author</label><input id="fbmod-author" class="text-input" maxlength="120">
+      <label class="field-label" for="fbmod-description">Description</label><textarea id="fbmod-description" class="text-input" rows="4" maxlength="8000"></textarea>
+      <label class="field-label" for="fbmod-category">Category</label><input id="fbmod-category" class="text-input" readonly>
+      <span class="field-label">Icon</span><div class="fbmod-icon-row"><img id="fbmod-icon-preview" alt="FBMOD icon preview"><div><p id="fbmod-icon-label"></p><button id="choose-fbmod-icon" type="button" class="button secondary">Choose image</button><button id="reset-fbmod-icon" type="button" class="text-button">Use preset icon</button></div></div>
+      <input id="fbmod-icon-file" type="file" accept="image/png,image/jpeg,.png,.jpg,.jpeg" hidden>
+      <p id="fbmod-settings-error" class="form-error" role="alert" hidden></p>
+      <div class="form-buttons"><button type="button" class="button subtle" data-close="fbmod-settings-dialog">Cancel</button><button id="save-fbmod-settings" type="submit" class="button primary">Save settings</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="fbmod-export-dialog" class="small-dialog" aria-labelledby="fbmod-export-title">
+    <div class="dialog-bar"><span class="eyebrow accent">FBMOD EXPORT</span><button class="icon-button" data-close="fbmod-export-dialog" aria-label="Cancel FBMOD export"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="fbmod-export-title">Export World State</h2><form id="fbmod-export-form">
+      <label class="field-label" for="fbmod-title">Mod title</label><input id="fbmod-title" class="text-input" maxlength="160" required>
+      <label class="field-label" for="fbmod-filename">File name</label><input id="fbmod-filename" class="text-input" maxlength="160" required>
+      <button id="export-settings-link" type="button" class="text-button fbmod-settings-link">FBMOD settings</button>
+      <p id="fbmod-export-error" class="form-error" role="alert" hidden></p>
+      <div class="form-buttons"><button type="button" class="button subtle" data-close="fbmod-export-dialog">Cancel</button><button type="submit" class="button primary">Export FBMOD</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="profile-dialog" class="small-dialog" aria-labelledby="profile-dialog-title">
+    <div class="dialog-bar"><span class="eyebrow accent">WORLD STATES</span><button class="icon-button" data-close="profile-dialog" aria-label="Close World State actions"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="profile-dialog-title">Manage World States</h2>
+    <div class="management-actions">
+      <button id="new-profile" class="button secondary">Create World State</button><button id="duplicate-profile" class="button secondary">Duplicate current</button>
+      <button id="export-json" class="button secondary">Export World State JSON</button><button id="import-from-manage" class="button secondary">Import World State JSON</button>
+      <button id="show-history" class="button secondary">Saved revisions</button>
+    </div>
+    <h3 class="management-heading">Import from a game save</h3>
+    <div class="management-actions save-import-actions">
+      <button id="import-dao-save-from-manage" class="button secondary">Import a DAO save</button>
+      <button id="import-save-from-manage" class="button secondary">Import a DA2 save</button>
+    </div>
+    <p class="form-hint">Import a new history, or use a DAO or DA2 save to update an existing World State.</p>
+    <label class="field-label" for="open-profile-select">Open a saved World State</label>
+    <div class="open-profile-row"><select id="open-profile-select" class="text-input"></select><button id="open-profile" class="button secondary">Open</button></div>
+    <button id="delete-profile" class="text-button manage-delete">Delete selected World State</button>
+    <details id="deleted-profiles-details" class="deleted-profiles"><summary>Deleted World States</summary><p class="form-hint">Restore a deleted history, or permanently remove it and all its saved revisions.</p><button id="empty-deleted-profiles" class="button secondary danger" disabled>Empty deleted World States</button><div id="deleted-profiles-list"></div></details>
+    <div class="bridge-note diagnostic"><p class="eyebrow">SET AS ACTIVE</p><p>Planned for the local import bridge. For now, export an FBMOD to use your history in-game.</p></div>
+  </dialog>
+
+  <dialog id="delete-profile-dialog" class="small-dialog" aria-labelledby="delete-profile-title">
+    <div class="dialog-bar"><span class="eyebrow accent">WORLD STATES</span><button class="icon-button" data-close="delete-profile-dialog" aria-label="Cancel deletion"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="delete-profile-title">Delete this World State?</h2>
+    <p id="delete-profile-name"></p><p>You can restore it and all its saved revisions from Deleted World States. Downloaded FBMODs are not affected.</p>
+    <p id="delete-profile-error" class="form-error" role="alert" hidden></p>
+    <div class="form-buttons"><button type="button" class="button subtle" data-close="delete-profile-dialog">Cancel</button><button id="confirm-delete-profile" class="button secondary danger">Delete World State</button></div>
+  </dialog>
+
+  <dialog id="purge-profiles-dialog" class="small-dialog" aria-labelledby="purge-profiles-title">
+    <div class="dialog-bar"><span class="eyebrow accent">WORLD STATES</span><button class="icon-button" data-close="purge-profiles-dialog" aria-label="Cancel permanent deletion"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="purge-profiles-title">Delete permanently?</h2>
+    <p id="purge-profiles-count"></p><ul id="purge-profile-names"></ul>
+    <p>These World States and all their saved revisions will be permanently removed. This cannot be undone. Exported FBMODs and separate World State JSON backups will remain.</p>
+    <p id="purge-profiles-error" class="form-error" role="alert" hidden></p>
+    <div class="form-buttons"><button id="cancel-purge-profiles" type="button" class="button subtle" data-close="purge-profiles-dialog">Cancel</button><button id="confirm-purge-profiles" type="button" class="button secondary danger">Delete permanently</button></div>
+  </dialog>
+
+  <dialog id="import-save-game-dialog" class="small-dialog" aria-labelledby="import-save-game-title">
+    <div class="dialog-bar"><span class="eyebrow accent">GAME SAVE</span><button class="icon-button" data-close="import-save-game-dialog" aria-label="Cancel save import"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="import-save-game-title">Import Save</h2>
+    <div class="management-actions save-import-actions">
+      <button id="import-dao-save" class="button secondary">Dragon Age: Origins (DAO)</button>
+      <button id="import-da2-save" class="button secondary">Dragon Age II (DA2)</button>
+    </div>
+  </dialog>
+
+  <dialog id="save-import-dialog" class="small-dialog save-import-dialog" aria-labelledby="save-import-title">
+    <div class="dialog-bar"><span id="save-import-game" class="eyebrow accent">IMPORT DA2 SAVE</span><button class="icon-button" data-close="save-import-dialog" aria-label="Cancel save import"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="save-import-title">Import your history</h2>
+    <p id="save-import-summary"></p>
+    <p id="save-import-description">This creates a new World State from this save’s DA2 choices and carried DAO history. Choices that cannot be recovered use the default World State until you fill them in.</p>
+    <p id="save-import-restrictions"></p>
+    <p id="save-import-notice" role="status" hidden></p>
+    <label class="toggle-label"><input id="show-save-import-review" type="checkbox"><span>Show import review</span></label>
+    <form id="save-import-form">
+      <div id="dao-import-options" hidden>
+        <label class="field-label" for="dao-import-target">Destination</label><select id="dao-import-target" class="text-input"></select>
+        <div id="dao-import-policy-field" hidden><label class="field-label" for="dao-import-policy">Existing choices</label><select id="dao-import-policy" class="text-input"><option value="missing">Only fill missing choices</option><option value="replace">Replace recovered choices</option></select><p class="form-hint">Only fill missing preserves imported and manually selected answers. Replace changes only outcomes recovered from this save.</p></div>
+      </div>
+      <div id="save-import-name-field"><label class="field-label" for="save-import-name">World State name</label><input id="save-import-name" class="text-input" maxlength="120" required></div>
+      <section id="dao-import-review" hidden aria-labelledby="dao-import-review-title"><h3 id="dao-import-review-title">Import changes</h3><p id="dao-import-change-summary"></p><ul id="dao-import-changes" class="save-import-list" hidden></ul></section>
+      <h3 id="save-import-recognized-title" hidden>Recovered choices</h3><ul id="save-import-recognized" class="save-import-list" hidden></ul>
+      <details id="save-import-unresolved-details" hidden><summary id="save-import-unresolved-title"></summary><ul id="save-import-unresolved" class="save-import-list"></ul></details>
+      <pre id="save-import-diagnostics" class="diagnostic" hidden></pre>
+      <label class="toggle-label import-review-toggle"><input id="review-remaining-after-import" type="checkbox"><span>Review remaining choices after import</span></label>
+      <p id="save-import-error" class="form-error" role="alert" hidden></p>
+      <div class="form-buttons"><button type="button" class="button subtle" data-close="save-import-dialog">Cancel</button><button id="confirm-save-import" type="submit" class="button primary">Create World State</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="name-dialog" class="small-dialog">
+    <div class="dialog-bar"><span id="name-eyebrow" class="eyebrow accent">NEW WORLD STATE</span><button class="icon-button" data-close="name-dialog" aria-label="Cancel"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="name-title">New World State</h2>
+    <form id="name-form">
+      <div id="new-source-field"><label class="field-label" for="new-source">Start from</label><select id="new-source" class="text-input"><option value="preset">A preset</option><option value="dao">A DAO save</option><option value="da2">A DA2 save</option></select></div>
+      <div id="new-name-field"><label class="field-label" for="new-name">World State name</label><input id="new-name" class="text-input" maxlength="120" required></div>
+      <div id="preset-field"><label class="field-label" for="new-preset">Base World State</label><select id="new-preset" class="text-input"></select><p class="form-hint diagnostic">Choices you do not edit will be inherited from this preset.</p></div>
+      <p id="new-save-hint" class="form-hint" hidden>Choose a PC .das save. You can name your World State and review the import before creating it.</p>
+      <p id="new-source-error" class="form-hint" role="alert" hidden></p>
+      <div class="form-buttons"><button type="button" class="button subtle" data-close="name-dialog">Cancel</button><button id="name-submit" type="submit" class="button primary">Create World State</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="unsaved-dialog" class="small-dialog"><p class="eyebrow accent">UNSAVED CHANGES</p><h2>Save changes to World State?</h2><p>Save your changes before continuing.</p><div class="form-buttons wrap"><button id="unsaved-cancel" class="button subtle">Cancel</button><button id="unsaved-discard" class="button secondary">Discard changes</button><button id="unsaved-save" class="button primary">Save & continue</button></div></dialog>
+
+  <dialog id="history-dialog" class="small-dialog"><div class="dialog-bar"><span class="eyebrow accent">SAVED REVISIONS</span><button class="icon-button" data-close="history-dialog" aria-label="Close saved revisions"><svg><use href="#i-close"/></svg></button></div><h2>Saved revisions</h2><p class="form-hint">The latest 20 saved versions are kept, including the current World State.</p><div id="history-list"></div><div class="form-buttons"><button id="clear-history" class="button secondary danger">Clear saved revisions</button></div></dialog>
+  <dialog id="clear-history-dialog" class="small-dialog" aria-labelledby="clear-history-title">
+    <div class="dialog-bar"><span class="eyebrow accent">SAVED REVISIONS</span><button class="icon-button" data-close="clear-history-dialog" aria-label="Cancel clearing revisions"><svg><use href="#i-close"/></svg></button></div>
+    <h2 id="clear-history-title">Clear saved revisions?</h2>
+    <p id="clear-history-name"></p><p>Earlier saved versions will be permanently removed. Your current saved World State and unsaved changes will be kept.</p>
+    <p id="clear-history-error" class="form-error" role="alert" hidden></p>
+    <div class="form-buttons"><button id="cancel-clear-history" class="button subtle" data-close="clear-history-dialog">Cancel</button><button id="confirm-clear-history" class="button secondary danger">Clear saved revisions</button></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" hidden><svg><use href="#i-check"/></svg><div><strong id="toast-title"></strong><span id="toast-detail"></span><div id="toast-actions" class="toast-actions"></div></div><button id="dismiss-toast" class="icon-button" aria-label="Dismiss notification"><svg><use href="#i-close"/></svg></button></div>
+  <div id="loading" class="loading-screen"><svg><use href="#i-diamond"/></svg><p>Unfolding your tapestry…</p></div>
+</body>
+</html>

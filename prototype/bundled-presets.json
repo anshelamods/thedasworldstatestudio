@@ -1,0 +1,24 @@
+{
+  "default_preset": "original-game-v1",
+  "original_asset_sha256": "94817d7c0b9319e9e60753414f6fabe95591bb382ee1e5ab810dd3548f45c316",
+  "presets": [
+    {
+      "id": "original-game-v1",
+      "label": "Original game defaults",
+      "path": "prototype/resources/presets/original-game.fbmod",
+      "sha256": "8c327293f4586f17a3fda62174f3547291eb7b9e105d77d5e5d420d8a85bc89d"
+    },
+    {
+      "id": "template-8a03712331e995d7",
+      "label": "Queen Cousland \u00b7 Rogue Hawke \u00b7 Fenris",
+      "path": "prototype/resources/presets/queen-cousland-fenris.fbmod",
+      "sha256": "8a03712331e995d7b41323c868b203a1059eb654c39a038cf730ae1e89811484"
+    },
+    {
+      "id": "template-c12e6ee0104e9afe",
+      "label": "Queen Cousland \u00b7 Rogue Hawke \u00b7 Anders",
+      "path": "prototype/resources/presets/queen-cousland-anders.fbmod",
+      "sha256": "c12e6ee0104e9afe937c346d3ec0bbd73e070aa4587e7b7ffe3186d549622b62"
+    }
+  ]
+}

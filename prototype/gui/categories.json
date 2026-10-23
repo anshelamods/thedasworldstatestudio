@@ -1,0 +1,1476 @@
+[
+  {
+    "id": "dao.hero",
+    "game": "dao",
+    "title": "Hero",
+    "description": "The Hero of Ferelden.",
+    "layout": "square",
+    "overview_tile": {
+      "block": "origins-0",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    "art_choice": "dao.warden_fate",
+    "art": "dao_warden_state/alive_detail.jpg"
+  },
+  {
+    "id": "dao.companions",
+    "game": "dao",
+    "title": "Companions",
+    "description": "The people who travelled with the Hero of Ferelden.",
+    "art": "dao_warden_romance/morrigan_detail.jpg",
+    "layout": "square",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.warden_romance",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "dao.dog_recruited",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.sten_release",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "dao.sten_recruited",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.sten_sword",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.wynne_recruited",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.wynne_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.morrigan_child",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.loghain_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.oghren_recruited",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.zevran_recruited",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "dao.zevran_fate",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.alistair_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "dao.alistair_relationship",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.leliana_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.flemeth_grimoire",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-1",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    "art_choice": "dao.warden_romance"
+  },
+  {
+    "id": "dao.prologue",
+    "game": "dao",
+    "title": "Prologue",
+    "description": "The Warden’s first days at Ostagar.",
+    "art": "dao_pre_hungry_deserter/left-alone_detail.jpg",
+    "layout": "portrait",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.ostagar_deserter",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.ostagar_mabari",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-2",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "art_choice": "dao.ostagar_deserter"
+  },
+  {
+    "id": "dao.redcliffe",
+    "game": "dao",
+    "title": "The Arl of Redcliffe",
+    "description": "The village, the castle, and the people of Redcliffe.",
+    "art": "dao_red_attack_nightfall/yes_top_1x2.jpg",
+    "layout": "portrait",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.redcliffe_defense",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.redcliffe_preparation",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.connor_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.bella_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.bevin_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.valena_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.isolde_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-2",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 2
+    },
+    "art_choice": "dao.redcliffe_defense"
+  },
+  {
+    "id": "dao.urn",
+    "game": "dao",
+    "title": "The Urn of Sacred Ashes",
+    "description": "The Warden’s decision at the Urn.",
+    "art": "dao_urn_of_sacred_ashes_destroyed/no_detail.jpg",
+    "layout": "square",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.urn_poisoned",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-2",
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "art_choice": "dao.urn_poisoned"
+  },
+  {
+    "id": "dao.awakening",
+    "game": "dao",
+    "title": "Awakening",
+    "description": "The Warden-Commander’s time in Amaranthine.",
+    "art": "dao_awakenings_architect_fate/killed_detail.jpg",
+    "layout": "square",
+    "overview_tile": {
+      "block": "origins-3",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.architect_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.awakening_protection",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.nathaniel_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.oghren_felsi",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "art_choice": "dao.architect_fate"
+  },
+  {
+    "id": "dao.nature",
+    "game": "dao",
+    "title": "Nature of the Beast",
+    "description": "The conflict between the Dalish elves and werewolves.",
+    "art": "dao_nb_werewolf_elf_choice/peace_top_2x1.jpg",
+    "layout": "landscape",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.nature_outcome",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.cammen_relationship",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.elora_halla",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.athras_danyla",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.varathorn_ironbark",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.deygan_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-4",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    "art_choice": "dao.nature_outcome"
+  },
+  {
+    "id": "dao.paragon",
+    "game": "dao",
+    "title": "Paragon of Her Kind",
+    "description": "The people of Orzammar, its throne, and the Anvil of the Void.",
+    "art": "dao_paragon_chosen/caridin_top_2x1.jpg",
+    "layout": "landscape",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.anvil_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.orzammar_ruler",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.filda_ruck",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.burkel_chantry",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "dao.zerlinda_fate",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.orta_ancestry",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.dagna_outcome",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.mardy_relationship",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "dao.mardy_son",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.legion_noble_house",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "dao.shaperate_tome",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.rogek_lyrium",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-4",
+      "x": 0,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    "art_choice": "dao.anvil_fate"
+  },
+  {
+    "id": "dao.circle",
+    "game": "dao",
+    "title": "Broken Circle",
+    "description": "The Warden’s allegiance at the Circle of Magi.",
+    "art": "dao_broken_circle_choice/mages_top_1x2.jpg",
+    "layout": "portrait",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.broken_circle",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.irving_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.cullen_request",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-5",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 2
+    },
+    "art_choice": "dao.broken_circle"
+  },
+  {
+    "id": "dao.denerim_quests",
+    "game": "dao",
+    "title": "Denerim",
+    "description": "The Warden’s dealings in Denerim.",
+    "art": "dao_den_murder_crows/no_top_1x1.jpg",
+    "layout": "square",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.landry_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "dao.oswyn_sighard",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.slim_couldry",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.irminric_ring",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "dao.beggar_amulet",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.alistair_family",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.justine_scroll",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.kylon_falcons",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "dao.kylon_crimson_oars",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.ignacio_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.leliana_past",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-5",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "art_choice": "dao.ignacio_fate"
+  },
+  {
+    "id": "dao.landsmeet",
+    "game": "dao",
+    "title": "The Landsmeet",
+    "description": "The crown of Ferelden and the choices that shaped its future.",
+    "art": "dao_ruler_state/alistair_top_1x1.jpg",
+    "layout": "portrait",
+    "overview_tile": {
+      "block": "origins-5",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "art_choice": "dao.ferelden_ruler"
+  },
+  {
+    "id": "dao.denerim",
+    "game": "dao",
+    "title": "The Battle of Denerim",
+    "description": "The final battle against the Archdemon.",
+    "art": "dao_archdemon_killer/warden_detail.jpg",
+    "layout": "portrait",
+    "overview_tile": {
+      "block": "origins-6",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    },
+    "art_choice": "dao.archdemon_killer"
+  },
+  {
+    "id": "dao.witch_hunt",
+    "game": "dao",
+    "title": "Witch Hunt",
+    "description": "The Warden’s final encounter with Morrigan.",
+    "art": "dao_warden_eluvian/no_top_2x1.jpg",
+    "layout": "landscape",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.witch_hunt",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_tile": {
+      "block": "origins-dlc",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    "art_choice": "dao.witch_hunt"
+  },
+  {
+    "id": "dao.wardens_keep",
+    "game": "dao",
+    "title": "Warden’s Keep",
+    "description": "Soldier’s Peak, Avernus and the Power of Blood.",
+    "art": "dao_wardens_keep_avernus_fate/both_perished_detail.jpg",
+    "layout": "square",
+    "overview_tile": {
+      "block": "origins-dlc",
+      "x": 0,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.power_of_blood",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.avernus_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "art_choice": "dao.avernus_fate"
+  },
+  {
+    "id": "dao.stone_prisoner",
+    "game": "dao",
+    "title": "The Stone Prisoner",
+    "description": "Shale and the village of Honnleath.",
+    "art": "dao_shale_fate/alive-well_detail.jpg",
+    "layout": "square",
+    "overview_tile": {
+      "block": "origins-dlc",
+      "x": 1,
+      "y": 1,
+      "width": 1,
+      "height": 1
+    },
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "dao.shale_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.kitty_amalia",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "dao.shale_recruited",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "art_choice": "dao.shale_fate"
+  },
+  {
+    "id": "da2.hero",
+    "game": "da2",
+    "title": "Hero",
+    "description": "The Champion of Kirkwall.",
+    "interface_art": "da2_heroes/male_warrior.jpg",
+    "layout": "portrait",
+    "art_choice": "da2.hawke_identity",
+    "overview_tile": {
+      "block": "da2-0",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "id": "da2.companions",
+    "game": "da2",
+    "title": "Companions",
+    "description": "The friends and allies who stood beside the Champion.",
+    "art": "da2_hawke_romance/anders_detail.jpg",
+    "layout": "square",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "da2.hawke_romance",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.bethany_fate",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "da2.carver_fate",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.bethany_final_battle",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.isabela_recruited",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "da2.isabela_book",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.isabela_handover",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.anders_approval",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "da2.anders_fate",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.aveline_marriage",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "da2.aveline_remained",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.sebastian_recruited",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.varric_relationship",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.bartrand_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.varric_quest",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "da2.varric_idol",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.fenris_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.merrill_remained",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "da2.merrill_fate",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.merrill_eluvian",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.merrill_clan",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.tallis_reaction",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "da2.tallis_kiss",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ]
+    ],
+    "art_choice": "da2.hawke_romance",
+    "overview_tile": {
+      "block": "da2-1",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "id": "da2.prologue",
+    "game": "da2",
+    "title": "Prologue",
+    "description": "A year’s service in Kirkwall.",
+    "art": "da2_pro_choice/smugglers_top_2x1.jpg",
+    "layout": "portrait",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "da2.prologue_allegiance",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_pair": "da2-prologue-legacy",
+    "art_choice": "da2.prologue_allegiance",
+    "overview_tile": {
+      "block": "da2-2",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 2
+    }
+  },
+  {
+    "id": "da2.act1",
+    "game": "da2",
+    "title": "Act I",
+    "description": "Hawke’s early choices in Kirkwall.",
+    "art": "da2_act1_templars/fought-them_detail.jpg",
+    "layout": "portrait",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "da2.act1_templars",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.saemus_rescue",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "da2.ginnis_fate",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.ghyslain_truth",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.thrask_blackmail",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.feynriel_destination",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.ketojan_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.martin_cargo",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "da2.kelder_fate",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.danzig_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.bone_pit_miners",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.idunna_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.keran_templars",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.karras_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "art_choice": "da2.act1_templars",
+    "overview_tile": {
+      "block": "da2-3",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "id": "da2.act2",
+    "game": "da2",
+    "title": "Act II",
+    "description": "The Qunari conflict in Kirkwall.",
+    "art": "da2_arishok_killed/yes_detail.jpg",
+    "layout": "portrait",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "da2.gascard_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.hubert_caravans",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "da2.fools_gold",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.cliff_raiders",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "da2.feynriel_fate",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.varnell_side",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "da2.petrice_side",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.javaris_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.arishok_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "art_choice": "da2.arishok_fate",
+    "overview_tile": {
+      "block": "da2-4",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "id": "da2.act3",
+    "game": "da2",
+    "title": "Act III",
+    "description": "The final year in Kirkwall.",
+    "art": "da2_hawke_chosen_side/mages_detail.jpg",
+    "layout": "portrait",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "da2.murder_of_crows",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "da2.zevran_freed",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.finding_nathaniel",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        },
+        {
+          "choice_id": "da2.gamlen_treasure",
+          "x": 1,
+          "y": 0,
+          "width": 1,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.final_allegiance",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.conspirators",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.emile_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.keran_fate",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 1
+        },
+        {
+          "choice_id": "da2.bone_pit_dragon",
+          "x": 0,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        }
+      ]
+    ],
+    "art_choice": "da2.final_allegiance",
+    "overview_tile": {
+      "block": "da2-5",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 2
+    }
+  },
+  {
+    "id": "da2.legacy",
+    "game": "da2",
+    "title": "Legacy DLC",
+    "description": "Corypheus’s prison and Hawke’s family legacy.",
+    "art": "da2_legacy_side_chosen/larius_top_2x1.jpg",
+    "layout": "portrait",
+    "tile_blocks": [
+      [
+        {
+          "choice_id": "da2.legacy_side",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ],
+      [
+        {
+          "choice_id": "da2.malcolm_will",
+          "x": 0,
+          "y": 0,
+          "width": 2,
+          "height": 2
+        }
+      ]
+    ],
+    "overview_pair": "da2-prologue-legacy",
+    "art_choice": "da2.legacy_side",
+    "overview_tile": {
+      "block": "da2-2",
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 2
+    }
+  }
+]

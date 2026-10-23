@@ -1,0 +1,908 @@
+{
+  "mapping_version": 5,
+  "scope": "Initial profile slice only. Gameplay tests pending; unedited history is inherited from a reviewed preset.",
+  "baseline": {
+    "id": "early-tests-v1",
+    "label": "Early-test baseline: Bethany Circle, Alistair king, Loghain executed",
+    "template_sha256": "8a03712331e995d7b41323c868b203a1059eb654c39a038cf730ae1e89811484",
+    "basis": "Existing early-test common assignments, kept unchanged for comparison.",
+    "export_values": {
+      "dao_played": 1,
+      "dao_or_da2_played": 1,
+      "da2_played": 1,
+      "dao_ruler_state": 0,
+      "dao_alistair_alive": 1,
+      "dao_alistair_executed": 0,
+      "dao_alistair_killed_archdemon": 0,
+      "dao_alistair_king_alone": 1,
+      "dao_alistair_king_with_anora": 0,
+      "dao_alistair_king_with_warden": 0,
+      "dao_alistair_royal_status": 1,
+      "dao_alistair_state": 2,
+      "dao_alistair_drunk": 0,
+      "dao_anora_queen_alone": 0,
+      "dao_anora_queen_alone_or_with_warden": 0,
+      "dao_anora_queen_with_warden": 0,
+      "dao_warden_married_alistair": 0,
+      "dao_warden_married_alistair_anora": 0,
+      "dao_warden_king_mistress": 0,
+      "dao_warden_romance": 0,
+      "dao_warden_romance_alistair": 0,
+      "dao_warden_romance_morrigan": 0,
+      "dao_warden_romance_leliana": 0,
+      "dao_warden_romance_zevran": 0,
+      "dao_loghain_alive": 0,
+      "dao_loghain_executed": 1,
+      "dao_loghain_fate": 0,
+      "dao_loghain_killed_archdemon": 0,
+      "dao_loghain_recruited": 0,
+      "da2_hawke_class": 1,
+      "da2_hawke_class_mage": 0,
+      "da2_hawke_class_rogue": 1,
+      "da2_hawke_class_warrior": 0,
+      "da2_bethany_alive": 1,
+      "da2_bethany_career": 1,
+      "da2_bethany_final_battle_death": 1,
+      "da2_bethany_is_warden": 0,
+      "da2_bethany_died_deep_roads": 0,
+      "da2_carver_alive": 0,
+      "da2_carver_career": 0,
+      "da2_carver_is_warden": 0,
+      "da2_carver_died_deep_roads": 0
+    }
+  },
+  "choices": {
+    "da2.anders_fate": {
+      "label": "Anders's fate",
+      "basis": "User-directed provisional policy, with conflicting Keep/game descriptions retained in assessment/export-policy.json.",
+      "evidence_status": "disputed",
+      "export_policy": "anders_fate",
+      "answers": {
+        "alive": {
+          "label": "Anders lives"
+        },
+        "executed": {
+          "label": "Hawke executed Anders"
+        }
+      }
+    },
+    "da2.bethany_fate": {
+      "label": "Bethany's fate",
+      "basis": "Reviewed early comparison cases; exact gameplay observations pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "circle": {
+          "label": "Bethany lives in the Circle",
+          "export_values": {
+            "da2_bethany_alive": 1,
+            "da2_bethany_career": 1,
+            "da2_bethany_final_battle_death": 1,
+            "da2_bethany_is_warden": 0,
+            "da2_bethany_died_deep_roads": 0
+          }
+        },
+        "warden": {
+          "label": "Bethany lives as a Grey Warden",
+          "export_values": {
+            "da2_bethany_alive": 1,
+            "da2_bethany_career": 2,
+            "da2_bethany_final_battle_death": 1,
+            "da2_bethany_is_warden": 1,
+            "da2_bethany_died_deep_roads": 0
+          }
+        },
+        "deep_roads_death": {
+          "label": "Bethany died in the Deep Roads",
+          "export_values": {
+            "da2_bethany_alive": 0,
+            "da2_bethany_career": 3,
+            "da2_bethany_final_battle_death": 0,
+            "da2_bethany_is_warden": 0,
+            "da2_bethany_died_deep_roads": 1
+          }
+        },
+        "lothering_death": {
+          "label": "Bethany died while escaping Lothering",
+          "export_values": {
+            "da2_bethany_alive": 0,
+            "da2_bethany_career": 0,
+            "da2_bethany_final_battle_death": 0,
+            "da2_bethany_is_warden": 0,
+            "da2_bethany_died_deep_roads": 0
+          }
+        }
+      }
+    },
+    "da2.carver_fate": {
+      "label": "Carver's fate",
+      "basis": "Career 0/1/2/3 agrees between captured Keep definitions, original game descriptions and supplied editor; redundant alive/Warden/Deep Roads booleans reviewed in worldstate-evidence.json. New outcomes need gameplay observations.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "templar": {
+          "label": "Carver lives as a templar",
+          "export_values": {
+            "da2_carver_alive": 1,
+            "da2_carver_career": 1,
+            "da2_carver_is_warden": 0,
+            "da2_carver_died_deep_roads": 0
+          }
+        },
+        "warden": {
+          "label": "Carver lives as a Grey Warden",
+          "export_values": {
+            "da2_carver_alive": 1,
+            "da2_carver_career": 2,
+            "da2_carver_is_warden": 1,
+            "da2_carver_died_deep_roads": 0
+          }
+        },
+        "deep_roads_death": {
+          "label": "Carver died in the Deep Roads",
+          "export_values": {
+            "da2_carver_alive": 0,
+            "da2_carver_career": 3,
+            "da2_carver_is_warden": 0,
+            "da2_carver_died_deep_roads": 1
+          }
+        },
+        "lothering_death": {
+          "label": "Carver died while escaping Lothering",
+          "export_values": {
+            "da2_carver_alive": 0,
+            "da2_carver_career": 0,
+            "da2_carver_is_warden": 0,
+            "da2_carver_died_deep_roads": 0
+          }
+        }
+      }
+    },
+    "da2.hawke_class": {
+      "label": "Hawke's class",
+      "basis": "Keep and game descriptions agree on warrior 0, rogue 1, mage 2; matching class booleans are set together. Sibling outcomes are independent of class by user direction.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "warrior": {
+          "label": "Warrior Hawke",
+          "export_values": {
+            "da2_hawke_class": 0,
+            "da2_hawke_class_warrior": 1,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 0
+          }
+        },
+        "rogue": {
+          "label": "Rogue Hawke",
+          "export_values": {
+            "da2_hawke_class": 1,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 1,
+            "da2_hawke_class_mage": 0
+          }
+        },
+        "mage": {
+          "label": "Mage Hawke",
+          "export_values": {
+            "da2_hawke_class": 2,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 1
+          }
+        }
+      }
+    },
+    "dao.ferelden_leadership": {
+      "label": "Ferelden's ruler and Alistair's role (initial supported combinations)",
+      "basis": "Reviewed early comparison cases; broader marriage/ruler combinations are not yet exposed.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "alistair_king_alone": {
+          "label": "Alistair rules alone; no royal marriage to the Warden",
+          "export_values": {
+            "dao_ruler_state": 0,
+            "dao_alistair_alive": 1,
+            "dao_alistair_executed": 0,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_alistair_king_alone": 1,
+            "dao_alistair_king_with_anora": 0,
+            "dao_alistair_king_with_warden": 0,
+            "dao_alistair_royal_status": 1,
+            "dao_alistair_state": 2,
+            "dao_alistair_drunk": 0,
+            "dao_anora_queen_alone": 0,
+            "dao_anora_queen_alone_or_with_warden": 0,
+            "dao_anora_queen_with_warden": 0,
+            "dao_warden_married_alistair": 0,
+            "dao_warden_married_alistair_anora": 0,
+            "dao_warden_king_mistress": 0
+          }
+        },
+        "anora_queen_alistair_warden": {
+          "label": "Anora rules alone; Alistair remains a Grey Warden",
+          "export_values": {
+            "dao_ruler_state": 3,
+            "dao_alistair_alive": 1,
+            "dao_alistair_executed": 0,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_alistair_king_alone": 0,
+            "dao_alistair_king_with_anora": 0,
+            "dao_alistair_king_with_warden": 0,
+            "dao_alistair_royal_status": 0,
+            "dao_alistair_state": 3,
+            "dao_alistair_drunk": 0,
+            "dao_anora_queen_alone": 1,
+            "dao_anora_queen_alone_or_with_warden": 1,
+            "dao_anora_queen_with_warden": 0,
+            "dao_warden_married_alistair": 0,
+            "dao_warden_married_alistair_anora": 0,
+            "dao_warden_king_mistress": 0
+          }
+        }
+      }
+    },
+    "dao.loghain_fate": {
+      "label": "Loghain's fate (initial supported outcomes)",
+      "basis": "User documentation and Keep definitions; original description/range disagree about the alive enum. Gameplay tests pending.",
+      "evidence_status": "disputed",
+      "answers": {
+        "executed_by_warden": {
+          "label": "The Warden executed Loghain",
+          "export_values": {
+            "dao_loghain_alive": 0,
+            "dao_loghain_executed": 1,
+            "dao_loghain_fate": 0,
+            "dao_loghain_killed_archdemon": 0,
+            "dao_loghain_recruited": 0
+          }
+        },
+        "alive_recruited": {
+          "label": "Loghain was recruited and remains alive",
+          "export_values": {
+            "dao_loghain_alive": 1,
+            "dao_loghain_executed": 0,
+            "dao_loghain_fate": 4,
+            "dao_loghain_killed_archdemon": 0,
+            "dao_loghain_recruited": 1
+          },
+          "max_value_overrides": {
+            "dao_loghain_fate": 4
+          }
+        }
+      }
+    },
+    "da2.hawke_personality": {
+      "label": "Hawke's personality",
+      "basis": "Enum values agree between original game descriptions, captured Keep definitions and supplied editor; redundant booleans reviewed in worldstate-evidence.json. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "diplomatic": {
+          "label": "Diplomatic",
+          "export_values": {
+            "da2_hawke_personality_type": 0,
+            "da2_hawke_personality_diplomatic": 1,
+            "da2_hawke_personality_humourous": 0,
+            "da2_hawke_personality_aggressive": 0
+          }
+        },
+        "humourous": {
+          "label": "Humourous",
+          "export_values": {
+            "da2_hawke_personality_type": 1,
+            "da2_hawke_personality_diplomatic": 0,
+            "da2_hawke_personality_humourous": 1,
+            "da2_hawke_personality_aggressive": 0
+          }
+        },
+        "aggressive": {
+          "label": "Aggressive",
+          "export_values": {
+            "da2_hawke_personality_type": 2,
+            "da2_hawke_personality_diplomatic": 0,
+            "da2_hawke_personality_humourous": 0,
+            "da2_hawke_personality_aggressive": 1
+          }
+        }
+      }
+    },
+    "dao.warden_class": {
+      "label": "The Warden's class",
+      "basis": "Enum values agree between original game descriptions, captured Keep definitions and supplied editor; redundant booleans reviewed in worldstate-evidence.json. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "warrior": {
+          "label": "Warrior",
+          "export_values": {
+            "dao_warden_class": 0,
+            "dao_warden_class_warrior": 1,
+            "dao_warden_class_rogue": 0,
+            "dao_warden_class_mage": 0
+          }
+        },
+        "rogue": {
+          "label": "Rogue",
+          "export_values": {
+            "dao_warden_class": 1,
+            "dao_warden_class_warrior": 0,
+            "dao_warden_class_rogue": 1,
+            "dao_warden_class_mage": 0
+          }
+        },
+        "mage": {
+          "label": "Mage",
+          "export_values": {
+            "dao_warden_class": 2,
+            "dao_warden_class_warrior": 0,
+            "dao_warden_class_rogue": 0,
+            "dao_warden_class_mage": 1
+          }
+        }
+      }
+    },
+    "dao.warden_origin": {
+      "label": "The Warden's origin",
+      "basis": "Enum values agree between original game descriptions, captured Keep definitions and supplied editor; redundant booleans reviewed in worldstate-evidence.json. Gameplay verification pending. Origin also sets its matching race. dao_warden_background_human_mage has original range 0..0, is 0 in every supplied preset, and is deliberately preserved; Human mage uses the independently verified background enum value 1. Class remains a separate selection.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "human_noble": {
+          "label": "Human noble",
+          "export_values": {
+            "dao_warden_background": 0,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 1,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "human_mage": {
+          "label": "Human mage",
+          "export_values": {
+            "dao_warden_background": 1,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "dalish_elf": {
+          "label": "Dalish elf",
+          "export_values": {
+            "dao_warden_background": 2,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 1,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "city_elf": {
+          "label": "City elf",
+          "export_values": {
+            "dao_warden_background": 3,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 1,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "elven_mage": {
+          "label": "Elf mage",
+          "export_values": {
+            "dao_warden_background": 4,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 1,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "dwarf_noble": {
+          "label": "Dwarf noble",
+          "export_values": {
+            "dao_warden_background": 5,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 1,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "dwarf_commoner": {
+          "label": "Dwarf commoner",
+          "export_values": {
+            "dao_warden_background": 6,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 1
+          }
+        }
+      }
+    },
+    "da2.hawke_identity": {
+      "label": "Hawke's gender and class",
+      "basis": "Gender enum 0 male / 1 female agrees between original game descriptions, captured Keep definitions and supplied editor. Class and race enum/booleans use the reviewed existing mappings. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "male_warrior": {
+          "label": "Male Warrior",
+          "export_values": {
+            "da2_hawke_class": 0,
+            "da2_hawke_class_warrior": 1,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 0,
+            "da2_hawke_mf": 0
+          }
+        },
+        "male_rogue": {
+          "label": "Male Rogue",
+          "export_values": {
+            "da2_hawke_class": 1,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 1,
+            "da2_hawke_class_mage": 0,
+            "da2_hawke_mf": 0
+          }
+        },
+        "male_mage": {
+          "label": "Male Mage",
+          "export_values": {
+            "da2_hawke_class": 2,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 1,
+            "da2_hawke_mf": 0
+          }
+        },
+        "female_warrior": {
+          "label": "Female Warrior",
+          "export_values": {
+            "da2_hawke_class": 0,
+            "da2_hawke_class_warrior": 1,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 0,
+            "da2_hawke_mf": 1
+          }
+        },
+        "female_rogue": {
+          "label": "Female Rogue",
+          "export_values": {
+            "da2_hawke_class": 1,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 1,
+            "da2_hawke_class_mage": 0,
+            "da2_hawke_mf": 1
+          }
+        },
+        "female_mage": {
+          "label": "Female Mage",
+          "export_values": {
+            "da2_hawke_class": 2,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 1,
+            "da2_hawke_mf": 1
+          }
+        }
+      }
+    },
+    "dao.warden_identity": {
+      "label": "The Warden's gender and origin",
+      "basis": "Gender enum 0 male / 1 female agrees across original game descriptions, captured Keep definitions and supplied editor. Origin supplies the reviewed background enum, six usable origin booleans and matching race enum/booleans from v3. Class remains separate. The zero-range human-mage field remains untouched. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "male_human_noble": {
+          "label": "Male Human noble",
+          "export_values": {
+            "dao_warden_background": 0,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 1,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_human_noble": {
+          "label": "Female Human noble",
+          "export_values": {
+            "dao_warden_background": 0,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 1,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_human_mage": {
+          "label": "Male Human mage",
+          "export_values": {
+            "dao_warden_background": 1,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_human_mage": {
+          "label": "Female Human mage",
+          "export_values": {
+            "dao_warden_background": 1,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_dalish_elf": {
+          "label": "Male Dalish elf",
+          "export_values": {
+            "dao_warden_background": 2,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 1,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_dalish_elf": {
+          "label": "Female Dalish elf",
+          "export_values": {
+            "dao_warden_background": 2,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 1,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_city_elf": {
+          "label": "Male City elf",
+          "export_values": {
+            "dao_warden_background": 3,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 1,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_city_elf": {
+          "label": "Female City elf",
+          "export_values": {
+            "dao_warden_background": 3,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 1,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_elven_mage": {
+          "label": "Male Elf mage",
+          "export_values": {
+            "dao_warden_background": 4,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 1,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_elven_mage": {
+          "label": "Female Elf mage",
+          "export_values": {
+            "dao_warden_background": 4,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 1,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_dwarf_noble": {
+          "label": "Male Dwarf noble",
+          "export_values": {
+            "dao_warden_background": 5,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 1,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_dwarf_noble": {
+          "label": "Female Dwarf noble",
+          "export_values": {
+            "dao_warden_background": 5,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 1,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_dwarf_commoner": {
+          "label": "Male Dwarf commoner",
+          "export_values": {
+            "dao_warden_background": 6,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 1,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_dwarf_commoner": {
+          "label": "Female Dwarf commoner",
+          "export_values": {
+            "dao_warden_background": 6,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 1,
+            "dao_warden_mf": 1
+          }
+        }
+      }
+    },
+    "dao.warden_romance": {
+      "label": "The Warden's romance",
+      "basis": "Enum labels agree across original game descriptions, captured Keep metadata and the supplied editor. Matching romance booleans and plot GUIDs agree in direct readback of all eight supplied released presets; see assessment/reference/romance-mapping-review.json. Only the romance enum and its booleans are changed. Companion fates, identities, political marriages, Alistair final relationship status and child/ritual history remain independent/inherited. Keep dependency rules are recorded for later review, not silently applied. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "none": {
+          "label": "No romance",
+          "export_values": {
+            "dao_warden_romance": 0,
+            "dao_warden_romance_alistair": 0,
+            "dao_warden_romance_morrigan": 0,
+            "dao_warden_romance_leliana": 0,
+            "dao_warden_romance_zevran": 0
+          }
+        },
+        "alistair": {
+          "label": "Alistair",
+          "export_values": {
+            "dao_warden_romance": 1,
+            "dao_warden_romance_alistair": 1,
+            "dao_warden_romance_morrigan": 0,
+            "dao_warden_romance_leliana": 0,
+            "dao_warden_romance_zevran": 0
+          }
+        },
+        "morrigan": {
+          "label": "Morrigan",
+          "export_values": {
+            "dao_warden_romance": 2,
+            "dao_warden_romance_alistair": 0,
+            "dao_warden_romance_morrigan": 1,
+            "dao_warden_romance_leliana": 0,
+            "dao_warden_romance_zevran": 0
+          }
+        },
+        "leliana": {
+          "label": "Leliana",
+          "export_values": {
+            "dao_warden_romance": 3,
+            "dao_warden_romance_alistair": 0,
+            "dao_warden_romance_morrigan": 0,
+            "dao_warden_romance_leliana": 1,
+            "dao_warden_romance_zevran": 0
+          }
+        },
+        "zevran": {
+          "label": "Zevran",
+          "export_values": {
+            "dao_warden_romance": 4,
+            "dao_warden_romance_alistair": 0,
+            "dao_warden_romance_morrigan": 0,
+            "dao_warden_romance_leliana": 0,
+            "dao_warden_romance_zevran": 1
+          }
+        }
+      }
+    },
+    "da2.hawke_romance": {
+      "label": "Hawke's romance",
+      "basis": "Enum labels agree across original game descriptions, captured Keep metadata and the supplied editor. Matching romance booleans and plot GUIDs agree in direct readback of all eight supplied released presets; see assessment/reference/romance-mapping-review.json. Only the romance enum and its booleans are changed. Companion fates, identities, political marriages, Alistair final relationship status and child/ritual history remain independent/inherited. Keep dependency rules are recorded for later review, not silently applied. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "none": {
+          "label": "No romance",
+          "export_values": {
+            "da2_hawke_romance": 0,
+            "da2_hawke_romance_none": 1,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "anders": {
+          "label": "Anders",
+          "export_values": {
+            "da2_hawke_romance": 1,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 1,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "fenris": {
+          "label": "Fenris",
+          "export_values": {
+            "da2_hawke_romance": 2,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 1,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "isabela": {
+          "label": "Isabela",
+          "export_values": {
+            "da2_hawke_romance": 3,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 1,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "merrill": {
+          "label": "Merrill",
+          "export_values": {
+            "da2_hawke_romance": 4,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 1,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "sebastian": {
+          "label": "Sebastian",
+          "export_values": {
+            "da2_hawke_romance": 5,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3609 @@
+{
+  "version": "1.0.4",
+  "kind": "source",
+  "catalog_version": 44,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 154,
+      "sha256": "e3fd083e79bc64bc6ac2bacbee2848409916abb09da87cafa55b55dd10f4529c"
+    },
+    {
+      "path": "assessment/export-policy.json",
+      "bytes": 907,
+      "sha256": "19db57f7744018fe54232bd7ee0ef9061b435e73d669188951998e1cae0bdea1"
+    },
+    {
+      "path": "assessment/reference/DAI_Exporter/ebx_parser.py",
+      "bytes": 9524,
+      "sha256": "c6f1e37955d79247232f2714fcc56da39e411c71510f609f8fa14ef08b2e6f8c"
+    },
+    {
+      "path": "assessment/reference/worldstate-evidence.json",
+      "bytes": 34687,
+      "sha256": "a3400fae6ba644315176779855bcba3001a4a6499f20ff920069e5a086d795ad"
+    },
+    {
+      "path": "assets/keep/da2_act1_bonepit_completed/no_detail.jpg",
+      "bytes": 50163,
+      "sha256": "e7ac21187f1c95b4f018f18e64800c066b688c33ed0b77c2d0ac716c0bb2eaeb"
+    },
+    {
+      "path": "assets/keep/da2_act1_bonepit_completed/yes_detail.jpg",
+      "bytes": 57912,
+      "sha256": "92169b30522dc9def2ed258d0cc5eb6d5272a010db8cc9e6a088366c225e53a4"
+    },
+    {
+      "path": "assets/keep/da2_act1_danzig_killed/no_detail.jpg",
+      "bytes": 71902,
+      "sha256": "8a6c9c9941ed90edee61fd3c3b4d8a5efa981517886af9b225a310f7ee0ce71d"
+    },
+    {
+      "path": "assets/keep/da2_act1_danzig_killed/yes_detail.jpg",
+      "bytes": 59514,
+      "sha256": "e446d0869708499df1df2b6cfa5056b2a2c216d3fc540beda78a5824820bb998"
+    },
+    {
+      "path": "assets/keep/da2_act1_feynriel_complete/circle_detail.jpg",
+      "bytes": 76280,
+      "sha256": "0f825a5fab1b9d9323dd2b3c4d3d38a1a924fd620170ec0b02c6e2b73c2b0969"
+    },
+    {
+      "path": "assets/keep/da2_act1_feynriel_complete/dalish_detail.jpg",
+      "bytes": 71690,
+      "sha256": "30d4f54631b71921d887c6342639ddb82d1278598d51f872b8f0cb6994164d21"
+    },
+    {
+      "path": "assets/keep/da2_act1_ghyslain_truth/did-not-look_detail.jpg",
+      "bytes": 59458,
+      "sha256": "c84e232df91a1a1160d3d6f5ff02145adc72611cee5fcb7a0ce51d7ef81ec382"
+    },
+    {
+      "path": "assets/keep/da2_act1_ghyslain_truth/no_detail.jpg",
+      "bytes": 65853,
+      "sha256": "dcbd0498dc9b99b96a20fde3656cecf83fc8d42fdd2e8c93db9d88743ec2f9a6"
+    },
+    {
+      "path": "assets/keep/da2_act1_ghyslain_truth/yes_detail.jpg",
+      "bytes": 60627,
+      "sha256": "f9fde46016051d160f2a8e4673d0464115c18bc36641443a8c8d142a20ecb259"
+    },
+    {
+      "path": "assets/keep/da2_act1_ginnis_alive/no_detail.jpg",
+      "bytes": 39379,
+      "sha256": "acf54ff8b7eb315b4ebf5ec076c79c21c45cb1a0fb93584e9275f51f3f148175"
+    },
+    {
+      "path": "assets/keep/da2_act1_ginnis_alive/yes_detail.jpg",
+      "bytes": 36363,
+      "sha256": "d401aa9a40eb6641c70688e44d180a971724fc1ae2165bddd1305620e9d2624c"
+    },
+    {
+      "path": "assets/keep/da2_act1_idunna_killed/no_detail.jpg",
+      "bytes": 64688,
+      "sha256": "d2e0ff4cf61a6c74e61cf890deb8b85f3f734e7917be0f1b6fad6af3087db833"
+    },
+    {
+      "path": "assets/keep/da2_act1_idunna_killed/yes_detail.jpg",
+      "bytes": 71267,
+      "sha256": "bf120229f1437c2fd057d1db2f58fb7c1a6189bbbadc33ca2c99da13283a91c5"
+    },
+    {
+      "path": "assets/keep/da2_act1_karras_killed/no_detail.jpg",
+      "bytes": 66334,
+      "sha256": "606101af6cf5ed148702dc9e7e844efc0bcff708c1ec21c009defdbb821f9086"
+    },
+    {
+      "path": "assets/keep/da2_act1_karras_killed/yes_detail.jpg",
+      "bytes": 58874,
+      "sha256": "bc9fb3c6d7c687727aa98380daaf29e63841ec3008c97646a9d86c8b6ec455cb"
+    },
+    {
+      "path": "assets/keep/da2_act1_kelder_killed/no_detail.jpg",
+      "bytes": 34941,
+      "sha256": "5446bf912efea6fab4e1b06c14b39a1a6a90ce7d7ec2873c7cd02e979956ad71"
+    },
+    {
+      "path": "assets/keep/da2_act1_kelder_killed/yes_detail.jpg",
+      "bytes": 33715,
+      "sha256": "61fdeb1054d365395df7cd9d32f4cbd37cb83020466c52c7f4fadd9747ad9c4d"
+    },
+    {
+      "path": "assets/keep/da2_act1_keran_templars/kicked-out_detail.jpg",
+      "bytes": 55087,
+      "sha256": "26bbe0448b772c77489bdbaaf1ce85d1e4d0f31474789c2c783ac693745771f2"
+    },
+    {
+      "path": "assets/keep/da2_act1_keran_templars/reinstated_detail.jpg",
+      "bytes": 65521,
+      "sha256": "e2ea6fd20cf68711b43d149773fb818279eca8e67c3b4b2d7d613b797bd5595d"
+    },
+    {
+      "path": "assets/keep/da2_act1_martin_cargo_returned/no_detail.jpg",
+      "bytes": 32263,
+      "sha256": "da1ed7f4da5c546e4e51d65572ec31a6385d6db434f2f86c12e0befafad336ee"
+    },
+    {
+      "path": "assets/keep/da2_act1_martin_cargo_returned/yes_detail.jpg",
+      "bytes": 43204,
+      "sha256": "0a82b11d7560f7da9e67be778ed839c1d8905b3f9703e33d56835c6e9c34c65c"
+    },
+    {
+      "path": "assets/keep/da2_act1_saarebas_defended/defend_detail.jpg",
+      "bytes": 76880,
+      "sha256": "65cd6e1228b1a75ef592a0c2343a27f70a0c360cfda57f0987af3950a339cc2e"
+    },
+    {
+      "path": "assets/keep/da2_act1_saarebas_defended/hand-over_detail.jpg",
+      "bytes": 65279,
+      "sha256": "4a92d6b2856dabe2414c3a198890c285e50caacda66774f9aa1511a07924a305"
+    },
+    {
+      "path": "assets/keep/da2_act1_seamus/no_detail.jpg",
+      "bytes": 42128,
+      "sha256": "11c3ce31b6d8ed9bef93e6b769ccf494dde62efa9c17ded456688c0c7ca54072"
+    },
+    {
+      "path": "assets/keep/da2_act1_seamus/yes_detail.jpg",
+      "bytes": 34614,
+      "sha256": "2301c602a7d786aa95e9877e5d7ac351d8c8d183b318df36b30d1e40678e69da"
+    },
+    {
+      "path": "assets/keep/da2_act1_templars/convinced-to-leave_detail.jpg",
+      "bytes": 62862,
+      "sha256": "f411eabc1c5e43d468c45aa32dca7b4e0bb8e62c56c85100e84b064f2d0b5b71"
+    },
+    {
+      "path": "assets/keep/da2_act1_templars/convinced-to-leave_top_2x2.jpg",
+      "bytes": 101178,
+      "sha256": "6682cca861083e370c9d7e09c4c3a3e79347b49d62ecdf50b37972f6bc9e22cc"
+    },
+    {
+      "path": "assets/keep/da2_act1_templars/fought-them_detail.jpg",
+      "bytes": 65007,
+      "sha256": "7fc47eb5b396e3283d4de03509734bc0fa46590d18907eb5ca34410338ef6787"
+    },
+    {
+      "path": "assets/keep/da2_act1_templars/fought-them_top_2x2.jpg",
+      "bytes": 107139,
+      "sha256": "3853af42e7422431f814fa611cf63cc4c6518f021e31cad161a1a18dc61a3f28"
+    },
+    {
+      "path": "assets/keep/da2_act1_templars/turned-over-mages_detail.jpg",
+      "bytes": 69353,
+      "sha256": "12596de8e05fe801e389709e8221471fdfd722697bf31a7a66956b9b15283120"
+    },
+    {
+      "path": "assets/keep/da2_act1_templars/turned-over-mages_top_2x2.jpg",
+      "bytes": 103706,
+      "sha256": "30f3aff4394d3f7e07113c943e3fbdc3844bd1c5a45a1b6ea38335ffabbe5705"
+    },
+    {
+      "path": "assets/keep/da2_act1_thrask_blackmailed/no_detail.jpg",
+      "bytes": 71264,
+      "sha256": "d8c959e10f9c557edfb992564bf96413143e9f898e17cc0a95b010079b5e3ae8"
+    },
+    {
+      "path": "assets/keep/da2_act1_thrask_blackmailed/yes_detail.jpg",
+      "bytes": 66611,
+      "sha256": "8ff85581a723aec47f4f79003cfbc1936b767abfc281cc7661d0eac7341ca9d0"
+    },
+    {
+      "path": "assets/keep/da2_act2_fenriel_end/freed_detail.jpg",
+      "bytes": 40268,
+      "sha256": "ba3f3c69b4da060da64acaeb8c324ac465a9c84aa22d1edac163c7c35bb9f7db"
+    },
+    {
+      "path": "assets/keep/da2_act2_fenriel_end/possessed_detail.jpg",
+      "bytes": 35899,
+      "sha256": "051c65deabd5c8958867337195bf690d9a1fee59d55112486303d983f1e4c8c5"
+    },
+    {
+      "path": "assets/keep/da2_act2_fenriel_end/tranquil_detail.jpg",
+      "bytes": 38392,
+      "sha256": "42d5e7dc0babe7e8a7b09e49b21fa2bd82fd58f146a5eb528a71935ba2b10c8b"
+    },
+    {
+      "path": "assets/keep/da2_act2_fools_gold/did-not-help_detail.jpg",
+      "bytes": 31111,
+      "sha256": "9a700784a2f6d21a80f0c3a3f8697c794e692907f4f69c1f6cd8bc8ed53993e7"
+    },
+    {
+      "path": "assets/keep/da2_act2_fools_gold/saved-iwan_detail.jpg",
+      "bytes": 35106,
+      "sha256": "80c29ec363a0b68c07b7b1888ad75a14ad9ba9bea42418c78b4e2af14976b125"
+    },
+    {
+      "path": "assets/keep/da2_act2_fools_gold/saved-merin_detail.jpg",
+      "bytes": 30485,
+      "sha256": "40f57fd60ee640a374a1172d0ddeb9e86d3a40a2cef92dbf9745196d132c48aa"
+    },
+    {
+      "path": "assets/keep/da2_act2_gamlen_greatest_treasure/did-not-help_detail.jpg",
+      "bytes": 31005,
+      "sha256": "882228281e517789a3a1372775f0f5920bb815f87ffed78a62c26ebef1b58e1f"
+    },
+    {
+      "path": "assets/keep/da2_act2_gamlen_greatest_treasure/returned-gem_detail.jpg",
+      "bytes": 40168,
+      "sha256": "30ac8b728ba70170c72c29f397b538efb56b31dadc27de8ac03be01d41d293fe"
+    },
+    {
+      "path": "assets/keep/da2_act2_gamlen_greatest_treasure/reunited_detail.jpg",
+      "bytes": 35171,
+      "sha256": "997165085ff79b53b3db19f53a9a3eb77c2d196c7c3598082852799924244d0f"
+    },
+    {
+      "path": "assets/keep/da2_act2_gascard_killed/no_detail.jpg",
+      "bytes": 81987,
+      "sha256": "05b2af0085201bffb67066f1c98263307d59ffc9e89f36f8bdd8375c094a8b88"
+    },
+    {
+      "path": "assets/keep/da2_act2_gascard_killed/yes_detail.jpg",
+      "bytes": 78439,
+      "sha256": "ab8c4e7e0c14ac19652ffa6157b3bae0d7f475dab0d100c4ba12b494c0407b2e"
+    },
+    {
+      "path": "assets/keep/da2_act2_javaris_dead/no_detail.jpg",
+      "bytes": 67753,
+      "sha256": "bffc6d946f0433d314b13ca24d09deae33da382bb1ea55a96605a662308e41b1"
+    },
+    {
+      "path": "assets/keep/da2_act2_javaris_dead/yes_detail.jpg",
+      "bytes": 59511,
+      "sha256": "1f279c86f260fcded24d5518bb0ac9f8a75c00d961bfaa7035cfe98b97720e43"
+    },
+    {
+      "path": "assets/keep/da2_act2_merchants_inside_job/no_detail.jpg",
+      "bytes": 31879,
+      "sha256": "56b39ecf2005a1a6a71bb76891e789e587c4714494cd918b0415024ed82bb959"
+    },
+    {
+      "path": "assets/keep/da2_act2_merchants_inside_job/yes_detail.jpg",
+      "bytes": 47613,
+      "sha256": "96027d7f674062f330048ee91c09f61c4e21c64bf32a680ee933e5e26d756022"
+    },
+    {
+      "path": "assets/keep/da2_act2_petrice_side/no_detail.jpg",
+      "bytes": 25854,
+      "sha256": "2bcfed3465f746ab6ec3fe2e95a4fd12588e14be2570e750d5a5b371c1b97f5c"
+    },
+    {
+      "path": "assets/keep/da2_act2_petrice_side/yes_detail.jpg",
+      "bytes": 34740,
+      "sha256": "4180283bcc1c73501fbaab09042dbe90c6939747c6292b862551a8c7e689976a"
+    },
+    {
+      "path": "assets/keep/da2_act2_raiders_on_cliffs/abandoned_detail.jpg",
+      "bytes": 41393,
+      "sha256": "81491e95e6189664f2278b8f152686f0c807d8fc226611317fd98287045571c5"
+    },
+    {
+      "path": "assets/keep/da2_act2_raiders_on_cliffs/attack-alone_detail.jpg",
+      "bytes": 38833,
+      "sha256": "ebb401111438a61244f01a5308c9aaa420c92bf1a372662b5d616ba890c70675"
+    },
+    {
+      "path": "assets/keep/da2_act2_raiders_on_cliffs/fought-along_detail.jpg",
+      "bytes": 39861,
+      "sha256": "46a2cad44e6978e6f390a9b48701abc10ab0a95b6961eacd0b09d5cb6fdc7ee2"
+    },
+    {
+      "path": "assets/keep/da2_act2_raiders_on_cliffs/never-met_detail.jpg",
+      "bytes": 38717,
+      "sha256": "a005bb3c6fcbf0812f3617b004798caf353467dce137a2bb70250142cbfe7424"
+    },
+    {
+      "path": "assets/keep/da2_act2_varnell_side/no_detail.jpg",
+      "bytes": 40597,
+      "sha256": "ecb8ee8ba2daf76dfe35fb2d02ccc52186646245577e87a511596cbe072c1ee2"
+    },
+    {
+      "path": "assets/keep/da2_act2_varnell_side/yes_detail.jpg",
+      "bytes": 39128,
+      "sha256": "68c5acae18bc59474e88585b65e81f457e74ca6dad80aba80a54cb6d2cfc55a6"
+    },
+    {
+      "path": "assets/keep/da2_act3_bone_pit_dragon/did_not_kill_dragon_detail.jpg",
+      "bytes": 32859,
+      "sha256": "1a9f9b6349d8d815c66985e80b3195c36db85b526c8881e8ffe7cc69f6ea77db"
+    },
+    {
+      "path": "assets/keep/da2_act3_bone_pit_dragon/killed_dragon_detail.jpg",
+      "bytes": 42353,
+      "sha256": "899c54edcc67d1f41731719f2a96e00c45f940f18fac0bb4f9a73fd6966228f6"
+    },
+    {
+      "path": "assets/keep/da2_act3_conspirators_end/meredith_detail.jpg",
+      "bytes": 59733,
+      "sha256": "09d5f47595c6eea65e0625d67800215d2ba6a5ecf9bdb17c31ee6fa9043b0150"
+    },
+    {
+      "path": "assets/keep/da2_act3_conspirators_end/orsino_detail.jpg",
+      "bytes": 52777,
+      "sha256": "497a3f57425d6129b3a7122d73125b834393140fdfb0ee95c5ba59ad3a408630"
+    },
+    {
+      "path": "assets/keep/da2_act3_emile_end/circle_detail.jpg",
+      "bytes": 65600,
+      "sha256": "bf44c2f9fdf07dbfce38ad5a5f76407a43855f51f24897912496d5a09b638c63"
+    },
+    {
+      "path": "assets/keep/da2_act3_emile_end/free_detail.jpg",
+      "bytes": 62812,
+      "sha256": "88ac89f64ab7d4136a9819abaaa131ed09225fad15ab4c678f73209687b8ed1e"
+    },
+    {
+      "path": "assets/keep/da2_act3_finding_nathaniel/did-not-survive_detail.jpg",
+      "bytes": 52497,
+      "sha256": "fbab109f9a6fcd8a4d0cbe88a881d51099ac5881696fbf12c5823f6862064965"
+    },
+    {
+      "path": "assets/keep/da2_act3_finding_nathaniel/no_detail.jpg",
+      "bytes": 36645,
+      "sha256": "4aad6a7579d7f94ea64dd916e7d115a923b690c5a3b20410b52bb708b3e63f65"
+    },
+    {
+      "path": "assets/keep/da2_act3_finding_nathaniel/yes_detail.jpg",
+      "bytes": 40287,
+      "sha256": "53b5ae6e04782029d8bc0d842b0654d5eadcb3290050461e4737ffbf02319472"
+    },
+    {
+      "path": "assets/keep/da2_act3_keran_end/killed_detail.jpg",
+      "bytes": 37657,
+      "sha256": "f97759a03a0c4d3f3dd6ba0ea0b223a03c31397a8e66aaa17c1ae9063873084f"
+    },
+    {
+      "path": "assets/keep/da2_act3_keran_end/let-go_detail.jpg",
+      "bytes": 36964,
+      "sha256": "f875caf378b2b5a19a9bd3a82ca9e1e62015b4027cb3e9b933ca7729242a70af"
+    },
+    {
+      "path": "assets/keep/da2_act3_keran_end/templar_detail.jpg",
+      "bytes": 37263,
+      "sha256": "2e173319ea05c6d01936d085c40d6a339ff55e50fb32947354d6e1f1b4b95e19"
+    },
+    {
+      "path": "assets/keep/da2_act3_murder_of_crows/did-not-help_detail.jpg",
+      "bytes": 32151,
+      "sha256": "74c4bf5eabee0b6289549db48e9aa11349e52f0595d2a59793b5ffbf30c2767e"
+    },
+    {
+      "path": "assets/keep/da2_act3_murder_of_crows/helped_nuncio.jpg",
+      "bytes": 67856,
+      "sha256": "eacfbe162c3c58507bc091aeb130912a3188e2f0600f5932fed1ec8fc3792156"
+    },
+    {
+      "path": "assets/keep/da2_act3_murder_of_crows/zevran-dead_detail.jpg",
+      "bytes": 39794,
+      "sha256": "99531bc371e1a9db54549263f0d793a46c8d9f304127f5cf759e74ca5298f01e"
+    },
+    {
+      "path": "assets/keep/da2_act3_zevran_freed/did-not-find_detail.jpg",
+      "bytes": 36909,
+      "sha256": "ba78698cd882efaed001bdbaff15155629c1fb3b7e8c36acd723acf75b39b7d7"
+    },
+    {
+      "path": "assets/keep/da2_act3_zevran_freed/no_detail.jpg",
+      "bytes": 34562,
+      "sha256": "62064289a774ecab577b751abd31ecc04a0a84964bd35353dfbe84a2d2670792"
+    },
+    {
+      "path": "assets/keep/da2_act3_zevran_freed/yes_detail.jpg",
+      "bytes": 30896,
+      "sha256": "8f46db3b12c7c3eac0794af255b7439696c7f18db98c9e2f6c77c8a8138829c5"
+    },
+    {
+      "path": "assets/keep/da2_anders_fate/alive_detail.jpg",
+      "bytes": 28709,
+      "sha256": "071c91bfb95bf21d90bea2bc9877e52fcd5f095eafdfcd1cd5b232fa8044e434"
+    },
+    {
+      "path": "assets/keep/da2_anders_fate/died_detail.jpg",
+      "bytes": 23903,
+      "sha256": "0d340bb8046408ff6c5edfa1a0fcf2cbbb5b9aec6d667cd9cd93c7857838bf0e"
+    },
+    {
+      "path": "assets/keep/da2_arishok_killed/no_conflict.jpg",
+      "bytes": 16611,
+      "sha256": "35fe9616d1a4dc3b86ca4eed6218e3101327066a49e4e631f0cde5d81596c440"
+    },
+    {
+      "path": "assets/keep/da2_arishok_killed/no_detail.jpg",
+      "bytes": 71101,
+      "sha256": "30f15be5ffcac33193fcd6e257014c549ad51f9cf047392d1521713115019431"
+    },
+    {
+      "path": "assets/keep/da2_arishok_killed/yes_conflict.jpg",
+      "bytes": 18946,
+      "sha256": "9fb024b90cb793d7cc6bcd0c0808cd77393c0975caa00ece564c22d0f6faae7b"
+    },
+    {
+      "path": "assets/keep/da2_arishok_killed/yes_detail.jpg",
+      "bytes": 68293,
+      "sha256": "af029faaab827990d4b7a5c75e0bc645e560b6eb008e16af636b046000b9204d"
+    },
+    {
+      "path": "assets/keep/da2_aveline_married/no_detail.jpg",
+      "bytes": 29439,
+      "sha256": "195d4ada8da77b12c1d21573047181cbf7b44750c7ff2f731729810764607b23"
+    },
+    {
+      "path": "assets/keep/da2_aveline_married/yes_detail.jpg",
+      "bytes": 38451,
+      "sha256": "a7b57af749486b898781ca5ca0514aaa845ad4bbc1218c9ae23d5e3b68464603"
+    },
+    {
+      "path": "assets/keep/da2_aveline_remained/no_detail.jpg",
+      "bytes": 41523,
+      "sha256": "de9fc600755924d6460a58cf7b4416a9e0c8b91073babe30d34ea0108d13639e"
+    },
+    {
+      "path": "assets/keep/da2_aveline_remained/yes_detail.jpg",
+      "bytes": 43608,
+      "sha256": "0f079a872c27843201c126eecb60dd221e48bce90a84625b3028ff90fc5edb3b"
+    },
+    {
+      "path": "assets/keep/da2_bethany_career/died-deep-roads_detail.jpg",
+      "bytes": 40988,
+      "sha256": "01e41835100ee037932364b4ff2b199d1ddf82ef5378e30639a0edc40a858410"
+    },
+    {
+      "path": "assets/keep/da2_bethany_career/died-lothering_detail.jpg",
+      "bytes": 33867,
+      "sha256": "7f7e3cd952f9baf66649236473dc00675e6e410cb14bcbbd65b5db20da95448b"
+    },
+    {
+      "path": "assets/keep/da2_bethany_career/mage_detail.jpg",
+      "bytes": 41657,
+      "sha256": "a5b253178a5142557a8725fb1d6ae38bcefa5f4a2752d355d15dcc9ebe74ba65"
+    },
+    {
+      "path": "assets/keep/da2_bethany_career/warden_conflict.jpg",
+      "bytes": 14359,
+      "sha256": "6c036c820b85f42eda8a6c91a978923f1d9e0710e5c148ccc30b913f39478ff2"
+    },
+    {
+      "path": "assets/keep/da2_bethany_career/warden_detail.jpg",
+      "bytes": 42930,
+      "sha256": "305d99c37b363334e74262398110dd06d4b97be151b70bbdcd3635b14f8ea42b"
+    },
+    {
+      "path": "assets/keep/da2_bethany_final_battle_death/already-dead_detail.jpg",
+      "bytes": 74407,
+      "sha256": "9839d202727f88d3ff50aa18316be60e395f8bab7abb6f6b22454e21299827f5"
+    },
+    {
+      "path": "assets/keep/da2_bethany_final_battle_death/no_detail.jpg",
+      "bytes": 67323,
+      "sha256": "26f6c67d77027d970bb3cd9ec04b9e56f155ed8d1b3b1ce0b591a9e71e55efcb"
+    },
+    {
+      "path": "assets/keep/da2_bethany_final_battle_death/yes_conflict.jpg",
+      "bytes": 11771,
+      "sha256": "e48e5fa60e5842327bd85d5ceb35e07e4014d61f49249047ae6328141efd4143"
+    },
+    {
+      "path": "assets/keep/da2_bethany_final_battle_death/yes_detail.jpg",
+      "bytes": 65549,
+      "sha256": "da3c3267ad1345bf5707dc68cc7990205f4cfafd101629f20446c6ce5f7a9ae5"
+    },
+    {
+      "path": "assets/keep/da2_carver_career/died-deep-roads_detail.jpg",
+      "bytes": 37345,
+      "sha256": "247ff19ce3d10836f04521f1c3cf09fe5e65dfe635e7ddd8d9cab037f72effbd"
+    },
+    {
+      "path": "assets/keep/da2_carver_career/died-lothering_detail.jpg",
+      "bytes": 40172,
+      "sha256": "8bc96e9fd439c2eb0dd312de86dba8bd08064579041b04937fa73aa9f72ae323"
+    },
+    {
+      "path": "assets/keep/da2_carver_career/templar_conflict.jpg",
+      "bytes": 16078,
+      "sha256": "c5ec94e12cf4846e5a6c012b50a9b89f6e865cb99d8a2d72298b37b704f2e64d"
+    },
+    {
+      "path": "assets/keep/da2_carver_career/templar_detail.jpg",
+      "bytes": 40831,
+      "sha256": "b358392e10da0b1354136e3b294ffa519ed7365452c51a1db81abe2f4868dcfc"
+    },
+    {
+      "path": "assets/keep/da2_carver_career/warden_detail.jpg",
+      "bytes": 47187,
+      "sha256": "615541959ae57b442f1b7adb3829b7399b836fc97143fb763b9661e21e600c14"
+    },
+    {
+      "path": "assets/keep/da2_fenris_alive/alive_detail.jpg",
+      "bytes": 67233,
+      "sha256": "9670394a432a66647b439784ce2b5f131ea446cd16a1bd1fccbb99b043739480"
+    },
+    {
+      "path": "assets/keep/da2_fenris_alive/alive_pursued_detail.jpg",
+      "bytes": 100945,
+      "sha256": "84be7d27c7c11ac206d6c4c4f5f8df6ee2bc47672dd4b06c20bbc8010a68f046"
+    },
+    {
+      "path": "assets/keep/da2_fenris_alive/died_detail.jpg",
+      "bytes": 69661,
+      "sha256": "1de48754929131ccbbe71973d5e0a2b1cf647b32602b221030a6a3b2dcd1cc3e"
+    },
+    {
+      "path": "assets/keep/da2_fenris_alive/never-recruited_detail.jpg",
+      "bytes": 58140,
+      "sha256": "38f03b43d1fd33ec1033b745ae96d7173d81255ec0dad863e3a351efbc4fef74"
+    },
+    {
+      "path": "assets/keep/da2_fenris_alive/returned_detail.jpg",
+      "bytes": 94774,
+      "sha256": "34fd1248e49813f3c54b4d2447f76f1467594faeeadae43257cd6be94d016081"
+    },
+    {
+      "path": "assets/keep/da2_hawke_approves_of_anders_action/no_detail.jpg",
+      "bytes": 43086,
+      "sha256": "b4a74a8235f9b99e1d69b7b06ec51b0de0e173431d28fe66bbcd36ce059bec64"
+    },
+    {
+      "path": "assets/keep/da2_hawke_approves_of_anders_action/yes_detail.jpg",
+      "bytes": 47451,
+      "sha256": "5c2d05b2fd00137698dbc6efe584d6242892f94500fb2c4af9e0fa828b67b969"
+    },
+    {
+      "path": "assets/keep/da2_hawke_chosen_side/mages_conflict.jpg",
+      "bytes": 13197,
+      "sha256": "e405f3bba20f96d4d9bb3db861063e34e4da133a917c2650693e81f22a0f4af3"
+    },
+    {
+      "path": "assets/keep/da2_hawke_chosen_side/mages_detail.jpg",
+      "bytes": 56375,
+      "sha256": "5199846eafbe7d02687a13b021e5ae2263ad162ed9bf316bd8269b897801546a"
+    },
+    {
+      "path": "assets/keep/da2_hawke_chosen_side/templars_conflict.jpg",
+      "bytes": 17301,
+      "sha256": "dc28189ce9a7106b7e135d7c257e80beb1c2d49686299bb36b4b62cdc6d6afb1"
+    },
+    {
+      "path": "assets/keep/da2_hawke_chosen_side/templars_detail.jpg",
+      "bytes": 56509,
+      "sha256": "94a6d9ff60619dc5eb0e46baf5a0527e2c77cc7d22716cebf44bdfede0f2fca5"
+    },
+    {
+      "path": "assets/keep/da2_hawke_personality_type/aggressive_conflict.jpg",
+      "bytes": 22892,
+      "sha256": "79e513f976fe736b494ade2a7076f7a453938a8054f74de277bb5d2d91ebb2a9"
+    },
+    {
+      "path": "assets/keep/da2_hawke_personality_type/aggressive_detail.jpg",
+      "bytes": 59173,
+      "sha256": "6f7d778641bb04d13eef1c8ded0804f3dbf14b5db333caf1c6967599eeb44e7d"
+    },
+    {
+      "path": "assets/keep/da2_hawke_personality_type/diplomatic_conflict.jpg",
+      "bytes": 21676,
+      "sha256": "dc71fb0ee2c6b227305ba659acb95766974e662499e7862acfb35a706b6c992a"
+    },
+    {
+      "path": "assets/keep/da2_hawke_personality_type/diplomatic_detail.jpg",
+      "bytes": 57970,
+      "sha256": "6da89a228996a5c379acf08ae1a0683095d19ba3432916456afab8b6763810a1"
+    },
+    {
+      "path": "assets/keep/da2_hawke_personality_type/humerous_conflict.jpg",
+      "bytes": 20415,
+      "sha256": "c51e60a56e9e98c99b5394102d611a2e54f44caaa25dd329778c2dc6cb1ed8d3"
+    },
+    {
+      "path": "assets/keep/da2_hawke_personality_type/humerous_detail.jpg",
+      "bytes": 55571,
+      "sha256": "e45d85109e4620365686abf80deba8d30513520dbdd3d237caaf72aa341967d1"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/anders_conflict.jpg",
+      "bytes": 14876,
+      "sha256": "60d6611d468807ba2323909367868a4214c3e509802684d33676693a1a866d2f"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/anders_detail.jpg",
+      "bytes": 63329,
+      "sha256": "ef734e22bf4b1a548279cfbcebf7035f78bbf8e60d7af45922bd7b5ffe806695"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/fenris_conflict.jpg",
+      "bytes": 14831,
+      "sha256": "f73cb0232bdda94914372079126a27d4fe755eaf7172baa9c5235cdab3907de5"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/fenris_detail.jpg",
+      "bytes": 60443,
+      "sha256": "c3183a7d4760a4a95134821904632a33343197376647ddaf0ff57486d9539487"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/isabela_conflict.jpg",
+      "bytes": 14892,
+      "sha256": "40d4bb26d4e8b8af51717bec0b04ac6eab3de584036e45537fb0e05bdb6f8c37"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/isabela_detail.jpg",
+      "bytes": 64211,
+      "sha256": "5c84768691be7df44d2b9c401afe09cb1d21978aed69ff0df35246de6ee49619"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/merrill_conflict.jpg",
+      "bytes": 15202,
+      "sha256": "ad90e1daeaf4fc2ae12be6f034899a9202386c8cbcde348e434bffd815537910"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/merrill_detail.jpg",
+      "bytes": 59747,
+      "sha256": "8cea6d0b8dc208b259e20bff595101eacb7dae07538aa178fe6b590922b2c28c"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/no-one_conflict.jpg",
+      "bytes": 13422,
+      "sha256": "161ae47af510223f593df11224989b83775a071361ae1b37d325e4eda5001d61"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/no-one_detail.jpg",
+      "bytes": 46798,
+      "sha256": "5db52285804506af6a0e57f67ce644b4a2aea0845bc79c6745f2ca36cd171074"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/sebastian_conflict.jpg",
+      "bytes": 14899,
+      "sha256": "73e4df5cf638259dcb60e970870c8d2dc477c5d68d73e41050ca231d96a49a4f"
+    },
+    {
+      "path": "assets/keep/da2_hawke_romance/sebastian_detail.jpg",
+      "bytes": 67390,
+      "sha256": "198cf8f067c4fe14d87a559ff212ffcceaa95121fda200101935642983d841bd"
+    },
+    {
+      "path": "assets/keep/da2_hawke_varric_relationship/friends_conflict.jpg",
+      "bytes": 16242,
+      "sha256": "9c5122dc28dfd07b0596e68f547e8ebbffbb62ce028b9f461947797a6974f47e"
+    },
+    {
+      "path": "assets/keep/da2_hawke_varric_relationship/friends_detail.jpg",
+      "bytes": 63452,
+      "sha256": "32fc65ddd34db0489864444aeb239989f3f06efe0bdba8a2b919e4a317bc756d"
+    },
+    {
+      "path": "assets/keep/da2_hawke_varric_relationship/rivals_conflict.jpg",
+      "bytes": 15380,
+      "sha256": "340b9f5a9da68aec4a9a9dadb0faebda3c67ba1ecc717f7e88489de05e2f8c87"
+    },
+    {
+      "path": "assets/keep/da2_hawke_varric_relationship/rivals_detail.jpg",
+      "bytes": 52009,
+      "sha256": "bbca2cc66074d53f53118ba7096d2da99ffcefdc61598c9102f9830c595b90c0"
+    },
+    {
+      "path": "assets/keep/da2_isabela_joined/no_detail.jpg",
+      "bytes": 22748,
+      "sha256": "84672054e4dc4e543e8552341c6c23f097de040a041da9fd3e121d9945d85d30"
+    },
+    {
+      "path": "assets/keep/da2_isabela_joined/yes_detail.jpg",
+      "bytes": 27900,
+      "sha256": "2577186ab9f13fa48731ddf99b5ca6af8c8a87d231f28c87ae26f4bec5a1bb82"
+    },
+    {
+      "path": "assets/keep/da2_isabela_returned_with_book/did-not-recruit_detail.jpg",
+      "bytes": 30190,
+      "sha256": "a3fb8a97c161f24e4d0324fbe88987f8fa960e8ec7acb1e7c4c40fcc0e0dbb3f"
+    },
+    {
+      "path": "assets/keep/da2_isabela_returned_with_book/no_detail.jpg",
+      "bytes": 32268,
+      "sha256": "dd076fe600263b6790e9622ae8fa7bea0aff23303c35a432bc5300857a603427"
+    },
+    {
+      "path": "assets/keep/da2_isabela_returned_with_book/yes_detail.jpg",
+      "bytes": 29419,
+      "sha256": "f85d4950e608c2f382d4eb491bffbb16481baadcb34ec02a29fc7aaa7fb81291"
+    },
+    {
+      "path": "assets/keep/da2_isabela_turned_over/no_conflict.jpg",
+      "bytes": 13254,
+      "sha256": "5c8ab793f7884015a690910a4c91d0b256a3dfd58ff9a266330336b94fac8dab"
+    },
+    {
+      "path": "assets/keep/da2_isabela_turned_over/no_detail.jpg",
+      "bytes": 90653,
+      "sha256": "ffc2b9066fa1de1fd3136fe902a95853ee124de63997f3faf71e828b9cdbb5f4"
+    },
+    {
+      "path": "assets/keep/da2_isabela_turned_over/not-present_conflict.jpg",
+      "bytes": 12476,
+      "sha256": "e900eadc740584c04d72e7365f5073a7568bdafe6ece522d75f8e0c6c99ddbf7"
+    },
+    {
+      "path": "assets/keep/da2_isabela_turned_over/not-present_detail.jpg",
+      "bytes": 92423,
+      "sha256": "754921848cd170e67729080dd43584dd8207745ba3e1baa18db1e2580818c975"
+    },
+    {
+      "path": "assets/keep/da2_isabela_turned_over/yes_detail.jpg",
+      "bytes": 58153,
+      "sha256": "adbe30d7978f0969b9cc6a5fa8aad9ad7fe7842103e3a12cb2352a750f9c9f90"
+    },
+    {
+      "path": "assets/keep/da2_legacy_malcolm_will/no_detail.jpg",
+      "bytes": 63920,
+      "sha256": "8c0e26832833564882df71b1e505d70dca806fca7215fc66ad0ce147dbd21cab"
+    },
+    {
+      "path": "assets/keep/da2_legacy_malcolm_will/yes_conflict.jpg",
+      "bytes": 12223,
+      "sha256": "a5cdc1edd96e8e90d573c68c8b45b731228ad9500432e7a7fbab6c821546e18f"
+    },
+    {
+      "path": "assets/keep/da2_legacy_malcolm_will/yes_detail.jpg",
+      "bytes": 65885,
+      "sha256": "657d775816dcd592a533b51c9de66d715c5a58a179cfff07e773793faad3d1c9"
+    },
+    {
+      "path": "assets/keep/da2_legacy_side_chosen/janeka_conflict.jpg",
+      "bytes": 12468,
+      "sha256": "89547ef297d0201cad6ac1e0d4e8d9f97d26863b49b96c017cec629143dbb54c"
+    },
+    {
+      "path": "assets/keep/da2_legacy_side_chosen/janeka_detail.jpg",
+      "bytes": 48122,
+      "sha256": "0ec7fd26941c10948045c7935f9178bc9af7aaba724bc78c7473180a207c2a4f"
+    },
+    {
+      "path": "assets/keep/da2_legacy_side_chosen/janeka_top_2x1.jpg",
+      "bytes": 30860,
+      "sha256": "ac42328bb2cd49d856d7efb797bc81c40d7a3b9efe5eb82956a7d06cd92437ee"
+    },
+    {
+      "path": "assets/keep/da2_legacy_side_chosen/larius_conflict.jpg",
+      "bytes": 23322,
+      "sha256": "d60b4303f093e555f7e628461c9790cd176b39293a5d8c232d53168a50c17701"
+    },
+    {
+      "path": "assets/keep/da2_legacy_side_chosen/larius_detail.jpg",
+      "bytes": 42194,
+      "sha256": "1ee1c6acec073c04e2b03d45ff9e241879df0375c419ae786c20424d8d300d39"
+    },
+    {
+      "path": "assets/keep/da2_legacy_side_chosen/larius_top_2x1.jpg",
+      "bytes": 27320,
+      "sha256": "d5ce65de37da19499100c1bb0238066d6489d4128a6ef787703248d22c687844"
+    },
+    {
+      "path": "assets/keep/da2_mark_tallis_angry/did-not-encounter_detail.jpg",
+      "bytes": 25481,
+      "sha256": "14293e7e42b439823b03248228d2157f2115721c539cf7dbe8954874d558c81c"
+    },
+    {
+      "path": "assets/keep/da2_mark_tallis_angry/no_detail.jpg",
+      "bytes": 36450,
+      "sha256": "fc3c2feb4cea2115a6f0a93e3911180c9279bd8f9242fbf791929cd1555a0869"
+    },
+    {
+      "path": "assets/keep/da2_mark_tallis_angry/yes_detail.jpg",
+      "bytes": 36280,
+      "sha256": "a6be5d176f85f95b651b2c5b800501153e8539785921eef484cd7012233a71de"
+    },
+    {
+      "path": "assets/keep/da2_mark_tallis_kiss/no_detail.jpg",
+      "bytes": 21094,
+      "sha256": "e4f24261cb45092041e18c68d460ab331cacc39b59052fe69d91267d7d892bf5"
+    },
+    {
+      "path": "assets/keep/da2_mark_tallis_kiss/yes_detail.jpg",
+      "bytes": 30325,
+      "sha256": "48c8e84cebd63452d1507c6dbe08d307fa3ee62acfea8fc034731faecd9a8987"
+    },
+    {
+      "path": "assets/keep/da2_merrill_alive/no_detail.jpg",
+      "bytes": 37835,
+      "sha256": "a79a14c3002512a4a8a086fec729f1099ef38c32b3279a07790c3127e69dff4f"
+    },
+    {
+      "path": "assets/keep/da2_merrill_alive/yes_detail.jpg",
+      "bytes": 34714,
+      "sha256": "cba0dcc54cdf5551b3b2999ce58a4ab4a6fe68eb89e5c6fa03f5727a5b4d41ac"
+    },
+    {
+      "path": "assets/keep/da2_merrill_clan/killed.jpg",
+      "bytes": 67716,
+      "sha256": "299fb957302d6c48dca08e608023092b40aa1e52c047c071f6a41182be52fd14"
+    },
+    {
+      "path": "assets/keep/da2_merrill_clan/not_killed.jpg",
+      "bytes": 69074,
+      "sha256": "9da3ee145f4da945b8392c95a02a4f18383e4d69396e2a1ac021c47f70a7a027"
+    },
+    {
+      "path": "assets/keep/da2_merrill_eluvian_destroy/no_detail.jpg",
+      "bytes": 65701,
+      "sha256": "1f0ff56850ad78db36d91aace96708de4d926c04fde0f0f2a734bb2c9c23b830"
+    },
+    {
+      "path": "assets/keep/da2_merrill_eluvian_destroy/yes_detail.jpg",
+      "bytes": 66978,
+      "sha256": "222ff68b7a0c8e8014c0e0674a28491d77c00a5e9df897ac810348cd527941bc"
+    },
+    {
+      "path": "assets/keep/da2_merrill_remained/no_detail.jpg",
+      "bytes": 34029,
+      "sha256": "3354a3fbd22ba017d7b73020f34fa45d56446bf6c6060d7543ffd9ccbf4bb944"
+    },
+    {
+      "path": "assets/keep/da2_merrill_remained/yes_detail.jpg",
+      "bytes": 31451,
+      "sha256": "e839e1c47755f6745c2de31f5d20ae1752e688c817ca56a5c52171034c3c56f5"
+    },
+    {
+      "path": "assets/keep/da2_pro_choice/mercenaries_detail.jpg",
+      "bytes": 69631,
+      "sha256": "ef2fc1c02bb75f12939c2092bf9eb5adc84dbf93fe4724b1991d63b467bab124"
+    },
+    {
+      "path": "assets/keep/da2_pro_choice/mercenaries_top_2x1.jpg",
+      "bytes": 34928,
+      "sha256": "af3a805b7b5be68e21c07330bd0ee4ce959bc52d6d55b9ebfa47632e08adb65a"
+    },
+    {
+      "path": "assets/keep/da2_pro_choice/smugglers_detail.jpg",
+      "bytes": 67940,
+      "sha256": "c957a227e2cef737bd1bd5fe5472ee1b8d84c7ffbe4aa3462a205262c545e9ae"
+    },
+    {
+      "path": "assets/keep/da2_pro_choice/smugglers_top_2x1.jpg",
+      "bytes": 40455,
+      "sha256": "4d1c243f5f581eaeead03c11d111d24e7457b456bbbaeaff4aca53106d9f5dca"
+    },
+    {
+      "path": "assets/keep/da2_sebastian_joined/no_detail.jpg",
+      "bytes": 50717,
+      "sha256": "c840f45117035b0344368d8d9d6f74b5b03cdc7a882cb6813846fe911d0a0f78"
+    },
+    {
+      "path": "assets/keep/da2_sebastian_joined/yes_detail.jpg",
+      "bytes": 54729,
+      "sha256": "5f3425fe062da3b2530915a36ad2e04085ed30aa34bad1cc625a97b29d0e4143"
+    },
+    {
+      "path": "assets/keep/da2_varric_bartrand_killed/no_detail.jpg",
+      "bytes": 70129,
+      "sha256": "cf9ec75c84777cde57e4aa8de6362e4723088ecf75b24be718638e428e691635"
+    },
+    {
+      "path": "assets/keep/da2_varric_bartrand_killed/yes_detail.jpg",
+      "bytes": 71833,
+      "sha256": "6e70f160349c05ca478fb01eb32169349eac7f1c805360a8a1f548c793e6af76"
+    },
+    {
+      "path": "assets/keep/da2_varric_has_idol_piece/no_detail.jpg",
+      "bytes": 30030,
+      "sha256": "4bc8cde85786e92ec77b8e80e776abf46da3a7c89dbc736d1398defeb77875b6"
+    },
+    {
+      "path": "assets/keep/da2_varric_has_idol_piece/yes_detail.jpg",
+      "bytes": 29295,
+      "sha256": "a0292961221aa2c9cf47c8ebd59db31b4fd84dc774d448f875ad258e76ff749d"
+    },
+    {
+      "path": "assets/keep/da2_varric_plot_complete/no_detail.jpg",
+      "bytes": 35027,
+      "sha256": "5c64d2b1088baf675eff56aaf0989df2861f7d293f80b2b721b1960f7e3f5684"
+    },
+    {
+      "path": "assets/keep/da2_varric_plot_complete/yes_detail.jpg",
+      "bytes": 31989,
+      "sha256": "64b14c9572fc960fbf5c2b3af270091a2a97f1d71db94dcea9d6effaea68822b"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/died_conflict.jpg",
+      "bytes": 28366,
+      "sha256": "0da244017889f6f30c08e1f8b4c7dcc171bf4f9dd2cf163287e2392c9a0ab16c"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/died_detail.jpg",
+      "bytes": 29144,
+      "sha256": "b889e93e1b547668f353698412fbb2f67e2580828c3da90c57fbea20ad90bab0"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/drunk_conflict.jpg",
+      "bytes": 25183,
+      "sha256": "ceb320a6b8bbb26b4fb834fe61fe2c881a3dc684d399386d90f7e2010eceda35"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/drunk_detail.jpg",
+      "bytes": 26237,
+      "sha256": "04e6f97f8de249cbabc9b261b64f19149a605c18dbad6202d589d7cc05a31c9d"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/executed_conflict.jpg",
+      "bytes": 23541,
+      "sha256": "f2d1c3578b80bd9f9acf66d5668ba24a4c72692f92c8621b890a1747ee6aaa04"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/executed_detail.jpg",
+      "bytes": 24180,
+      "sha256": "e250a2a9957dfe827c1c1bc550d350563ec55ea1e02665fc4653f247486c295a"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/king_conflict.jpg",
+      "bytes": 18923,
+      "sha256": "a0dd5c77414b2f8b9d27db47ac0defb6eae564d7b93d0e0e22245b1b6a0d6e6b"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/king_detail.jpg",
+      "bytes": 27933,
+      "sha256": "360ebafc5c4c7ea1413308375cf1dba749598d4db3083d241d8d2743afca00bf"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/stays_conflict.jpg",
+      "bytes": 30087,
+      "sha256": "9ad1c17e7ac48697f7ea88bee12d125d691b4de65ab8e5142991dc4ff5efbdf0"
+    },
+    {
+      "path": "assets/keep/dao_alistair_state/stays_detail.jpg",
+      "bytes": 31959,
+      "sha256": "646aec21c317448f0b23269f881b62b6e415c23c0964e1d4692830cf94b63b07"
+    },
+    {
+      "path": "assets/keep/dao_archdemon_killer/alistair_detail.jpg",
+      "bytes": 45357,
+      "sha256": "39d955d9c3d57ca4307a33c6b0f7d2a169cd5038f49afcb4d03a3442e633a614"
+    },
+    {
+      "path": "assets/keep/dao_archdemon_killer/alistair_top_2x2.jpg",
+      "bytes": 101910,
+      "sha256": "670da28b151f07f2ff4859470d34598a6c2142a331348c265520d4442d397ea6"
+    },
+    {
+      "path": "assets/keep/dao_archdemon_killer/loghain_detail.jpg",
+      "bytes": 44888,
+      "sha256": "916fba0790aeb6a7f298a62d18518addeabaaa3f48a5b2c1cc26bec9de317b53"
+    },
+    {
+      "path": "assets/keep/dao_archdemon_killer/loghain_top_2x2.jpg",
+      "bytes": 102829,
+      "sha256": "d885069f41b5b0f443a1cca529182210ce2c0ea63463e5be04fd84997c978823"
+    },
+    {
+      "path": "assets/keep/dao_archdemon_killer/warden_conflict.jpg",
+      "bytes": 11237,
+      "sha256": "f63a8241d6f6e5d05167a90efcbbb147e2951cc6c1b49fd45decb0dff98c02bc"
+    },
+    {
+      "path": "assets/keep/dao_archdemon_killer/warden_detail.jpg",
+      "bytes": 38880,
+      "sha256": "600e64f74d925fbf22d99081427277f0728e2658cb68ce995fd7f798e6efbe75"
+    },
+    {
+      "path": "assets/keep/dao_awakening_keep_protected/amaranthine_detail.jpg",
+      "bytes": 110748,
+      "sha256": "e8203a849ca1b449f167bcfae4885f31d7d2101a31d9d1da48c5de5e3282846a"
+    },
+    {
+      "path": "assets/keep/dao_awakening_keep_protected/both_detail.jpg",
+      "bytes": 107617,
+      "sha256": "735d1ec3b9106c33387d35b863280f4c6e357ed59997a4e69c973d921f8597ae"
+    },
+    {
+      "path": "assets/keep/dao_awakening_keep_protected/vigils_keep_detail.jpg",
+      "bytes": 107359,
+      "sha256": "540cfff580e7d89fd33d6ab456049919b912990d5a4f99a18a94e55d8f37127d"
+    },
+    {
+      "path": "assets/keep/dao_awakening_oghren_felsi/no_help_detail.jpg",
+      "bytes": 88498,
+      "sha256": "c17d96c7b2587353df714e422ecc7744e43c0f9d052394b8e0c25f5febd8938d"
+    },
+    {
+      "path": "assets/keep/dao_awakening_oghren_felsi/parted_detail.jpg",
+      "bytes": 96113,
+      "sha256": "01c34ddf82e771d96a1c8423414956b388b6f6437112a4a72c39fc5476ed989a"
+    },
+    {
+      "path": "assets/keep/dao_awakening_oghren_felsi/reunited_detail.jpg",
+      "bytes": 98265,
+      "sha256": "258574c3a7d6d0964962394054548309057f608374275f1f8fb3368998f44fdf"
+    },
+    {
+      "path": "assets/keep/dao_awakenings_architect_fate/alive_detail.jpg",
+      "bytes": 108074,
+      "sha256": "5915f6650721183139812308a2d10545aff808e8f725c7e93298546cafa0f9a4"
+    },
+    {
+      "path": "assets/keep/dao_awakenings_architect_fate/killed_detail.jpg",
+      "bytes": 104229,
+      "sha256": "27d9aefbad8b4c3ad4e87f19d8be0e53addbe69933f117d6f92264bacfb5b01f"
+    },
+    {
+      "path": "assets/keep/dao_awakenings_nathaniel_live/alive_detail.jpg",
+      "bytes": 75088,
+      "sha256": "2cf0d35687745df1f96bd89e0b545584dd36a1f749e4349cc97d9487cc0ae96b"
+    },
+    {
+      "path": "assets/keep/dao_awakenings_nathaniel_live/died_detail.jpg",
+      "bytes": 60779,
+      "sha256": "1e4947fd522fa1928230e1247d5f841b3d3ac3c3cdc6ec44b4ce577142a34ba1"
+    },
+    {
+      "path": "assets/keep/dao_bc_irving_survive/no_detail.jpg",
+      "bytes": 56507,
+      "sha256": "8ab6fb8f3f8d6e0f94e28de7d12b04a57ba106ad12e0e240ffece2fbaace617b"
+    },
+    {
+      "path": "assets/keep/dao_bc_irving_survive/yes_conflict.jpg",
+      "bytes": 11826,
+      "sha256": "2d34bb8de780bca164dcd757326f25270e663338a163f202336b44d439543793"
+    },
+    {
+      "path": "assets/keep/dao_bc_irving_survive/yes_detail.jpg",
+      "bytes": 75475,
+      "sha256": "282611f5b769a5a2ffc4a67ea51513ca88c05f33b33df89e14a437447819a738"
+    },
+    {
+      "path": "assets/keep/dao_broken_circle_choice/mages_conflict.jpg",
+      "bytes": 23457,
+      "sha256": "7de1381ce52d92330e2ce2d830f65e64bbb849ff82cde955c81994c5a54b1e71"
+    },
+    {
+      "path": "assets/keep/dao_broken_circle_choice/mages_detail.jpg",
+      "bytes": 58389,
+      "sha256": "e4a5980bbbf7a511695c02bda90ba913257672f63c52f021c6e83009e5695f6d"
+    },
+    {
+      "path": "assets/keep/dao_broken_circle_choice/mages_top_1x2.jpg",
+      "bytes": 33102,
+      "sha256": "7db5a2e649ed25ed8930db1ef4068219241b270947eadef29c85098e8b8918ad"
+    },
+    {
+      "path": "assets/keep/dao_broken_circle_choice/templars_conflict.jpg",
+      "bytes": 24951,
+      "sha256": "c6235756f9b75e54ee55562a6a6d56af9469584882cf25521b577285eccf5ff3"
+    },
+    {
+      "path": "assets/keep/dao_broken_circle_choice/templars_detail.jpg",
+      "bytes": 62380,
+      "sha256": "9e1e7278e8f7da77fbc15764a05d44bd13c180acdb0b5142a263f1e60b225f69"
+    },
+    {
+      "path": "assets/keep/dao_broken_circle_choice/templars_top_1x2.jpg",
+      "bytes": 35767,
+      "sha256": "390a9630f7652bb0a0babd2084ecf4eac4507a853d4e7f1513a366426cdc9044"
+    },
+    {
+      "path": "assets/keep/dao_broken_circle_cullen_request/did_kill_mages.jpg",
+      "bytes": 69727,
+      "sha256": "9dcd2dacbf03a41b116db05ef234fcead96926dd6d72c1ddbcca44798d7f9b07"
+    },
+    {
+      "path": "assets/keep/dao_broken_circle_cullen_request/did_not_kill_mages.jpg",
+      "bytes": 68387,
+      "sha256": "1de2274d0918090a16a26d732c9dd790ea3df22e80de1c2a39005e882ef7fba9"
+    },
+    {
+      "path": "assets/keep/dao_connor_state/died_detail.jpg",
+      "bytes": 58596,
+      "sha256": "eda22bca0f885d785659c7c9c89ac46c8f9993db37f8d94949be384ec75f7f48"
+    },
+    {
+      "path": "assets/keep/dao_connor_state/possessed_detail.jpg",
+      "bytes": 51797,
+      "sha256": "489b89129ef33056c246e49c318b35913994a0e3ce7b92cbfba76a3e9514b003"
+    },
+    {
+      "path": "assets/keep/dao_connor_state/saved_detail.jpg",
+      "bytes": 59511,
+      "sha256": "ba0dd7229ede228f4e435e6c2807c7612d73ff06d77a6551c56b0b1072696fea"
+    },
+    {
+      "path": "assets/keep/dao_den_alistairs_family/did_not_encounter_detail.jpg",
+      "bytes": 103523,
+      "sha256": "426214102bce0cab797bc3f6b2e786f6999b7e254a2becae5f4933c2d72c9836"
+    },
+    {
+      "path": "assets/keep/dao_den_alistairs_family/did_not_help_detail.jpg",
+      "bytes": 53754,
+      "sha256": "2ef1bd0e3d319a23acbd0e5f0862de1d25aa0a994447bf60d418b35f33a2ce63"
+    },
+    {
+      "path": "assets/keep/dao_den_alistairs_family/helped_detail.jpg",
+      "bytes": 57623,
+      "sha256": "3028c7bec0632d5fb048ed30e5dfcfa3b2bd4a5876bf2af64ff9986159b38445"
+    },
+    {
+      "path": "assets/keep/dao_den_crime_wave/no_detail.jpg",
+      "bytes": 58462,
+      "sha256": "1753b2f97416cc31fdb7c542ad61f1055d1a438a359aaa8ae36236cec414928e"
+    },
+    {
+      "path": "assets/keep/dao_den_crime_wave/yes_conflict.jpg",
+      "bytes": 12565,
+      "sha256": "aba52f9747df822a3738d443420b0db12ddec65065783b1419179ebd78a19465"
+    },
+    {
+      "path": "assets/keep/dao_den_crime_wave/yes_detail.jpg",
+      "bytes": 65502,
+      "sha256": "3853865b8053e827dda486d966bd2ba0c1f7e9a5e943fdeab5f9c3f881e468ea"
+    },
+    {
+      "path": "assets/keep/dao_den_crimson_oars/no_detail.jpg",
+      "bytes": 43334,
+      "sha256": "fdac30383da7dc81be53f4deb1a8d1965082f8516c284e258f585ad958a9155e"
+    },
+    {
+      "path": "assets/keep/dao_den_crimson_oars/yes_detail.jpg",
+      "bytes": 35326,
+      "sha256": "d9e749657101e27bf01891769b2546c2613471a38e9e1e07726a1ba665d454b5"
+    },
+    {
+      "path": "assets/keep/dao_den_forgotten_verses/no_detail.jpg",
+      "bytes": 73144,
+      "sha256": "84d2d821c75d926883c63e88f96caf26fe2256d19cbcde7262eef0603928c53f"
+    },
+    {
+      "path": "assets/keep/dao_den_forgotten_verses/yes_detail.jpg",
+      "bytes": 69490,
+      "sha256": "beed9eba1fd1ec0e8e7891dcd3c6e527af15a3bde52ffaf919963dc8fd797fb3"
+    },
+    {
+      "path": "assets/keep/dao_den_hearing_voices/no_detail.jpg",
+      "bytes": 39887,
+      "sha256": "fe7b2774d0c524d5dd9eeab50bd8a2d77072e61655c9ef86653130f32767cb04"
+    },
+    {
+      "path": "assets/keep/dao_den_hearing_voices/yes_detail.jpg",
+      "bytes": 48308,
+      "sha256": "1bb7a723c0dd31a71fca36d8df82327b3a0b4d7b318c7d15ca4766efc6c05012"
+    },
+    {
+      "path": "assets/keep/dao_den_honor_bound/no_detail.jpg",
+      "bytes": 43343,
+      "sha256": "d96e0f7ace10e5e12c48ec81838ccbeb4b9cde572f2cf37222f8f075a3740558"
+    },
+    {
+      "path": "assets/keep/dao_den_honor_bound/yes_detail.jpg",
+      "bytes": 31808,
+      "sha256": "0933feb4dc3fb684d90b813dcd7a2f8408eef8210752751b50478b7c2652b4a5"
+    },
+    {
+      "path": "assets/keep/dao_den_lelianas_past/alive_detail.jpg",
+      "bytes": 68559,
+      "sha256": "06dd5d36319a0b3bee57a01e93fc248fadc4e9f83f0381255a90b0dcbc4985db"
+    },
+    {
+      "path": "assets/keep/dao_den_lelianas_past/did_not_encounter_detail.jpg",
+      "bytes": 62764,
+      "sha256": "18464e73eb21bf3d4d366a3274b9ed83304e6e4f93cf475929e925aa724b9bc6"
+    },
+    {
+      "path": "assets/keep/dao_den_lelianas_past/killed_detail.jpg",
+      "bytes": 108107,
+      "sha256": "d0abeb9045dbac67b1d33add02a14fb83d9d994ba7a5b2768482adb6b292bf42"
+    },
+    {
+      "path": "assets/keep/dao_den_lost_templar/no_detail.jpg",
+      "bytes": 31359,
+      "sha256": "fcb2dd1ac4742a19d7e9d0afa247131bf6e615fda266c856e50de1f06e95fc19"
+    },
+    {
+      "path": "assets/keep/dao_den_lost_templar/yes_detail.jpg",
+      "bytes": 33654,
+      "sha256": "66b59f97a16818f41dd78edea45b282842412871b76060896be9778a779f958b"
+    },
+    {
+      "path": "assets/keep/dao_den_murder_crows/killed_detail.jpg",
+      "bytes": 57399,
+      "sha256": "35b1ff8c11138680415a2a011dc67eced87eff8c0b9cad771368cd004e432ba6"
+    },
+    {
+      "path": "assets/keep/dao_den_murder_crows/killed_top_1x1.jpg",
+      "bytes": 17859,
+      "sha256": "0abb5d7988a7c03d26956a0cf54d3dbbe6fe9f6cf8109a50304bc3a2adb3193f"
+    },
+    {
+      "path": "assets/keep/dao_den_murder_crows/no_conflict.jpg",
+      "bytes": 17209,
+      "sha256": "c46ccf866850e0da300275a544b7885065a239aec3a898c293991c6bcbe41dc3"
+    },
+    {
+      "path": "assets/keep/dao_den_murder_crows/no_detail.jpg",
+      "bytes": 44784,
+      "sha256": "2decc152e67cc4e8fd1cac3231b2c1ee1f0e9d40c82414bd8c473ada2d873629"
+    },
+    {
+      "path": "assets/keep/dao_den_murder_crows/no_top_1x1.jpg",
+      "bytes": 12883,
+      "sha256": "c874b60dbe81ab9b53aa72f30be5946f7bb7888a6ca9eef6d9058121504daeb0"
+    },
+    {
+      "path": "assets/keep/dao_den_murder_crows/yes_conflict.jpg",
+      "bytes": 15995,
+      "sha256": "ce4b8dba84e5c4f6805a6a425ec11aa5f8418be6d937a2da73fb97757f895b2f"
+    },
+    {
+      "path": "assets/keep/dao_den_murder_crows/yes_detail.jpg",
+      "bytes": 50701,
+      "sha256": "aed3f3d932410b0ef87934b8aee751ea2873183928eeeb640b3db66d7f1e6f6d"
+    },
+    {
+      "path": "assets/keep/dao_den_murder_crows/yes_top_1x1.jpg",
+      "bytes": 14967,
+      "sha256": "801363c155b6b2768da7530dc567787aa5ebe01e7daed5d9f92fd5c95c5e8a2c"
+    },
+    {
+      "path": "assets/keep/dao_den_pearls_swine/no_detail.jpg",
+      "bytes": 28545,
+      "sha256": "585b777780541796884d55a719f6dfce85e904e1ef9ab55370ae8a9f710e0b39"
+    },
+    {
+      "path": "assets/keep/dao_den_pearls_swine/yes_detail.jpg",
+      "bytes": 34984,
+      "sha256": "55b999a182a8e3f133a1608fbcf758d382ea18ba7d28ee4fba429101ee79d053"
+    },
+    {
+      "path": "assets/keep/dao_den_tortured_noble/no_detail.jpg",
+      "bytes": 24337,
+      "sha256": "9b479d5787d776c4b9f24089c9a1477344d3d5b255f785903c41569a7e2be53d"
+    },
+    {
+      "path": "assets/keep/dao_den_tortured_noble/yes_detail.jpg",
+      "bytes": 24921,
+      "sha256": "c3fe4c4ed32bca1509e25bf95ac6cde1ec7d833d442ec8fc2bedc018a0d7f341"
+    },
+    {
+      "path": "assets/keep/dao_dno_mardy_son/never-met_detail.jpg",
+      "bytes": 31073,
+      "sha256": "46fd64e22fc399e1f3a133020643310176bc58842a3cdf1318ec1b4eab581218"
+    },
+    {
+      "path": "assets/keep/dao_dno_mardy_son/no_detail.jpg",
+      "bytes": 33202,
+      "sha256": "fb53f18a59ca31ad22b0380178ee36fef5d1c08ffa891d08582dd686edfa1656"
+    },
+    {
+      "path": "assets/keep/dao_dno_mardy_son/yes_conflict.jpg",
+      "bytes": 11680,
+      "sha256": "06e8411fafe5374e65dbd5d85fb2578fbc7dbde080b87180e8261a5e45dea201"
+    },
+    {
+      "path": "assets/keep/dao_dno_mardy_son/yes_detail.jpg",
+      "bytes": 34864,
+      "sha256": "9d4ed329b7c63b3edbf764bd612e3f84b9a7d9c02f121df172944f01a85b992f"
+    },
+    {
+      "path": "assets/keep/dao_dog_recruited/no_detail.jpg",
+      "bytes": 32818,
+      "sha256": "9bc5d959bf5a835372e24257f44dd59499f148185cabad50faf94ca9019f63ab"
+    },
+    {
+      "path": "assets/keep/dao_dog_recruited/yes_detail.jpg",
+      "bytes": 43551,
+      "sha256": "0f601a6ab943455023f5bd0040be952489884f9a4f8dd57baf222ea800450650"
+    },
+    {
+      "path": "assets/keep/dao_flemeth_grimoire/defeated_flemeth_detail.jpg",
+      "bytes": 75818,
+      "sha256": "a70b5088fd2fa508363bd73afbb3031fbcdbd520160be0fcc8301a9f28967362"
+    },
+    {
+      "path": "assets/keep/dao_flemeth_grimoire/did_not_acquire_detail.jpg",
+      "bytes": 63078,
+      "sha256": "f42ce7767c77d1f82250640b60528f9a8f831101b4c9d8dd615d59f1c2a3ee8f"
+    },
+    {
+      "path": "assets/keep/dao_flemeth_grimoire/peacefully_acquired_detail.jpg",
+      "bytes": 75472,
+      "sha256": "338a5d4777e39c161f5330549184f11b43420d4e85c1b482bad63dc68ff50c35"
+    },
+    {
+      "path": "assets/keep/dao_isolde_state/alive_detail.jpg",
+      "bytes": 66539,
+      "sha256": "1edb1b252f26e853fc89e2f0e6b7090924e64715b2585a0b84fb82af17ad87d8"
+    },
+    {
+      "path": "assets/keep/dao_isolde_state/sacrifice_detail.jpg",
+      "bytes": 55096,
+      "sha256": "2d71664ad95096102b7a7464920d8311e91c4a22e16650091cd044509779f06f"
+    },
+    {
+      "path": "assets/keep/dao_leliana_fate/alive_conflict.jpg",
+      "bytes": 14504,
+      "sha256": "1d652beb4c37e03ca73f7cc81c29e9e2717c1e4fbda5f93df18596c5964cd72e"
+    },
+    {
+      "path": "assets/keep/dao_leliana_fate/alive_detail.jpg",
+      "bytes": 83570,
+      "sha256": "de938b91395c93c306afb00b429132bc26aa2bd47c8848f1d48cc54b2f84a658"
+    },
+    {
+      "path": "assets/keep/dao_leliana_fate/killed-after-poisoning-urn_detail.jpg",
+      "bytes": 81385,
+      "sha256": "65b52dd6a3cb463f31cde7a79ae4ae014a13b6bf562892ff9cad6d8eb2fa53f2"
+    },
+    {
+      "path": "assets/keep/dao_leliana_fate/left-warden_detail.jpg",
+      "bytes": 79691,
+      "sha256": "1e693870b8b0194f140a012e019f28e9226865b5e52e7b2337f192627cca19fe"
+    },
+    {
+      "path": "assets/keep/dao_leliana_fate/not-recruited_conflict.jpg",
+      "bytes": 12098,
+      "sha256": "bdddd5fe6f4aecfa30a43aa9bc30f3c5963b1a68d1e5ccf86cf0d5eb0afc2f78"
+    },
+    {
+      "path": "assets/keep/dao_leliana_fate/not-recruited_detail.jpg",
+      "bytes": 82077,
+      "sha256": "a51cb04e8dba49a050e25f48628f0f1a5f6cedf2f6e484f18859c278402fa2c4"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/alistair-duel_conflict.jpg",
+      "bytes": 28230,
+      "sha256": "fc5463ca4498e0b6ced58d5d84767c1ddfe361cd7fbfbe004e4609fbad6116f2"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/alistair-duel_detail.jpg",
+      "bytes": 49844,
+      "sha256": "47f2ef084071a9b96c2e85950b7c61a3f611252d1eeedb5aafabbce97e4714ca"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/alistair-executed_conflict.jpg",
+      "bytes": 28230,
+      "sha256": "fc5463ca4498e0b6ced58d5d84767c1ddfe361cd7fbfbe004e4609fbad6116f2"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/alistair-executed_detail.jpg",
+      "bytes": 73504,
+      "sha256": "867faed7b1080b1a3d817ac0f8e89f1a045d10bfcea4d9043a95c88192da0378"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/alive_conflict.jpg",
+      "bytes": 32341,
+      "sha256": "50229c7fafecd8f901effd92f36b43d8f36c4a4fcfb3aaecacde07d16847297d"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/alive_detail.jpg",
+      "bytes": 65386,
+      "sha256": "d2c10135c5284b79c4969a75d9fce43c79a1d59efef78a9a26cd1e933db891e5"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/died-killing-archdemon_conflict.jpg",
+      "bytes": 25577,
+      "sha256": "119911a3285d4d90dd9e524889b5956ecb4ead633fcdd36b009cf4ad0ff70b1e"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/died-killing-archdemon_detail.jpg",
+      "bytes": 58162,
+      "sha256": "fe005707a2a1d9692b0ac5f3192c7b5cab66717f6807f87d16cf7ef8fb8135a4"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/warden-executed_conflict.jpg",
+      "bytes": 33199,
+      "sha256": "15f8f7b48cb5a2d56c5094e2ffecf43c8ee9f563520f99133cb2b4b88ece4624"
+    },
+    {
+      "path": "assets/keep/dao_loghain_fate/warden-executed_detail.jpg",
+      "bytes": 54423,
+      "sha256": "78b62c60b4c77b30ad24147bb14defde139d6f31d0a0f3a752628f4d048f24ef"
+    },
+    {
+      "path": "assets/keep/dao_lot_qunari_prisoner/did-not-free_detail.jpg",
+      "bytes": 35391,
+      "sha256": "c2b0296f9847ebabde35658bb4f73b62e773526a20a6a5edeb5c64c2e2b99efd"
+    },
+    {
+      "path": "assets/keep/dao_lot_qunari_prisoner/intimidated-revered-mother_detail.jpg",
+      "bytes": 32413,
+      "sha256": "e368b6cbb5d8760202fa6c8e665d272a465a6f770de5781673b0e879f6b639bf"
+    },
+    {
+      "path": "assets/keep/dao_lot_qunari_prisoner/persuaded-revered-mother_detail.jpg",
+      "bytes": 32465,
+      "sha256": "41eb11f4e588fc0fdebac51eca450cd5bdd017873162031111eced0318b4b990"
+    },
+    {
+      "path": "assets/keep/dao_lot_qunari_prisoner/picked-lock_detail.jpg",
+      "bytes": 35039,
+      "sha256": "7a9d6dd80b1eafcb4d09977c01bfc4a017c0476bba33cce1855425f328ea5fbf"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/alistair_conflict.jpg",
+      "bytes": 15823,
+      "sha256": "dd5918fb5b5e2827ba302ff04bddce73425f3f7a20e1dd3990924b5a69c29333"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/alistair_detail.jpg",
+      "bytes": 59798,
+      "sha256": "1f17c5191b27e5be4428d3c54d58bbbaeb43c3f06a834249a4038e754bf11570"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/human_detail.jpg",
+      "bytes": 68996,
+      "sha256": "83e8c3665af3556b8a7e03ef38c4b7f2d2781e76065d59ca1a5dd00a170f95a9"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/loghain_conflict.jpg",
+      "bytes": 29213,
+      "sha256": "75099fe7834101cf5ea66b49b2cafd6192b56ac78b89428b7aa0e07f0ff36f50"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/loghain_detail.jpg",
+      "bytes": 67330,
+      "sha256": "629472e29ee5d8a33ab72d5024af18b024121ae5546301c17e3ede21e6517911"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/no_conflict.jpg",
+      "bytes": 20899,
+      "sha256": "bfb7002efc244245325a58f0953bedde43d73f4bdb050ed8150cda04f2b3371c"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/no_detail.jpg",
+      "bytes": 61292,
+      "sha256": "8a34f13c01bda3e54ecf75bbcd3a571a5c0f69ff456f878b1e96c622d38431fc"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/warden_conflict.jpg",
+      "bytes": 30461,
+      "sha256": "d83e048e95aff8a611eb325ca5ba3829bf9f4cee40497ecb02d52a0bec62475d"
+    },
+    {
+      "path": "assets/keep/dao_morrigan_baby/warden_detail.jpg",
+      "bytes": 64815,
+      "sha256": "239f18aaddd47d186bcbf64a03c1688bc482e7b4cca13857a637fe51c8310221"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/elves_conflict.jpg",
+      "bytes": 23189,
+      "sha256": "96049fe619fc1665325128d8ef9c2eb7a4582cff46a02ca7a0038c05e3204ad6"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/elves_detail.jpg",
+      "bytes": 68230,
+      "sha256": "80f839c893794988fb654db677c40bce3d672d3202f5d0d0a7fe3ae888ad3522"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/elves_top_2x1.jpg",
+      "bytes": 22831,
+      "sha256": "368071c481e547f7e9d9996aa32f809e68cd17033839c4898d02964f59e74f62"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/peace_conflict.jpg",
+      "bytes": 26168,
+      "sha256": "e6809d508d15553d0b3faca6412c582b53e750ee9bc32945bbdd6d9a02225bc6"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/peace_detail.jpg",
+      "bytes": 70694,
+      "sha256": "466297627f7269410cdad74800439fd7b59f338594f702a78fc923549b5dd443"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/peace_top_2x1.jpg",
+      "bytes": 24023,
+      "sha256": "093cc784a3e90f87081dd43ce98e302dae59e60b00564c24d8739f0e91cfb0d9"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/werewolves_conflict.jpg",
+      "bytes": 15236,
+      "sha256": "0607e3ebcb9018fef7d7365c0687230601a54d53dae06cdf0e68a4fce9ad14f0"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/werewolves_detail.jpg",
+      "bytes": 45863,
+      "sha256": "44a545556f5f85e723fb649ecc2067d8608eb1eb299d72c044bf4d48e061deb2"
+    },
+    {
+      "path": "assets/keep/dao_nb_werewolf_elf_choice/werewolves_top_2x1.jpg",
+      "bytes": 26848,
+      "sha256": "cdab2588c7d4ccb7bbe0730ec9f3f2f42d0a8aa5f417468a597728e3aaacac92"
+    },
+    {
+      "path": "assets/keep/dao_ntb_cammen_lament/broke-up_detail.jpg",
+      "bytes": 58771,
+      "sha256": "ca518a332a57767d83e5c9a907164b5b9e9af98aee3bb891bea7a720e6b38dff"
+    },
+    {
+      "path": "assets/keep/dao_ntb_cammen_lament/brought-together_detail.jpg",
+      "bytes": 66802,
+      "sha256": "333f8c07a325a09f8721879fd9d5760a8f8f2c4286ab2fb814d824f4373d9315"
+    },
+    {
+      "path": "assets/keep/dao_ntb_cammen_lament/never-met_detail.jpg",
+      "bytes": 58724,
+      "sha256": "186ca19275616a477c9923793b1f7bd27361ed901a5254e4a015bd4222c1755a"
+    },
+    {
+      "path": "assets/keep/dao_ntb_elora_halla/allowed-to-die_detail.jpg",
+      "bytes": 69835,
+      "sha256": "248c17f43eab68fb6694c27f0819ce8cdfadfaa623a0b559febd6978f0c8bf8d"
+    },
+    {
+      "path": "assets/keep/dao_ntb_elora_halla/never-met_detail.jpg",
+      "bytes": 51788,
+      "sha256": "eef0b872ebd28e1e06b69b8ee97e8e970a22d0b5cc1be2ce36fd18730d15275a"
+    },
+    {
+      "path": "assets/keep/dao_ntb_elora_halla/saved_detail.jpg",
+      "bytes": 66178,
+      "sha256": "30b7e27f564e204362a18e64ab90b5a76173f4c7217f786c74e20d58c50cd36e"
+    },
+    {
+      "path": "assets/keep/dao_ntb_lost_curse/no_detail.jpg",
+      "bytes": 53155,
+      "sha256": "f0e97350b07b8ff62d6f431a84ac10e16b92fa708742d9dd04ae9816467b79f8"
+    },
+    {
+      "path": "assets/keep/dao_ntb_lost_curse/yes_detail.jpg",
+      "bytes": 54428,
+      "sha256": "5156840334ec6f6041a4bbe12282635efd7aa40a208508cbbdd57bbe943d754f"
+    },
+    {
+      "path": "assets/keep/dao_ntb_rare_ironbark/no_detail.jpg",
+      "bytes": 63067,
+      "sha256": "26731d8bca26fe3a2ca8c6bc3ce60cd857ddc2a5df40a9aae86a446c3dcc6818"
+    },
+    {
+      "path": "assets/keep/dao_ntb_rare_ironbark/yes_detail.jpg",
+      "bytes": 73465,
+      "sha256": "ca125e99b4a5bd532fa4063a03017ad461e29493f1a384955b5b804626083670"
+    },
+    {
+      "path": "assets/keep/dao_ntb_wounded_forest/killed_detail.jpg",
+      "bytes": 87545,
+      "sha256": "1ae2409a33bbc8e81cf342f495b70cff5aa211d18c1dedab89a05255fdcad54c"
+    },
+    {
+      "path": "assets/keep/dao_ntb_wounded_forest/never-met_detail.jpg",
+      "bytes": 48524,
+      "sha256": "0d1e1bba552a990389c4150c4f164661b165be03e7773543503d2722ae5ed941"
+    },
+    {
+      "path": "assets/keep/dao_ntb_wounded_forest/returned-to-camp_detail.jpg",
+      "bytes": 53362,
+      "sha256": "1d5839b34c3c6da9d78f78a4a8a5a5287b3f198767e30426ac1124bda7eca26d"
+    },
+    {
+      "path": "assets/keep/dao_oghren_recruited/no_detail.jpg",
+      "bytes": 84680,
+      "sha256": "f1daa7745e6b5c880947b6f6866297ee2cd9c5d2f39f2da20fda66713cbeec2f"
+    },
+    {
+      "path": "assets/keep/dao_oghren_recruited/yes_detail.jpg",
+      "bytes": 94158,
+      "sha256": "76e6412f0e271560d4401efaacef29c428c5d32bf81c1c960fbe69381024b2aa"
+    },
+    {
+      "path": "assets/keep/dao_orzammar_ruler/bhelen_detail.jpg",
+      "bytes": 65128,
+      "sha256": "90609067a817f2496ea41bec932f9c4bb19319af3fe7b77602979308b6fe3aec"
+    },
+    {
+      "path": "assets/keep/dao_orzammar_ruler/harrowmont_detail.jpg",
+      "bytes": 65674,
+      "sha256": "e878bb23d487382a7b8ff90256f2f391dee401ec829a9a4c65925f9b3691925e"
+    },
+    {
+      "path": "assets/keep/dao_par_chant_deeps/no_detail.jpg",
+      "bytes": 35753,
+      "sha256": "2b4ea42dce01d1117778cfe96ffc6d2b5d0064ed24b11c6667d30509396dc471"
+    },
+    {
+      "path": "assets/keep/dao_par_chant_deeps/yes_detail.jpg",
+      "bytes": 37978,
+      "sha256": "5d8248b9662e3a8c980a26f2313603027803042511995a336b331aad05406bea"
+    },
+    {
+      "path": "assets/keep/dao_par_dead_caste/no_detail.jpg",
+      "bytes": 33330,
+      "sha256": "c12424eae87e98060203e4be196a018ab9f59478f8cdfd50ae37fdfe13567b42"
+    },
+    {
+      "path": "assets/keep/dao_par_dead_caste/yes_detail.jpg",
+      "bytes": 40873,
+      "sha256": "e379bae5176cfd928b5cea335afb85e49befa9e0bf69d15c71fe0fe8b780cf45"
+    },
+    {
+      "path": "assets/keep/dao_par_lost_memories/no_detail.jpg",
+      "bytes": 42684,
+      "sha256": "8ec00172260a768954d13ed0981e951850cc4750d930c23d10f7f5b77e63ade7"
+    },
+    {
+      "path": "assets/keep/dao_par_lost_memories/yes_detail.jpg",
+      "bytes": 56903,
+      "sha256": "67db56866b64dd83dc1f497b1d1d24f2f72139c7d694a4386127d689facbf040"
+    },
+    {
+      "path": "assets/keep/dao_par_mothers_hope/killed-and-did-not-tell_detail.jpg",
+      "bytes": 65246,
+      "sha256": "3102f5cd9fa98d39013894ed4f8882293db991276d5ba402efe790dc0742a869"
+    },
+    {
+      "path": "assets/keep/dao_par_mothers_hope/killed-and-told-lie_detail.jpg",
+      "bytes": 62536,
+      "sha256": "54dce16833fec7cb2b1860a3e4f348a405ccf69cc24e475de62c8885af55f599"
+    },
+    {
+      "path": "assets/keep/dao_par_mothers_hope/killed-and-told-truth_detail.jpg",
+      "bytes": 95767,
+      "sha256": "b13f21c5b34d3cf33ad17fe554f5d0ed354eb2ed4fd3211301fa38eb31dfc46e"
+    },
+    {
+      "path": "assets/keep/dao_par_mothers_hope/never-met_detail.jpg",
+      "bytes": 52759,
+      "sha256": "f4bf70bc4f2483fbc7054081dcdff7103885b8a967261ee29b251597cb8f92f3"
+    },
+    {
+      "path": "assets/keep/dao_par_mothers_hope/told-died_detail.jpg",
+      "bytes": 64972,
+      "sha256": "07a13f24ae69ce551c87b80e47635915b74a7389c0e95e905b172173a4e311da"
+    },
+    {
+      "path": "assets/keep/dao_par_mothers_hope/told-truth_detail.jpg",
+      "bytes": 65519,
+      "sha256": "7e7b32326f55f78572416e0027168b8808dbf1d29f6c7eeb7c4f84e6e4ac6fbc"
+    },
+    {
+      "path": "assets/keep/dao_par_noble_birth/never-had-son_detail.jpg",
+      "bytes": 30738,
+      "sha256": "c51b97853f3aa869da0c1c6f15660b62403cd2edd119cda715c19b9752978db9"
+    },
+    {
+      "path": "assets/keep/dao_par_noble_birth/no_detail.jpg",
+      "bytes": 30556,
+      "sha256": "e5394133b0e80a58bf07f5735a6726f89af6c56a541cb58ca379bbe3a8962ae9"
+    },
+    {
+      "path": "assets/keep/dao_par_noble_birth/restore-bright-right_detail.jpg",
+      "bytes": 20969,
+      "sha256": "e0041ac1b1e1a22638e73d00a732547d46335ccab057ce4e27ce9f2113b73cb9"
+    },
+    {
+      "path": "assets/keep/dao_par_noble_birth/yes_conflict.jpg",
+      "bytes": 17984,
+      "sha256": "cc819bbf6d4abf77563d7a3bb29ce25dea7a7c4189b271e8e0c18f94fa643659"
+    },
+    {
+      "path": "assets/keep/dao_par_noble_birth/yes_detail.jpg",
+      "bytes": 38134,
+      "sha256": "0157d57d4320badc1b0621ef7720d65a02e717d24d59e8de136cf7ea79be0319"
+    },
+    {
+      "path": "assets/keep/dao_par_precious_metals/no_detail.jpg",
+      "bytes": 57555,
+      "sha256": "842e7130b02ceacdd4585eeb5715f81187f79093a30e2bd007ca8171bb909675"
+    },
+    {
+      "path": "assets/keep/dao_par_precious_metals/yes_detail.jpg",
+      "bytes": 85613,
+      "sha256": "e2d9418c26eb0c562efe78a7d4dddecf6ce77e6daa8db0e6fc0b95c62a235f08"
+    },
+    {
+      "path": "assets/keep/dao_par_thief_house_learning/did-not-do_detail.jpg",
+      "bytes": 34868,
+      "sha256": "f8d9ab0139f5963507005193796d04f210348dfc62d35da0061df2fc4f6ce4b1"
+    },
+    {
+      "path": "assets/keep/dao_par_thief_house_learning/returned-the-tome_detail.jpg",
+      "bytes": 39413,
+      "sha256": "4c398421df0942dc4f04649f025d3ac88dfbf52a6b7783f61e32a3cf2a0e2c07"
+    },
+    {
+      "path": "assets/keep/dao_par_thief_house_learning/sold-the-tome_detail.jpg",
+      "bytes": 37585,
+      "sha256": "f91697a363232d7679198aba96d883344887993a5aad6d204ef8386a472a84ab"
+    },
+    {
+      "path": "assets/keep/dao_par_unlikely_scholar/ask-for-permission_detail.jpg",
+      "bytes": 65719,
+      "sha256": "c9620dbfcb30f9b342ff44a9843e1871193a0b6fdadfb97de16efd407e31052f"
+    },
+    {
+      "path": "assets/keep/dao_par_unlikely_scholar/convinced-to-stay_detail.jpg",
+      "bytes": 62555,
+      "sha256": "7e437b813ec16923d1e98113b264837c1c553bbb06918125e7dfbba55ad798ea"
+    },
+    {
+      "path": "assets/keep/dao_par_unlikely_scholar/never-met_detail.jpg",
+      "bytes": 51095,
+      "sha256": "14c03d3cc1bf871db5a9ca04d8f13686607a3c4627ddb7d8fa3dbafdf96d07f6"
+    },
+    {
+      "path": "assets/keep/dao_par_unlikely_scholar/refused-to-help_detail.jpg",
+      "bytes": 62529,
+      "sha256": "e9267d9e4e6e264e9c522da5bee1302a86a7d19ed63238f687362b726f8a18fc"
+    },
+    {
+      "path": "assets/keep/dao_par_unlikely_scholar/told-circle-destroyed_detail.jpg",
+      "bytes": 60334,
+      "sha256": "93c6d613e6dc513b6188890f254242da27204dae299559367f5736ec20eb8643"
+    },
+    {
+      "path": "assets/keep/dao_par_zerlinda_woe/chantry_detail.jpg",
+      "bytes": 75260,
+      "sha256": "a6dea66fab6a869095c05fd50016b807a6a60c69a05b8a40cb02cbe155c6f517"
+    },
+    {
+      "path": "assets/keep/dao_par_zerlinda_woe/deep_roads_detail.jpg",
+      "bytes": 80435,
+      "sha256": "ba3010c19239aa8e51393fc892338126cef9110ea16c8518424d5823a80664ed"
+    },
+    {
+      "path": "assets/keep/dao_par_zerlinda_woe/no_detail.jpg",
+      "bytes": 49900,
+      "sha256": "a8045e9c7ac23e923c9fa1de1d27064ed2de44104e06f125ea448191e06a0f03"
+    },
+    {
+      "path": "assets/keep/dao_par_zerlinda_woe/surface_detail.jpg",
+      "bytes": 75805,
+      "sha256": "941fce35084404716f7c3ee3eb011ab0d2aeb60a838c1617e64c3da48f10f9e4"
+    },
+    {
+      "path": "assets/keep/dao_par_zerlinda_woe/yes_detail.jpg",
+      "bytes": 54123,
+      "sha256": "e6c206e6873ffa8cb9097358a0caca8808372b28a2c342cd834397b4cecfc93d"
+    },
+    {
+      "path": "assets/keep/dao_paragon_anvil_fate/branka_detail.jpg",
+      "bytes": 62984,
+      "sha256": "358b2d183166314cdf1965fc41f7e263b3e4a1e905cacbcd825626c9038b3b8c"
+    },
+    {
+      "path": "assets/keep/dao_paragon_anvil_fate/caridin_detail.jpg",
+      "bytes": 64180,
+      "sha256": "b85566b0a5c66396bdd69647d3d1018b43ebbb5d7d26307d2664b757a92b74b5"
+    },
+    {
+      "path": "assets/keep/dao_paragon_anvil_fate/warden_detail.jpg",
+      "bytes": 60779,
+      "sha256": "43f34e51ec1686f47498e0a982a51cbdf2cf718ef2885ff048e7d13f5fd92593"
+    },
+    {
+      "path": "assets/keep/dao_paragon_chosen/branka_top_2x1.jpg",
+      "bytes": 33037,
+      "sha256": "c310cf5646f16b48339c56a3f72cd7d44995a1c7510bae94a2fa4d2ea0964ebd"
+    },
+    {
+      "path": "assets/keep/dao_paragon_chosen/caridin_top_2x1.jpg",
+      "bytes": 34903,
+      "sha256": "e2e7dd3e34a164ca7289e14984954d13890285d3218359f19b25bc1cbcb0c4b9"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/bought-guards-lunch_detail.jpg",
+      "bytes": 57231,
+      "sha256": "5501b390e0db229d9167f2c133a33c3e7db076c2c637c4ec6add62b8c3f6aa9a"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/bought-guards-lunch_top_1x1.jpg",
+      "bytes": 83652,
+      "sha256": "647eb509496edcedc8620d1630e34a71827dbe18f975c3dae0f57f2f949a4779"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/fed-guards-lunch_conflict.jpg",
+      "bytes": 22693,
+      "sha256": "ff1e0dead9c0ecae934d0161802b3b395ff80c5163bf9507b43f87852a179000"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/fed-guards-lunch_detail.jpg",
+      "bytes": 64309,
+      "sha256": "5b607def97ca5ff7a5ec99d115714f9e6c791446bc94e8b1949d10c924a96ef3"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/fed-guards-stolen-lunch_conflict.jpg",
+      "bytes": 21174,
+      "sha256": "1f5b444edb4f27b4c9dc5d6afdcb16a2cd06183beb595122db935dd3bffbcfe0"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/fed-guards-stolen-lunch_detail.jpg",
+      "bytes": 61101,
+      "sha256": "b8958dda09634ef006cb1332e48ce0f7001d585231c413475f437a69a028538b"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/killed_conflict.jpg",
+      "bytes": 21061,
+      "sha256": "f794c27ef6ed5663d7723d51728818912f2210cd55dfffcce557cc25ffa242ff"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/killed_detail.jpg",
+      "bytes": 64967,
+      "sha256": "38196c90ecd1cf0f61a3dfbaaaa4cb07f3a2201632e096a42a2fa7e38319e9d0"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/left-alone_conflict.jpg",
+      "bytes": 18304,
+      "sha256": "6bb87a80818bb68bf7f0187964a82fa1bd26cc89abe3d9c7a27e86f779fefb15"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/left-alone_detail.jpg",
+      "bytes": 60807,
+      "sha256": "8ef0aebcd97867f2e976ea6bbef8c5ce25f81889c46cf3099a33ce981f07cfe0"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/stole-keys_conflict.jpg",
+      "bytes": 15143,
+      "sha256": "428f121566915a17123bc8c1fdc6ea9d8d03f1a7267a86381f901185fa7da94c"
+    },
+    {
+      "path": "assets/keep/dao_pre_hungry_deserter/stole-keys_detail.jpg",
+      "bytes": 62308,
+      "sha256": "04f930bdacf37ea021972da1d5b36c40e85bc89751842f1fad6342b6776156fd"
+    },
+    {
+      "path": "assets/keep/dao_pre_mabari_hound/cured-it_detail.jpg",
+      "bytes": 63838,
+      "sha256": "dd96266da316ae564a92cc420187f2bc2574274dd3a27ee7bc3042c5c57ca34b"
+    },
+    {
+      "path": "assets/keep/dao_pre_mabari_hound/killed-it_detail.jpg",
+      "bytes": 59197,
+      "sha256": "f468ced9d7d1d409b90984bf7abeae1b5584e71766061c669eb7de5b7d9c048a"
+    },
+    {
+      "path": "assets/keep/dao_pre_mabari_hound/left-for-dead_detail.jpg",
+      "bytes": 61117,
+      "sha256": "0de26ea02fe4ca8c03255ea5693ff1cceb580d22d12ce2b8956ba3517896ad0f"
+    },
+    {
+      "path": "assets/keep/dao_red_attack_nightfall/no_detail.jpg",
+      "bytes": 66039,
+      "sha256": "85dc4ce1312abb569f4a2350a0b1dd6764c3e353019032982db6352a528a5c6e"
+    },
+    {
+      "path": "assets/keep/dao_red_attack_nightfall/no_top_1x2.jpg",
+      "bytes": 38966,
+      "sha256": "93544233a44169e8cdaafaace65313e164247cae8d50284b592bd78d6f494f41"
+    },
+    {
+      "path": "assets/keep/dao_red_attack_nightfall/yes_detail.jpg",
+      "bytes": 72080,
+      "sha256": "c9e415726e0066752dda5466fff7e9b2c8afef2339fcc8e9c4cf6bfb862f8f37"
+    },
+    {
+      "path": "assets/keep/dao_red_attack_nightfall/yes_top_1x2.jpg",
+      "bytes": 40012,
+      "sha256": "dcc693de8f54ab647124d19be4f7c4176857ded5f3e4ebfb45d40cca7422e23a"
+    },
+    {
+      "path": "assets/keep/dao_red_bella_tavern/brewery_detail.jpg",
+      "bytes": 72298,
+      "sha256": "81d67206bdc565ee2e3da4ed18ff9d4efeae9e2b5a75ca4fca9ad8f2dfec0cf7"
+    },
+    {
+      "path": "assets/keep/dao_red_bella_tavern/killed_detail.jpg",
+      "bytes": 82110,
+      "sha256": "e6b97df2fca9efc1053f32c70e048dad280c660c9fa170e55d02252f08a60374"
+    },
+    {
+      "path": "assets/keep/dao_red_bella_tavern/left_detail.jpg",
+      "bytes": 70098,
+      "sha256": "5ad77dee85ad45985c071fdcfd594016d942a8c38fea523bc6ff762d10e72c6f"
+    },
+    {
+      "path": "assets/keep/dao_red_bella_tavern/tavern_detail.jpg",
+      "bytes": 70257,
+      "sha256": "b72a55b1865c03d61a7ecc003234e30543d7f8706228ce4e262d0cd7fdee6ae9"
+    },
+    {
+      "path": "assets/keep/dao_red_lost_castle/no_detail.jpg",
+      "bytes": 65706,
+      "sha256": "4a86a2ff1c9a2a964d224c02e4eb6583ff8d45ab6032b70800d6cec592e85a80"
+    },
+    {
+      "path": "assets/keep/dao_red_lost_castle/yes_detail.jpg",
+      "bytes": 62285,
+      "sha256": "04dfd058a768d0b56195c97b861a8a97e8d4bf8b012351c848c70cdadf7d0cee"
+    },
+    {
+      "path": "assets/keep/dao_red_missing_child/bought-sword_detail.jpg",
+      "bytes": 59166,
+      "sha256": "2c02b4d35c95a1214db1d8315e69ec9845335ed17a031f43e00166bfa6b3193b"
+    },
+    {
+      "path": "assets/keep/dao_red_missing_child/did-nothing_detail.jpg",
+      "bytes": 59759,
+      "sha256": "15a34beab463f04359ae2742e9f7280af288a0a3b3066417cc6dc1ff114aed65"
+    },
+    {
+      "path": "assets/keep/dao_red_missing_child/returned-sword_detail.jpg",
+      "bytes": 99397,
+      "sha256": "f9baf64df0d3f3c1bfa8c0c0334e2abb9105a66a5c4854e12982e00ad453236c"
+    },
+    {
+      "path": "assets/keep/dao_red_missing_child/scared-bevin_detail.jpg",
+      "bytes": 58146,
+      "sha256": "aaf9dd3f517517313d6fb2a95be92eba29adc5192a1955223cb90f7187ee2ecd"
+    },
+    {
+      "path": "assets/keep/dao_red_missing_child/sword-not-found_detail.jpg",
+      "bytes": 56264,
+      "sha256": "c2726f17c35aeedad7535aa0fed1110921a7b71c5ad2baacecb52f6cc8d722a3"
+    },
+    {
+      "path": "assets/keep/dao_red_missing_child/took-sword_detail.jpg",
+      "bytes": 59050,
+      "sha256": "0e33582011d77c12dfd994e51060dc27fce1dd6b68bcddcfa02d6bf8d4a0e054"
+    },
+    {
+      "path": "assets/keep/dao_red_village_siege/no_detail.jpg",
+      "bytes": 66532,
+      "sha256": "6839934b2367f96b1b1560e68ee71ecfa0ab8032ea6734efc76a04e87d149d42"
+    },
+    {
+      "path": "assets/keep/dao_red_village_siege/yes_detail.jpg",
+      "bytes": 77833,
+      "sha256": "f9d7f0a7fea6eb8b2a8a43d34721e48722a4aae8d82b354a5ce1bbd7dc205ca5"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair-and-anora_conflict.jpg",
+      "bytes": 29946,
+      "sha256": "32ac6bd52059843a279c188280ee22f62e044e52bde0454712597d88969db88f"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair-and-anora_detail.jpg",
+      "bytes": 59040,
+      "sha256": "b8bd1a471e7dd45f499f12fe4ba40dcf87429a0c07859647cc4a62dc4d50fa1b"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair-and-anora_top_1x1.jpg",
+      "bytes": 15609,
+      "sha256": "15975647634521fee53327a9bb4b3e30a87c9b7c807087845ba1111443286cb9"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair-and-warden_conflict.jpg",
+      "bytes": 31419,
+      "sha256": "aacd7c6ec9eae45670a6c3adc1196a6c046cd6d83eafd09fdd744bc6b76b2245"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair-and-warden_detail.jpg",
+      "bytes": 56270,
+      "sha256": "018b3d954dfa9ead320603cae3539fddf2ffc35cbab66c6dc2432d58a4ad071e"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair-and-warden_top_1x1.jpg",
+      "bytes": 15229,
+      "sha256": "46b836466afd235979073b09388495a89b698116e15e8a14dc2f9313d204cbac"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair_conflict.jpg",
+      "bytes": 19991,
+      "sha256": "cd220dfc28e5b9b450e68e125ad12a9b578c24b3a9ef8af4e68497fab460f7ff"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair_detail.jpg",
+      "bytes": 48559,
+      "sha256": "7a4d027281cdf39d5f129ed6cacc1a0aa4b2d8a9bab47c3672d8a4e5cee65368"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/alistair_top_1x1.jpg",
+      "bytes": 12973,
+      "sha256": "b961a4730cad061ad10ca7df154c45e240541528a77dcb7a185a728f016d8de5"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/anora_conflict.jpg",
+      "bytes": 26758,
+      "sha256": "69a123eb0065d96e21b86d9239175f5ef25df1a3efdd4f127bd4551ba3aef310"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/anora_detail.jpg",
+      "bytes": 47589,
+      "sha256": "3e6a1792cb1312d60063799cb7febb0ad5598073b771ece9cc1a32c427125ccb"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/anora_top_1x1.jpg",
+      "bytes": 12437,
+      "sha256": "af8b23bacf47a15fc2de2400698addea6246fd0a51dabd2a1a35131434939f44"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/warden-and-anora_conflict.jpg",
+      "bytes": 30824,
+      "sha256": "f4dd6454f72dc3709c739cf1add7e50cc2eb2d6270753be8d6ac13fde8b803ae"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/warden-and-anora_detail.jpg",
+      "bytes": 57663,
+      "sha256": "28d762292c9dc3cac95e44d68a511bca0be6ab4f9edac6137a8f6149c8ad87bd"
+    },
+    {
+      "path": "assets/keep/dao_ruler_state/warden-and-anora_top_1x1.jpg",
+      "bytes": 15335,
+      "sha256": "65d6942f75d2eb85650c1a24f7f526216fa14234164b8c5e9af5eddcd0ac9ad0"
+    },
+    {
+      "path": "assets/keep/dao_shale_fate/alive-well_detail.jpg",
+      "bytes": 81614,
+      "sha256": "cf6028a3d0253ea7cf7a328f5b3bc9f7922740576e476999070e314b9e2ac346"
+    },
+    {
+      "path": "assets/keep/dao_shale_fate/did-not-recruit_detail.jpg",
+      "bytes": 65915,
+      "sha256": "f70b352a9c20e7426f1491601eaccd606c341f2b7202cff3c7110526c0b53089"
+    },
+    {
+      "path": "assets/keep/dao_shale_fate/died_detail.jpg",
+      "bytes": 56690,
+      "sha256": "1a76ff9733ce94340c2fd5f4ecd6fe223ae7be83a179d5f78dcff6714af872b1"
+    },
+    {
+      "path": "assets/keep/dao_shale_recruited/no_detail.jpg",
+      "bytes": 59519,
+      "sha256": "2fdb50b4be9d4925bd9432e91966e686ac41f69187a12ed607dba6acff69dfa1"
+    },
+    {
+      "path": "assets/keep/dao_shale_recruited/yes_detail.jpg",
+      "bytes": 74070,
+      "sha256": "e11c04ddfa55acaac6665faa1ca8e5d7235215e13490d7ceec6b4b058fdde3f4"
+    },
+    {
+      "path": "assets/keep/dao_sten_recruited/no_conflict.jpg",
+      "bytes": 13990,
+      "sha256": "8dfc669804aa421cced5dff930755f2b9d232581e6abf3e29b241a75213138be"
+    },
+    {
+      "path": "assets/keep/dao_sten_recruited/no_detail.jpg",
+      "bytes": 38207,
+      "sha256": "2563c2a7cd99662506178da76608529f2790c494b8dd6bcabfb5e701342ce3b9"
+    },
+    {
+      "path": "assets/keep/dao_sten_recruited/yes_conflict.jpg",
+      "bytes": 21134,
+      "sha256": "fca26155df832cc5099636ad2853901e8d6d607719f4e8146de0a01b5332745c"
+    },
+    {
+      "path": "assets/keep/dao_sten_recruited/yes_detail.jpg",
+      "bytes": 39395,
+      "sha256": "c5aedaf7b6d364a8ede2f8248f94ce510717017bd6292136a3db13e6905b7d87"
+    },
+    {
+      "path": "assets/keep/dao_sten_sword/no_conflict.jpg",
+      "bytes": 19541,
+      "sha256": "be069df657ead521590d8b2a47fd56ef4750c56cfb4851793d736f9f4564bff9"
+    },
+    {
+      "path": "assets/keep/dao_sten_sword/no_detail.jpg",
+      "bytes": 60580,
+      "sha256": "72441afd2f9c676684074a5729f6108c9d03b812a1364ace48129e6ed58d2af1"
+    },
+    {
+      "path": "assets/keep/dao_sten_sword/not-recruited_conflict.jpg",
+      "bytes": 16353,
+      "sha256": "5dff4c26ad85e75b7cb0c5a83eec69c390a8528c55963cd4072328107d0f36c2"
+    },
+    {
+      "path": "assets/keep/dao_sten_sword/not-recruited_detail.jpg",
+      "bytes": 95788,
+      "sha256": "02ad41613dd8cb5427ed0153ed48fc92ef503de1e945e173fe14e032499787b7"
+    },
+    {
+      "path": "assets/keep/dao_sten_sword/yes_conflict.jpg",
+      "bytes": 13652,
+      "sha256": "c260b82917a2bbcc4dd667286111a0108a5871278eaa8477a4d449d4ebd2d56b"
+    },
+    {
+      "path": "assets/keep/dao_sten_sword/yes_detail.jpg",
+      "bytes": 79186,
+      "sha256": "b769cee076850f79f7fa7a3f9988d34c01a8ac96cd6582c52a8225a1592c24d8"
+    },
+    {
+      "path": "assets/keep/dao_stone_prisoner_kitty/amalia_alive_matthias_dead.jpg",
+      "bytes": 101946,
+      "sha256": "c1e14661b43825a30496081d30292e89c70144d12c48099fdd3fd435b5dc5c62"
+    },
+    {
+      "path": "assets/keep/dao_stone_prisoner_kitty/both_alive_ amalia_possessed.jpg",
+      "bytes": 98293,
+      "sha256": "d13f85bc0d6c5b92fec126abac66a4e084df76ce07c7505a39161dc3b9574d47"
+    },
+    {
+      "path": "assets/keep/dao_stone_prisoner_kitty/both_alive_and_neither_possessed.jpg",
+      "bytes": 95069,
+      "sha256": "9daf571cffd8b9644ee5aa2e5a34b8baced5c079dba1e4a8566881ce0d4131fc"
+    },
+    {
+      "path": "assets/keep/dao_stone_prisoner_kitty/both_alive_matthias_possessed.jpg",
+      "bytes": 103101,
+      "sha256": "71a2368b69256f420564bb4e9f479cdc2e8b199ad635356c4382b36531443c5e"
+    },
+    {
+      "path": "assets/keep/dao_stone_prisoner_kitty/matthias_alive_amalia_dead.jpg",
+      "bytes": 87752,
+      "sha256": "caec9ced22d19c0a3f34a94236d8f6798c603c2c4d81d340bdee5e87248664fe"
+    },
+    {
+      "path": "assets/keep/dao_urn_of_sacred_ashes_destroyed/no_conflict.jpg",
+      "bytes": 17678,
+      "sha256": "58d0fcb906060c3f6dfb9f1e3cea7cf5d48dc273ab5291e866dd92c46a54ab6c"
+    },
+    {
+      "path": "assets/keep/dao_urn_of_sacred_ashes_destroyed/no_detail.jpg",
+      "bytes": 50636,
+      "sha256": "0333e0a2eae813bae0524a5ff71cb1bc8b974331aca92feb18deb6b1a69dd7d3"
+    },
+    {
+      "path": "assets/keep/dao_urn_of_sacred_ashes_destroyed/yes_conflict.jpg",
+      "bytes": 13965,
+      "sha256": "55eb46784ed14c33ec9949e8aca0ba626fdaa5c8a065dd301db9bf19c65c5898"
+    },
+    {
+      "path": "assets/keep/dao_urn_of_sacred_ashes_destroyed/yes_detail.jpg",
+      "bytes": 47212,
+      "sha256": "c53b0ae47a8cb102ef38702162f45d4219f3498f21804a8733e3532f7329995e"
+    },
+    {
+      "path": "assets/keep/dao_warden_eluvian/no_conflict.jpg",
+      "bytes": 28376,
+      "sha256": "91951d3b7f15e064ee4aab367f82d0ad521275e5def6c8ec5321908346ba8d4f"
+    },
+    {
+      "path": "assets/keep/dao_warden_eluvian/no_detail.jpg",
+      "bytes": 62961,
+      "sha256": "d9607a8007c4e994d8dd4a5a040fbc31a68665d9774a3e36ebb6ae74a8d4f39d"
+    },
+    {
+      "path": "assets/keep/dao_warden_eluvian/no_top_2x1.jpg",
+      "bytes": 38779,
+      "sha256": "d72adab1dc8899dfc13f0140582462a68fdf068eaf838a8f07d908b709f48900"
+    },
+    {
+      "path": "assets/keep/dao_warden_eluvian/stabbed_detail.jpg",
+      "bytes": 100661,
+      "sha256": "bd301935531c91d656255b0a58d5179399fdee38aeef52e1bde3ef295dfb8715"
+    },
+    {
+      "path": "assets/keep/dao_warden_eluvian/stabbed_top_2x1.jpg",
+      "bytes": 40299,
+      "sha256": "4536b7f367efe4c41f5c079803c1b6b5553a5d27f5b7995bb78699ad0819e250"
+    },
+    {
+      "path": "assets/keep/dao_warden_eluvian/yes_conflict.jpg",
+      "bytes": 15912,
+      "sha256": "3c98ea2c49c51e4294ea61d071192e841b601f6a0cbdd4721e78b3dc7522e597"
+    },
+    {
+      "path": "assets/keep/dao_warden_eluvian/yes_detail.jpg",
+      "bytes": 70342,
+      "sha256": "bfa75e6440b0a11a0c991fe64c8aa4834c7cc670a335594c03fcb26fce56539e"
+    },
+    {
+      "path": "assets/keep/dao_warden_eluvian/yes_top_2x1.jpg",
+      "bytes": 36184,
+      "sha256": "b633504c9a1199d29b393b154c12b03f124595486c88e911633471f5fa9f1144"
+    },
+    {
+      "path": "assets/keep/dao_warden_king_mistress/never-lovers_detail.jpg",
+      "bytes": 31097,
+      "sha256": "46f11317e2ac5252f61e3d0a8ce97a266f875b6433286f08ef1a6e4bfa2b8fd5"
+    },
+    {
+      "path": "assets/keep/dao_warden_king_mistress/no_conflict.jpg",
+      "bytes": 30436,
+      "sha256": "9b8279fadc4cea88cd865e7764a2f82eb7e75225d526dacc7b9572d8ec99c947"
+    },
+    {
+      "path": "assets/keep/dao_warden_king_mistress/no_detail.jpg",
+      "bytes": 35095,
+      "sha256": "924b0a4c9c18fa6e571d413fc6bc566343c67f5e12a85159268ec19a1dd2c0c1"
+    },
+    {
+      "path": "assets/keep/dao_warden_king_mistress/stay-warden.jpg",
+      "bytes": 37221,
+      "sha256": "60a60d1cd795a425708cd71a4857fe412d23af2d725f9475fe65d00b3fedab82"
+    },
+    {
+      "path": "assets/keep/dao_warden_king_mistress/warden-queen_detail.jpg",
+      "bytes": 34828,
+      "sha256": "0f0f68d9b57a139cecd8a9cf30fb31f9b866e7546d3ca157a053dbde4f8a5bb0"
+    },
+    {
+      "path": "assets/keep/dao_warden_king_mistress/yes_conflict.jpg",
+      "bytes": 17486,
+      "sha256": "6fb17f85c3e4051d8df55d18da38241791c08cd4eea48c3348e3de5591bf8aa1"
+    },
+    {
+      "path": "assets/keep/dao_warden_king_mistress/yes_detail.jpg",
+      "bytes": 37087,
+      "sha256": "80b8b5668db2d03fa17f4f4aa2c28e119e93b9b88d18cdf00024e9b3da0bca5b"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/alistair_conflict.jpg",
+      "bytes": 29220,
+      "sha256": "0be754614be324aceff86aff1f4d1541cbdb0bd4d3ca744a0050146a805c1310"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/alistair_detail.jpg",
+      "bytes": 72997,
+      "sha256": "14687b79dc221edcbb49544eb5f66b9ddeea3e4af818c12ab18ca8b35e25ae38"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/alistair_detail_2x1.jpg",
+      "bytes": 36519,
+      "sha256": "957d9b7e4e8ec9189b0afdaa35cb90ea35c132ae2317e92e809113e16bcc6f37"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/leliana_conflict.jpg",
+      "bytes": 23232,
+      "sha256": "a3684aa94906ed5ed049556f14c7909da5b178775f552ecc2a40e258fbcec977"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/leliana_detail.jpg",
+      "bytes": 57324,
+      "sha256": "ddb7b9397c24ed969c0d74fa66ee866e1dc1671b32f729656f498e7dd2455146"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/leliana_detail_2x1.jpg",
+      "bytes": 31661,
+      "sha256": "f9c7268de33d49ada9382dc8851e0a9bd3efd03e42ae2d23194ac0a6c52f3e02"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/morrigan_conflict.jpg",
+      "bytes": 25865,
+      "sha256": "9f542ce71b791b64d1bb49295f5b710a6a3316c9af71ef06e789969d7d4b00bd"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/morrigan_detail.jpg",
+      "bytes": 62200,
+      "sha256": "2d75ebadff7c53afffdd2bec4f64289a82949411d08d45f02f277e408ee2df89"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/morrigan_detail_2x1.jpg",
+      "bytes": 29904,
+      "sha256": "f45f4ae7d2ccfc4322858c5750a203cf9f573fce36df78ab57b4d598eabbf107"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/no-one_conflict.jpg",
+      "bytes": 21428,
+      "sha256": "72afe936333581304180d2104e385deda9869ed89d5ac4f611ca70529a9540f8"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/no-one_detail.jpg",
+      "bytes": 45057,
+      "sha256": "9232806a68d50187f943705abca79d3371145d7dee6db4ada87f9f9528f60383"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/no-one_detail_2x1.jpg",
+      "bytes": 33206,
+      "sha256": "157b42076ea740147380c5ae09d5d3eb58690b667a671896b9b2bd7139a9ef14"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/zevran_conflict.jpg",
+      "bytes": 28713,
+      "sha256": "0f05ef954a1cc2c1d6807ac27767f31eeca5bbf22098dc023ac31d90cfeee7ea"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/zevran_detail.jpg",
+      "bytes": 69153,
+      "sha256": "92de0fc80bed67c1e5e960b7911fc7214f60c321d95b00854548352ec9311a47"
+    },
+    {
+      "path": "assets/keep/dao_warden_romance/zevran_detail_2x1.jpg",
+      "bytes": 35623,
+      "sha256": "e5b829aaa6379d3d54286ba6c58b9b1dc0bb591c472281f59efe4734d917e584"
+    },
+    {
+      "path": "assets/keep/dao_warden_state/alive_conflict.jpg",
+      "bytes": 12817,
+      "sha256": "e37453e7b4570877901a7fa371c0babc75a1f44d2627bda02e92a388949f6be1"
+    },
+    {
+      "path": "assets/keep/dao_warden_state/alive_detail.jpg",
+      "bytes": 60031,
+      "sha256": "fc0a77d6dbbefa6f1ca8e639704d1f080788cefc74474157ade2e9d85a16f675"
+    },
+    {
+      "path": "assets/keep/dao_warden_state/died_detail.jpg",
+      "bytes": 55472,
+      "sha256": "05d77d7826f75cc224ba79c2cfb51a41235c87c4a478fb5e02ce2c76cda88b24"
+    },
+    {
+      "path": "assets/keep/dao_warden_state/missing_detail.jpg",
+      "bytes": 41985,
+      "sha256": "ef62cf2e0ce654753a05e0bc44d65a5d6b6765f2ddee898187fffdba180159a9"
+    },
+    {
+      "path": "assets/keep/dao_warden_state/missing_top_2x2.jpg",
+      "bytes": 80819,
+      "sha256": "07e468a949209b060df5478cfd06f8c5da17c60772dbf7c57ec39923a7909f38"
+    },
+    {
+      "path": "assets/keep/dao_wardens_keep_avernus_fate/both_perished_detail.jpg",
+      "bytes": 65318,
+      "sha256": "cb010f854157b643523dd131d724e67f121f375777acc3077a4cb109df504dbc"
+    },
+    {
+      "path": "assets/keep/dao_wardens_keep_avernus_fate/sided_avernus_detail.jpg",
+      "bytes": 70711,
+      "sha256": "4b45d0e1db8021258f6d55bfd54861a01fdef66bcbfa573c9438fc63475a7b11"
+    },
+    {
+      "path": "assets/keep/dao_wardens_keep_avernus_fate/sided_avernus_reasearch_unrestricted_detail.jpg",
+      "bytes": 58640,
+      "sha256": "1fa3fe5134b5169d7f5f08f3203f53a8bc3467b9153948af86535a167fe848d1"
+    },
+    {
+      "path": "assets/keep/dao_wardens_keep_avernus_fate/sided_sophia_detail.jpg",
+      "bytes": 78219,
+      "sha256": "826034244402f7e3d6ad13791c1258af6efe111436e59490ff60d12bb3a53d04"
+    },
+    {
+      "path": "assets/keep/dao_wardens_keep_power_of_blood/no_detail.jpg",
+      "bytes": 50521,
+      "sha256": "9ac68707d8dc39f6d8ce9618c1bcd449d3b51672cf51d1f5776aaa0e71a35843"
+    },
+    {
+      "path": "assets/keep/dao_wardens_keep_power_of_blood/yes_detail.jpg",
+      "bytes": 56531,
+      "sha256": "fed1b9ae4a2c56c0de8355a242366955301cb42159616f59faea6e7657199c87"
+    },
+    {
+      "path": "assets/keep/dao_wynne_fate/alive_detail.jpg",
+      "bytes": 103578,
+      "sha256": "b086367b8812b79226c352f554ca8f1424444d57e14ced97c63bd17dbb682ff6"
+    },
+    {
+      "path": "assets/keep/dao_wynne_fate/not_recruited_detail.jpg",
+      "bytes": 96443,
+      "sha256": "a45a0d79cfc8be1962b4121779b76fc1bda9169e190a8096f85ffedea4214e06"
+    },
+    {
+      "path": "assets/keep/dao_wynne_fate/warden_killed_detail.jpg",
+      "bytes": 94707,
+      "sha256": "89a3ddec0d96fdd82f2d04aefd46dea3859d1f3762ef30e0495d543e0fe9704c"
+    },
+    {
+      "path": "assets/keep/dao_wynne_fate/warden_killed_urn_detail.jpg",
+      "bytes": 94617,
+      "sha256": "b1f4f8ecb0d2836beb4fa1e11b35ef988c056f25b715c83b796738299af7f7c4"
+    },
+    {
+      "path": "assets/keep/dao_wynne_recruited/no_detail.jpg",
+      "bytes": 52510,
+      "sha256": "0ef2de6a27792af3a8cf3c2458e62b44541d1b25c7b2b78428c6d194150d2315"
+    },
+    {
+      "path": "assets/keep/dao_wynne_recruited/yes_detail.jpg",
+      "bytes": 56819,
+      "sha256": "ea4b74eb9680b21b9f05c2c91b9116a12399b7730d7619d70cec5d267f68bfef"
+    },
+    {
+      "path": "assets/keep/dao_zevran_alive/alive_conflict.jpg",
+      "bytes": 20660,
+      "sha256": "c6bb3853e2fcf4fc54eab589b7867943c5d4f12df43b25c2c63b53a6180dcddc"
+    },
+    {
+      "path": "assets/keep/dao_zevran_alive/alive_detail.jpg",
+      "bytes": 34607,
+      "sha256": "a1e407d69f2e5499d7c9f59f5fdf1f75d8f976a88a05572b6d33a01ab69607ea"
+    },
+    {
+      "path": "assets/keep/dao_zevran_alive/died_conflict.jpg",
+      "bytes": 20842,
+      "sha256": "4730cb52186f5ca6401082859b75fee09c423e1f735f1a0a7562fe8f96426b42"
+    },
+    {
+      "path": "assets/keep/dao_zevran_alive/died_detail.jpg",
+      "bytes": 27081,
+      "sha256": "8afaf6ed181c4a4c3bfc328036d1b2c6d515c413ba6badebf31b6bf5d38e7539"
+    },
+    {
+      "path": "assets/keep/dao_zevran_recruited/no_conflict.jpg",
+      "bytes": 16843,
+      "sha256": "bb999299e0c909ab421a858712e34c983da2dc8721cb609d896684e7818893a5"
+    },
+    {
+      "path": "assets/keep/dao_zevran_recruited/no_detail.jpg",
+      "bytes": 27070,
+      "sha256": "760b33e85c2bff5d671620418936726ee4e96de79184811cde12bd51ea126282"
+    },
+    {
+      "path": "assets/keep/dao_zevran_recruited/yes_conflict.jpg",
+      "bytes": 21325,
+      "sha256": "c12434f7358f93efbb008c941686f0b1b88e0805356c0de42c0ae78aedb87065"
+    },
+    {
+      "path": "assets/keep/dao_zevran_recruited/yes_detail.jpg",
+      "bytes": 32782,
+      "sha256": "2729d88bba866cdbcbe4d131d1458641efe4e621504a193e3531e6b67664b2fb"
+    },
+    {
+      "path": "assets/keep/manifest.json",
+      "bytes": 235175,
+      "sha256": "8aca05451514530b65355f9d01a9ff511aa6d92e92383a14bdc88e931f535f3e"
+    },
+    {
+      "path": "assets/keep-fonts/Inquisition.woff",
+      "bytes": 23268,
+      "sha256": "2076e56ab8010a45e1e0fd4fd032e1ecbb552fd98871956aab0bc642016d515b"
+    },
+    {
+      "path": "assets/keep-fonts/InquisitionSc.woff",
+      "bytes": 29820,
+      "sha256": "93b674784ed3cd6d913a2cfe3e809af0383e8d235a2e2dfdf571c9555288eb85"
+    },
+    {
+      "path": "assets/keep-fonts/manifest.json",
+      "bytes": 778,
+      "sha256": "adfa2d585af2e5f9b70f8d2209ef949e110ec465d0bca20e6f1adaf28b6ffe0a"
+    },
+    {
+      "path": "assets/keep-interface/bg-eye.jpg",
+      "bytes": 107847,
+      "sha256": "94ad3ea89205beda49e9fd8fb4a559f980d84a0151f67d7f98de422fcb3fdba0"
+    },
+    {
+      "path": "assets/keep-interface/bg-tile.jpg",
+      "bytes": 14661,
+      "sha256": "10f7ece2611300840488a5dd5754947a285fcc8e7c99799e965720f5ee740875"
+    },
+    {
+      "path": "assets/keep-interface/da2_heroes/female_mage.jpg",
+      "bytes": 70077,
+      "sha256": "35cad544f68773a60722f3fe1f0d3640e7b3b83ac4de794ae0b2d37fbf40a857"
+    },
+    {
+      "path": "assets/keep-interface/da2_heroes/female_rogue.jpg",
+      "bytes": 69739,
+      "sha256": "1b0561d8b18647bf512a8abfcf71ad8239330266c5adc97bff585379696c7855"
+    },
+    {
+      "path": "assets/keep-interface/da2_heroes/female_warrior.jpg",
+      "bytes": 72543,
+      "sha256": "975a124e866d2f3b328d769392ae00c3e5dd15249d1b239e716d90ab65282c11"
+    },
+    {
+      "path": "assets/keep-interface/da2_heroes/male_mage.jpg",
+      "bytes": 70551,
+      "sha256": "b274cd3f4994839dfeba419b0909d345eabaaf2881021af3c0dba51237102757"
+    },
+    {
+      "path": "assets/keep-interface/da2_heroes/male_rogue.jpg",
+      "bytes": 68817,
+      "sha256": "18d9e633fdc2f61c74d5a6e6634ee0dcb815c92519c181d23a9c547978a4452c"
+    },
+    {
+      "path": "assets/keep-interface/da2_heroes/male_warrior.jpg",
+      "bytes": 72191,
+      "sha256": "2cb93357079ca4da168c3ce1433d0a909df131478faff9a58ddf6d79c6f7f275"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/dwarf_female_rogue.jpg",
+      "bytes": 65959,
+      "sha256": "0cdad229f90ccd42cc57fb4ca47a5fc27d59c3fa0436ff3933e655937a6ae891"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/dwarf_female_warrior.jpg",
+      "bytes": 66536,
+      "sha256": "815d2f4b196935886995714e595c71225f95ce1b6632f2ecd717eba0d0f05c47"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/dwarf_male_rogue.jpg",
+      "bytes": 63945,
+      "sha256": "1915d70d53dac578f494c28a22cbdfac281ad41855a503f3015f1326c1ff9f32"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/dwarf_male_warrior.jpg",
+      "bytes": 66403,
+      "sha256": "ab719c5fe9f63442e46542a7cf5e70558b47ba9df4633a4908b69b36ea3a8c9f"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/elf_female_mage.jpg",
+      "bytes": 75186,
+      "sha256": "bd6b7973430aeb7748b537dbc168a13716c92a5cda625214dbdb591312a2700e"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/elf_female_rogue.jpg",
+      "bytes": 68284,
+      "sha256": "a0472c83855c6a4cf499f0317be79fe454a8fb1f37eb3a9de25d1daea86aaa6e"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/elf_female_warrior.jpg",
+      "bytes": 66452,
+      "sha256": "073863cb3f00f6ed74d84b6f17dfd4b1b7500c52b86705bff30a67109af35704"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/elf_male_mage.jpg",
+      "bytes": 73691,
+      "sha256": "7bb66470773246484ae376650b6b3efc93743bbf356bc080fa58cda17abb7dd7"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/elf_male_rogue.jpg",
+      "bytes": 65944,
+      "sha256": "9183e39a69c833a814a44fd32ea393a449ef6b64f3d255b5dcd3856297ce2c31"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/elf_male_warrior.jpg",
+      "bytes": 65544,
+      "sha256": "58c47e30da7c16602f6213687b95c9023d40ee3f1eea12957c1557ad2796e007"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/human_female_mage.jpg",
+      "bytes": 62596,
+      "sha256": "da5982a631fda771a4dab22c8dfe6dd565243f0cdb26736ff8e9b1c9c78fe7a2"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/human_female_rogue.jpg",
+      "bytes": 63826,
+      "sha256": "528e3dbb70b1ecbf56118e50161d24997b814f789a64a79ed34c5b43a99cb142"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/human_female_warrior.jpg",
+      "bytes": 62956,
+      "sha256": "d73c1c4cdec8e8d732c288686ab503eed87ef24747f7d7467d0e53c0adb9762b"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/human_male_mage.jpg",
+      "bytes": 63657,
+      "sha256": "acc2a4e64f646b0e09e7e9359d7d24e27bb0b74be4beb9f17c13f37a2e38a6df"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/human_male_rogue.jpg",
+      "bytes": 60585,
+      "sha256": "ea088716bfe6dba518415e8009ba93721e65f200f3887363943dd9ce87d286a4"
+    },
+    {
+      "path": "assets/keep-interface/dao_heroes/human_male_warrior.jpg",
+      "bytes": 62778,
+      "sha256": "387535e9a16140b9b762c6573e425b50f7735bead6d4d1ecd18d9eb3c9cdd061"
+    },
+    {
+      "path": "assets/keep-interface/dragons-bg.png",
+      "bytes": 122764,
+      "sha256": "69a76385a05ef336aaf21f28e1f84499a32d35a66fc1370b27540047bd074fce"
+    },
+    {
+      "path": "assets/keep-interface/dropdown-arrow.png",
+      "bytes": 1981,
+      "sha256": "d6cb574609df4426bc84bf7026c7d7ab07a82e30b94346e0a5e989530e2d5e23"
+    },
+    {
+      "path": "assets/keep-interface/favicon.png",
+      "bytes": 758,
+      "sha256": "a6b67de03aad8ebc03c5849387e4f346571a03dfd8b0ac722933b6515804a178"
+    },
+    {
+      "path": "assets/keep-interface/frame-border-pattern.png",
+      "bytes": 148966,
+      "sha256": "33efcc89233e43c877cb87bd24be3a9d3dd25cd3f369cfe7d19280c506864d4d"
+    },
+    {
+      "path": "assets/keep-interface/frame-decor.png",
+      "bytes": 3865,
+      "sha256": "15d3802083d1e1cd7326a83e0d4828185e8fad5073c7174fb0a1c5025a40bd7a"
+    },
+    {
+      "path": "assets/keep-interface/keep-tower.ico",
+      "bytes": 780,
+      "sha256": "1484a77b8c808c6815bfd701fc33f3806ec5c68e3ac68d120fb6ec4abefd7fb8"
+    },
+    {
+      "path": "assets/keep-interface/main-nav-bg.png",
+      "bytes": 68295,
+      "sha256": "68bc345f26630aa3d377b4c597770c5e07c5a6f4cdf0a0a33d30ba0fc5997928"
+    },
+    {
+      "path": "assets/keep-interface/manifest.json",
+      "bytes": 9295,
+      "sha256": "840a675e1106132fba4af303ff29fe490c9d92e50fb118ef864634678643561d"
+    },
+    {
+      "path": "assets/keep-interface/nav-bg-secondary.png",
+      "bytes": 41316,
+      "sha256": "1dc082a2fb771aea9ff536b3ee2081573d07db74b606aea6d65645b7881ca436"
+    },
+    {
+      "path": "prototype/app_runtime.py",
+      "bytes": 842,
+      "sha256": "700ac724770d86699bfc739406216161f0c3276b52951cd147baa9e7500947da"
+    },
+    {
+      "path": "prototype/beta-build-requirements.txt",
+      "bytes": 146,
+      "sha256": "2c652b7420c9ab9e6ec59225b43d4e7b528cf240f5bc09807dcdb8ed61358553"
+    },
+    {
+      "path": "prototype/BETA-README.txt",
+      "bytes": 4335,
+      "sha256": "fde2774e245caae7c2d01db3536440b8d6d032232bd60fcb2a23a69c77f9e21f"
+    },
+    {
+      "path": "prototype/beta_build.spec",
+      "bytes": 2937,
+      "sha256": "062c7bb49ea4232052bc9fe0a84eae1f5ee44149fb4b0b56b6c887b9bfc7dd95"
+    },
+    {
+      "path": "prototype/beta_launcher.py",
+      "bytes": 2700,
+      "sha256": "e222ee5812c88c2d0cb64889c7ae5b1304c380c7635e62a0fab6a9002c7bed99"
+    },
+    {
+      "path": "prototype/beta_version.txt",
+      "bytes": 710,
+      "sha256": "c4ba8efee0fa22b900a9f353bf7d58808b7627bd709a5dd2ce2852c68b8e48ce"
+    },
+    {
+      "path": "prototype/build_beta.py",
+      "bytes": 6042,
+      "sha256": "b5804084b5ed5b2d6ba9210b475e17e21629b9e27f1ec8fd85bfcc43a2cbfa65"
+    },
+    {
+      "path": "prototype/build_source.py",
+      "bytes": 6179,
+      "sha256": "15a86f90a29bdb0ebe5d232d4eff11e054155767850a209ad481a87328716fe8"
+    },
+    {
+      "path": "prototype/bundled-presets.json",
+      "bytes": 967,
+      "sha256": "6578004fdb8eddb9b8a534041d7081a24684e41122f83ef6727534628ffbb525"
+    },
+    {
+      "path": "prototype/editor_lifecycle.py",
+      "bytes": 3166,
+      "sha256": "fa8b27f373111be11537ee17c8c7d1fdf7c325371c7d0b80f5d78672b26fcfe1"
+    },
+    {
+      "path": "prototype/export_destination.py",
+      "bytes": 4496,
+      "sha256": "cea0a10f488eff057d8ae271cbfe0784d18201b98dd1b98fc6e76b724ec69ae6"
+    },
+    {
+      "path": "prototype/export_worldstate.py",
+      "bytes": 17994,
+      "sha256": "97d6b765f7838ee6bd7fde2584f1c99e8ef698839fcfb0fa9278a64e96f7ccbb"
+    },
+    {
+      "path": "prototype/fbmod_metadata.py",
+      "bytes": 8294,
+      "sha256": "5fa9d9b31ae1b4b747e4d5407661268fbaadb57cd5bdbbe39b745777b291c1c9"
+    },
+    {
+      "path": "prototype/frostbite_reader.py",
+      "bytes": 2330,
+      "sha256": "35af0aed12048318fc7456617acc8c0203afba450c823f50ae2f3dab13e8b2ee"
+    },
+    {
+      "path": "prototype/game_saves/__init__.py",
+      "bytes": 250,
+      "sha256": "47c6b01e8188f712c8a5a3f62006443e887c1ca43d7bd5115839b136ec1e90e9"
+    },
+    {
+      "path": "prototype/game_saves/da2.py",
+      "bytes": 15974,
+      "sha256": "6f0931fc1aa46e8d5164f7c5e6aa9f6f9ef7baa41d6c75255bbd7b468bbd5a86"
+    },
+    {
+      "path": "prototype/game_saves/da2_act1.py",
+      "bytes": 6898,
+      "sha256": "d1910cf9c8750a9aaf0269314dc60a28b03b35c7db5a7fa7c0771d8a16dc55df"
+    },
+    {
+      "path": "prototype/game_saves/da2_companions.py",
+      "bytes": 6187,
+      "sha256": "efc3f808533cb41ff5559f4ec2b3cf3b5a17792f6d6cb1361ab4f1c9030d163c"
+    },
+    {
+      "path": "prototype/game_saves/da2_nathaniel.py",
+      "bytes": 1934,
+      "sha256": "cad137d0b6c40b6896905e9d46bca5379025c5f925d68489a63532384225ae32"
+    },
+    {
+      "path": "prototype/game_saves/da2_remaining.py",
+      "bytes": 12916,
+      "sha256": "7f67678afebc4e6e942cc28d0f4d4081e9604d2640214f11ea7172757b9b9f7e"
+    },
+    {
+      "path": "prototype/game_saves/dao.py",
+      "bytes": 7086,
+      "sha256": "1b1f2869404ab2492238aef7e648c4615b0032294ae36bd4ff739334e4176448"
+    },
+    {
+      "path": "prototype/game_saves/dao_carried.py",
+      "bytes": 2369,
+      "sha256": "7c6dc544491b3be5cfaee875bdcea29e642ce6bf07ce14223f77b0c03c034749"
+    },
+    {
+      "path": "prototype/game_saves/dao_companions.py",
+      "bytes": 8751,
+      "sha256": "199a0bbbf8d1eb9425204b31fc57301dfd8e91c55a24bce82c2ca3f21aac3256"
+    },
+    {
+      "path": "prototype/game_saves/dao_finalquests.py",
+      "bytes": 7606,
+      "sha256": "987e7752c6c0e6b7cd8d66cbc03250e2efbd1b7125ffdcf5278b4faaea48f62e"
+    },
+    {
+      "path": "prototype/game_saves/dao_landsmeet.py",
+      "bytes": 1003,
+      "sha256": "12ae6c9af8e6b3875b2e005cc13991193da546b1bda671b0bf10b45ca2e625e5"
+    },
+    {
+      "path": "prototype/game_saves/dao_nathaniel.py",
+      "bytes": 3259,
+      "sha256": "20ca50f958952c894fabf6ad6e587f21440c261ea097aba4bfeb33a38352e3c6"
+    },
+    {
+      "path": "prototype/game_saves/dao_quests.py",
+      "bytes": 13001,
+      "sha256": "2c905b0a2f3df3d041dc4d01437ffa07921a55fb7392f5bcf598f5cbab9557de"
+    },
+    {
+      "path": "prototype/game_saves/dao_settlements.py",
+      "bytes": 13713,
+      "sha256": "df8573c0435cc8bd380e3ba60550e77aa942fa560fc897068a88b64007d1e6c2"
+    },
+    {
+      "path": "prototype/game_saves/dao_sidequests.py",
+      "bytes": 8617,
+      "sha256": "414c0588af26fbaa4761b0d558f9e57af10a8592b377ce665f5ff1a56e089699"
+    },
+    {
+      "path": "prototype/game_saves/gff.py",
+      "bytes": 9166,
+      "sha256": "80dd336413a63107d77c94adfa392181f740e7ede0294e29bbed5024912f3cfb"
+    },
+    {
+      "path": "prototype/game_saves/service.py",
+      "bytes": 8970,
+      "sha256": "a2a78ef5ede32cf31cca7c1c6cd1fbb5a46b6719b3b7047d17877c7b8435c5ab"
+    },
+    {
+      "path": "prototype/game_saves/worldvault.py",
+      "bytes": 24287,
+      "sha256": "b9c4440119e579dc881a5150ac49ecdedc8aa3d9c8bcdb0c23435e0cb5c4cd24"
+    },
+    {
+      "path": "prototype/gui/app.js",
+      "bytes": 78467,
+      "sha256": "d8ed4f600fba4b43ed0b0c7a01610a77f6168f422605bc34b7b6245cc24e1211"
+    },
+    {
+      "path": "prototype/gui/categories.json",
+      "bytes": 30499,
+      "sha256": "64758f40e30f0d5ac630291eaddb12de5e095e2eafa1c1e4978ef93694d5f713"
+    },
+    {
+      "path": "prototype/gui/choice-controls.js",
+      "bytes": 1587,
+      "sha256": "86d56d2f0a7f5c42dd79f7e98a278f9e2b69ed36cdd1db784d29a574ba250e1d"
+    },
+    {
+      "path": "prototype/gui/index.html",
+      "bytes": 25897,
+      "sha256": "d4b2a4b9f61c7dd5a82b72bb0f0dda4c655fb00444ae42e00141b87d1338ca0f"
+    },
+    {
+      "path": "prototype/gui/keep-interactions.css",
+      "bytes": 22909,
+      "sha256": "ae2113ffe72db68d91a70e89dd7ebdcde591228ac1bcd91094b23a642fb3361b"
+    },
+    {
+      "path": "prototype/gui/presentation.json",
+      "bytes": 147989,
+      "sha256": "90b13cfd26db6ae5267dac142843719a4b91d2d7226a32a4d4f58b648d0c9100"
+    },
+    {
+      "path": "prototype/gui/style.css",
+      "bytes": 22193,
+      "sha256": "0519c0384d2c1d264b667a1d3a8ff3ebda88424a261d155ecab3d112e8f38099"
+    },
+    {
+      "path": "prototype/gui/tapestry-layout.css",
+      "bytes": 14978,
+      "sha256": "7d993508a35e987467de5568255d6ff2070fffdac7a6dd7bdc0cb93343ad1a22"
+    },
+    {
+      "path": "prototype/gui.py",
+      "bytes": 34585,
+      "sha256": "f8f8d178090fd85d0988d22ec55477245674526178cecadaf08856740345e8a3"
+    },
+    {
+      "path": "prototype/package_contents.py",
+      "bytes": 2608,
+      "sha256": "22258c57e0b64db7a3feedb40fb151ee0917aee4a40f29af7de0bc8d44c3b51c"
+    },
+    {
+      "path": "prototype/profile_cli.py",
+      "bytes": 5599,
+      "sha256": "24f19f5c72196ef4fbebc6f4827d447561d486ab2a6754a7b1aee06142068c51"
+    },
+    {
+      "path": "prototype/resources/presets/original-game.fbmod",
+      "bytes": 38145,
+      "sha256": "8c327293f4586f17a3fda62174f3547291eb7b9e105d77d5e5d420d8a85bc89d"
+    },
+    {
+      "path": "prototype/resources/presets/queen-cousland-anders.fbmod",
+      "bytes": 62295,
+      "sha256": "c12e6ee0104e9afe937c346d3ec0bbd73e070aa4587e7b7ffe3186d549622b62"
+    },
+    {
+      "path": "prototype/resources/presets/queen-cousland-fenris.fbmod",
+      "bytes": 62248,
+      "sha256": "8a03712331e995d7b41323c868b203a1059eb654c39a038cf730ae1e89811484"
+    },
+    {
+      "path": "prototype/run_portable_tests.py",
+      "bytes": 1746,
+      "sha256": "adc46ccf47fb55d58147d62f719b5866c59f54b6817ecd162993cd0b61286307"
+    },
+    {
+      "path": "prototype/SOURCE-NOTICES.txt",
+      "bytes": 642,
+      "sha256": "163ae78c40c0028fb915191f0de29fdf5e99bbfb610fda5ad463bc8516229b24"
+    },
+    {
+      "path": "prototype/SOURCE-README.md",
+      "bytes": 4517,
+      "sha256": "e3f7e13a53087a3a11c39307729fe1a935b5a37f36e9284dc750f99e58450517"
+    },
+    {
+      "path": "prototype/supported-templates.json",
+      "bytes": 1706,
+      "sha256": "80e57a9ee7a14648906b411487ae3fbeb222d28605f6dc3a41dd6c994075f02e"
+    },
+    {
+      "path": "prototype/test_act1_feynriel_templars.py",
+      "bytes": 8004,
+      "sha256": "ff8269ba3b63a20bccb45f49539e5f07bf9d12a3810b0fc5f29821e73e4c6432"
+    },
+    {
+      "path": "prototype/test_act1_remaining.py",
+      "bytes": 9714,
+      "sha256": "ac09e255b3a84bcec4da6d1847bf09a223d57b5cacc0d3c73f019e64f61ab4de"
+    },
+    {
+      "path": "prototype/test_act1_rescues.py",
+      "bytes": 9457,
+      "sha256": "ea517875a8e8d02193a7db3321ec3d2c8eb5a946ba3f2e41cef172b35abc8510"
+    },
+    {
+      "path": "prototype/test_act2_fates.py",
+      "bytes": 7921,
+      "sha256": "1be338f3a20d44bebd86b07649ab4ab818a252a92b629f03f9de46a40fe4732c"
+    },
+    {
+      "path": "prototype/test_act2_remaining.py",
+      "bytes": 9862,
+      "sha256": "9d3e2c04a182e2e9b8b2116c2867fb5e15726c36b257f25126ce33fc6967489e"
+    },
+    {
+      "path": "prototype/test_act3_conspirators.py",
+      "bytes": 7816,
+      "sha256": "37e8780d8922f11a0c6cafefce9200e50b1acf26117656c29e68dff033e89842"
+    },
+    {
+      "path": "prototype/test_aveline_varric_sebastian.py",
+      "bytes": 9037,
+      "sha256": "6eb948db2bb26a4e5684e2c90b15ddaf6ab301d82185b4f7ffbacaa318a7cb9e"
+    },
+    {
+      "path": "prototype/test_awakening.py",
+      "bytes": 6987,
+      "sha256": "7ba70c0848d89105953c0cdcec2a5c867bf50905b444059406630475df201395"
+    },
+    {
+      "path": "prototype/test_beta_runtime.py",
+      "bytes": 2692,
+      "sha256": "e7315e10fef305425b7e148608b74556023fbd6235ad15e551ee2f3aaaee0227"
+    },
+    {
+      "path": "prototype/test_broken_circle_completion.py",
+      "bytes": 7227,
+      "sha256": "c5b960483d08ad91cf202cbe9d1523beb0df2d80c0744d698ca759fd81a8a8db"
+    },
+    {
+      "path": "prototype/test_carried_dao.py",
+      "bytes": 8994,
+      "sha256": "5f04e4a8cf3ccff7c8d62f6682a4af71e3cfcc107712d9a3f08cfa3d40951a5b"
+    },
+    {
+      "path": "prototype/test_circle_redcliffe.py",
+      "bytes": 7517,
+      "sha256": "dec1919566be22ee54a593eea6376aa7258d3c03a72df7869f21a3d0248706f9"
+    },
+    {
+      "path": "prototype/test_coverage_audit.py",
+      "bytes": 8667,
+      "sha256": "63541b037062a689521397bbe20c408eeb131fc66e424b4a2392591b771802b5"
+    },
+    {
+      "path": "prototype/test_da2_companions.py",
+      "bytes": 9296,
+      "sha256": "4dfcdc0f89abb9ffd239502639d4741212c4bf5e044cc2b481b458e61b7dfffb"
+    },
+    {
+      "path": "prototype/test_da2_final_choices.py",
+      "bytes": 11481,
+      "sha256": "2e7043dcd395d072c41921fdc213227b9d894cf27a22fd6c5e7365f54bea3938"
+    },
+    {
+      "path": "prototype/test_da2_main_story.py",
+      "bytes": 8628,
+      "sha256": "cb3c270a6b3e66a3bea9ccfc8d8a2a38b3b79b76e3fae03b97baa844fb7500bd"
+    },
+    {
+      "path": "prototype/test_da2_merge.py",
+      "bytes": 6138,
+      "sha256": "f3edc95f1ea19fe9c4446372053a02240a1e62875ae6f3bac2f6bd1625228131"
+    },
+    {
+      "path": "prototype/test_dao_companions.py",
+      "bytes": 10372,
+      "sha256": "8e6afb1b0ed2190b17586a1ae39f85978230cbe5990cf825d1af81aa2f661298"
+    },
+    {
+      "path": "prototype/test_dao_finalquests.py",
+      "bytes": 8055,
+      "sha256": "3052f33cdbedc2e52a8435f6092d721c0f7f58f0881d73fc8493db57c02092c5"
+    },
+    {
+      "path": "prototype/test_dao_import.py",
+      "bytes": 15484,
+      "sha256": "cf3c38746c8e76c11171f5463e6b462d99dcae3a8d9cfeed68ab2f9e52b84b5f"
+    },
+    {
+      "path": "prototype/test_dao_import_ui.cjs",
+      "bytes": 9694,
+      "sha256": "7a08cd943b0721da1964215af384a48c97919a44c0ce1a55040685a95b1cf05c"
+    },
+    {
+      "path": "prototype/test_dao_landsmeet.py",
+      "bytes": 3306,
+      "sha256": "f700c8b8145f041bc1e6094e1d28d983c888811a94b8179b4890b3eaf5e94b6a"
+    },
+    {
+      "path": "prototype/test_dao_prologue.py",
+      "bytes": 8781,
+      "sha256": "9a773b8c3debf1cec5ca97112d3331e5bc8e97b2348857c1b5bede3139b29b53"
+    },
+    {
+      "path": "prototype/test_dao_quests.py",
+      "bytes": 14522,
+      "sha256": "256b2d0aefbe7bb0c6c397ea39cb6c5c167720ecddd76f73dac1014da1ff8766"
+    },
+    {
+      "path": "prototype/test_dao_settlements.py",
+      "bytes": 13763,
+      "sha256": "db49dbcadbbf5d4335a4da4eeb6c90c60be8bf8e78ccbe9d54841acc1b8fd3ab"
+    },
+    {
+      "path": "prototype/test_dao_sidequests.py",
+      "bytes": 12732,
+      "sha256": "76927c2a10ce870ad5293bbdc9987cbb872a677610b390043a6746f32a4b8c49"
+    },
+    {
+      "path": "prototype/test_dao_unresolved_outcomes.py",
+      "bytes": 4669,
+      "sha256": "983b85927fd42db215eaf7dceab2e55955091694b515fe76f6fab2ce63ff4760"
+    },
+    {
+      "path": "prototype/test_denerim_side_quests.py",
+      "bytes": 5696,
+      "sha256": "ebde316863340501a28db4e343819d7c2e723673af40a9cefc7509b95be3556b"
+    },
+    {
+      "path": "prototype/test_editor_lifecycle.py",
+      "bytes": 4197,
+      "sha256": "c74f64a8e71f8bfadef01e28a74ac90bfd395a74a07e77228cf40075fb5ac3f2"
+    },
+    {
+      "path": "prototype/test_editor_navigation.cjs",
+      "bytes": 5621,
+      "sha256": "e3787371d90f4dfda03613f9ad4674a8713a3ba1b0d2bdf0a942b1a1f24a1c92"
+    },
+    {
+      "path": "prototype/test_export_ui.cjs",
+      "bytes": 2421,
+      "sha256": "d3cf67df550116eb0b4ec772797f4412611bfbb13d21a5a1fafbc3d7e73e4a6b"
+    },
+    {
+      "path": "prototype/test_export_worldstate.py",
+      "bytes": 8308,
+      "sha256": "7af90d3c2816c25727b21bbb873e75abebe3e8c4be30011fae8add8e7986ac42"
+    },
+    {
+      "path": "prototype/test_fbmod_metadata.py",
+      "bytes": 7886,
+      "sha256": "6eef03ab652680819ff26a908adc6dfdea2bc3c37cc360cd37e567922422a465"
+    },
+    {
+      "path": "prototype/test_final_battle.py",
+      "bytes": 11595,
+      "sha256": "738636c3e3580768c1759ed9afb6417d3018cb8e2c93d75bfabeac38db94bc10"
+    },
+    {
+      "path": "prototype/test_gui.py",
+      "bytes": 140695,
+      "sha256": "5a8b156f31caedc5a7b4a7d77c926baca2a79a3e3d540d85adc3ec69eaee1404"
+    },
+    {
+      "path": "prototype/test_history_ui.cjs",
+      "bytes": 3937,
+      "sha256": "8b302a0cfbaccbe4c9323f43fa6f94b40b0a3029f623791e95e89c6f1b95e088"
+    },
+    {
+      "path": "prototype/test_icon_selection_ui.cjs",
+      "bytes": 2138,
+      "sha256": "c185c59009b8d21d6bede7480266636430e6682316dc38c9184b4279be92690d"
+    },
+    {
+      "path": "prototype/test_image_slots.py",
+      "bytes": 2160,
+      "sha256": "c9d3c3855e054a08a427e179f4c76e316c0f00d51deebc1f602a4f627c1593b9"
+    },
+    {
+      "path": "prototype/test_legacy.py",
+      "bytes": 7400,
+      "sha256": "2f107be79b7fc06bfe9e862d65e90bd47152df2a02e346602b19004874c480c4"
+    },
+    {
+      "path": "prototype/test_malcolm_will.py",
+      "bytes": 5057,
+      "sha256": "da56a7bf0f73fa63092132c8ecdcb120bf3589ff9fc2e22756c0a62dd7bebb34"
+    },
+    {
+      "path": "prototype/test_nathaniel_gamlen.py",
+      "bytes": 7864,
+      "sha256": "7311e103fa428a155d731d158214e57e253ecd9dcb7509b5d060a27e24ed9b7c"
+    },
+    {
+      "path": "prototype/test_nature_orzammar.py",
+      "bytes": 8031,
+      "sha256": "f0d519c36ea57845626eba186e6c54cb283a42327021b4af071e2ac59a7ab3e2"
+    },
+    {
+      "path": "prototype/test_nature_side_quests.py",
+      "bytes": 5452,
+      "sha256": "89c17bfec14c4d1067e24cc14c03333811c70dcec0af1d16cacbbaca89e77501"
+    },
+    {
+      "path": "prototype/test_new_world_state_ui.cjs",
+      "bytes": 6661,
+      "sha256": "4dd8ebcb4de741265f9417cb1bea422e9ff91caae12f184a88c8ae6dedc5ac78"
+    },
+    {
+      "path": "prototype/test_original_defaults.py",
+      "bytes": 5509,
+      "sha256": "66ca511d887db280fbc19dd286e67b1dc08dbae237e87a7cba589249a2a55b0a"
+    },
+    {
+      "path": "prototype/test_origins_companions.py",
+      "bytes": 8600,
+      "sha256": "8f385dee3f6ec1f43ea1b3077bf72a6522bde8e4a3f24ecbfeed3d0ab18ac678"
+    },
+    {
+      "path": "prototype/test_orzammar_side_quests.py",
+      "bytes": 7377,
+      "sha256": "a31934b580483f517924523a1cb2d2acdf155a3a332a36c5f41ba70051e3fdf2"
+    },
+    {
+      "path": "prototype/test_package_contents.py",
+      "bytes": 3431,
+      "sha256": "8d97a950238150b28e2f88318de7c8d9a69ddd83a177315ffc0200dc32bdc194"
+    },
+    {
+      "path": "prototype/test_politics.py",
+      "bytes": 7099,
+      "sha256": "582b56c28745e2b63099e4314c558355d260e361c567d0b64c21d9626e3ceb6c"
+    },
+    {
+      "path": "prototype/test_profile_management.py",
+      "bytes": 7813,
+      "sha256": "8f3e038d0ee482359ab9bc7f272afd303bac4c0bbd2d75f79d75958c326ffdb2"
+    },
+    {
+      "path": "prototype/test_profile_management_ui.cjs",
+      "bytes": 7160,
+      "sha256": "3bdc50ea538f1da1e554acc27e32458cb741ee2320e369eec79bf2616f13a8c6"
+    },
+    {
+      "path": "prototype/test_profile_only_dragon.py",
+      "bytes": 7001,
+      "sha256": "698254aaa1fd0a169e81182ee8b5155b4c85db9024d678d8566e5c56edf36f50"
+    },
+    {
+      "path": "prototype/test_profile_purge.py",
+      "bytes": 9801,
+      "sha256": "9c3ea32bab98be518444fa2a52049271a496d726bc2c4e8bb3820afc91ce2002"
+    },
+    {
+      "path": "prototype/test_profile_storage.py",
+      "bytes": 16382,
+      "sha256": "f02e393cf9e95c30f0fd850d9460aa590b074ab74368882ebb26a0b681f1402b"
+    },
+    {
+      "path": "prototype/test_profiles.py",
+      "bytes": 36214,
+      "sha256": "4088e217558fa6a7ea9c79ab54ae06e31639362b7d45f3c9c6ff14850b79a794"
+    },
+    {
+      "path": "prototype/test_redcliffe_village.py",
+      "bytes": 8193,
+      "sha256": "a1180d99676e599452a6a3c0c4098a2bf7dea8f171bcf863e7f5dc0f4f5608a6"
+    },
+    {
+      "path": "prototype/test_remaining_denerim.py",
+      "bytes": 8358,
+      "sha256": "2c55e7dc29358a0cda09a4eee98332de8a81f85cebb2abc142c47906c79c63df"
+    },
+    {
+      "path": "prototype/test_remaining_origins_companions.py",
+      "bytes": 8439,
+      "sha256": "955e553553f1c78995c5aa84fa9b2aad0a32cf8c084a8216353bf5b58e153864"
+    },
+    {
+      "path": "prototype/test_remaining_paragon.py",
+      "bytes": 9295,
+      "sha256": "9e3579581850eca69422faf8cfc637fc48a801097bfb4a117e859c27079189ea"
+    },
+    {
+      "path": "prototype/test_save_import.py",
+      "bytes": 19688,
+      "sha256": "87c64a900ba09bd8b4166c5b2483135977d38fb85281c1b016b7b642e6427dac"
+    },
+    {
+      "path": "prototype/test_save_import_batch2.py",
+      "bytes": 13263,
+      "sha256": "9fbfffe3b581159a2f48cda9bd58d12850312f23aa111f13c5a2e734844b223e"
+    },
+    {
+      "path": "prototype/test_save_import_companions.py",
+      "bytes": 11216,
+      "sha256": "6b7b800b3e191441f2c205359310f246a82d5520d4c37bd20215e65f3d4ae5dd"
+    },
+    {
+      "path": "prototype/test_save_import_remaining.py",
+      "bytes": 15732,
+      "sha256": "bb126b7aeec5585a89ccc70e3301a3f418b1c12123a603b194651f4acf1302a0"
+    },
+    {
+      "path": "prototype/test_save_import_ui.cjs",
+      "bytes": 7708,
+      "sha256": "9b123f422e6fe5b0f7ececc048fd702fb87712aa1061cb196e6940fda08c4d66"
+    },
+    {
+      "path": "prototype/test_save_persistence_ui.cjs",
+      "bytes": 2755,
+      "sha256": "59b1a235ee1d964314791dcfb42be23abf7ea7b87cf91565600f5899ff19b986"
+    },
+    {
+      "path": "prototype/test_search_filters.cjs",
+      "bytes": 5251,
+      "sha256": "ad373c8e1d870c62dc98e2c1c54e013946400f9ae96002e3c131e13c20835910"
+    },
+    {
+      "path": "prototype/test_sten_dagna.py",
+      "bytes": 7207,
+      "sha256": "773a3eefad5fd46f4baa627cede82709c01658609c9174bde27811404d8fd95e"
+    },
+    {
+      "path": "prototype/test_stone_prisoner.py",
+      "bytes": 6722,
+      "sha256": "7311a98d537a04ed0c8750303e33fa0966ff6ec780f341cf7ee9b2be586f60e0"
+    },
+    {
+      "path": "prototype/test_story_restrictions.py",
+      "bytes": 10663,
+      "sha256": "62d845f08e2093dab110a89281d27deaef48f9ba6ff6c4d8ceff4ff96e2d8e06"
+    },
+    {
+      "path": "prototype/test_tapestry_controls.py",
+      "bytes": 7438,
+      "sha256": "ea0329db32b7353aa0a48ef6efffd738c6dd46c46ff334a5cfb00c37697ce954"
+    },
+    {
+      "path": "prototype/test_wardens_keep.py",
+      "bytes": 5243,
+      "sha256": "6fa96b2f81b2d3247d54b039f6ca80dd85c52aaa1ca86be51c5f43f19527c29e"
+    },
+    {
+      "path": "prototype/test_window_events.cjs",
+      "bytes": 3936,
+      "sha256": "0380ea37e1c21057917f607066bbb72cbba4b4b1dd523c2aa3c3199bae608715"
+    },
+    {
+      "path": "prototype/test_witch_hunt.py",
+      "bytes": 7364,
+      "sha256": "96bcbd17224e90d6cd12f89d16cb594b1214893cff8d7dcaa2a806ac97188004"
+    },
+    {
+      "path": "prototype/test_zevran_da2.py",
+      "bytes": 7565,
+      "sha256": "7edafcdde3d7c039f11fe145ce276f2ec60d4b060b3901891ca7b0cd3425c71d"
+    },
+    {
+      "path": "prototype/world_profiles/__init__.py",
+      "bytes": 334,
+      "sha256": "b004d1fa3e15abe6a9bb6bcf60708b888105b9ca2acc915209e7986b56f726e4"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v1.json",
+      "bytes": 5950,
+      "sha256": "0d938ec9fea78cef93f5665dbd77590a3d0b375015055ab6508cd5b72d46c310"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v10.json",
+      "bytes": 60915,
+      "sha256": "acdae7ec726ce7e81352500b7b392b83b2f756726362b5cc69dd2893717ee4f3"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v11.json",
+      "bytes": 67984,
+      "sha256": "14f902ebaa6d2ab293cf48ae79cad56c69eb8bbaa30e12df1987c8c8e8416adc"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v12.json",
+      "bytes": 80771,
+      "sha256": "ded00efaf771558050179fc07e28639f38024013053088f0acbeff8dbf717952"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v13.json",
+      "bytes": 89033,
+      "sha256": "5d34fc29d53579b4c4da94338db3a9da2ef1f1d1e7a28137371ec0730fbd3038"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v14.json",
+      "bytes": 93256,
+      "sha256": "89a3659b6848bb9a56b01976a137ac9ece4f9ff4952b4685e324c4e4648508ba"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v15.json",
+      "bytes": 95582,
+      "sha256": "c7103494bcd80aa4f45460e64cc1d4a275a03ae9d2ccb7bf4b1e2f4bf4ffcfb8"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v16.json",
+      "bytes": 98354,
+      "sha256": "7965d5d4508aa3cab2a47a89776002cb324d98aff1065868345dcc4b0fea1172"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v17.json",
+      "bytes": 101117,
+      "sha256": "acfc5d180d382ce5ce29c4ea35a49b0a4014be2e153c30baacaa1da85f6860da"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v18.json",
+      "bytes": 102151,
+      "sha256": "81d03c207b30299fa6a95726821d6dd6e195ad6cef6a13d06f6000038cc7a94a"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v19.json",
+      "bytes": 105674,
+      "sha256": "b9dab626deeac5957637a3a4baf3c8d678f5c385570f23ee17d946e923397ab7"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v2.json",
+      "bytes": 9941,
+      "sha256": "675cc51120af02fb1e12d736ef16aee6e7fb2c6096bdc8498039e5679c2ef175"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v20.json",
+      "bytes": 106527,
+      "sha256": "c330d0a380f4a2a51bdc99f95a8d27ef4bb65cf78e96b16a1778b3b5a604c65b"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v21.json",
+      "bytes": 110316,
+      "sha256": "59ebcc125b462d8c974d3d9108fb6aa6898a92b7d2f1d302f823db9694129dd2"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v22.json",
+      "bytes": 116517,
+      "sha256": "e5e1a801dd061f092243447ef73b488a13eb313201cb538a4157853536c79460"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v23.json",
+      "bytes": 121142,
+      "sha256": "9ba61d769bdc2f9774ed139793955af208721c954eb3e4e310ae4635a4ae260a"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v24.json",
+      "bytes": 127299,
+      "sha256": "e669a75614a85cbd33c70c7e069df5f6a2312ba5c404f0778d742bd814e48097"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v25.json",
+      "bytes": 133810,
+      "sha256": "427db9c462eab3fa2055ca89cef6ada61bf58c0c752d19743f5cefc0f2c11318"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v26.json",
+      "bytes": 139527,
+      "sha256": "e206e7460f008cf067c28d352c394ecf9e7c45eb0c153294f6b5b96e667f8417"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v27.json",
+      "bytes": 144297,
+      "sha256": "b7cc712bf9f1a721d04a6d82f59dd62efb6cd747c70635809ab6ab0f4170550c"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v28.json",
+      "bytes": 146280,
+      "sha256": "0dea50e09499f83cd833b3bde033e1a23edd481ec6a92add8c525ba1e4a2d189"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v29.json",
+      "bytes": 151406,
+      "sha256": "b9e8d1d0d31a61a40908225814dae55812b5dbb3b90c0afd7e8784700c2d86e8"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v3.json",
+      "bytes": 17393,
+      "sha256": "72d56ca0462af64ecd7d82a6fbd947770270df1506efb3edcd3cb089984dc5c7"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v30.json",
+      "bytes": 156423,
+      "sha256": "f9d1d616c8dd4ae07d9ac85e3ce32b43b3d544d3d63f035933e3934281d4663c"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v31.json",
+      "bytes": 161485,
+      "sha256": "842a4e1d24f8bc3aab42d1ff5f09db49c16c2e66d3730f7cdf29630f87327212"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v32.json",
+      "bytes": 166369,
+      "sha256": "6a784dfb8d2f201cdf7ca4c695b59132e1863df1a648d134dbd9181886df79af"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v33.json",
+      "bytes": 170515,
+      "sha256": "e454e38afac8558ab1e765cd77b19c96bfd9e1b996164f1a1e556e5d9322e08d"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v34.json",
+      "bytes": 175833,
+      "sha256": "2850ac099117f30fe6b92995a1cfd030f1e572cc15f989e884fcc75600ad54c4"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v35.json",
+      "bytes": 178396,
+      "sha256": "a572f33b29406ff3db3c812e3704697e9ced7d9f03d2c33e029e96622a8ee5ea"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v36.json",
+      "bytes": 179167,
+      "sha256": "044d918740840b546864bbc628b432ed26eaf297cc8f830746a077cb4be49ecf"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v37.json",
+      "bytes": 181689,
+      "sha256": "ff9931aef04d71a9ae17c271c757d35416a97550ac45159e0e7e30094ecb03e3"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v38.json",
+      "bytes": 183531,
+      "sha256": "309ad8ce4dbd8ac5e37162fceaa9f4c1d06fbf825c3db26ed7784085be3ee32d"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v39.json",
+      "bytes": 186696,
+      "sha256": "40e1bf1dc2269b77c98dfca1eae2cd693561ce35ddca4b5ba29220210efe3916"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v4.json",
+      "bytes": 29543,
+      "sha256": "638ac56d392bb2236b100bee023b105d4c52621ee20814bbd643f2c512d0aed8"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v40.json",
+      "bytes": 187918,
+      "sha256": "29db81e5e1bba1775838506d110e2697e036dca798559d05b99bfa6943109349"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v41.json",
+      "bytes": 188975,
+      "sha256": "4bc4574de1eab9adae822546752093a4d7480db3751b10e9419839e42cca9577"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v42.json",
+      "bytes": 189665,
+      "sha256": "201c83bcf46aa1e9556b1971683863d16d56d4163a37fdb8f84a205ece7d3e07"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v43.json",
+      "bytes": 190479,
+      "sha256": "60a3c88cdb9d68ae336ee22c69ed2387767035aa0c170b8e89dc6508cb971aeb"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v5.json",
+      "bytes": 35107,
+      "sha256": "dd45c9056dc5e563e3a4a0d78a00846139332f7454278ab6a394f817bc241cbe"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v6.json",
+      "bytes": 43254,
+      "sha256": "9bc4600f7d124de09a8ed505883e790ff7dca466c59d577b39677be9dcebdcc6"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v7.json",
+      "bytes": 47664,
+      "sha256": "a27f304d04bd06ffdd69fce0d15983e42e4eaab066ec621094bc34f1660608da"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v8.json",
+      "bytes": 50792,
+      "sha256": "3d6f3332ecfdd4854368da074d22e0fbece423c3888ce8b5abed5a800a2d7c89"
+    },
+    {
+      "path": "prototype/world_profiles/catalog-v9.json",
+      "bytes": 55306,
+      "sha256": "a811c4c523903b3a3947ddeff243591433a5db91243920ea4e4227b6db72005e"
+    },
+    {
+      "path": "prototype/world_profiles/catalog.json",
+      "bytes": 190709,
+      "sha256": "690d8dd0a8e4b0f1a22faa6677bd2ea35f775b56a507c153256c320fad8c4006"
+    },
+    {
+      "path": "prototype/world_profiles/catalog.py",
+      "bytes": 10487,
+      "sha256": "8ac3d8a96a547cde8f51a60837d8ccb1aabb811c16b55e617a629702a8c1aad7"
+    },
+    {
+      "path": "prototype/world_profiles/compiler.py",
+      "bytes": 16929,
+      "sha256": "1ade397473198b4bf55aed737fc0daf8a88132cf392e7813faa558630f539852"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v1.json",
+      "bytes": 40874,
+      "sha256": "37d2766b896f3882d3b99680a0c33dba274fc1783a2eee4df0329cafb0664ccf"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v10.json",
+      "bytes": 46698,
+      "sha256": "4fde7990d3f19496e22e44d9389b4e30bfc08c68226f38a667065227ba6dfa29"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v2.json",
+      "bytes": 42198,
+      "sha256": "f330523457b6c628d55d908962a83fbc70af2dc3434ab24352997ca04d6531a8"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v3.json",
+      "bytes": 42416,
+      "sha256": "13298ff7763f03da02bca8f86a7198d8163f401df707ff123ef2a34c5a500a26"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v4.json",
+      "bytes": 43918,
+      "sha256": "d682f74b7de6ed9b1c214c46f68cb0a1dd64e0fbac614a3f7ea1106713a6ccd6"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v5.json",
+      "bytes": 44751,
+      "sha256": "940fc76dc9e709116a80f0d02c1cbe758ad9a20208fc0bf4934ebe97cb78faa7"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v6.json",
+      "bytes": 44893,
+      "sha256": "bfb9b988de3f296e59213b81628d0afc06383050ea848feaeb868fdd5bd2f0ff"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v7.json",
+      "bytes": 45524,
+      "sha256": "1c52691b37fd4de36d144ed93417a9945c7ca8c92adf5bc24b8c72a782a1d826"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v8.json",
+      "bytes": 46061,
+      "sha256": "faa87b3242c080efa53984ca47781fd0f51540a665d2144cb0543041b677f08c"
+    },
+    {
+      "path": "prototype/world_profiles/keep-rules-v9.json",
+      "bytes": 46383,
+      "sha256": "badacb65494121c14dce7ab5984cc57359cd2c9fab624f2f7dca5942f68d4a77"
+    },
+    {
+      "path": "prototype/world_profiles/model.py",
+      "bytes": 5783,
+      "sha256": "7ba6b0736d7c0dd5cb8913e98eed0d5c47751215f0e821c07ad91b12366ae6c4"
+    },
+    {
+      "path": "prototype/world_profiles/storage.py",
+      "bytes": 30766,
+      "sha256": "3b5d89e4c54957ff46ab65144a4cbbe973778f4fe02dd043179302d71ae26f1a"
+    },
+    {
+      "path": "prototype/world_profiles/story_rules.py",
+      "bytes": 11744,
+      "sha256": "03cd990d14d64fce5be87d188889e2b493a312057a22629205f4c645b6a20c8b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4517,
+      "sha256": "e3f7e13a53087a3a11c39307729fe1a935b5a37f36e9284dc750f99e58450517"
+    },
+    {
+      "path": "SOURCE-NOTICES.txt",
+      "bytes": 642,
+      "sha256": "163ae78c40c0028fb915191f0de29fdf5e99bbfb610fda5ad463bc8516229b24"
+    }
+  ],
+  "runtime_source_sha256": {
+    "assessment/reference/DAI_Exporter/ebx_parser.py": "c6f1e37955d79247232f2714fcc56da39e411c71510f609f8fa14ef08b2e6f8c",
+    "prototype/app_runtime.py": "700ac724770d86699bfc739406216161f0c3276b52951cd147baa9e7500947da",
+    "prototype/beta_launcher.py": "e222ee5812c88c2d0cb64889c7ae5b1304c380c7635e62a0fab6a9002c7bed99",
+    "prototype/editor_lifecycle.py": "fa8b27f373111be11537ee17c8c7d1fdf7c325371c7d0b80f5d78672b26fcfe1",
+    "prototype/export_destination.py": "cea0a10f488eff057d8ae271cbfe0784d18201b98dd1b98fc6e76b724ec69ae6",
+    "prototype/export_worldstate.py": "97d6b765f7838ee6bd7fde2584f1c99e8ef698839fcfb0fa9278a64e96f7ccbb",
+    "prototype/fbmod_metadata.py": "5fa9d9b31ae1b4b747e4d5407661268fbaadb57cd5bdbbe39b745777b291c1c9",
+    "prototype/frostbite_reader.py": "35af0aed12048318fc7456617acc8c0203afba450c823f50ae2f3dab13e8b2ee",
+    "prototype/game_saves/__init__.py": "47c6b01e8188f712c8a5a3f62006443e887c1ca43d7bd5115839b136ec1e90e9",
+    "prototype/game_saves/da2.py": "6f0931fc1aa46e8d5164f7c5e6aa9f6f9ef7baa41d6c75255bbd7b468bbd5a86",
+    "prototype/game_saves/da2_act1.py": "d1910cf9c8750a9aaf0269314dc60a28b03b35c7db5a7fa7c0771d8a16dc55df",
+    "prototype/game_saves/da2_companions.py": "efc3f808533cb41ff5559f4ec2b3cf3b5a17792f6d6cb1361ab4f1c9030d163c",
+    "prototype/game_saves/da2_nathaniel.py": "cad137d0b6c40b6896905e9d46bca5379025c5f925d68489a63532384225ae32",
+    "prototype/game_saves/da2_remaining.py": "7f67678afebc4e6e942cc28d0f4d4081e9604d2640214f11ea7172757b9b9f7e",
+    "prototype/game_saves/dao.py": "1b1f2869404ab2492238aef7e648c4615b0032294ae36bd4ff739334e4176448",
+    "prototype/game_saves/dao_carried.py": "7c6dc544491b3be5cfaee875bdcea29e642ce6bf07ce14223f77b0c03c034749",
+    "prototype/game_saves/dao_companions.py": "199a0bbbf8d1eb9425204b31fc57301dfd8e91c55a24bce82c2ca3f21aac3256",
+    "prototype/game_saves/dao_finalquests.py": "987e7752c6c0e6b7cd8d66cbc03250e2efbd1b7125ffdcf5278b4faaea48f62e",
+    "prototype/game_saves/dao_landsmeet.py": "12ae6c9af8e6b3875b2e005cc13991193da546b1bda671b0bf10b45ca2e625e5",
+    "prototype/game_saves/dao_nathaniel.py": "20ca50f958952c894fabf6ad6e587f21440c261ea097aba4bfeb33a38352e3c6",
+    "prototype/game_saves/dao_quests.py": "2c905b0a2f3df3d041dc4d01437ffa07921a55fb7392f5bcf598f5cbab9557de",
+    "prototype/game_saves/dao_settlements.py": "df8573c0435cc8bd380e3ba60550e77aa942fa560fc897068a88b64007d1e6c2",
+    "prototype/game_saves/dao_sidequests.py": "414c0588af26fbaa4761b0d558f9e57af10a8592b377ce665f5ff1a56e089699",
+    "prototype/game_saves/gff.py": "80dd336413a63107d77c94adfa392181f740e7ede0294e29bbed5024912f3cfb",
+    "prototype/game_saves/service.py": "a2a78ef5ede32cf31cca7c1c6cd1fbb5a46b6719b3b7047d17877c7b8435c5ab",
+    "prototype/game_saves/worldvault.py": "b9c4440119e579dc881a5150ac49ecdedc8aa3d9c8bcdb0c23435e0cb5c4cd24",
+    "prototype/gui.py": "f8f8d178090fd85d0988d22ec55477245674526178cecadaf08856740345e8a3",
+    "prototype/profile_cli.py": "24f19f5c72196ef4fbebc6f4827d447561d486ab2a6754a7b1aee06142068c51",
+    "prototype/world_profiles/__init__.py": "b004d1fa3e15abe6a9bb6bcf60708b888105b9ca2acc915209e7986b56f726e4",
+    "prototype/world_profiles/catalog.py": "8ac3d8a96a547cde8f51a60837d8ccb1aabb811c16b55e617a629702a8c1aad7",
+    "prototype/world_profiles/compiler.py": "1ade397473198b4bf55aed737fc0daf8a88132cf392e7813faa558630f539852",
+    "prototype/world_profiles/model.py": "7ba6b0736d7c0dd5cb8913e98eed0d5c47751215f0e821c07ad91b12366ae6c4",
+    "prototype/world_profiles/storage.py": "3b5d89e4c54957ff46ab65144a4cbbe973778f4fe02dd043179302d71ae26f1a",
+    "prototype/world_profiles/story_rules.py": "03cd990d14d64fce5be87d188889e2b493a312057a22629205f4c645b6a20c8b"
+  },
+  "catalog_fingerprints": {
+    "1": "7d50b7d87defcbecc8981244801b5afd4e27a9f1e8bc0043700df1083db2da80",
+    "2": "8049059b985461ada2d40d83bc0db2502400185357973b100d7105425df21686",
+    "3": "8d06fdef62b5516c5c54a3951164ed7240ab56e8fc84e1ea6b132192a529e2a6",
+    "4": "714bf739c54ac5b7bfefc868ae525b2cc636058e752d21310a3345fcdbafe394",
+    "5": "f7d1bd192887e40739e3b8ad78fe21a8cd3cf2b9f46cc5fa4dc7eaf8491882e2",
+    "6": "26b03cb76e8e60ab1cec94b451f2201c27fd04bae25a2230a86590bb269df6ac",
+    "7": "058d83b617de1cc96b3125e515a20d9d9a2e1ccd1dcf41f0fbd42c9318f09e8b",
+    "8": "964ed0874b06626e284ca47c6a92e2153cc0438237e89756630fbb317bc4fe4f",
+    "9": "637a86741081b01542f849c4c0bd409a712e8b69f77e9ae26655a9c8ecc67acc",
+    "10": "df2886eb5bd86b92168dda1648577bd20ab40ab1cd25de85877f7344e269c138",
+    "11": "c28730a528011ca61bc11e1651aab8d58c8f603db43c2b2862de7e9202b32e7e",
+    "12": "aaee9b22abc6afceb47ad1cf79bb44cb0d8a337b5f75a5a9fc0a170a03cd0f74",
+    "13": "162748ea8b0406e59ed6923c164fc6990e2f304b69d3acb42484ba221f4d0daa",
+    "14": "60402b55c18cf4a0f09a8076725f2b9ddf8a892287fddab151bd39b41e8b9f9e",
+    "15": "676f8cbfcb0310f1086acc450712e9746ce636b205285822d1986ab03a3ff4d1",
+    "16": "8a53ff42d4ea962154b22e203a49ab5af753b52a7ab876ccebc1cc3faa16ee8b",
+    "17": "4ff029d5ec81a7bc371fe7384dba4b8d64e17c05be45c2856ec19b845bbb3d74",
+    "18": "b945288b40fab7b2e1d8492193fa48dc33ad3455de4b0e9a5bbdeee0673aeb04",
+    "19": "e16a8407492271c4e34aaf6ab1c661b44a392fc6da7f3e11c889da55d71787a5",
+    "20": "b5941aeefee566ea3f8fe979140feed6f4ae523678341dd7734f686d1b2479ba",
+    "21": "72a454c305fd0d6ae2ea822becc3c8e08ffbd2c321bdd2ed6de8e7f05bc6bbd4",
+    "22": "af81a557169c9b08c44dc4bd6ba64a357f11bac37db8e0237a71e9333bec7cdd",
+    "23": "16724d07cb31a13bc2c02e1092520235773b0d434fe0ba56e67798241cb4a9c8",
+    "24": "905e50043a6200f4b8338a09ccf82c86803ba4117042736c9f0546792dfce7ea",
+    "25": "58c5a13174d5dadb487465070682b64b24e914918ae3bb0cbfd3bd10d4327680",
+    "26": "70bf4b831e60fcd6be44c29e6dc3c78c80af1f343f6d03a627d633d334bdcc45",
+    "27": "8d4e8b4413b37170fdcffb17c553a2d0c55163bd27ae29b81b38ffca6dc137a9",
+    "28": "5361e7dffe5630e9140a08dd5f34656c8b66358a11cb6d82f2832c76b73e42aa",
+    "29": "9761bcaaac67ed1f80981468c6056eaf0cffc06ceb7c9059bc76d88cf8b7d00a",
+    "30": "88694b6b17a6dc4308d4ed0deafa952214d30e7a12946d413de02bd8a3cf34b2",
+    "31": "010034735e5eea8eea68ef104de148ad02036d85e43357d56431306a7f4cc61b",
+    "32": "4a2629cbe94a265f0be2601f574acbf9d1893365304f5d947a359e9cafcb2264",
+    "33": "c9e765819e7375976502bf33cf72e438b9d856bbf7fe50b53b0229a109a3453e",
+    "34": "9e7cebb033108bb1c275fcc2447e1f9cf6808c95043e6dad3f63bf6d25055167",
+    "35": "1980fe6edc3d687d04f98dce7aef34181507497e35156b8ee93cc66836b57ace",
+    "36": "3e3bf4585f11776455c44ac9ae72b0a6672e8bf28dac635faefd5195a96d5456",
+    "37": "e254a5647db96170ed0b3afd3377cfc61cf2a64dc741386886427dd948aae3f5",
+    "38": "a79fc04f135508b179af22d533f4181080d82a0664fc5c6eccf612ca3a5603a7",
+    "39": "87ba6a155d14c2ecbe4071f24596e288ec2701c9c330ea270a35be03880aba27",
+    "40": "db8a698e2b705f2159e8c2ee20b05d165765ce51f87d4b2d5f3ac25de47a5bf4",
+    "41": "eb5320a649a2025b64b367359a1a4862cbf6cbed1121503a60695b30639e88be",
+    "42": "8617710e130e8b2e00348ebf29ff76bdf701bb70cb12c3ff0708589d8a59e500",
+    "43": "591b7acacc51245c6e6242cc5bd5079ff0c99976c71caa5aefb8c655c5533edd",
+    "44": "8e2397e5c5831452aba895c33dd78bbfeedb6748695645e459f2e824ba57d848"
+  },
+  "expected_presets": [
+    "prototype/resources/presets/original-game.fbmod",
+    "prototype/resources/presets/queen-cousland-anders.fbmod",
+    "prototype/resources/presets/queen-cousland-fenris.fbmod"
+  ]
+}

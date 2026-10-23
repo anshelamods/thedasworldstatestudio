@@ -1,0 +1,19 @@
+{
+  "capture_date": "2026-10-18",
+  "stylesheet_source": "https://dragonagekeep.com/css/02b04ee.css?v37",
+  "purpose": "Local offline heading fonts for the private development editor; public-release packaging remains a separate decision.",
+  "assets": [
+    {
+      "path": "Inquisition.woff",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/fonts/kits/Inquisition.woff",
+      "bytes": 23268,
+      "sha256": "2076e56ab8010a45e1e0fd4fd032e1ecbb552fd98871956aab0bc642016d515b"
+    },
+    {
+      "path": "InquisitionSc.woff",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/fonts/kits/InquisitionSc.woff",
+      "bytes": 29820,
+      "sha256": "93b674784ed3cd6d913a2cfe3e809af0383e8d235a2e2dfdf571c9555288eb85"
+    }
+  ]
+}

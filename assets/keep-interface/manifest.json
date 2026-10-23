@@ -1,0 +1,200 @@
+{
+  "captured": "2026-10-18",
+  "source_pages": [
+    "https://dragonagekeep.com/en_US/heroes/",
+    "https://dragonagekeep.com/en_US/worldvault/"
+  ],
+  "attribution": "Original Dragon Age Keep artwork, EA / BioWare.",
+  "assets": [
+    {
+      "path": "da2_heroes/female_mage.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/da2_heroes/female_mage.jpg",
+      "bytes": 70077,
+      "sha256": "35cad544f68773a60722f3fe1f0d3640e7b3b83ac4de794ae0b2d37fbf40a857"
+    },
+    {
+      "path": "da2_heroes/female_rogue.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/da2_heroes/female_rogue.jpg",
+      "bytes": 69739,
+      "sha256": "1b0561d8b18647bf512a8abfcf71ad8239330266c5adc97bff585379696c7855"
+    },
+    {
+      "path": "da2_heroes/female_warrior.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/da2_heroes/female_warrior.jpg",
+      "bytes": 72543,
+      "sha256": "975a124e866d2f3b328d769392ae00c3e5dd15249d1b239e716d90ab65282c11"
+    },
+    {
+      "path": "da2_heroes/male_mage.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/da2_heroes/male_mage.jpg",
+      "bytes": 70551,
+      "sha256": "b274cd3f4994839dfeba419b0909d345eabaaf2881021af3c0dba51237102757"
+    },
+    {
+      "path": "da2_heroes/male_rogue.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/da2_heroes/male_rogue.jpg",
+      "bytes": 68817,
+      "sha256": "18d9e633fdc2f61c74d5a6e6634ee0dcb815c92519c181d23a9c547978a4452c"
+    },
+    {
+      "path": "da2_heroes/male_warrior.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/da2_heroes/male_warrior.jpg",
+      "bytes": 72191,
+      "sha256": "2cb93357079ca4da168c3ce1433d0a909df131478faff9a58ddf6d79c6f7f275"
+    },
+    {
+      "path": "dao_heroes/dwarf_female_rogue.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/dwarf_female_rogue.jpg",
+      "bytes": 65959,
+      "sha256": "0cdad229f90ccd42cc57fb4ca47a5fc27d59c3fa0436ff3933e655937a6ae891"
+    },
+    {
+      "path": "dao_heroes/dwarf_female_warrior.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/dwarf_female_warrior.jpg",
+      "bytes": 66536,
+      "sha256": "815d2f4b196935886995714e595c71225f95ce1b6632f2ecd717eba0d0f05c47"
+    },
+    {
+      "path": "dao_heroes/dwarf_male_rogue.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/dwarf_male_rogue.jpg",
+      "bytes": 63945,
+      "sha256": "1915d70d53dac578f494c28a22cbdfac281ad41855a503f3015f1326c1ff9f32"
+    },
+    {
+      "path": "dao_heroes/dwarf_male_warrior.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/dwarf_male_warrior.jpg",
+      "bytes": 66403,
+      "sha256": "ab719c5fe9f63442e46542a7cf5e70558b47ba9df4633a4908b69b36ea3a8c9f"
+    },
+    {
+      "path": "dao_heroes/elf_female_mage.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/elf_female_mage.jpg",
+      "bytes": 75186,
+      "sha256": "bd6b7973430aeb7748b537dbc168a13716c92a5cda625214dbdb591312a2700e"
+    },
+    {
+      "path": "dao_heroes/elf_female_rogue.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/elf_female_rogue.jpg",
+      "bytes": 68284,
+      "sha256": "a0472c83855c6a4cf499f0317be79fe454a8fb1f37eb3a9de25d1daea86aaa6e"
+    },
+    {
+      "path": "dao_heroes/elf_female_warrior.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/elf_female_warrior.jpg",
+      "bytes": 66452,
+      "sha256": "073863cb3f00f6ed74d84b6f17dfd4b1b7500c52b86705bff30a67109af35704"
+    },
+    {
+      "path": "dao_heroes/elf_male_mage.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/elf_male_mage.jpg",
+      "bytes": 73691,
+      "sha256": "7bb66470773246484ae376650b6b3efc93743bbf356bc080fa58cda17abb7dd7"
+    },
+    {
+      "path": "dao_heroes/elf_male_rogue.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/elf_male_rogue.jpg",
+      "bytes": 65944,
+      "sha256": "9183e39a69c833a814a44fd32ea393a449ef6b64f3d255b5dcd3856297ce2c31"
+    },
+    {
+      "path": "dao_heroes/elf_male_warrior.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/elf_male_warrior.jpg",
+      "bytes": 65544,
+      "sha256": "58c47e30da7c16602f6213687b95c9023d40ee3f1eea12957c1557ad2796e007"
+    },
+    {
+      "path": "dao_heroes/human_female_mage.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/human_female_mage.jpg",
+      "bytes": 62596,
+      "sha256": "da5982a631fda771a4dab22c8dfe6dd565243f0cdb26736ff8e9b1c9c78fe7a2"
+    },
+    {
+      "path": "dao_heroes/human_female_rogue.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/human_female_rogue.jpg",
+      "bytes": 63826,
+      "sha256": "528e3dbb70b1ecbf56118e50161d24997b814f789a64a79ed34c5b43a99cb142"
+    },
+    {
+      "path": "dao_heroes/human_female_warrior.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/human_female_warrior.jpg",
+      "bytes": 62956,
+      "sha256": "d73c1c4cdec8e8d732c288686ab503eed87ef24747f7d7467d0e53c0adb9762b"
+    },
+    {
+      "path": "dao_heroes/human_male_mage.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/human_male_mage.jpg",
+      "bytes": 63657,
+      "sha256": "acc2a4e64f646b0e09e7e9359d7d24e27bb0b74be4beb9f17c13f37a2e38a6df"
+    },
+    {
+      "path": "dao_heroes/human_male_rogue.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/human_male_rogue.jpg",
+      "bytes": 60585,
+      "sha256": "ea088716bfe6dba518415e8009ba93721e65f200f3887363943dd9ce87d286a4"
+    },
+    {
+      "path": "dao_heroes/human_male_warrior.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/assets/world-vault/flags/dao_heroes/human_male_warrior.jpg",
+      "bytes": 62778,
+      "sha256": "387535e9a16140b9b762c6573e425b50f7735bead6d4d1ecd18d9eb3c9cdd061"
+    },
+    {
+      "path": "bg-eye.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/ui/bg-eye.jpg",
+      "bytes": 107847,
+      "sha256": "94ad3ea89205beda49e9fd8fb4a559f980d84a0151f67d7f98de422fcb3fdba0"
+    },
+    {
+      "path": "bg-tile.jpg",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/ui/bg-tile.jpg",
+      "bytes": 14661,
+      "sha256": "10f7ece2611300840488a5dd5754947a285fcc8e7c99799e965720f5ee740875"
+    },
+    {
+      "path": "dragons-bg.png",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/ui_new/dragons-bg.png",
+      "bytes": 122764,
+      "sha256": "69a76385a05ef336aaf21f28e1f84499a32d35a66fc1370b27540047bd074fce"
+    },
+    {
+      "path": "favicon.png",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/ico/favicon.png",
+      "bytes": 758,
+      "sha256": "a6b67de03aad8ebc03c5849387e4f346571a03dfd8b0ac722933b6515804a178"
+    },
+    {
+      "path": "frame-border-pattern.png",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/ui_new/frame-border-pattern.png",
+      "bytes": 148966,
+      "sha256": "33efcc89233e43c877cb87bd24be3a9d3dd25cd3f369cfe7d19280c506864d4d"
+    },
+    {
+      "path": "frame-decor.png",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/ui_new/frame-decor.png",
+      "bytes": 3865,
+      "sha256": "15d3802083d1e1cd7326a83e0d4828185e8fad5073c7174fb0a1c5025a40bd7a"
+    },
+    {
+      "path": "dropdown-arrow.png",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/ui_new/dropdown-arrow.png",
+      "bytes": 1981,
+      "sha256": "d6cb574609df4426bc84bf7026c7d7ab07a82e30b94346e0a5e989530e2d5e23"
+    },
+    {
+      "path": "main-nav-bg.png",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/ui_new/main-nav-bg.png",
+      "bytes": 68295,
+      "sha256": "68bc345f26630aa3d377b4c597770c5e07c5a6f4cdf0a0a33d30ba0fc5997928",
+      "width": 1920,
+      "height": 53
+    },
+    {
+      "path": "nav-bg-secondary.png",
+      "source_url": "https://dragonagekeep.com/bundles/eabwedahub/images/ui_new/nav-bg-secondary.png",
+      "bytes": 41316,
+      "sha256": "1dc082a2fb771aea9ff536b3ee2081573d07db74b606aea6d65645b7881ca436",
+      "width": 1920,
+      "height": 58
+    }
+  ]
+}

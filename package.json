@@ -1,0 +1,13 @@
+{
+  "name": "thedas-world-state-studio-web",
+  "private": true,
+  "description": "Browser build of Thedas World State Studio, served from GitHub Pages",
+  "scripts": {
+    "build": "python3 tools/build_web.py --destination _site",
+    "test": "python3 prototype/run_portable_tests.py --javascript && npm run build && node web/test_web_backend.cjs _site",
+    "serve": "python3 -m http.server --directory _site 8000"
+  },
+  "devDependencies": {
+    "pyodide": "0.27.8"
+  }
+}

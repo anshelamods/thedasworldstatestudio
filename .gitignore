@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.dev-data/
+.build-env/
+profiles/
+exports/
+releases/
+prototype/output/
+prototype/profile-data/
+prototype/gui-logs/
+*.log
+
+# Web build
+node_modules/
+_site/

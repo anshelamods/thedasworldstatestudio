@@ -1,0 +1,3958 @@
+{
+  "dao.warden_identity": {
+    "game": "dao",
+    "category_id": "dao.hero",
+    "category": "Hero",
+    "title": "The Warden's gender and origin",
+    "question": "Where did the Hero of Ferelden's story begin?",
+    "quick_kind": "select",
+    "answers": {
+      "male_human_noble": {
+        "title": "Male Human Noble",
+        "description": "The Warden was a male human noble.",
+        "art": "dao_heroes/human_male_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/human_male_warrior.jpg",
+          "rogue": "dao_heroes/human_male_rogue.jpg",
+          "mage": "dao_heroes/human_male_mage.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "female_human_noble": {
+        "title": "Female Human Noble",
+        "description": "The Warden was a female human noble.",
+        "art": "dao_heroes/human_female_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/human_female_warrior.jpg",
+          "rogue": "dao_heroes/human_female_rogue.jpg",
+          "mage": "dao_heroes/human_female_mage.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "male_human_mage": {
+        "title": "Male Human Mage",
+        "description": "The Warden was a male human mage.",
+        "art": "dao_heroes/human_male_mage.jpg"
+      },
+      "female_human_mage": {
+        "title": "Female Human Mage",
+        "description": "The Warden was a female human mage.",
+        "art": "dao_heroes/human_female_mage.jpg"
+      },
+      "male_dalish_elf": {
+        "title": "Male Dalish Elf",
+        "description": "The Warden was a male Dalish elf.",
+        "art": "dao_heroes/elf_male_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/elf_male_warrior.jpg",
+          "rogue": "dao_heroes/elf_male_rogue.jpg",
+          "mage": "dao_heroes/elf_male_mage.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "female_dalish_elf": {
+        "title": "Female Dalish Elf",
+        "description": "The Warden was a female Dalish elf.",
+        "art": "dao_heroes/elf_female_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/elf_female_warrior.jpg",
+          "rogue": "dao_heroes/elf_female_rogue.jpg",
+          "mage": "dao_heroes/elf_female_mage.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "male_city_elf": {
+        "title": "Male City Elf",
+        "description": "The Warden was a male city elf.",
+        "art": "dao_heroes/elf_male_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/elf_male_warrior.jpg",
+          "rogue": "dao_heroes/elf_male_rogue.jpg",
+          "mage": "dao_heroes/elf_male_mage.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "female_city_elf": {
+        "title": "Female City Elf",
+        "description": "The Warden was a female city elf.",
+        "art": "dao_heroes/elf_female_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/elf_female_warrior.jpg",
+          "rogue": "dao_heroes/elf_female_rogue.jpg",
+          "mage": "dao_heroes/elf_female_mage.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "male_elven_mage": {
+        "title": "Male Elf Mage",
+        "description": "The Warden was a male elf mage.",
+        "art": "dao_heroes/elf_male_mage.jpg"
+      },
+      "female_elven_mage": {
+        "title": "Female Elf Mage",
+        "description": "The Warden was a female elf mage.",
+        "art": "dao_heroes/elf_female_mage.jpg"
+      },
+      "male_dwarf_noble": {
+        "title": "Male Dwarf Noble",
+        "description": "The Warden was a male dwarf noble.",
+        "art": "dao_heroes/dwarf_male_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/dwarf_male_warrior.jpg",
+          "rogue": "dao_heroes/dwarf_male_rogue.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "female_dwarf_noble": {
+        "title": "Female Dwarf Noble",
+        "description": "The Warden was a female dwarf noble.",
+        "art": "dao_heroes/dwarf_female_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/dwarf_female_warrior.jpg",
+          "rogue": "dao_heroes/dwarf_female_rogue.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "male_dwarf_commoner": {
+        "title": "Male Dwarf Commoner",
+        "description": "The Warden was a male dwarf commoner.",
+        "art": "dao_heroes/dwarf_male_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/dwarf_male_warrior.jpg",
+          "rogue": "dao_heroes/dwarf_male_rogue.jpg"
+        },
+        "art_variant_context": "class"
+      },
+      "female_dwarf_commoner": {
+        "title": "Female Dwarf Commoner",
+        "description": "The Warden was a female dwarf commoner.",
+        "art": "dao_heroes/dwarf_female_warrior.jpg",
+        "art_variants": {
+          "warrior": "dao_heroes/dwarf_female_warrior.jpg",
+          "rogue": "dao_heroes/dwarf_female_rogue.jpg"
+        },
+        "art_variant_context": "class"
+      }
+    }
+  },
+  "dao.warden_class": {
+    "game": "dao",
+    "category_id": "dao.hero",
+    "category": "Hero",
+    "title": "The Warden's class",
+    "question": "What was the Warden's class?",
+    "quick_kind": "select",
+    "answers": {
+      "warrior": {
+        "title": "Warrior",
+        "description": "The Hero of Ferelden was a warrior.",
+        "art": "dao_heroes/human_male_warrior.jpg",
+        "art_variants": {
+          "male": "dao_heroes/human_male_warrior.jpg",
+          "female": "dao_heroes/human_female_warrior.jpg",
+          "human_male": "dao_heroes/human_male_warrior.jpg",
+          "human_female": "dao_heroes/human_female_warrior.jpg",
+          "elf_male": "dao_heroes/elf_male_warrior.jpg",
+          "elf_female": "dao_heroes/elf_female_warrior.jpg",
+          "dwarf_male": "dao_heroes/dwarf_male_warrior.jpg",
+          "dwarf_female": "dao_heroes/dwarf_female_warrior.jpg"
+        }
+      },
+      "rogue": {
+        "title": "Rogue",
+        "description": "The Hero of Ferelden was a rogue.",
+        "art": "dao_heroes/human_male_rogue.jpg",
+        "art_variants": {
+          "male": "dao_heroes/human_male_rogue.jpg",
+          "female": "dao_heroes/human_female_rogue.jpg",
+          "human_male": "dao_heroes/human_male_rogue.jpg",
+          "human_female": "dao_heroes/human_female_rogue.jpg",
+          "elf_male": "dao_heroes/elf_male_rogue.jpg",
+          "elf_female": "dao_heroes/elf_female_rogue.jpg",
+          "dwarf_male": "dao_heroes/dwarf_male_rogue.jpg",
+          "dwarf_female": "dao_heroes/dwarf_female_rogue.jpg"
+        }
+      },
+      "mage": {
+        "title": "Mage",
+        "description": "The Hero of Ferelden was a mage.",
+        "art": "dao_heroes/human_male_mage.jpg",
+        "art_variants": {
+          "male": "dao_heroes/human_male_mage.jpg",
+          "female": "dao_heroes/human_female_mage.jpg",
+          "human_male": "dao_heroes/human_male_mage.jpg",
+          "human_female": "dao_heroes/human_female_mage.jpg",
+          "elf_male": "dao_heroes/elf_male_mage.jpg",
+          "elf_female": "dao_heroes/elf_female_mage.jpg"
+        }
+      }
+    }
+  },
+  "da2.hawke_identity": {
+    "game": "da2",
+    "category_id": "da2.hero",
+    "category": "Hero",
+    "title": "Hawke's gender and class",
+    "question": "Who was the Champion of Kirkwall?",
+    "quick_kind": "select",
+    "answers": {
+      "male_warrior": {
+        "title": "Male Warrior",
+        "description": "Hawke was a male warrior.",
+        "art": "da2_heroes/male_warrior.jpg"
+      },
+      "male_rogue": {
+        "title": "Male Rogue",
+        "description": "Hawke was a male rogue.",
+        "art": "da2_heroes/male_rogue.jpg"
+      },
+      "male_mage": {
+        "title": "Male Mage",
+        "description": "Hawke was a male mage.",
+        "art": "da2_heroes/male_mage.jpg"
+      },
+      "female_warrior": {
+        "title": "Female Warrior",
+        "description": "Hawke was a female warrior.",
+        "art": "da2_heroes/female_warrior.jpg"
+      },
+      "female_rogue": {
+        "title": "Female Rogue",
+        "description": "Hawke was a female rogue.",
+        "art": "da2_heroes/female_rogue.jpg"
+      },
+      "female_mage": {
+        "title": "Female Mage",
+        "description": "Hawke was a female mage.",
+        "art": "da2_heroes/female_mage.jpg"
+      }
+    }
+  },
+  "da2.hawke_personality": {
+    "game": "da2",
+    "category_id": "da2.hero",
+    "category": "Hero",
+    "title": "Hawke's personality",
+    "question": "What kind of personality did Hawke have?",
+    "art_flag": "da2_hawke_personality_type",
+    "art_value_field": "da2_hawke_personality_type",
+    "quick_kind": "select",
+    "answers": {
+      "diplomatic": {
+        "title": "Diplomatic",
+        "description": "Hawke usually met others with patience, tact, and compassion."
+      },
+      "humourous": {
+        "title": "Humorous",
+        "description": "Hawke often relied on wit and sarcasm, even in difficult moments."
+      },
+      "aggressive": {
+        "title": "Aggressive",
+        "description": "Hawke was direct, forceful, and quick to confront opposition."
+      }
+    }
+  },
+  "da2.bethany_fate": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Bethany",
+    "question": "What became of Hawke's sister?",
+    "art_flag": "da2_bethany_career",
+    "art_value_field": "da2_bethany_career",
+    "quick_kind": "select",
+    "answers": {
+      "circle": {
+        "title": "A life in the Circle",
+        "description": "Bethany survived and became a Circle mage.",
+        "tile_caption": "Bethany became a Circle mage"
+      },
+      "warden": {
+        "title": "A Grey Warden",
+        "description": "Bethany survived the Deep Roads and joined the Grey Wardens.",
+        "tile_caption": "Bethany became a Grey Warden"
+      },
+      "deep_roads_death": {
+        "title": "Lost in the Deep Roads",
+        "description": "Bethany died during the expedition into the Deep Roads.",
+        "tile_caption": "Bethany died in the Deep Roads"
+      },
+      "lothering_death": {
+        "title": "Lost escaping Lothering",
+        "description": "Bethany died while the Hawke family escaped Lothering.",
+        "tile_caption": "Bethany died while escaping Lothering"
+      },
+      "alive_unspecified": {
+        "title": "Bethany alive; career unspecified",
+        "description": "Bethany is alive, but the save does not record a standard career. You can choose a career separately.",
+        "tile_caption": "Bethany alive; career unspecified",
+        "keep_art_value": 1,
+        "unrestricted_only": true
+      }
+    }
+  },
+  "da2.carver_fate": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Carver",
+    "question": "What became of Hawke's brother?",
+    "art_flag": "da2_carver_career",
+    "art_value_field": "da2_carver_career",
+    "quick_kind": "select",
+    "answers": {
+      "templar": {
+        "title": "A life with the templars",
+        "description": "Carver survived and joined the templars.",
+        "tile_caption": "Carver became a templar"
+      },
+      "warden": {
+        "title": "A Grey Warden",
+        "description": "Carver survived the Deep Roads and joined the Grey Wardens.",
+        "tile_caption": "Carver became a Grey Warden"
+      },
+      "deep_roads_death": {
+        "title": "Lost in the Deep Roads",
+        "description": "Carver died during the expedition into the Deep Roads.",
+        "tile_caption": "Carver died in the Deep Roads"
+      },
+      "lothering_death": {
+        "title": "Lost escaping Lothering",
+        "description": "Carver died while the Hawke family escaped Lothering.",
+        "tile_caption": "Carver died leaving Lothering"
+      },
+      "alive_unspecified": {
+        "title": "Carver alive; career unspecified",
+        "description": "Carver is alive, but the save does not record a standard career. You can choose a career separately.",
+        "tile_caption": "Carver alive; career unspecified",
+        "keep_art_value": 1,
+        "unrestricted_only": true
+      }
+    }
+  },
+  "da2.anders_fate": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Anders",
+    "question": "Did Hawke spare Anders?",
+    "art_flag": "da2_anders_fate",
+    "art_value_field": "da2_anders_fate",
+    "quick_kind": "checkbox",
+    "checked_answer": "alive",
+    "unchecked_answer": "executed",
+    "checkbox_label": "Anders survives",
+    "answers": {
+      "alive": {
+        "title": "Anders lives",
+        "description": "Hawke spared Anders after the destruction of the Kirkwall chantry.",
+        "tile_caption": "Anders alive & well"
+      },
+      "executed": {
+        "title": "Anders was executed",
+        "description": "Hawke executed Anders after the destruction of the Kirkwall chantry.",
+        "tile_caption": "Anders executed"
+      }
+    }
+  },
+  "dao.loghain_fate": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Loghain",
+    "question": "What became of Loghain?",
+    "art_flag": "dao_loghain_fate",
+    "art_value_field": "dao_loghain_fate",
+    "quick_kind": "select",
+    "answers": {
+      "executed_by_warden": {
+        "title": "Executed at the Landsmeet",
+        "description": "The Warden executed Loghain following the Landsmeet.",
+        "tile_caption": "Loghain executed by Warden"
+      },
+      "executed_by_alistair": {
+        "title": "Loghain executed by Alistair",
+        "description": "Alistair's blade ended Loghain's life after the regent was found guilty in the Landsmeet of Ferelden's nobility."
+      },
+      "killed_in_duel": {
+        "title": "Loghain was killed by Alistair in duel",
+        "description": "Loghain was killed by Alistair in a duel."
+      },
+      "sacrificed": {
+        "title": "Died killing the Archdemon",
+        "description": "Loghain joined the Grey Wardens and died killing the Archdemon.",
+        "tile_caption": "Loghain died killing Archdemon"
+      },
+      "alive_recruited": {
+        "title": "Loghain alive and well",
+        "description": "Loghain was recruited into the Grey Wardens and remains alive.",
+        "tile_caption": "Loghain alive and well"
+      }
+    },
+    "verification_note": "Loghain’s fate follows the author documentation and Keep/editor values. The original game descriptions disagree for duel, sacrifice and survival; those enum effects remain unconfirmed individually."
+  },
+  "dao.warden_romance": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "The Warden's romance",
+    "question": "Whom did the Warden romance?",
+    "quick_kind": "select",
+    "art_flag": "dao_warden_romance",
+    "art_value_field": "dao_warden_romance",
+    "answers": {
+      "none": {
+        "title": "No romance",
+        "description": "The Warden did not romance a companion.",
+        "tile_caption": "No one romanced"
+      },
+      "alistair": {
+        "title": "Alistair",
+        "description": "The Warden romanced Alistair.",
+        "tile_caption": "Romanced Alistair"
+      },
+      "morrigan": {
+        "title": "Morrigan",
+        "description": "The Warden romanced Morrigan.",
+        "tile_caption": "Romanced Morrigan"
+      },
+      "leliana": {
+        "title": "Leliana",
+        "description": "The Warden romanced Leliana.",
+        "tile_caption": "Romanced Leliana"
+      },
+      "zevran": {
+        "title": "Zevran",
+        "description": "The Warden romanced Zevran.",
+        "tile_caption": "Romanced Zevran"
+      }
+    }
+  },
+  "da2.hawke_romance": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Hawke's romance",
+    "question": "Whom did Hawke romance?",
+    "quick_kind": "select",
+    "art_flag": "da2_hawke_romance",
+    "art_value_field": "da2_hawke_romance",
+    "answers": {
+      "none": {
+        "title": "No romance",
+        "description": "Hawke did not romance a companion.",
+        "tile_caption": "No one romanced"
+      },
+      "anders": {
+        "title": "Anders",
+        "description": "Hawke romanced Anders.",
+        "tile_caption": "Romanced Anders"
+      },
+      "fenris": {
+        "title": "Fenris",
+        "description": "Hawke romanced Fenris.",
+        "tile_caption": "Romanced Fenris"
+      },
+      "isabela": {
+        "title": "Isabela",
+        "description": "Hawke romanced Isabela.",
+        "tile_caption": "Romanced Isabela"
+      },
+      "merrill": {
+        "title": "Merrill",
+        "description": "Hawke romanced Merrill.",
+        "tile_caption": "Romanced Merrill"
+      },
+      "sebastian": {
+        "title": "Sebastian",
+        "description": "Hawke romanced Sebastian.",
+        "tile_caption": "Romanced Sebastian"
+      }
+    }
+  },
+  "dao.ferelden_ruler": {
+    "game": "dao",
+    "category_id": "dao.landsmeet",
+    "category": "The Landsmeet",
+    "title": "The throne of Ferelden",
+    "question": "Who rules Ferelden?",
+    "art_flag": "dao_ruler_state",
+    "art_value_field": "dao_ruler_state",
+    "quick_kind": "select",
+    "answers": {
+      "alistair_alone": {
+        "title": "King Alistair",
+        "description": "Alistair rules Ferelden alone.",
+        "tile_caption": "Alistair rules"
+      },
+      "alistair_anora": {
+        "title": "Alistair and Anora",
+        "description": "Alistair and Anora rule Ferelden together.",
+        "tile_caption": "Alistair & Anora rule"
+      },
+      "alistair_warden": {
+        "title": "Alistair and the Warden",
+        "description": "Alistair and the Warden rule Ferelden together.",
+        "tile_caption": "Alistair & the Warden rule"
+      },
+      "anora_alone": {
+        "title": "Queen Anora",
+        "description": "Anora rules Ferelden alone.",
+        "tile_caption": "Anora rules"
+      },
+      "anora_warden": {
+        "title": "Anora and the Warden",
+        "description": "Anora and the Warden rule Ferelden together.",
+        "tile_caption": "Anora & the Warden rule"
+      }
+    }
+  },
+  "dao.alistair_fate": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Alistair’s fate",
+    "question": "What became of Alistair?",
+    "art_flag": "dao_alistair_state",
+    "art_value_field": "dao_alistair_state",
+    "quick_kind": "select",
+    "answers": {
+      "sacrificed": {
+        "title": "Died killing the Archdemon",
+        "description": "Alistair died delivering the killing blow to the Archdemon.",
+        "tile_caption": "Alistair died killing Archdemon"
+      },
+      "executed": {
+        "title": "Executed",
+        "description": "Alistair was executed following the Landsmeet.",
+        "tile_caption": "Alistair was executed"
+      },
+      "king": {
+        "title": "Became king",
+        "description": "Alistair became king of Ferelden.",
+        "tile_caption": "Alistair became King"
+      },
+      "warden": {
+        "title": "Remained a Grey Warden",
+        "description": "Alistair remained alive as a Grey Warden.",
+        "tile_caption": "Alistair stayed with Wardens"
+      },
+      "drunk": {
+        "title": "Became a wandering drunk",
+        "description": "Alistair left the Wardens and became a wandering drunk.",
+        "tile_caption": "Alistair became a drunk"
+      }
+    }
+  },
+  "dao.alistair_relationship": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Alistair and the Warden",
+    "question": "How did Alistair’s relationship with the Warden end?",
+    "art_flag": "dao_warden_king_mistress",
+    "art_value_field": "dao_warden_king_mistress",
+    "quick_kind": "select",
+    "answers": {
+      "never_lovers": {
+        "title": "Never lovers",
+        "description": "The Warden and Alistair were not lovers.",
+        "tile_caption": "Warden & Alistair were not lovers"
+      },
+      "mistress": {
+        "title": "Remained his mistress",
+        "description": "The Warden remained King Alistair’s mistress.",
+        "tile_caption": "Remained Alistair's mistress"
+      },
+      "ended": {
+        "title": "Did not remain together",
+        "description": "The Warden did not remain King Alistair’s mistress.",
+        "tile_caption": "Didn't remain Alistair's mistress"
+      },
+      "queen": {
+        "title": "Became his queen",
+        "description": "The Warden became Alistair’s queen.",
+        "tile_caption": "Warden is Alistair's Queen"
+      },
+      "wardens_together": {
+        "title": "Together in the Grey Wardens",
+        "description": "Alistair remained with the Grey Wardens and the Warden.",
+        "tile_caption": "Remained with Grey Wardens and the Warden"
+      }
+    }
+  },
+  "dao.warden_fate": {
+    "game": "dao",
+    "category_id": "dao.hero",
+    "category": "Hero",
+    "title": "The Warden’s survival",
+    "question": "Did the Warden survive the Fifth Blight?",
+    "art_flag": "dao_warden_state",
+    "art_value_field": "dao_warden_state",
+    "quick_kind": "checkbox",
+    "checked_answer": "alive",
+    "unchecked_answer": "sacrificed",
+    "checkbox_label": "The Warden survived the Fifth Blight",
+    "answers": {
+      "sacrificed": {
+        "title": "The ultimate sacrifice",
+        "description": "The Warden died delivering the killing blow to the Archdemon.",
+        "tile_caption": "Warden died killing Archdemon"
+      },
+      "alive": {
+        "title": "Alive and well",
+        "description": "The Warden survived the Fifth Blight.",
+        "tile_caption": "Warden alive & well"
+      }
+    }
+  },
+  "dao.archdemon_killer": {
+    "game": "dao",
+    "category_id": "dao.denerim",
+    "category": "The Battle of Denerim",
+    "title": "The Archdemon",
+    "question": "Who killed the Archdemon?",
+    "art_flag": "dao_archdemon_killer",
+    "art_value_field": "dao_archdemon_killer",
+    "quick_kind": "select",
+    "answers": {
+      "warden": {
+        "title": "The Warden",
+        "description": "The Hero of Ferelden delivered the killing blow.",
+        "tile_caption": "Warden killed Archdemon"
+      },
+      "alistair": {
+        "title": "Alistair",
+        "description": "Alistair delivered the killing blow.",
+        "tile_caption": "Alistair killed Archdemon"
+      },
+      "loghain": {
+        "title": "Loghain",
+        "description": "Loghain delivered the killing blow to the Archdemon.",
+        "tile_caption": "Loghain killed Archdemon"
+      }
+    },
+    "verification_note": "Loghain’s fate enum follows the documented Keep/editor sequence; the original game descriptions disagree."
+  },
+  "dao.morrigan_child": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Morrigan’s ritual and child",
+    "question": "Did Morrigan have a child, and with whom?",
+    "art_flag": "dao_morrigan_baby",
+    "art_value_field": "dao_morrigan_baby",
+    "quick_kind": "select",
+    "answers": {
+      "none": {
+        "title": "Morrigan did not have a baby",
+        "description": "Morrigan did not have a child, and the Dark Ritual was not performed.",
+        "tile_caption": "Morrigan did not have a baby"
+      },
+      "old_god_warden": {
+        "title": "Old God child with the Warden",
+        "description": "Morrigan performed the Dark Ritual with the Warden and conceived an Old God child.",
+        "tile_caption": "Morrigan had an old god baby with the Warden"
+      },
+      "old_god_alistair": {
+        "title": "Old God child with Alistair",
+        "description": "Morrigan performed the Dark Ritual with Alistair and conceived an Old God child.",
+        "tile_caption": "Morrigan had an old god baby with Alistair"
+      },
+      "old_god_loghain": {
+        "title": "Old God child with Loghain",
+        "description": "Morrigan performed the Dark Ritual with Loghain and conceived an Old God child.",
+        "tile_caption": "Morrigan had an old god baby with Loghain"
+      },
+      "human_warden": {
+        "title": "Human child with the Warden",
+        "description": "Morrigan conceived a human child with the Warden. The Dark Ritual was not performed.",
+        "tile_caption": "Morrigan had a human baby with the Warden"
+      }
+    },
+    "verification_note": "Child-related flag mapping needs verification. Exports currently follow the documented setup."
+  },
+  "dao.broken_circle": {
+    "game": "dao",
+    "category_id": "dao.circle",
+    "category": "Broken Circle",
+    "title": "Mages or templars",
+    "question": "Who did the Warden support at the Broken Circle?",
+    "art_flag": "dao_broken_circle_choice",
+    "art_value_field": "dao_broken_circle_choice",
+    "quick_kind": "select",
+    "answers": {
+      "mages": {
+        "title": "Supported the mages",
+        "description": "The Warden supported the mages of Ferelden’s Circle.",
+        "tile_caption": "Mages supported"
+      },
+      "templars": {
+        "title": "Supported the templars",
+        "description": "The Warden supported the templars at the Circle.",
+        "tile_caption": "Templars supported"
+      }
+    }
+  },
+  "dao.connor_fate": {
+    "game": "dao",
+    "category_id": "dao.redcliffe",
+    "category": "The Arl of Redcliffe",
+    "title": "Connor’s fate",
+    "question": "What happened to Connor?",
+    "art_flag": "dao_connor_state",
+    "art_value_field": "dao_connor_state",
+    "quick_kind": "select",
+    "answers": {
+      "dead": {
+        "title": "Connor died",
+        "description": "Connor died during the events at Redcliffe."
+      },
+      "freed": {
+        "title": "Freed from possession",
+        "description": "Connor survived and was freed from the demon’s possession.",
+        "tile_caption": "Connor alive, not possessed"
+      },
+      "possessed": {
+        "title": "Still possessed",
+        "description": "Connor survived but remained possessed.",
+        "tile_caption": "Connor alive, possessed"
+      }
+    }
+  },
+  "dao.isolde_fate": {
+    "game": "dao",
+    "category_id": "dao.redcliffe",
+    "category": "The Arl of Redcliffe",
+    "title": "Isolde’s sacrifice",
+    "question": "What happened to Isolde?",
+    "art_flag": "dao_isolde_state",
+    "art_value_field": "dao_isolde_state",
+    "quick_kind": "checkbox",
+    "checked_answer": "sacrificed",
+    "unchecked_answer": "alive",
+    "checkbox_label": "Isolde sacrificed herself",
+    "answers": {
+      "alive": {
+        "title": "Isolde survived",
+        "description": "Isolde survived the events at Redcliffe.",
+        "tile_caption": "Isolde is alive"
+      },
+      "sacrificed": {
+        "title": "Isolde sacrificed herself",
+        "description": "Isolde sacrificed herself to allow the Warden to enter the Fade."
+      }
+    }
+  },
+  "dao.nature_outcome": {
+    "game": "dao",
+    "category_id": "dao.nature",
+    "category": "Nature of the Beast",
+    "title": "Elves and werewolves",
+    "question": "How did the Warden resolve the conflict between the elves and werewolves?",
+    "art_flag": "dao_nb_werewolf_elf_choice",
+    "art_value_field": "dao_nb_werewolf_elf_choice",
+    "quick_kind": "select",
+    "answers": {
+      "peace": {
+        "title": "Brokered peace",
+        "description": "The Warden brokered peace between the elves and werewolves."
+      },
+      "werewolves": {
+        "title": "Sided with the werewolves",
+        "description": "The Warden sided with the werewolves against the elves.",
+        "tile_caption": "Sided with werewolves"
+      },
+      "elves": {
+        "title": "Sided with the elves",
+        "description": "The Warden sided with the elves against the werewolves.",
+        "tile_caption": "Sided with elves"
+      }
+    }
+  },
+  "dao.orzammar_ruler": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "The throne of Orzammar",
+    "question": "Who rules Orzammar?",
+    "art_flag": "dao_orzammar_ruler",
+    "art_value_field": "dao_orzammar_ruler",
+    "quick_kind": "select",
+    "answers": {
+      "harrowmont": {
+        "title": "King Harrowmont",
+        "description": "Harrowmont became king of Orzammar.",
+        "tile_caption": "Harrowmont rules Orzammar"
+      },
+      "bhelen": {
+        "title": "King Bhelen",
+        "description": "Bhelen became king of Orzammar.",
+        "tile_caption": "Bhelen rules Orzammar"
+      }
+    }
+  },
+  "dao.anvil_fate": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "The Anvil of the Void",
+    "question": "What happened to the Anvil of the Void?",
+    "art_flag": "dao_paragon_anvil_fate",
+    "art_value_field": "dao_paragon_anvil_fate",
+    "quick_kind": "select",
+    "verification_note": "The Caridin-related flag follows the documented setup; its identification still needs verification.",
+    "answers": {
+      "warden_destroyed": {
+        "title": "Destroyed by the Warden",
+        "description": "The Warden sided with Caridin, defeated Branka, and destroyed the Anvil.",
+        "tile_caption": "The Warden destroyed the Anvil"
+      },
+      "branka_destroyed": {
+        "title": "Destroyed by Branka",
+        "description": "Branka destroyed the Anvil after the Warden sided with her.",
+        "tile_caption": "Branka destroyed the Anvil"
+      },
+      "preserved": {
+        "title": "Anvil preserved",
+        "description": "The Warden sided with Branka and preserved the Anvil.",
+        "tile_caption": "Preserved the Anvil"
+      }
+    }
+  },
+  "dao.leliana_fate": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Leliana",
+    "question": "What became of Leliana?",
+    "art_flag": "dao_leliana_fate",
+    "art_value_field": "dao_leliana_fate",
+    "quick_kind": "select",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "The Warden did not recruit Leliana.",
+        "tile_caption": "Didn't recruit Leliana"
+      },
+      "alive": {
+        "title": "Alive and well",
+        "description": "Leliana was alive and well at the end of the Fifth Blight.",
+        "tile_caption": "Leliana alive & well"
+      },
+      "killed_at_urn": {
+        "title": "Killed at the Urn",
+        "description": "The Warden killed Leliana after poisoning the Urn of Sacred Ashes.",
+        "tile_caption": "Killed Leliana after poisoning the Urn"
+      },
+      "left_after_urn": {
+        "title": "Left after the Urn",
+        "description": "Leliana left after the Warden poisoned the Urn of Sacred Ashes.",
+        "tile_caption": "Leliana Left"
+      }
+    },
+    "verification_note": "Leliana’s departure follows the documented mapping; an original game label disagrees."
+  },
+  "dao.wynne_fate": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Wynne",
+    "question": "What became of Wynne?",
+    "art_flag": "dao_wynne_fate",
+    "art_value_field": "dao_wynne_fate",
+    "quick_kind": "select",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "The Warden did not recruit Wynne.",
+        "tile_caption": "Wynne not recruited"
+      },
+      "alive": {
+        "title": "Alive and well",
+        "description": "Wynne survived the events of the Fifth Blight.",
+        "tile_caption": "Wynne alive & well"
+      },
+      "died_at_circle": {
+        "title": "Died at Broken Circle",
+        "description": "Wynne died during the events at the Circle of Magi.",
+        "tile_caption": "Wynne died at Broken Circle"
+      },
+      "killed_at_urn": {
+        "title": "Killed at the Urn",
+        "description": "The Warden killed Wynne after poisoning the Urn of Sacred Ashes.",
+        "tile_caption": "Wynne killed after poisoning the Urn"
+      }
+    }
+  },
+  "dao.zevran_recruited": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Zevran’s recruitment",
+    "question": "Did the Warden recruit Zevran?",
+    "art_flag": "dao_zevran_recruited",
+    "art_value_field": "dao_zevran_recruited",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "The Warden did not recruit Zevran.",
+        "tile_caption": "Didn't recruit Zevran"
+      },
+      "recruited": {
+        "title": "Recruited",
+        "description": "Zevran joined the Warden’s companions.",
+        "tile_caption": "Recruited Zevran"
+      }
+    },
+    "checked_answer": "recruited",
+    "unchecked_answer": "not_recruited",
+    "checkbox_label": "Zevran was recruited"
+  },
+  "dao.zevran_fate": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Zevran’s survival",
+    "question": "Did Zevran survive?",
+    "art_flag": "dao_zevran_alive",
+    "art_value_field": "dao_zevran_alive",
+    "quick_kind": "checkbox",
+    "answers": {
+      "dead": {
+        "title": "Zevran died",
+        "description": "Zevran died during the events of the Fifth Blight."
+      },
+      "alive": {
+        "title": "Zevran alive and well",
+        "description": "Zevran survived the events of the Fifth Blight.",
+        "tile_caption": "Zevran alive and well"
+      }
+    },
+    "checked_answer": "alive",
+    "unchecked_answer": "dead",
+    "checkbox_label": "Zevran survived"
+  },
+  "dao.sten_recruited": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Sten’s recruitment",
+    "question": "Did the Warden recruit Sten?",
+    "art_flag": "dao_sten_recruited",
+    "art_value_field": "dao_sten_recruited",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "The Warden did not recruit Sten.",
+        "tile_caption": "Didn't recruit Sten"
+      },
+      "recruited": {
+        "title": "Recruited",
+        "description": "Sten joined the Warden’s companions.",
+        "tile_caption": "Recruited Sten"
+      }
+    },
+    "checked_answer": "recruited",
+    "unchecked_answer": "not_recruited",
+    "checkbox_label": "Sten was recruited"
+  },
+  "dao.sten_release": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Sten’s imprisonment",
+    "question": "How did the Warden deal with Sten’s imprisonment in Lothering?",
+    "art_flag": "dao_lot_qunari_prisoner",
+    "art_value_field": "dao_lot_qunari_prisoner",
+    "quick_kind": "select",
+    "answers": {
+      "not_freed": {
+        "title": "Did not free Sten",
+        "description": "The Warden left Sten in his cage in Lothering.",
+        "tile_caption": "Didn't free Sten"
+      },
+      "picked_lock": {
+        "title": "Picked the lock",
+        "description": "The Warden picked the lock to free Sten.",
+        "tile_caption": "Picked lock to free Sten"
+      },
+      "persuaded": {
+        "title": "Persuaded the Revered Mother",
+        "description": "The Warden persuaded the Revered Mother to release Sten.",
+        "tile_caption": "Persuaded Revered Mother to free Sten"
+      },
+      "intimidated": {
+        "title": "Intimidated the Revered Mother",
+        "description": "The Warden intimidated the Revered Mother into releasing Sten.",
+        "tile_caption": "Intimidated Revered Mother to free Sten"
+      }
+    }
+  },
+  "dao.sten_sword": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Sten’s sword",
+    "question": "Did the Warden return Sten’s sword?",
+    "art_flag": "dao_sten_sword",
+    "art_value_field": "dao_sten_sword",
+    "quick_kind": "select",
+    "answers": {
+      "not_recruited": {
+        "title": "Didn’t recruit Sten",
+        "description": "The Warden did not recruit Sten.",
+        "tile_caption": "Didn’t recruit Sten"
+      },
+      "not_returned": {
+        "title": "Sword not returned",
+        "description": "The Warden did not return Sten’s sword.",
+        "tile_caption": "Didn't return Sten's sword"
+      },
+      "returned": {
+        "title": "Sword returned",
+        "description": "The Warden recovered Sten’s sword and returned it to him.",
+        "tile_caption": "Returned Sten's sword"
+      }
+    }
+  },
+  "dao.dagna_outcome": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Dagna",
+    "question": "How did the Warden respond to Dagna’s request?",
+    "art_flag": "dao_par_unlikely_scholar",
+    "art_value_field": "dao_par_unlikely_scholar",
+    "quick_kind": "select",
+    "answers": {
+      "not_met": {
+        "title": "Did not speak to Dagna",
+        "description": "The Warden did not speak to Dagna about her wish to study at the Circle.",
+        "tile_caption": "Didn't talk to Dagna"
+      },
+      "refused": {
+        "title": "Refused to help",
+        "description": "The Warden refused to help Dagna study at the Circle.",
+        "tile_caption": "Refused to help Dagna"
+      },
+      "stayed": {
+        "title": "Stayed with her father",
+        "description": "The Warden convinced Dagna to stay with her father.",
+        "tile_caption": "Convince Dagna to stay with father"
+      },
+      "studied": {
+        "title": "Left to study",
+        "description": "Dagna left Orzammar to study at the Circle.",
+        "tile_caption": "Dagna left to study"
+      },
+      "circle_destroyed": {
+        "title": "Told the Circle was destroyed",
+        "description": "The Warden told Dagna that the Circle had been destroyed.",
+        "tile_caption": "Told Dagna the Circle destroyed"
+      }
+    }
+  },
+  "dao.dagna_permission": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Dagna’s study permission",
+    "question": "Did the Warden ask permission for Dagna to study at the Circle?",
+    "art_flag": "dao_par_unlikely_scholar",
+    "art_value_field": "dao_par_dagna_circle",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_requested": {
+        "title": "Permission not requested",
+        "description": "The Warden did not ask permission for Dagna to study at the Circle."
+      },
+      "requested": {
+        "title": "Permission requested",
+        "description": "The Warden asked permission for Dagna to study at the Circle."
+      }
+    },
+    "checked_answer": "requested",
+    "unchecked_answer": "not_requested",
+    "checkbox_label": "Permission was requested for Dagna",
+    "display": "quick-only"
+  },
+  "da2.fenris_recruited": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Fenris’s recruitment",
+    "question": "Did Hawke recruit Fenris?",
+    "art_flag": "da2_fenris_alive",
+    "art_value_field": "da2_fenris_joined",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "Fenris did not join Hawke."
+      },
+      "recruited": {
+        "title": "Recruited",
+        "description": "Fenris joined Hawke’s companions."
+      }
+    },
+    "checked_answer": "recruited",
+    "unchecked_answer": "not_recruited",
+    "checkbox_label": "Fenris was recruited",
+    "display": "quick-only"
+  },
+  "da2.fenris_fate": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Fenris",
+    "question": "What became of Fenris?",
+    "art_flag": "da2_fenris_alive",
+    "art_value_field": "da2_fenris_alive",
+    "quick_kind": "select",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "Hawke did not recruit Fenris.",
+        "related_choices": {
+          "da2.fenris_recruited": "not_recruited",
+          "da2.fenris_danarius": "not_recruited"
+        },
+        "tile_caption": "Didn't recruit Fenris"
+      },
+      "dead": {
+        "title": "Died",
+        "description": "Fenris died.",
+        "related_choices": {
+          "da2.fenris_recruited": "recruited",
+          "da2.fenris_danarius": "not_returned"
+        },
+        "tile_caption": "Fenris died"
+      },
+      "alive": {
+        "title": "Alive and well",
+        "description": "Fenris was alive and well.",
+        "related_choices": {
+          "da2.fenris_recruited": "recruited",
+          "da2.fenris_danarius": "not_returned"
+        },
+        "tile_caption": "Fenris alive & well"
+      },
+      "returned": {
+        "title": "Returned to Danarius",
+        "description": "Fenris was returned to his Tevinter master.",
+        "related_choices": {
+          "da2.fenris_recruited": "recruited",
+          "da2.fenris_danarius": "returned"
+        },
+        "tile_caption": "Fenris returned to Tevinter master"
+      },
+      "pursued": {
+        "title": "Alive, still pursued",
+        "description": "Fenris was alive and well, but still pursued.",
+        "related_choices": {
+          "da2.fenris_recruited": "recruited",
+          "da2.fenris_danarius": "not_returned"
+        },
+        "tile_caption": "Fenris alive & well but still pursued"
+      }
+    },
+    "verification_note": "“Still pursued” follows the documented value 4, beyond the original game range. Survival flags for non-recruitment and return to Danarius also need verification.",
+    "custom_answer_label": "Custom Fenris settings",
+    "custom_answer_note": "Custom Fenris settings are preserved until you approve an answer."
+  },
+  "da2.fenris_danarius": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Fenris and Danarius",
+    "question": "Was Fenris returned to Danarius?",
+    "art_flag": "da2_fenris_alive",
+    "art_value_field": "da2_fenris_enslaved",
+    "quick_kind": "select",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "Hawke did not recruit Fenris."
+      },
+      "not_returned": {
+        "title": "Not returned",
+        "description": "Hawke did not return Fenris to Danarius."
+      },
+      "returned": {
+        "title": "Returned to Danarius",
+        "description": "Hawke returned Fenris to Danarius."
+      }
+    },
+    "display": "quick-only"
+  },
+  "da2.isabela_recruited": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Isabela’s recruitment",
+    "question": "Did Hawke recruit Isabela?",
+    "art_flag": "da2_isabela_joined",
+    "art_value_field": "da2_isabela_joined",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "Hawke did not recruit Isabela.",
+        "tile_caption": "Didn't recruit Isabela"
+      },
+      "recruited": {
+        "title": "Recruited",
+        "description": "Isabela joined Hawke’s companions.",
+        "tile_caption": "Recruited Isabela"
+      }
+    },
+    "checked_answer": "recruited",
+    "unchecked_answer": "not_recruited",
+    "checkbox_label": "Isabela was recruited"
+  },
+  "da2.isabela_book": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Isabela’s return",
+    "question": "Did Isabela return to Hawke with the book?",
+    "art_flag": "da2_isabela_returned_with_book",
+    "art_value_field": "da2_isabela_returned_with_book",
+    "quick_kind": "select",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "Hawke did not recruit Isabela.",
+        "tile_caption": "Didn't recruit Isabela"
+      },
+      "not_returned": {
+        "title": "Did not return",
+        "description": "Isabela did not return to Hawke with the book.",
+        "tile_caption": "Isabela did not return to Hawke"
+      },
+      "returned": {
+        "title": "Returned with the book",
+        "description": "Isabela returned to Hawke with the book.",
+        "tile_caption": "Isabela returned to Hawke"
+      }
+    }
+  },
+  "da2.isabela_handover": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Isabela and the Arishok",
+    "question": "Did Hawke give Isabela to the Arishok?",
+    "art_flag": "da2_isabela_turned_over",
+    "art_value_field": "da2_isabela_turned_over",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_handed_over": {
+        "title": "Not handed over",
+        "description": "Hawke did not hand Isabela over to the Arishok.",
+        "tile_caption": "Didn't give Isabela to Arishok"
+      },
+      "handed_over": {
+        "title": "Handed to the Arishok",
+        "description": "Hawke handed Isabela over to the Arishok.",
+        "tile_caption": "Gave Isabela to Arishok"
+      }
+    },
+    "checked_answer": "handed_over",
+    "unchecked_answer": "not_handed_over",
+    "checkbox_label": "Isabela was handed to the Arishok",
+    "verification_note": "Handover follows your documented boolean mapping (0 no, 1 yes); older game descriptions disagree and need verification."
+  },
+  "da2.merrill_fate": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Merrill",
+    "question": "What became of Merrill?",
+    "art_flag": "da2_merrill_alive",
+    "art_value_field": "da2_merrill_alive",
+    "quick_kind": "checkbox",
+    "answers": {
+      "dead": {
+        "title": "Died",
+        "description": "Merrill died.",
+        "tile_caption": "Merrill died"
+      },
+      "alive": {
+        "title": "Alive and well",
+        "description": "Merrill was alive and well.",
+        "tile_caption": "Merrill alive & well"
+      }
+    },
+    "checked_answer": "alive",
+    "unchecked_answer": "dead",
+    "checkbox_label": "Merrill survived"
+  },
+  "da2.merrill_eluvian": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Merrill’s eluvian",
+    "question": "Did Merrill destroy the eluvian?",
+    "art_flag": "da2_merrill_eluvian_destroy",
+    "art_value_field": "da2_merrill_eluvian_destroy",
+    "quick_kind": "checkbox",
+    "answers": {
+      "preserved": {
+        "title": "Kept the eluvian",
+        "description": "Merrill did not destroy the eluvian.",
+        "tile_caption": "Merrill did not destroy eluvian"
+      },
+      "destroyed": {
+        "title": "Destroyed the eluvian",
+        "description": "Merrill destroyed the eluvian.",
+        "tile_caption": "Merrill destroyed eluvian"
+      }
+    },
+    "checked_answer": "destroyed",
+    "unchecked_answer": "preserved",
+    "checkbox_label": "Merrill destroyed the eluvian"
+  },
+  "da2.merrill_remained": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Merrill’s loyalty",
+    "question": "Did Merrill stay with Hawke?",
+    "art_flag": "da2_merrill_remained",
+    "art_value_field": "da2_merrill_remained",
+    "quick_kind": "checkbox",
+    "answers": {
+      "left": {
+        "title": "Did not stay",
+        "description": "Merrill did not stay with Hawke.",
+        "tile_caption": "Merrill did not stay with Hawke"
+      },
+      "stayed": {
+        "title": "Stayed with Hawke",
+        "description": "Merrill stayed with Hawke.",
+        "tile_caption": "Merrill stayed with Hawke"
+      }
+    },
+    "checked_answer": "stayed",
+    "unchecked_answer": "left",
+    "checkbox_label": "Merrill stayed with Hawke"
+  },
+  "da2.merrill_clan": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Merrill’s clan",
+    "question": "Was Merrill’s clan killed?",
+    "art_flag": "da2_merrils_clan",
+    "art_value_field": "da2_merrils_clan",
+    "quick_kind": "checkbox",
+    "answers": {
+      "survived": {
+        "title": "Clan survived",
+        "description": "Merrill’s clan was not killed.",
+        "tile_caption": "Merrill's clan was not killed"
+      },
+      "killed": {
+        "title": "Clan killed",
+        "description": "Merrill’s clan was killed.",
+        "tile_caption": "Merrill's clan was killed"
+      }
+    },
+    "checked_answer": "killed",
+    "unchecked_answer": "survived",
+    "checkbox_label": "Merrill’s clan was killed"
+  },
+  "da2.aveline_marriage": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Aveline and Donnic",
+    "question": "Did Aveline marry Donnic?",
+    "art_flag": "da2_aveline_married",
+    "art_value_field": "da2_aveline_married",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_married": {
+        "title": "Did not marry Donnic",
+        "description": "Aveline did not marry Donnic.",
+        "tile_caption": "Aveline did not marry Donnic"
+      },
+      "married": {
+        "title": "Married Donnic",
+        "description": "Aveline married Donnic.",
+        "tile_caption": "Aveline married Donnic"
+      }
+    },
+    "unchecked_answer": "not_married",
+    "checked_answer": "married",
+    "checkbox_label": "Aveline married Donnic"
+  },
+  "da2.aveline_remained": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Aveline’s loyalty",
+    "question": "Did Aveline stay with Hawke?",
+    "art_flag": "da2_aveline_remained",
+    "art_value_field": "da2_aveline_remained",
+    "quick_kind": "checkbox",
+    "answers": {
+      "left": {
+        "title": "Did not stay",
+        "description": "Aveline did not stay with Hawke.",
+        "tile_caption": "Aveline did not stay with Hawke"
+      },
+      "stayed": {
+        "title": "Stayed with Hawke",
+        "description": "Aveline stayed with Hawke.",
+        "tile_caption": "Aveline stayed with Hawke"
+      }
+    },
+    "unchecked_answer": "left",
+    "checked_answer": "stayed",
+    "checkbox_label": "Aveline stayed with Hawke"
+  },
+  "da2.varric_relationship": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Varric’s friendship",
+    "question": "Were Hawke and Varric friends or rivals?",
+    "art_flag": "da2_hawke_varric_relationship",
+    "art_value_field": "da2_hawke_varric_relationship",
+    "quick_kind": "select",
+    "answers": {
+      "friends": {
+        "title": "Friends",
+        "description": "Hawke and Varric were friends.",
+        "tile_caption": "Friends with Varric"
+      },
+      "rivals": {
+        "title": "Rivals",
+        "description": "Hawke and Varric were rivals.",
+        "tile_caption": "Rivals with Varric"
+      }
+    }
+  },
+  "da2.bartrand_fate": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Bartrand",
+    "question": "Was Varric’s brother Bartrand killed?",
+    "art_flag": "da2_varric_bartrand_killed",
+    "art_value_field": "da2_varric_bartrand_killed",
+    "quick_kind": "select",
+    "answers": {
+      "alive": {
+        "title": "Spared Bartrand",
+        "description": "Bartrand was not killed.",
+        "tile_caption": "Bartrand not killed"
+      },
+      "killed": {
+        "title": "Killed Bartrand",
+        "description": "Bartrand was killed.",
+        "tile_caption": "Bartrand killed"
+      }
+    }
+  },
+  "da2.varric_idol": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Varric’s idol fragment",
+    "question": "Did Varric keep a piece of the red lyrium idol?",
+    "art_flag": "da2_varric_has_idol_piece",
+    "art_value_field": "da2_varric_has_idol_piece",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_kept": {
+        "title": "Did not keep the fragment",
+        "description": "Varric did not keep a piece of the red lyrium idol.",
+        "tile_caption": "Varric did not keep red lyrium idol"
+      },
+      "kept": {
+        "title": "Kept the fragment",
+        "description": "Varric kept a piece of the red lyrium idol.",
+        "tile_caption": "Varric kept red lyrium idol"
+      }
+    },
+    "unchecked_answer": "not_kept",
+    "checked_answer": "kept",
+    "checkbox_label": "Varric kept the idol fragment"
+  },
+  "da2.varric_quest": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Varric’s haunting",
+    "question": "Did Hawke help Varric discover the cause of the haunting?",
+    "art_flag": "da2_varric_plot_complete",
+    "art_value_field": "da2_varric_plot_complete",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_completed": {
+        "title": "Did not investigate",
+        "description": "Hawke did not help Varric discover what was haunting Bartrand’s mansion.",
+        "tile_caption": "Didn't help Varric discover cause of haunting"
+      },
+      "completed": {
+        "title": "Investigated the haunting",
+        "description": "Hawke helped Varric discover what was haunting Bartrand’s mansion.",
+        "tile_caption": "Helped Varric discover cause of haunting"
+      }
+    },
+    "unchecked_answer": "not_completed",
+    "checked_answer": "completed",
+    "checkbox_label": "Hawke investigated the haunting"
+  },
+  "da2.sebastian_recruited": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Sebastian’s recruitment",
+    "question": "Did Hawke recruit Sebastian?",
+    "art_flag": "da2_sebastian_joined",
+    "art_value_field": "da2_sebastian_joined",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Not recruited",
+        "description": "Hawke did not recruit Sebastian.",
+        "tile_caption": "Didn't recruit Sebastian"
+      },
+      "recruited": {
+        "title": "Recruited",
+        "description": "Sebastian joined Hawke’s companions.",
+        "tile_caption": "Recruited Sebastian"
+      }
+    },
+    "unchecked_answer": "not_recruited",
+    "checked_answer": "recruited",
+    "checkbox_label": "Sebastian was recruited"
+  },
+  "da2.final_allegiance": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "Mages and templars",
+    "question": "Did Hawke side with the mages or the templars?",
+    "art_flag": "da2_hawke_chosen_side",
+    "art_value_field": "da2_hawke_chosen_side",
+    "quick_kind": "select",
+    "answers": {
+      "mages": {
+        "title": "Sided with the mages",
+        "description": "Hawke sided with the mages in the final battle.",
+        "tile_caption": "Sided with mages"
+      },
+      "templars": {
+        "title": "Sided with the templars",
+        "description": "Hawke sided with the templars in the final battle.",
+        "tile_caption": "Sided with templars"
+      }
+    }
+  },
+  "da2.anders_approval": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Anders’s actions",
+    "question": "Did Hawke approve of Anders’s actions at the Chantry?",
+    "art_flag": "da2_hawke_approves_of_anders_action",
+    "art_value_field": "da2_hawke_approves_of_anders_action",
+    "quick_kind": "checkbox",
+    "answers": {
+      "disapproved": {
+        "title": "Did not approve",
+        "description": "Hawke did not approve of Anders’s destruction of the Chantry.",
+        "tile_caption": "Didn't approve of Anders' actions at Chantry"
+      },
+      "approved": {
+        "title": "Approved",
+        "description": "Hawke approved of Anders’s destruction of the Chantry.",
+        "tile_caption": "Approved of Anders' actions at Chantry"
+      }
+    },
+    "unchecked_answer": "disapproved",
+    "checked_answer": "approved",
+    "checkbox_label": "Hawke approved of Anders’s actions"
+  },
+  "da2.arishok_fate": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "The Arishok",
+    "question": "Did Hawke kill the Arishok?",
+    "art_flag": "da2_arishok_killed",
+    "art_value_field": "da2_arishok_killed",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_killed": {
+        "title": "Did not kill the Arishok",
+        "description": "Hawke did not kill the Arishok.",
+        "tile_caption": "Didn't kill Arishok"
+      },
+      "killed": {
+        "title": "Killed the Arishok",
+        "description": "Hawke killed the Arishok.",
+        "tile_caption": "Killed Arishok"
+      }
+    },
+    "unchecked_answer": "not_killed",
+    "checked_answer": "killed",
+    "checkbox_label": "Hawke killed the Arishok"
+  },
+  "da2.legacy_played": {
+    "game": "da2",
+    "category_id": "da2.legacy",
+    "category": "Legacy",
+    "title": "Legacy",
+    "question": "Did Hawke play Legacy?",
+    "quick_kind": "checkbox",
+    "unchecked_answer": "not_played",
+    "checked_answer": "played",
+    "checkbox_label": "Legacy was played",
+    "answers": {
+      "not_played": {
+        "title": "Did not play Legacy",
+        "description": "Hawke did not play Legacy.",
+        "archive_art": "da2_legacy_side_chosen/larius_top_2x1.jpg"
+      },
+      "played": {
+        "title": "Played Legacy",
+        "description": "Hawke played Legacy.",
+        "archive_art": "da2_legacy_side_chosen/larius_top_2x1.jpg"
+      }
+    },
+    "display": "quick-only"
+  },
+  "da2.legacy_side": {
+    "game": "da2",
+    "category_id": "da2.legacy",
+    "category": "Legacy",
+    "title": "Larius and Janeka",
+    "question": "Who did Hawke side with in Corypheus’s prison?",
+    "art_flag": "da2_legacy_side_chosen",
+    "art_value_field": "da2_legacy_side_chosen",
+    "quick_kind": "select",
+    "answers": {
+      "larius": {
+        "title": "Sided with Larius",
+        "description": "Hawke sided with Larius to stop Janeka from freeing Corypheus.",
+        "tile_caption": "Sided with Larius"
+      },
+      "janeka": {
+        "title": "Sided with Janeka",
+        "description": "Hawke sided with Janeka to free Corypheus.",
+        "tile_caption": "Sided with Janeka"
+      }
+    }
+  },
+  "da2.murder_of_crows": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "A Murder of Crows",
+    "question": "Did Hawke try to find the assassin for Nuncio?",
+    "art_flag": "da2_act3_murder_of_crows",
+    "art_value_field": "da2_act3_murder_of_crows",
+    "quick_kind": "select",
+    "answers": {
+      "not_sought": {
+        "title": "Nuncio did not seek Hawke out",
+        "description": "Nuncio did not seek Hawke out.",
+        "tile_caption": "Nuncio did not seek Hawke out"
+      },
+      "not_helped": {
+        "title": "Did not help Nuncio",
+        "description": "Hawke did not help Nuncio find the assassin.",
+        "tile_caption": "Didn't help Nuncio find the assassin"
+      },
+      "offered_help": {
+        "title": "Offered to help Nuncio",
+        "description": "Hawke offered to help Nuncio find the assassin.",
+        "tile_caption": "Hawke offered to help Nuncio"
+      }
+    }
+  },
+  "da2.zevran_freed": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "Hawke and Zevran",
+    "question": "Did Hawke let Zevran go?",
+    "art_flag": "da2_act3_zevran_freed",
+    "art_value_field": "da2_act3_zevran_freed",
+    "quick_kind": "select",
+    "answers": {
+      "not_encountered": {
+        "title": "Did not encounter Zevran",
+        "description": "Hawke did not encounter Zevran.",
+        "tile_caption": "Didn't find Zevran"
+      },
+      "not_freed": {
+        "title": "Did not let Zevran go",
+        "description": "Hawke handed Zevran over to Nuncio and the Crows.",
+        "tile_caption": "Didn't let Zevran go"
+      },
+      "freed": {
+        "title": "Let Zevran go",
+        "description": "Hawke let Zevran go rather than handing him over to Nuncio.",
+        "tile_caption": "Let Zevran go"
+      }
+    }
+  },
+  "da2.finding_nathaniel": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "Finding Nathaniel",
+    "question": "Did Hawke find and rescue Nathaniel from the Deep Roads?",
+    "art_flag": "da2_act3_finding_nathaniel",
+    "art_value_field": "da2_act3_finding_nathaniel",
+    "quick_kind": "select",
+    "answers": {
+      "not_survived": {
+        "title": "Nathaniel did not survive",
+        "description": "Nathaniel did not survive Dragon Age: Awakening.",
+        "tile_caption": "Nathaniel did not survive"
+      },
+      "not_encountered": {
+        "title": "Did not encounter Nathaniel",
+        "description": "Hawke did not encounter Nathaniel.",
+        "tile_caption": "Didn't encounter Nathaniel"
+      },
+      "rescued": {
+        "title": "Rescued Nathaniel",
+        "description": "Hawke rescued Nathaniel from the Deep Roads.",
+        "tile_caption": "Rescued Nathaniel"
+      }
+    }
+  },
+  "da2.gamlen_treasure": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "Gamlen’s Greatest Treasure",
+    "question": "How did Hawke decide to help Uncle Gamlen?",
+    "art_flag": "da2_act2_gamlen_greatest_treasure",
+    "art_value_field": "da2_act2_gamlen_greatest_treasure",
+    "quick_kind": "select",
+    "answers": {
+      "not_helped": {
+        "title": "Did not help Gamlen",
+        "description": "Hawke did not help Uncle Gamlen.",
+        "tile_caption": "Didn't help Uncle Gamlen"
+      },
+      "reunited": {
+        "title": "Reunited Charade and Gamlen",
+        "description": "Hawke reunited Gamlen with his daughter, Charade.",
+        "tile_caption": "Reunited Charade and Gamlen"
+      },
+      "returned_gem": {
+        "title": "Returned the Gem of Keroshek",
+        "description": "Hawke returned the Gem of Keroshek to Gamlen.",
+        "tile_caption": "Returned Gem of Keroshek to Gamlen"
+      }
+    }
+  },
+  "da2.malcolm_will": {
+    "game": "da2",
+    "category_id": "da2.legacy",
+    "category": "Legacy",
+    "title": "Malcolm’s will",
+    "question": "Did Hawke find Malcolm’s will in the Grey Warden prison tower?",
+    "art_flag": "da2_legacy_malcolm_will",
+    "art_value_field": "da2_legacy_malcolm_will",
+    "quick_kind": "checkbox",
+    "unchecked_answer": "not_found",
+    "checked_answer": "found",
+    "checkbox_label": "Hawke found Malcolm’s will",
+    "answers": {
+      "not_found": {
+        "title": "Did not find Malcolm’s will",
+        "description": "Hawke did not find Malcolm’s will in the Grey Warden prison tower.",
+        "tile_caption": "Didn't find Malcolm's will"
+      },
+      "found": {
+        "title": "Found Malcolm’s will",
+        "description": "Hawke found Malcolm’s will in the Grey Warden prison tower.",
+        "tile_caption": "Found Malcolm's will"
+      }
+    }
+  },
+  "da2.conspirators": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "The conspirators",
+    "question": "Who did Hawke hand the conspirators over to?",
+    "art_flag": "da2_act3_conspirators_end",
+    "art_value_field": "da2_act3_conspirators_end",
+    "quick_kind": "select",
+    "answers": {
+      "orsino": {
+        "title": "Handed to Orsino",
+        "description": "Hawke handed the conspirators over to Orsino.",
+        "tile_caption": "Handed conspirators to Orsino"
+      },
+      "meredith": {
+        "title": "Handed to Meredith",
+        "description": "Hawke handed the conspirators over to Meredith.",
+        "tile_caption": "Handed conspirators to Meredith"
+      }
+    }
+  },
+  "da2.emile_fate": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "Emile",
+    "question": "What did Hawke do with Emile?",
+    "art_flag": "da2_act3_emile_end",
+    "art_value_field": "da2_act3_emile_end",
+    "quick_kind": "select",
+    "answers": {
+      "circle": {
+        "title": "Returned to the Circle",
+        "description": "Hawke returned Emile to the Circle.",
+        "tile_caption": "Returned Emile to the Circle"
+      },
+      "freed": {
+        "title": "Allowed to go free",
+        "description": "Hawke allowed Emile to go free.",
+        "tile_caption": "Allowed Emile to go free"
+      }
+    }
+  },
+  "da2.keran_fate": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "Keran",
+    "question": "What did Hawke do with Keran?",
+    "art_flag": "da2_act3_keran_end",
+    "art_value_field": "da2_act3_keran_end",
+    "quick_kind": "select",
+    "answers": {
+      "released": {
+        "title": "Let Keran go",
+        "description": "Hawke let Keran go.",
+        "tile_caption": "Let Keran go"
+      },
+      "killed": {
+        "title": "Killed Keran",
+        "description": "Hawke killed Keran.",
+        "tile_caption": "Killed Keran"
+      },
+      "templars": {
+        "title": "Handed Keran to the templars",
+        "description": "Hawke handed Keran over to the templars.",
+        "tile_caption": "Gave Keran to the templars"
+      }
+    }
+  },
+  "da2.bone_pit_dragon": {
+    "game": "da2",
+    "category_id": "da2.act3",
+    "category": "Act III",
+    "title": "The Bone Pit dragon",
+    "question": "Did Hawke kill the dragon in the Bone Pit?",
+    "art_flag": "da2_act3_bone_pit_dragon",
+    "quick_kind": "select",
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "verification_note": "Not exported to DAI. This choice is saved only in your profile.",
+    "custom_answer_label": "Not selected",
+    "placeholder_answer": "not_killed",
+    "answers": {
+      "not_killed": {
+        "title": "Did not kill the dragon",
+        "description": "Hawke did not kill the dragon at the Bone Pit.",
+        "tile_caption": "Didn't kill dragon at Bone Pit",
+        "keep_art_value": 0
+      },
+      "killed": {
+        "title": "Killed the dragon",
+        "description": "Hawke killed the dragon at the Bone Pit.",
+        "tile_caption": "Killed dragon at Bone Pit",
+        "keep_art_value": 1
+      }
+    }
+  },
+  "da2.feynriel_fate": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "Feynriel",
+    "question": "What happened to Feynriel?",
+    "art_flag": "da2_act2_fenriel_end",
+    "art_value_field": "da2_act2_fenriel_end",
+    "quick_kind": "select",
+    "answers": {
+      "tevinter": {
+        "title": "Freed and left for Tevinter",
+        "description": "Feynriel was freed and left for Tevinter to study his abilities.",
+        "tile_caption": "Feynriel freed & left for Tevinter"
+      },
+      "tranquil": {
+        "title": "Made Tranquil",
+        "description": "Feynriel was made Tranquil.",
+        "tile_caption": "Feynriel made Tranquil"
+      },
+      "possessed": {
+        "title": "Possessed",
+        "description": "Feynriel was possessed.",
+        "tile_caption": "Feynriel possessed"
+      }
+    }
+  },
+  "da2.gascard_fate": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "Gascard",
+    "question": "Did Hawke kill Gascard?",
+    "art_flag": "da2_act2_gascard_killed",
+    "art_value_field": "da2_act2_gascard_killed",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_killed": {
+        "title": "Did not kill Gascard",
+        "description": "Hawke did not kill Gascard.",
+        "tile_caption": "Didn't kill Gascard"
+      },
+      "killed": {
+        "title": "Killed Gascard",
+        "description": "Hawke killed Gascard.",
+        "tile_caption": "Killed Gascard"
+      }
+    },
+    "unchecked_answer": "not_killed",
+    "checked_answer": "killed",
+    "checkbox_label": "Hawke killed Gascard"
+  },
+  "da2.javaris_fate": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "Javaris",
+    "question": "Did Javaris die?",
+    "art_flag": "da2_act2_javaris_dead",
+    "art_value_field": "da2_act2_javaris_dead",
+    "quick_kind": "checkbox",
+    "answers": {
+      "alive": {
+        "title": "Alive and well",
+        "description": "Javaris survived.",
+        "tile_caption": "Javaris alive & well"
+      },
+      "dead": {
+        "title": "Died",
+        "description": "Javaris died.",
+        "tile_caption": "Javaris died"
+      }
+    },
+    "unchecked_answer": "alive",
+    "checked_answer": "dead",
+    "checkbox_label": "Javaris died"
+  },
+  "da2.hubert_caravans": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "Hubert’s caravans",
+    "question": "Did Hawke discover who was raiding Hubert's caravans?",
+    "art_flag": "da2_act2_merchants_inside_job",
+    "art_value_field": "da2_act2_merchants_inside_job",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_discovered": {
+        "title": "Did not discover the looter",
+        "description": "Hawke did not discover who was looting Hubert’s caravans.",
+        "tile_caption": "Didn't discover looter of Hubert's caravans"
+      },
+      "discovered": {
+        "title": "Discovered the looter",
+        "description": "Hawke discovered who was looting Hubert’s caravans.",
+        "tile_caption": "Discovered looter of Hubert's caravans"
+      }
+    },
+    "unchecked_answer": "not_discovered",
+    "checked_answer": "discovered",
+    "checkbox_label": "Hawke discovered the caravan looter"
+  },
+  "da2.fools_gold": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "Fool’s Gold",
+    "question": "How did Hawke help Yevhen find his sons in the Deep Roads?",
+    "art_flag": "da2_act2_fools_gold",
+    "art_value_field": "da2_act2_fools_gold",
+    "quick_kind": "select",
+    "answers": {
+      "not_encountered": {
+        "title": "Did not encounter Yevhen",
+        "description": "Hawke did not encounter Yevhen.",
+        "tile_caption": "Didn't encounter Yevhen"
+      },
+      "iwan": {
+        "title": "Saved Iwan",
+        "description": "Hawke saved Iwan.",
+        "tile_caption": "Saved Iwan"
+      },
+      "merin": {
+        "title": "Saved Merin",
+        "description": "Hawke saved Merin.",
+        "tile_caption": "Saved Merin"
+      }
+    },
+    "verification_note": "Iwan/Merin follow the supplied editor and Keep (1/2); older game descriptions reverse them. Needs verification."
+  },
+  "da2.cliff_raiders": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "The cliff raiders",
+    "question": "Did Hawke help Lieutenant Harley with the raiders on the cliffs?",
+    "art_flag": "da2_act2_raiders_on_cliffs",
+    "art_value_field": "da2_act2_raiders_on_cliffs",
+    "quick_kind": "select",
+    "answers": {
+      "not_encountered": {
+        "title": "Did not encounter Lieutenant Harley",
+        "description": "Hawke did not encounter Lieutenant Harley.",
+        "tile_caption": "Didn't encounter Lieutenant Harley"
+      },
+      "abandoned": {
+        "title": "Abandoned the guardsmen",
+        "description": "Hawke left the guardsmen before the attack was complete.",
+        "tile_caption": "Abandoned the guardsmen"
+      },
+      "with_guards": {
+        "title": "Fought alongside the guardsmen",
+        "description": "Hawke fought alongside the guardsmen against the raiders.",
+        "tile_caption": "Fought alongside the guardsmen"
+      },
+      "alone": {
+        "title": "Attacked without the guardsmen",
+        "description": "Hawke attacked the raiders without the guardsmen’s help.",
+        "tile_caption": "Attacked the raiders without help of guardsmen"
+      }
+    }
+  },
+  "da2.varnell_side": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "Varnell",
+    "question": "Did Hawke side with Varnell against the Qunari?",
+    "art_flag": "da2_act2_varnell_side",
+    "art_value_field": "da2_act2_varnell_side",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_sided": {
+        "title": "Did not side with Varnell",
+        "description": "Hawke did not side with Varnell against the Qunari.",
+        "tile_caption": "Didn't side with Varnell against Qunari"
+      },
+      "sided": {
+        "title": "Sided with Varnell",
+        "description": "Hawke sided with Varnell against the Qunari.",
+        "tile_caption": "Sided with Varnell against Qunari"
+      }
+    },
+    "unchecked_answer": "not_sided",
+    "checked_answer": "sided",
+    "checkbox_label": "Hawke sided with Varnell"
+  },
+  "da2.petrice_side": {
+    "game": "da2",
+    "category_id": "da2.act2",
+    "category": "Act II",
+    "title": "Petrice",
+    "question": "Did Hawke side with Petrice?",
+    "art_flag": "da2_act2_petrice_side",
+    "art_value_field": "da2_act2_petrice_side",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_sided": {
+        "title": "Did not side with Petrice",
+        "description": "Hawke did not side with Petrice.",
+        "tile_caption": "Didn't side with Petrice"
+      },
+      "sided": {
+        "title": "Sided with Petrice",
+        "description": "Hawke sided with Petrice.",
+        "tile_caption": "Sided with Petrice"
+      }
+    },
+    "unchecked_answer": "not_sided",
+    "checked_answer": "sided",
+    "checkbox_label": "Hawke sided with Petrice"
+  },
+  "da2.feynriel_destination": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Feynriel’s destination",
+    "question": "Did Hawke send Feynriel to the Circle or to the Dalish?",
+    "art_flag": "da2_act1_feynriel_complete",
+    "art_value_field": "da2_act1_feynriel_complete",
+    "quick_kind": "select",
+    "answers": {
+      "dalish": {
+        "title": "Sent to the Dalish",
+        "description": "Hawke sent Feynriel to the Dalish.",
+        "tile_caption": "Sent Feynriel to the Dalish"
+      },
+      "circle": {
+        "title": "Sent to the Circle",
+        "description": "Hawke sent Feynriel to the Circle.",
+        "tile_caption": "Sent Feynriel to the Circle"
+      }
+    }
+  },
+  "da2.act1_templars": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "The templars",
+    "question": "What did Hawke do with the templars?",
+    "art_flag": "da2_act1_templars",
+    "art_value_field": "da2_act1_templars",
+    "quick_kind": "select",
+    "answers": {
+      "fought": {
+        "title": "Fought the templars",
+        "description": "Hawke fought the templars to defend the mages.",
+        "tile_caption": "Fought against templars"
+      },
+      "persuaded": {
+        "title": "Convinced them to leave",
+        "description": "Hawke convinced the templars to leave.",
+        "tile_caption": "Convinced templars to leave"
+      },
+      "mages_handed_over": {
+        "title": "Handed over the mages",
+        "description": "Hawke handed the mages over to the templars.",
+        "tile_caption": "Turned mages over to templars"
+      }
+    }
+  },
+  "da2.danzig_fate": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Danzig",
+    "question": "Did Hawke kill Danzig?",
+    "art_flag": "da2_act1_danzig_killed",
+    "art_value_field": "da2_act1_danzig_killed",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_killed": {
+        "title": "Did not kill Danzig",
+        "description": "Hawke did not kill Danzig.",
+        "tile_caption": "Didn't kill Danzig"
+      },
+      "killed": {
+        "title": "Killed Danzig",
+        "description": "Hawke killed Danzig.",
+        "tile_caption": "Killed Danzig"
+      }
+    },
+    "unchecked_answer": "not_killed",
+    "checked_answer": "killed",
+    "checkbox_label": "Hawke killed Danzig"
+  },
+  "da2.idunna_fate": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Idunna",
+    "question": "Was Idunna killed?",
+    "art_flag": "da2_act1_idunna_killed",
+    "art_value_field": "da2_act1_idunna_killed",
+    "quick_kind": "checkbox",
+    "answers": {
+      "alive": {
+        "title": "Alive and well",
+        "description": "Idunna survived.",
+        "tile_caption": "Idunna alive & well"
+      },
+      "killed": {
+        "title": "Killed",
+        "description": "Idunna was killed.",
+        "tile_caption": "Idunna killed"
+      }
+    },
+    "unchecked_answer": "alive",
+    "checked_answer": "killed",
+    "checkbox_label": "Idunna was killed"
+  },
+  "da2.saemus_rescue": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Saemus",
+    "question": "Did Hawke return Saemus safely to the viscount?",
+    "art_flag": "da2_act1_seamus",
+    "art_value_field": "da2_act1_seamus",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_returned": {
+        "title": "Did not return Saemus",
+        "description": "Hawke did not seek out Saemus.",
+        "tile_caption": "Didn't return Saemus to viscount"
+      },
+      "returned": {
+        "title": "Returned Saemus safely",
+        "description": "Saemus was rescued not from the Qunari, but from the mercenary group determined to hold him hostage.",
+        "tile_caption": "Returned Saemus to viscount"
+      }
+    },
+    "unchecked_answer": "not_returned",
+    "checked_answer": "returned",
+    "checkbox_label": "Hawke returned Saemus safely"
+  },
+  "da2.ginnis_fate": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Ginnis",
+    "question": "Is Ginnis alive?",
+    "art_flag": "da2_act1_ginnis_alive",
+    "art_value_field": "da2_act1_ginnis_alive",
+    "quick_kind": "checkbox",
+    "answers": {
+      "dead": {
+        "title": "Died",
+        "description": "Ginnis died at Hawke's hand after forcing a conflict rather than have any competition for the reward for Saemus's return.",
+        "tile_caption": "Ginnis died"
+      },
+      "alive": {
+        "title": "Alive and well",
+        "description": "Hawke never came into conflict with the mercenary leader.",
+        "tile_caption": "Ginnis is alive & well"
+      }
+    },
+    "unchecked_answer": "dead",
+    "checked_answer": "alive",
+    "checkbox_label": "Ginnis survived"
+  },
+  "da2.ghyslain_truth": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Ghyslain’s wife",
+    "question": "Did Hawke tell Ghyslain the truth about his wife's death?",
+    "art_flag": "da2_act1_ghyslain_truth",
+    "art_value_field": "da2_act1_ghyslain_truth",
+    "quick_kind": "select",
+    "answers": {
+      "not_sought": {
+        "title": "Did not search for Ninette",
+        "description": "Hawke did not hunt for Ninette.",
+        "tile_caption": "Didn't look for Ghyslain's wife"
+      },
+      "concealed": {
+        "title": "Concealed the truth",
+        "description": "While he learned that she had died, Hawke spared the nobleman the grisly details.",
+        "tile_caption": "Didn't tell truth about Ghyslain's wife's death"
+      },
+      "told": {
+        "title": "Told the truth",
+        "description": "The noble learned the grisly fate of his wife.",
+        "tile_caption": "Told truth about Ghyslain's wife's death"
+      }
+    }
+  },
+  "da2.thrask_blackmail": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Thrask",
+    "question": "Did Hawke blackmail Ser Thrask?",
+    "art_flag": "da2_act1_thrask_blackmailed",
+    "art_value_field": "da2_act1_thrask_blackmailed",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_blackmailed": {
+        "title": "Did not blackmail Thrask",
+        "description": "Hawke agreed to keep Ser Thrask's secret.",
+        "tile_caption": "Didn't blackmail Ser Thrask"
+      },
+      "blackmailed": {
+        "title": "Blackmailed Thrask",
+        "description": "Hawke used Ser Thrask's apostate daughter against the templar.",
+        "tile_caption": "Blackmailed Ser Thrask"
+      }
+    },
+    "unchecked_answer": "not_blackmailed",
+    "checked_answer": "blackmailed",
+    "checkbox_label": "Hawke blackmailed Thrask"
+  },
+  "da2.ketojan_fate": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Ketojan",
+    "question": "Did Hawke defend Ketojan or hand him over to the Qunari?",
+    "art_flag": "da2_act1_saarebas_defended",
+    "art_value_field": "da2_act1_saarebas_defended",
+    "quick_kind": "select",
+    "answers": {
+      "defended": {
+        "title": "Defended Ketojan",
+        "description": "Hawke defended Ketojan from the Qunari.",
+        "tile_caption": "Defended Ketojan from the Qunari"
+      },
+      "handed_over": {
+        "title": "Handed Ketojan over",
+        "description": "Hawke handed Ketojan over to the Qunari.",
+        "tile_caption": "Handed Ketojan over to the Qunari"
+      }
+    }
+  },
+  "da2.martin_cargo": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Martin’s cargo",
+    "question": "Did Hawke return the cargo to Martin?",
+    "art_flag": "da2_act1_martin_cargo_returned",
+    "art_value_field": "da2_act1_martin_cargo_returned",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_returned": {
+        "title": "Did not return the cargo",
+        "description": "Martin's cargo was never recovered.",
+        "tile_caption": "Didn't return cargo to Martin"
+      },
+      "returned": {
+        "title": "Returned the cargo",
+        "description": "After receiving his goods, Martin set up a small, illicit shop in the Hanged Man.",
+        "tile_caption": "Returned cargo to Martin"
+      }
+    },
+    "unchecked_answer": "not_returned",
+    "checked_answer": "returned",
+    "checkbox_label": "Hawke returned Martin’s cargo"
+  },
+  "da2.kelder_fate": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Kelder",
+    "question": "Was Kelder killed?",
+    "art_flag": "da2_act1_kelder_killed",
+    "art_value_field": "da2_act1_kelder_killed",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_killed": {
+        "title": "Not killed",
+        "description": "Hawke returned the deeply disturbed man to his father, Magistrate Vanard.",
+        "tile_caption": "Kelder alive & well"
+      },
+      "killed": {
+        "title": "Killed",
+        "description": "Hawke ended Kelder's life, likely saving the lives of others.",
+        "tile_caption": "Kelder killed"
+      }
+    },
+    "unchecked_answer": "not_killed",
+    "checked_answer": "killed",
+    "checkbox_label": "Kelder was killed"
+  },
+  "da2.bone_pit_miners": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "The missing miners",
+    "question": "Did Hawke find the miners who'd gone missing from the Bone Pit?",
+    "art_flag": "da2_act1_bonepit_completed",
+    "art_value_field": "da2_act1_bonepit_completed",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_solved": {
+        "title": "Did not solve the mystery",
+        "description": "Hawke did not help Hubert discover the fate of his crew of miners at The Bone Pit.",
+        "tile_caption": "Didn't solve mystery of missing miners"
+      },
+      "solved": {
+        "title": "Solved the mystery",
+        "description": "Hawke traveled to The Bone Pit to help the unfortunate mining crew.",
+        "tile_caption": "Solved mystery of missing miners"
+      }
+    },
+    "unchecked_answer": "not_solved",
+    "checked_answer": "solved",
+    "checkbox_label": "Hawke solved the mystery of the missing miners"
+  },
+  "da2.keran_templars": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Keran’s templar status",
+    "question": "Was Keran reinstated or expelled from the templars?",
+    "art_flag": "da2_act1_keran_templars",
+    "art_value_field": "da2_act1_keran_templars",
+    "quick_kind": "select",
+    "answers": {
+      "reinstated": {
+        "title": "Reinstated with the templars",
+        "description": "He was reinstated with the templars.",
+        "tile_caption": "Keran reinstated with templars"
+      },
+      "expelled": {
+        "title": "Expelled from the templars",
+        "description": "He was kicked out of the templars.",
+        "tile_caption": "Keran kicked out of templars"
+      }
+    }
+  },
+  "da2.karras_fate": {
+    "game": "da2",
+    "category_id": "da2.act1",
+    "category": "Act I",
+    "title": "Karras",
+    "question": "Was Karras killed?",
+    "art_flag": "da2_act1_karras_killed",
+    "art_value_field": "da2_act1_karras_killed",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_killed": {
+        "title": "Not killed",
+        "description": "Hawke chose not to kill Karras and his group of templars.",
+        "tile_caption": "Karras alive & well"
+      },
+      "killed": {
+        "title": "Killed",
+        "description": "Aided by Ser Thrask, Hawke killed Karras and his group of templars.",
+        "tile_caption": "Karras killed"
+      }
+    },
+    "unchecked_answer": "not_killed",
+    "checked_answer": "killed",
+    "checkbox_label": "Karras was killed"
+  },
+  "da2.bethany_final_battle": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Bethany’s final battle",
+    "question": "Did Bethany die in the final battle?",
+    "art_flag": "da2_bethany_final_battle_death",
+    "art_value_field": "da2_bethany_final_battle_death",
+    "quick_kind": "select",
+    "answers": {
+      "before_war": {
+        "title": "Died before the mage–templar war",
+        "description": "Bethany did not live to see the events that tore the Circle apart.",
+        "tile_caption": "Bethany did not live to see mage/templar war"
+      },
+      "survived": {
+        "title": "Survived the final battle",
+        "description": "Bethany managed to survive the deadly chaos.",
+        "tile_caption": "Bethany did not die in final battle"
+      },
+      "died": {
+        "title": "Died in the final battle",
+        "description": "Bethany did not survive the struggle between the mages and templars.",
+        "tile_caption": "Bethany died in final battle"
+      }
+    }
+  },
+  "da2.tallis_kiss": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Tallis’s kiss",
+    "question": "Did Hawke kiss Tallis?",
+    "art_flag": "da2_mark_tallis_kiss",
+    "art_value_field": "da2_mark_tallis_kiss",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_kissed": {
+        "title": "Did not kiss Tallis",
+        "description": "Romancing Qunari spies is rarely the wisest thing a Champion can do.",
+        "tile_caption": "Didn't kiss Tallis"
+      },
+      "kissed": {
+        "title": "Kissed Tallis",
+        "description": "While nothing serious could come of it in the short term, the attraction was real.",
+        "tile_caption": "Kissed Tallis"
+      }
+    },
+    "unchecked_answer": "not_kissed",
+    "checked_answer": "kissed",
+    "checkbox_label": "Hawke kissed Tallis"
+  },
+  "da2.tallis_reaction": {
+    "game": "da2",
+    "category_id": "da2.companions",
+    "category": "Companions",
+    "title": "Tallis",
+    "question": "Did Hawke make Tallis angry?",
+    "art_flag": "da2_mark_tallis_angry",
+    "art_value_field": "da2_mark_tallis_angry",
+    "quick_kind": "select",
+    "answers": {
+      "not_angry": {
+        "title": "Did not make Tallis angry",
+        "description": "The two parted on amicable terms.",
+        "tile_caption": "Didn't make Tallis angry"
+      },
+      "angry": {
+        "title": "Made Tallis angry",
+        "description": "Hawke and Tallis fundamentally disagreed about her ultimate objective and how it related to the Qunari.",
+        "tile_caption": "Made Tallis angry"
+      },
+      "never_met": {
+        "title": "Never met Tallis",
+        "description": "Didn't encounter Tallis.",
+        "tile_caption": "Never met Tallis"
+      }
+    },
+    "verification_note": "“Never met Tallis” follows Keep value 2 beyond the original game range; its DAI behavior needs verification."
+  },
+  "da2.prologue_allegiance": {
+    "game": "da2",
+    "category_id": "da2.prologue",
+    "category": "Prologue",
+    "title": "A year in Kirkwall",
+    "question": "Did Hawke join the mercenaries or the smugglers?",
+    "art_flag": "da2_pro_choice",
+    "art_value_field": "da2_pro_choice",
+    "quick_kind": "select",
+    "answers": {
+      "smugglers": {
+        "title": "Joined the smugglers",
+        "description": "The smugglers provided Hawke with valuable connections and secured the family’s entrance to Kirkwall.",
+        "tile_caption": "Joined smugglers"
+      },
+      "mercenaries": {
+        "title": "Joined the mercenaries",
+        "description": "The mercenary company was true to their word and Hawke's sponsorship was secured.",
+        "tile_caption": "Joined mercenaries"
+      }
+    }
+  },
+  "dao.ostagar_deserter": {
+    "game": "dao",
+    "category_id": "dao.prologue",
+    "category": "Prologue",
+    "title": "The hungry deserter",
+    "question": "What did the Warden do with the hungry deserter in Ostagar?",
+    "art_flag": "dao_pre_hungry_deserter",
+    "art_value_field": "dao_pre_hungry_deserter",
+    "quick_kind": "select",
+    "answers": {
+      "left_alone": {
+        "title": "Left the prisoner alone",
+        "description": "The Warden left the prisoner to his fate.",
+        "tile_caption": "Ostagar prisoner left alone"
+      },
+      "killed": {
+        "title": "Killed the prisoner",
+        "description": "The Warden eliminated the deserter, a cold form of justice.",
+        "tile_caption": "Ostagar prisoner killed"
+      },
+      "stolen_food": {
+        "title": "Fed him stolen food",
+        "description": "The Warden \"acquired\" the guard's lunch and passed it on to the prisoner, who thanked the Warden by turning over a stolen key.",
+        "tile_caption": "Fed Ostagar prisoner stolen food"
+      },
+      "guards_lunch": {
+        "title": "Persuaded the guard to share his lunch",
+        "description": "The Warden convinced the guard to share his lunch with the prisoner, who thanked the Warden by turning over a stolen key.",
+        "tile_caption": "Fed Ostagar prisoner guard's lunch"
+      },
+      "bought_food": {
+        "title": "Bought food for the prisoner",
+        "description": "The Warden brokered a deal with the guard, paying for his food and passing it on to the prisoner, who showed his gratitude to the Warden by turning over a stolen key.",
+        "tile_caption": "Bought food to feed Ostagar prisoner"
+      },
+      "stolen_key": {
+        "title": "Stole the prisoner’s key",
+        "description": "The Warden stole the prisoner's key, leaving the man to his fate.",
+        "tile_caption": "Key stolen from Ostagar prisoner"
+      }
+    }
+  },
+  "dao.ostagar_mabari": {
+    "game": "dao",
+    "category_id": "dao.prologue",
+    "category": "Prologue",
+    "title": "The sick mabari",
+    "question": "What did the Warden do with the mabari hound in Ostagar?",
+    "art_flag": "dao_pre_mabari_hound",
+    "art_value_field": "dao_pre_mabari_hound",
+    "quick_kind": "select",
+    "answers": {
+      "not_helped": {
+        "title": "Did not help the hound",
+        "description": "Concerned with other matters, the Warden left the mabari in the care of its keeper.",
+        "tile_caption": "Didn't help mabari hound"
+      },
+      "cured": {
+        "title": "Cured the hound",
+        "description": "A rare white flower collected from the Korcari Wilds provided relief to the injured hound.",
+        "tile_caption": "Cured mabari hound"
+      },
+      "killed": {
+        "title": "Put the hound out of its misery",
+        "description": "The Warden put the injured mabari out of its misery rather than see it suffer.",
+        "tile_caption": "Put mabari hound out of its misery"
+      }
+    }
+  },
+  "dao.dog_recruited": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Dog",
+    "question": "Did the Warden recruit Dog?",
+    "art_flag": "dao_dog_recruited",
+    "art_value_field": "dao_dog_recruited",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Did not recruit Dog",
+        "description": "Dog did not join the Warden.",
+        "tile_caption": "Didn't recruit Dog"
+      },
+      "recruited": {
+        "title": "Recruited Dog",
+        "description": "Stalwart, ferocious in battle, and delighted by tummy rubs, Dog was a companion to the Warden.",
+        "tile_caption": "Recruited Dog"
+      }
+    },
+    "unchecked_answer": "not_recruited",
+    "checked_answer": "recruited",
+    "checkbox_label": "Dog joined the Warden"
+  },
+  "dao.nathaniel_fate": {
+    "game": "dao",
+    "category_id": "dao.awakening",
+    "category": "Awakening",
+    "title": "Nathaniel’s survival",
+    "question": "What happened to Nathaniel?",
+    "art_flag": "dao_awakenings_nathaniel_live",
+    "quick_kind": "select",
+    "answers": {
+      "dead": {
+        "title": "Nathaniel died",
+        "description": "Nathaniel did not survive his encounter with the Warden Commander.",
+        "tile_caption": "Nathaniel died"
+      },
+      "alive": {
+        "title": "Nathaniel alive & well",
+        "description": "Nathaniel survived his encounter with the Warden Commander.",
+        "tile_caption": "Nathaniel alive & well"
+      }
+    },
+    "art_value_field": "dao_awakenings_nathaniel_live"
+  },
+  "dao.irving_fate": {
+    "game": "dao",
+    "category_id": "dao.circle",
+    "category": "Broken Circle",
+    "title": "First Enchanter Irving",
+    "question": "Did First Enchanter Irving survive the battle against Uldred?",
+    "art_flag": "dao_bc_irving_survive",
+    "art_value_field": "dao_bc_irving_survive",
+    "quick_kind": "select",
+    "answers": {
+      "dead": {
+        "title": "First Enchanter Irving died",
+        "description": "Irving died.",
+        "tile_caption": "First Enchanter Irving died in battle"
+      },
+      "alive": {
+        "title": "First Enchanter Irving survived",
+        "description": "Irving survived.",
+        "tile_caption": "First Enchanter Irving survived battle"
+      }
+    }
+  },
+  "dao.urn_poisoned": {
+    "game": "dao",
+    "category_id": "dao.urn",
+    "category": "The Urn of Sacred Ashes",
+    "title": "The Urn of Sacred Ashes",
+    "question": "Did the Warden poison the Urn of Sacred Ashes?",
+    "art_flag": "dao_urn_of_sacred_ashes_destroyed",
+    "art_value_field": "dao_urn_of_sacred_ashes_destroyed",
+    "quick_kind": "select",
+    "answers": {
+      "preserved": {
+        "title": "Did not poison the Urn",
+        "description": "Did not poison the Urn.",
+        "tile_caption": "Urn not poisoned"
+      },
+      "poisoned": {
+        "title": "Poisoned the Urn",
+        "description": "Poisoned the Urn.",
+        "tile_caption": "Urn poisoned"
+      }
+    }
+  },
+  "dao.cammen_relationship": {
+    "game": "dao",
+    "category_id": "dao.nature",
+    "category": "Nature of the Beast",
+    "title": "Cammen and Gheyna",
+    "question": "How did the Warden handle Cammen's broken heart?",
+    "art_flag": "dao_ntb_cammen_lament",
+    "art_value_field": "dao_ntb_cammen_lament",
+    "quick_kind": "select",
+    "answers": {
+      "not_met": {
+        "title": "Did not encounter Cammen and Gheyna",
+        "description": "The Warden did not encounter Cammen and Gheyna.",
+        "tile_caption": "Did not encounter Cammen and Gheyna"
+      },
+      "broke_up": {
+        "title": "Broke Cammen and Gheyna up",
+        "description": "The Warden broke Cammen and Gheyna up.",
+        "tile_caption": "Broke Cammen and Gheyna up"
+      },
+      "together": {
+        "title": "Brought Cammen and Gheyna together",
+        "description": "The Warden brought Cammen and Gheyna together.",
+        "tile_caption": "Brought Cammen and Gheyna together"
+      }
+    }
+  },
+  "dao.elora_halla": {
+    "game": "dao",
+    "category_id": "dao.nature",
+    "category": "Nature of the Beast",
+    "title": "Elora’s halla",
+    "question": "How did the Warden handle Elora's sick halla?",
+    "art_flag": "dao_ntb_elora_halla",
+    "art_value_field": "dao_ntb_elora_halla",
+    "quick_kind": "select",
+    "answers": {
+      "not_helped": {
+        "title": "Did not help Elora",
+        "description": "The Warden did not help Elora with her sick halla.",
+        "tile_caption": "Did not help Elora"
+      },
+      "saved": {
+        "title": "Saved Elora’s halla",
+        "description": "The Warden saved Elora’s sick halla.",
+        "tile_caption": "Saved Elora’s halla"
+      },
+      "killed": {
+        "title": "Allowed the halla to be killed",
+        "description": "The Warden allowed Elora’s sick halla to be killed.",
+        "tile_caption": "Allowed the halla to be killed"
+      }
+    }
+  },
+  "dao.athras_danyla": {
+    "game": "dao",
+    "category_id": "dao.nature",
+    "category": "Nature of the Beast",
+    "title": "Athras and Danyla",
+    "question": "Did the Warden tell Athras about the fate of his wife, Danyla?",
+    "art_flag": "dao_ntb_lost_curse",
+    "art_value_field": "dao_ntb_lost_curse",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_told": {
+        "title": "Did not tell Athras about Danyla",
+        "description": "The Warden did not tell Athras about his wife Danyla’s fate.",
+        "tile_caption": "Did not tell Athras about Danyla"
+      },
+      "told": {
+        "title": "Told Athras about Danyla",
+        "description": "The Warden told Athras about his wife Danyla’s fate.",
+        "tile_caption": "Told Athras about Danyla"
+      }
+    },
+    "unchecked_answer": "not_told",
+    "checked_answer": "told",
+    "checkbox_label": "Told Athras about Danyla"
+  },
+  "dao.varathorn_ironbark": {
+    "game": "dao",
+    "category_id": "dao.nature",
+    "category": "Nature of the Beast",
+    "title": "Varathorn’s ironbark",
+    "question": "Did the Warden bring Varathorn the ironbark he needed?",
+    "art_flag": "dao_ntb_rare_ironbark",
+    "art_value_field": "dao_ntb_rare_ironbark",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_brought": {
+        "title": "Did not bring Varathorn ironbark",
+        "description": "The Warden did not bring Varathorn the ironbark he needed.",
+        "tile_caption": "Did not bring Varathorn ironbark"
+      },
+      "brought": {
+        "title": "Brought Varathorn ironbark",
+        "description": "The Warden brought Varathorn the ironbark he needed.",
+        "tile_caption": "Brought Varathorn ironbark"
+      }
+    },
+    "unchecked_answer": "not_brought",
+    "checked_answer": "brought",
+    "checkbox_label": "Brought Varathorn ironbark"
+  },
+  "dao.deygan_fate": {
+    "game": "dao",
+    "category_id": "dao.nature",
+    "category": "Nature of the Beast",
+    "title": "Deygan",
+    "question": "How did the Warden deal with Deygan in the Brecilian Forest?",
+    "art_flag": "dao_ntb_wounded_forest",
+    "art_value_field": "dao_ntb_wounded_forest",
+    "quick_kind": "select",
+    "answers": {
+      "not_met": {
+        "title": "Did not encounter Deygan",
+        "description": "The Warden did not encounter Deygan in the Brecilian Forest.",
+        "tile_caption": "Did not encounter Deygan"
+      },
+      "returned": {
+        "title": "Returned Deygan to the Dalish camp",
+        "description": "The Warden returned the wounded Deygan to the Dalish camp for treatment.",
+        "tile_caption": "Returned Deygan to the Dalish camp"
+      },
+      "killed": {
+        "title": "Killed Deygan",
+        "description": "The Warden killed Deygan in the Brecilian Forest.",
+        "tile_caption": "Killed Deygan"
+      }
+    }
+  },
+  "dao.redcliffe_preparation": {
+    "game": "dao",
+    "category_id": "dao.redcliffe",
+    "category": "The Arl of Redcliffe",
+    "title": "Preparing Redcliffe",
+    "question": "Did the Warden help the people of Redcliffe prepare for the attack of the undead hordes?",
+    "art_flag": "dao_red_village_siege",
+    "art_value_field": "dao_red_village_siege",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_helped": {
+        "title": "Did not help Redcliffe prepare",
+        "description": "The Warden did not help the villagers prepare for the undead attack.",
+        "tile_caption": "Did not help Redcliffe prepare"
+      },
+      "helped": {
+        "title": "Helped Redcliffe prepare",
+        "description": "The Warden helped the people of Redcliffe prepare for the undead attack.",
+        "tile_caption": "Helped Redcliffe prepare"
+      }
+    },
+    "unchecked_answer": "not_helped",
+    "checked_answer": "helped",
+    "checkbox_label": "Helped Redcliffe prepare"
+  },
+  "dao.redcliffe_defense": {
+    "game": "dao",
+    "category_id": "dao.redcliffe",
+    "category": "The Arl of Redcliffe",
+    "title": "Defending Redcliffe",
+    "question": "Did the Warden help the village of Redcliffe fight the undead hordes at nightfall?",
+    "art_flag": "dao_red_attack_nightfall",
+    "art_value_field": "dao_red_attack_nightfall",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_helped": {
+        "title": "Did not defend Redcliffe",
+        "description": "The Warden did not help defend Redcliffe against the undead at nightfall.",
+        "tile_caption": "Did not defend Redcliffe"
+      },
+      "helped": {
+        "title": "Defended Redcliffe at nightfall",
+        "description": "The Warden helped the village fight the undead at nightfall.",
+        "tile_caption": "Defended Redcliffe at nightfall"
+      }
+    },
+    "unchecked_answer": "not_helped",
+    "checked_answer": "helped",
+    "checkbox_label": "Defended Redcliffe at nightfall"
+  },
+  "dao.bevin_fate": {
+    "game": "dao",
+    "category_id": "dao.redcliffe",
+    "category": "The Arl of Redcliffe",
+    "title": "Bevin and the family sword",
+    "question": "What did the Warden do to help Kaitlyn find her brother Bevin?",
+    "art_flag": "dao_red_missing_child",
+    "art_value_field": "dao_red_missing_child",
+    "quick_kind": "select",
+    "answers": {
+      "not_helped": {
+        "title": "Did nothing to help find Bevin",
+        "description": "The Warden did nothing to help Kaitlyn find Bevin.",
+        "tile_caption": "Did nothing to help find Bevin"
+      },
+      "took_sword": {
+        "title": "Freed Bevin and took the sword",
+        "description": "The Warden freed Bevin and took his family’s sword.",
+        "tile_caption": "Freed Bevin and took the sword"
+      },
+      "paid_for_sword": {
+        "title": "Freed Bevin and paid for the sword",
+        "description": "The Warden freed Bevin and paid for his family’s sword.",
+        "tile_caption": "Freed Bevin and paid for the sword"
+      },
+      "no_sword": {
+        "title": "Freed Bevin without finding the sword",
+        "description": "The Warden freed Bevin without finding his family’s sword.",
+        "tile_caption": "Freed Bevin without finding the sword"
+      },
+      "scared_to_chantry": {
+        "title": "Scared Bevin back to the Chantry",
+        "description": "The Warden frightened Bevin into returning to the Chantry.",
+        "tile_caption": "Scared Bevin back to the Chantry"
+      },
+      "returned_sword": {
+        "title": "Freed Bevin and returned the sword",
+        "description": "The Warden freed Bevin and returned his family’s sword later.",
+        "tile_caption": "Freed Bevin and returned the sword"
+      }
+    },
+    "verification_note": "Returned sword follows Keep/editor value 5 beyond the original range; DAI effects are unconfirmed."
+  },
+  "dao.valena_fate": {
+    "game": "dao",
+    "category_id": "dao.redcliffe",
+    "category": "The Arl of Redcliffe",
+    "title": "Valena",
+    "question": "Did the Warden rescue Owen the Blacksmith's daughter, Valena?",
+    "art_flag": "dao_red_lost_castle",
+    "art_value_field": "dao_red_lost_castle",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_rescued": {
+        "title": "Did not rescue Valena",
+        "description": "The Warden did not rescue Owen’s daughter Valena.",
+        "tile_caption": "Did not rescue Valena"
+      },
+      "rescued": {
+        "title": "Helped Valena escape",
+        "description": "The Warden helped Owen’s daughter Valena escape from Redcliffe Castle.",
+        "tile_caption": "Helped Valena escape"
+      }
+    },
+    "unchecked_answer": "not_rescued",
+    "checked_answer": "rescued",
+    "checkbox_label": "Helped Valena escape"
+  },
+  "dao.bella_fate": {
+    "game": "dao",
+    "category_id": "dao.redcliffe",
+    "category": "The Arl of Redcliffe",
+    "title": "Bella’s tavern",
+    "question": "What was the fate of Bella the tavern waitress?",
+    "art_flag": "dao_red_bella_tavern",
+    "quick_kind": "select",
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "verification_note": "Not exported to DAI. Bella’s outcome is saved only in your profile.",
+    "custom_answer_label": "Not selected",
+    "placeholder_answer": "left",
+    "answers": {
+      "left": {
+        "title": "Bella left Redcliffe",
+        "description": "Bella left Redcliffe.",
+        "tile_caption": "Bella left Redcliffe",
+        "keep_art_value": 0
+      },
+      "tavern_owner": {
+        "title": "Bella took tavern ownership",
+        "description": "Bella took over ownership of the tavern.",
+        "tile_caption": "Bella took tavern ownership",
+        "keep_art_value": 1
+      },
+      "brewery": {
+        "title": "Bella left to start a brewery",
+        "description": "Bella left Redcliffe to start her own brewery.",
+        "tile_caption": "Bella left to start a brewery",
+        "keep_art_value": 2
+      },
+      "died": {
+        "title": "Bella died in Redcliffe",
+        "description": "Bella did not survive the events in Redcliffe.",
+        "tile_caption": "Bella died in Redcliffe",
+        "keep_art_value": 3
+      }
+    }
+  },
+  "dao.filda_ruck": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Filda and Ruck",
+    "question": "How did the Warden complete Filda's quest to find her son Ruck in the Deep Roads?",
+    "art_flag": "dao_par_mothers_hope",
+    "art_value_field": "dao_par_mothers_hope",
+    "quick_kind": "select",
+    "answers": {
+      "not_met": {
+        "title": "Did not speak to Filda",
+        "description": "The Warden did not speak to Filda about her missing son.",
+        "tile_caption": "Did not speak to Filda"
+      },
+      "said_dead": {
+        "title": "Told Filda that Ruck died",
+        "description": "The Warden told Filda that Ruck had died, whether or not he was still alive.",
+        "tile_caption": "Told Filda that Ruck died"
+      },
+      "condition_truth": {
+        "title": "Told Filda the truth about Ruck",
+        "description": "The Warden told Filda the truth about Ruck’s condition.",
+        "tile_caption": "Told Filda the truth about Ruck"
+      },
+      "killed_lied": {
+        "title": "Killed Ruck and lied to Filda",
+        "description": "The Warden killed Ruck and told Filda that Ruck could not be found.",
+        "tile_caption": "Killed Ruck and lied to Filda"
+      },
+      "killed_truth": {
+        "title": "Killed Ruck and told Filda the truth",
+        "description": "The Warden killed Ruck and told Filda the truth.",
+        "tile_caption": "Killed Ruck and told Filda the truth"
+      },
+      "killed_heroic": {
+        "title": "Killed Ruck; said he died heroically",
+        "description": "The Warden killed Ruck and told Filda that he died heroically.",
+        "tile_caption": "Killed Ruck; said he died heroically"
+      }
+    }
+  },
+  "dao.burkel_chantry": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Burkel’s Chantry",
+    "question": "Did the Warden help Brother Burkel create a Chantry in Orzammar?",
+    "art_flag": "dao_par_chant_deeps",
+    "art_value_field": "dao_par_chant_deeps",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_helped": {
+        "title": "Did not help Burkel create a Chantry",
+        "description": "The Warden did not help Brother Burkel establish a Chantry in Orzammar.",
+        "tile_caption": "Did not help Burkel create a Chantry"
+      },
+      "helped": {
+        "title": "Helped Burkel create a Chantry",
+        "description": "The Warden helped Brother Burkel establish a Chantry in Orzammar.",
+        "tile_caption": "Helped Burkel create a Chantry"
+      }
+    },
+    "unchecked_answer": "not_helped",
+    "checked_answer": "helped",
+    "checkbox_label": "Helped Burkel create a Chantry"
+  },
+  "dao.zerlinda_fate": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Zerlinda and her son",
+    "question": "What was the fate of Zerlinda and her son?",
+    "art_flag": "dao_par_zerlinda_woe",
+    "art_value_field": "dao_par_zerlinda_woe",
+    "quick_kind": "select",
+    "answers": {
+      "dust_town": {
+        "title": "Zerlinda remained in Dust Town",
+        "description": "Zerlinda and her son remained in Dust Town.",
+        "tile_caption": "Zerlinda remained in Dust Town"
+      },
+      "reconciled": {
+        "title": "Reunited Zerlinda with her family",
+        "description": "The Warden helped Zerlinda reconcile with her family.",
+        "tile_caption": "Reunited Zerlinda with her family"
+      },
+      "surface": {
+        "title": "Zerlinda left for the surface",
+        "description": "Zerlinda and her son left Orzammar for the surface.",
+        "tile_caption": "Zerlinda left for the surface"
+      },
+      "chantry": {
+        "title": "Zerlinda found refuge in Burkel’s Chantry",
+        "description": "Zerlinda and her son were taken in by Brother Burkel’s Chantry.",
+        "tile_caption": "Zerlinda found refuge in Burkel’s Chantry"
+      },
+      "deep_roads": {
+        "title": "Zerlinda left her son in the Deep Roads",
+        "description": "Zerlinda left her son in the Deep Roads.",
+        "tile_caption": "Zerlinda left her son in the Deep Roads"
+      }
+    },
+    "verification_note": "Keep outcomes 2–4 extend the original reconciliation flag’s 0–1 range; their DAI effects are unconfirmed."
+  },
+  "dao.orta_ancestry": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Orta’s noble ancestry",
+    "question": "Did the Warden help Orta find the proof she needs to join the Assembly as a member of House Ortan?",
+    "art_flag": "dao_par_lost_memories",
+    "art_value_field": "dao_par_lost_memories",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_helped": {
+        "title": "Did not help Orta join the Assembly",
+        "description": "The Warden did not help Orta prove her connection to House Ortan.",
+        "tile_caption": "Did not help Orta join the Assembly"
+      },
+      "helped": {
+        "title": "Helped Orta join the Assembly",
+        "description": "The Warden found the proof Orta needed to join the Assembly as a member of House Ortan.",
+        "tile_caption": "Helped Orta join the Assembly"
+      }
+    },
+    "unchecked_answer": "not_helped",
+    "checked_answer": "helped",
+    "checkbox_label": "Helped Orta join the Assembly"
+  },
+  "dao.mardy_relationship": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Mardy",
+    "question": "Did the Warden have relations with Mardy before being cast out of Orzammar?",
+    "art_flag": "dao_dno_mardy_son",
+    "art_value_field": "dao_dno_mardy_son",
+    "quick_kind": "select",
+    "answers": {
+      "not_met": {
+        "title": "Didn’t encounter Mardy",
+        "description": "The Warden did not encounter Mardy.",
+        "tile_caption": "Didn’t encounter Mardy"
+      },
+      "no_relations": {
+        "title": "Didn’t have relations with Mardy",
+        "description": "The Warden encountered Mardy but did not have relations with her.",
+        "tile_caption": "Didn’t have relations with Mardy"
+      },
+      "had_relations": {
+        "title": "Had relations with Mardy",
+        "description": "The Warden had relations with Mardy before being cast out of Orzammar.",
+        "tile_caption": "Had relations with Mardy"
+      }
+    }
+  },
+  "dao.mardy_son": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Mardy’s son",
+    "question": "Did the Warden restore Mardy's son's birthright?",
+    "art_flag": "dao_par_noble_birth",
+    "art_value_field": "dao_par_noble_birth",
+    "quick_kind": "select",
+    "answers": {
+      "no_son": {
+        "title": "Didn’t have a son with Mardy",
+        "description": "The Warden did not have a son with Mardy.",
+        "tile_caption": "Didn’t have a son with Mardy"
+      },
+      "not_restored": {
+        "title": "Didn’t restore Mardy’s son’s birthright",
+        "description": "The Warden did not restore his son’s birthright.",
+        "tile_caption": "Didn’t restore Mardy’s son’s birthright"
+      },
+      "restored": {
+        "title": "Restored Mardy’s son’s birthright",
+        "description": "The Warden restored his son’s birthright.",
+        "tile_caption": "Restored Mardy’s son’s birthright"
+      },
+      "not_encountered": {
+        "title": "Didn’t encounter Mardy’s son",
+        "description": "The Warden had a son with Mardy but did not encounter him.",
+        "tile_caption": "Didn’t encounter Mardy’s son"
+      }
+    },
+    "verification_note": "“Didn’t encounter Mardy’s son” follows Keep/editor value 3 beyond the original range; its DAI effects are unconfirmed."
+  },
+  "dao.legion_noble_house": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "The Legion of the Dead",
+    "question": "Did the Warden prove to the Shaperate that the Legion of the Dead was connected with a noble house?",
+    "art_flag": "dao_par_dead_caste",
+    "art_value_field": "dao_par_dead_caste",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_proven": {
+        "title": "Didn’t prove the Legion’s noble connection",
+        "description": "The Warden did not prove to the Shaperate that the Legion of the Dead was connected with a noble house.",
+        "tile_caption": "Didn’t prove the Legion’s noble connection"
+      },
+      "proven": {
+        "title": "Proved the Legion’s noble connection",
+        "description": "The Warden proved to the Shaperate that the Legion of the Dead was connected with a noble house.",
+        "tile_caption": "Proved the Legion’s noble connection"
+      }
+    },
+    "unchecked_answer": "not_proven",
+    "checked_answer": "proven",
+    "checkbox_label": "Proved the Legion’s noble connection"
+  },
+  "dao.shaperate_tome": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "The stolen Shaperate tome",
+    "question": "What did the Warden decide to do with the tome stolen from the Shaperate?",
+    "art_flag": "dao_par_thief_house_learning",
+    "art_value_field": "dao_par_thief_house_learning",
+    "quick_kind": "select",
+    "answers": {
+      "not_investigated": {
+        "title": "Didn’t investigate the stolen tome",
+        "description": "The Warden did not look into the tome stolen from the Shaperate.",
+        "tile_caption": "Didn’t investigate the stolen tome"
+      },
+      "returned": {
+        "title": "Returned the tome to the Shaperate",
+        "description": "The Warden returned the stolen tome to the Shaperate.",
+        "tile_caption": "Returned the tome to the Shaperate"
+      },
+      "sold": {
+        "title": "Sold the tome to a fence",
+        "description": "The Warden sold the stolen tome to a fence.",
+        "tile_caption": "Sold the tome to a fence"
+      }
+    }
+  },
+  "dao.rogek_lyrium": {
+    "game": "dao",
+    "category_id": "dao.paragon",
+    "category": "Paragon of Her Kind",
+    "title": "Rogek’s lyrium deal",
+    "question": "Did the Warden complete Rogek's lyrium deal?",
+    "art_flag": "dao_par_precious_metals",
+    "art_value_field": "dao_par_precious_metals",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_completed": {
+        "title": "Didn’t complete Rogek’s lyrium deal",
+        "description": "The Warden did not complete Rogek’s lyrium deal.",
+        "tile_caption": "Didn’t complete Rogek’s lyrium deal"
+      },
+      "completed": {
+        "title": "Completed Rogek’s lyrium deal",
+        "description": "The Warden completed Rogek’s lyrium deal.",
+        "tile_caption": "Completed Rogek’s lyrium deal"
+      }
+    },
+    "unchecked_answer": "not_completed",
+    "checked_answer": "completed",
+    "checkbox_label": "Completed Rogek’s lyrium deal"
+  },
+  "dao.landry_fate": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Ser Landry",
+    "question": "Did the Warden kill Ser Landry?",
+    "art_flag": "dao_den_honor_bound",
+    "art_value_field": "dao_den_honor_bound",
+    "quick_kind": "checkbox",
+    "unchecked_answer": "alive",
+    "checked_answer": "killed",
+    "checkbox_label": "Ser Landry killed",
+    "answers": {
+      "alive": {
+        "title": "Ser Landry alive",
+        "description": "The Warden did not kill Ser Landry.",
+        "tile_caption": "Ser Landry alive"
+      },
+      "killed": {
+        "title": "Ser Landry killed",
+        "description": "The Warden killed Ser Landry.",
+        "tile_caption": "Ser Landry killed"
+      }
+    }
+  },
+  "dao.oswyn_sighard": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Oswyn and Bann Sighard",
+    "question": "Did the Warden tell Bann Sighard about finding Oswyn in Arl Howe’s torture room?",
+    "art_flag": "dao_den_tortured_noble",
+    "art_value_field": "dao_den_tortured_noble",
+    "quick_kind": "checkbox",
+    "unchecked_answer": "not_told",
+    "checked_answer": "told",
+    "checkbox_label": "Told Bann Sighard about Oswyn",
+    "answers": {
+      "not_told": {
+        "title": "Didn’t tell Bann Sighard about Oswyn",
+        "description": "The Warden did not tell Bann Sighard about finding Oswyn in Arl Howe’s torture room.",
+        "tile_caption": "Didn’t tell Bann Sighard about Oswyn"
+      },
+      "told": {
+        "title": "Told Bann Sighard about Oswyn",
+        "description": "The Warden told Bann Sighard about finding Oswyn in Arl Howe’s torture room.",
+        "tile_caption": "Told Bann Sighard about Oswyn"
+      }
+    }
+  },
+  "dao.irminric_ring": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Irminric’s ring",
+    "question": "Did the Warden give Alfstanna her brother Irminric's ring?",
+    "art_flag": "dao_den_lost_templar",
+    "art_value_field": "dao_den_lost_templar",
+    "quick_kind": "checkbox",
+    "unchecked_answer": "not_given",
+    "checked_answer": "given",
+    "checkbox_label": "Gave Alfstanna Irminric’s ring",
+    "answers": {
+      "not_given": {
+        "title": "Didn’t give Alfstanna Irminric’s ring",
+        "description": "The Warden did not give Alfstanna her brother Irminric’s ring.",
+        "tile_caption": "Didn’t give Alfstanna Irminric’s ring"
+      },
+      "given": {
+        "title": "Gave Alfstanna Irminric’s ring",
+        "description": "The Warden gave Alfstanna her brother Irminric’s ring.",
+        "tile_caption": "Gave Alfstanna Irminric’s ring"
+      }
+    }
+  },
+  "dao.beggar_amulet": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "The worn amulet",
+    "question": "Did the Warden return the worn amulet to the beggar woman in Denerim's alienage?",
+    "art_flag": "dao_den_hearing_voices",
+    "art_value_field": "dao_den_hearing_voices",
+    "quick_kind": "checkbox",
+    "unchecked_answer": "not_returned",
+    "checked_answer": "returned",
+    "checkbox_label": "Returned the beggar’s amulet",
+    "answers": {
+      "not_returned": {
+        "title": "Didn’t return the beggar’s amulet",
+        "description": "The Warden did not return the worn amulet to the beggar woman in Denerim’s alienage.",
+        "tile_caption": "Didn’t return the beggar’s amulet"
+      },
+      "returned": {
+        "title": "Returned the beggar’s amulet",
+        "description": "The Warden returned the worn amulet to the beggar woman in Denerim’s alienage.",
+        "tile_caption": "Returned the beggar’s amulet"
+      }
+    }
+  },
+  "dao.justine_scroll": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Sister Justine’s scroll",
+    "question": "Did the Warden bring the ancient encrypted scroll to Sister Justine in Denerim?",
+    "art_flag": "dao_den_forgotten_verses",
+    "art_value_field": "dao_den_forgotten_verses",
+    "quick_kind": "checkbox",
+    "unchecked_answer": "not_brought",
+    "checked_answer": "brought",
+    "checkbox_label": "Brought the scroll to Sister Justine",
+    "answers": {
+      "not_brought": {
+        "title": "Didn’t bring the scroll to Sister Justine",
+        "description": "The Warden did not bring the ancient encrypted scroll to Sister Justine in Denerim.",
+        "tile_caption": "Didn’t bring the scroll to Sister Justine"
+      },
+      "brought": {
+        "title": "Brought the scroll to Sister Justine",
+        "description": "The Warden brought the ancient encrypted scroll to Sister Justine in Denerim.",
+        "tile_caption": "Brought the scroll to Sister Justine"
+      }
+    }
+  },
+  "dao.slim_couldry": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Slim Couldry’s crime wave",
+    "question": "Did the Warden complete Slim Couldry's crime wave?",
+    "art_flag": "dao_den_crime_wave",
+    "art_value_field": "dao_den_crime_wave",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_completed": {
+        "title": "Didn’t complete Slim Couldry’s crime wave",
+        "description": "The Warden did not participate in the crime wave.",
+        "tile_caption": "Didn’t complete Slim Couldry’s crime wave"
+      },
+      "completed": {
+        "title": "Completed Slim Couldry’s crime wave",
+        "description": "To this day, the nobles of Denerim still lock their valuables a little tighter in response to the crime wave.",
+        "tile_caption": "Completed Slim Couldry’s crime wave"
+      }
+    },
+    "unchecked_answer": "not_completed",
+    "checked_answer": "completed",
+    "checkbox_label": "Completed Slim Couldry’s crime wave"
+  },
+  "dao.kylon_falcons": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Kylon and the White Falcons",
+    "question": "Did the Warden help Sergeant Kylon clear the White Falcons out of the Pearl?",
+    "art_flag": "dao_den_pearls_swine",
+    "art_value_field": "dao_den_pearls_swine",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_helped": {
+        "title": "Didn’t clear the White Falcons from the Pearl",
+        "description": "The Pearl suffered the clumsy attentions of its patrons in a way that was deeply unsatisfying for all involved.",
+        "tile_caption": "Didn’t clear the White Falcons from the Pearl"
+      },
+      "helped": {
+        "title": "Cleared the White Falcons from the Pearl",
+        "description": "The \"gentlemen\" were encouraged to leave.",
+        "tile_caption": "Cleared the White Falcons from the Pearl"
+      }
+    },
+    "unchecked_answer": "not_helped",
+    "checked_answer": "helped",
+    "checkbox_label": "Cleared the White Falcons from the Pearl"
+  },
+  "dao.kylon_crimson_oars": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Kylon and the Crimson Oars",
+    "question": "Did the Warden handle the Crimson Oars for Sergeant Kylon in Denerim?",
+    "art_flag": "dao_den_crimson_oars",
+    "art_value_field": "dao_den_crimson_oars",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_handled": {
+        "title": "Didn’t handle the Crimson Oars",
+        "description": "The Oars went on to terrorize patrons at the Noble for some time.",
+        "tile_caption": "Didn’t handle the Crimson Oars"
+      },
+      "handled": {
+        "title": "Handled the Crimson Oars",
+        "description": "The Oars were dealt with, much to the innkeeper's relief.",
+        "tile_caption": "Handled the Crimson Oars"
+      }
+    },
+    "unchecked_answer": "not_handled",
+    "checked_answer": "handled",
+    "checkbox_label": "Handled the Crimson Oars"
+  },
+  "dao.ignacio_fate": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Master Ignacio’s missions",
+    "question": "Did the Warden complete Master Ignacio's assassination missions?",
+    "art_flag": "dao_den_murder_crows",
+    "art_value_field": "dao_den_murder_crows",
+    "quick_kind": "select",
+    "answers": {
+      "not_completed": {
+        "title": "Didn’t complete Ignacio’s assassinations",
+        "description": "The Warden did not complete Ignacio's missions.",
+        "tile_caption": "Didn’t complete Ignacio’s assassinations"
+      },
+      "completed": {
+        "title": "Completed Ignacio’s assassinations",
+        "description": "The Warden earned access to a \"special stock\" of goods by earning Ignacio's favor.",
+        "tile_caption": "Completed Ignacio’s assassinations"
+      },
+      "killed": {
+        "title": "Killed Master Ignacio",
+        "description": "The Warden killed Master Ignacio.",
+        "tile_caption": "Killed Master Ignacio"
+      }
+    },
+    "verification_note": "“Killed Master Ignacio” follows Keep value 2 beyond the original boolean range; its DAI effects are unconfirmed."
+  },
+  "dao.alistair_family": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Alistair’s family",
+    "question": "Did the Warden help Alistair track down his half-sister Goldanna?",
+    "art_flag": "dao_den_alistairs_family",
+    "art_value_field": "dao_den_alistairs_family",
+    "quick_kind": "select",
+    "answers": {
+      "not_encountered": {
+        "title": "Did not encounter Goldanna",
+        "description": "The Warden did not encounter Goldanna in the marketplace.",
+        "tile_caption": "Did not encounter Goldanna",
+        "keep_art_value": 0
+      },
+      "helped": {
+        "title": "Helped Alistair find Goldanna",
+        "description": "The Warden helped Alistair locate Goldanna.",
+        "tile_caption": "Helped Alistair find Goldanna",
+        "keep_art_value": 1
+      },
+      "not_helped": {
+        "title": "Did not help Alistair find Goldanna",
+        "description": "The Warden did not help Alistair track down Goldanna.",
+        "tile_caption": "Did not help Alistair find Goldanna",
+        "keep_art_value": 2
+      }
+    },
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "placeholder_answer": "not_encountered",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile.",
+    "custom_answer_label": "Not selected"
+  },
+  "dao.leliana_past": {
+    "game": "dao",
+    "category_id": "dao.denerim_quests",
+    "category": "Denerim",
+    "title": "Leliana’s past",
+    "question": "Did Leliana have Marjolaine killed or let her go?",
+    "art_flag": "dao_den_lelianas_past",
+    "art_value_field": "dao_den_lelianas_past",
+    "quick_kind": "select",
+    "answers": {
+      "not_encountered": {
+        "title": "Did not encounter Marjolaine",
+        "description": "The Warden and Leliana did not encounter Marjolaine.",
+        "tile_caption": "Did not encounter Marjolaine",
+        "keep_art_value": 0
+      },
+      "sent_away": {
+        "title": "Sent Marjolaine away",
+        "description": "Leliana sent Marjolaine away.",
+        "tile_caption": "Sent Marjolaine away",
+        "keep_art_value": 1
+      },
+      "killed": {
+        "title": "Had Marjolaine killed",
+        "description": "Leliana had Marjolaine killed.",
+        "tile_caption": "Had Marjolaine killed",
+        "keep_art_value": 2
+      }
+    },
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "placeholder_answer": "not_encountered",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile.",
+    "custom_answer_label": "Not selected"
+  },
+  "dao.wynne_recruited": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Wynne’s recruitment",
+    "question": "Did the Warden recruit Wynne?",
+    "art_flag": "dao_wynne_recruited",
+    "art_value_field": "dao_wynne_recruited",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Didn’t recruit Wynne",
+        "tile_caption": "Didn’t recruit Wynne",
+        "description": "Wynne did not join the Warden's struggles against the Blight."
+      },
+      "recruited": {
+        "title": "Recruited Wynne",
+        "tile_caption": "Recruited Wynne",
+        "description": "Wynne joined the Warden after they worked together to free the Circle from an abomination's clutches."
+      }
+    },
+    "unchecked_answer": "not_recruited",
+    "checked_answer": "recruited",
+    "checkbox_label": "Recruited Wynne"
+  },
+  "dao.oghren_recruited": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Oghren’s recruitment",
+    "question": "Did the Warden recruit Oghren?",
+    "art_flag": "dao_oghren_recruited",
+    "art_value_field": "dao_oghren_recruited",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Didn’t recruit Oghren",
+        "tile_caption": "Didn’t recruit Oghren",
+        "description": "Oghren and the Warden parted ways after their search through the Deep Roads."
+      },
+      "recruited": {
+        "title": "Recruited Oghren",
+        "tile_caption": "Recruited Oghren",
+        "description": "After walking the Deep Roads with the Warden, Oghren decided to join the battle against the Blight."
+      }
+    },
+    "unchecked_answer": "not_recruited",
+    "checked_answer": "recruited",
+    "checkbox_label": "Recruited Oghren"
+  },
+  "dao.flemeth_grimoire": {
+    "game": "dao",
+    "category_id": "dao.companions",
+    "category": "Companions",
+    "title": "Flemeth’s grimoire",
+    "question": "Did the Warden find Flemeth's grimoire for Morrigan?",
+    "art_flag": "dao_flemeth_grimoire",
+    "art_value_field": "dao_flemeth_grimoire",
+    "quick_kind": "select",
+    "answers": {
+      "not_acquired": {
+        "title": "Did not acquire Flemeth’s grimoire",
+        "tile_caption": "Did not acquire Flemeth’s grimoire",
+        "description": "The Warden refused to face Flemeth and did not acquire her grimoire.",
+        "keep_art_value": 0
+      },
+      "peaceful": {
+        "title": "Acquired Flemeth’s grimoire peacefully",
+        "tile_caption": "Acquired Flemeth’s grimoire peacefully",
+        "description": "The Warden acquired Flemeth's grimoire through peaceful means.",
+        "keep_art_value": 1
+      },
+      "defeated_flemeth": {
+        "title": "Acquired the grimoire by defeating Flemeth",
+        "tile_caption": "Acquired the grimoire by defeating Flemeth",
+        "description": "The Warden defeated Flemeth and acquired her grimoire.",
+        "keep_art_value": 2
+      }
+    },
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "placeholder_answer": "not_acquired",
+    "custom_answer_label": "Not selected",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile."
+  },
+  "dao.cullen_request": {
+    "game": "dao",
+    "category_id": "dao.circle",
+    "category": "Broken Circle",
+    "title": "Cullen’s request",
+    "question": "Did the Warden agree to Cullen's request to kill the mages in the Tower?",
+    "art_flag": "dao_broken_circle_cullen_request",
+    "quick_kind": "select",
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "custom_answer_label": "Not selected",
+    "placeholder_answer": "disagreed",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile.",
+    "answers": {
+      "disagreed": {
+        "title": "Did not agree to Cullen's request",
+        "description": "The Warden did not agree to Cullen's request to kill the mages in the Tower.",
+        "tile_caption": "Did not agree to Cullen's request",
+        "keep_art_value": 0
+      },
+      "agreed": {
+        "title": "Agreed to Cullen's request",
+        "description": "The Warden agreed to Cullen's request to kill the mages in the Tower.",
+        "tile_caption": "Agreed to Cullen's request",
+        "keep_art_value": 1
+      }
+    }
+  },
+  "dao.architect_fate": {
+    "game": "dao",
+    "category_id": "dao.awakening",
+    "category": "Awakening",
+    "title": "The Architect’s fate",
+    "question": "What happened to the Architect?",
+    "art_flag": "dao_awakenings_architect_fate",
+    "quick_kind": "select",
+    "answers": {
+      "killed": {
+        "title": "Warden killed the Architect",
+        "description": "The Warden killed the Architect.",
+        "tile_caption": "Warden killed the Architect"
+      },
+      "spared": {
+        "title": "Warden allowed Architect to live",
+        "description": "The Warden allowed the Architect to live.",
+        "tile_caption": "Warden allowed Architect to live"
+      }
+    },
+    "art_value_field": "dao_awakenings_architect_fate"
+  },
+  "dao.awakening_protection": {
+    "game": "dao",
+    "category_id": "dao.awakening",
+    "category": "Awakening",
+    "title": "Vigil’s Keep and Amaranthine",
+    "question": "Did the Warden protect Vigil's Keep or the city of Amaranthine?",
+    "art_flag": "dao_awakening_keep_protected",
+    "quick_kind": "select",
+    "answers": {
+      "keep": {
+        "title": "Keep protected",
+        "description": "The Warden protected the Keep.",
+        "tile_caption": "Keep protected",
+        "keep_art_value": 0
+      },
+      "amaranthine": {
+        "title": "Amaranthine protected",
+        "description": "The Warden protected the city of Amaranthine.",
+        "tile_caption": "Amaranthine protected",
+        "keep_art_value": 1
+      },
+      "both": {
+        "title": "Keep and Amaranthine protected",
+        "description": "The Warden found a way to save both the Keep and Amaranthine.",
+        "tile_caption": "Keep and Amaranthine protected",
+        "keep_art_value": 2
+      }
+    },
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "custom_answer_label": "Not selected",
+    "placeholder_answer": "keep",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile."
+  },
+  "dao.oghren_felsi": {
+    "game": "dao",
+    "category_id": "dao.awakening",
+    "category": "Awakening",
+    "title": "Oghren and Felsi",
+    "question": "Did Oghren re-unite with his child and Felsi?",
+    "art_flag": "dao_awakening_oghren_felsi",
+    "quick_kind": "select",
+    "answers": {
+      "not_helped": {
+        "title": "The Warden did not help",
+        "description": "The Warden did not help them.",
+        "tile_caption": "The Warden did not help",
+        "keep_art_value": 0
+      },
+      "reunited": {
+        "title": "Oghren and Felsi reunited",
+        "description": "Oghren and Felsi reunited with the help of the Warden.",
+        "tile_caption": "Oghren and Felsi reunited",
+        "keep_art_value": 1
+      },
+      "parted": {
+        "title": "Oghren and Felsi parted on bad terms",
+        "description": "The Warden ensured that Oghren and Felsi parted on bad terms.",
+        "tile_caption": "Oghren and Felsi parted on bad terms",
+        "keep_art_value": 2
+      }
+    },
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "custom_answer_label": "Not selected",
+    "placeholder_answer": "not_helped",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile."
+  },
+  "dao.power_of_blood": {
+    "game": "dao",
+    "category_id": "dao.wardens_keep",
+    "category": "Warden’s Keep",
+    "title": "Power of Blood",
+    "question": "Did the Warden drink Avernus' alchemical concoction?",
+    "art_flag": "dao_wardens_keep_power_of_blood",
+    "quick_kind": "select",
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "custom_answer_label": "Not selected",
+    "placeholder_answer": "drank",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile.",
+    "answers": {
+      "drank": {
+        "title": "Gained Power of Blood",
+        "description": "Yes, the Warden gained the Power of Blood.",
+        "tile_caption": "Gained Power of Blood",
+        "keep_art_value": 0
+      },
+      "did_not_drink": {
+        "title": "Didn't drink concoction",
+        "description": "No, the Warden didn't consume the concoction.",
+        "tile_caption": "Didn't drink concoction",
+        "keep_art_value": 1
+      }
+    }
+  },
+  "dao.avernus_fate": {
+    "game": "dao",
+    "category_id": "dao.wardens_keep",
+    "category": "Warden’s Keep",
+    "title": "Avernus and Sophia",
+    "question": "How did the Warden deal with Avernus?",
+    "art_flag": "dao_wardens_keep_avernus_fate",
+    "quick_kind": "select",
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "custom_answer_label": "Not selected",
+    "placeholder_answer": "both_perished",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile.",
+    "answers": {
+      "both_perished": {
+        "title": "Both Sophia and Avernus perished",
+        "description": "Both Sophia and Avernus perished.",
+        "tile_caption": "Both Sophia and Avernus perished",
+        "keep_art_value": 0
+      },
+      "sided_sophia": {
+        "title": "Slayed Avernus",
+        "description": "The Warden sided with Sophia, slaying Avernus.",
+        "tile_caption": "Slayed Avernus",
+        "keep_art_value": 1
+      },
+      "unrestricted_research": {
+        "title": "Slayed Sophia and Avernus continued research",
+        "description": "The Warden sided with Avernus, slaying Sophia and allowing Avernus to continue his research without constraints.",
+        "tile_caption": "Slayed Sophia and Avernus continued research",
+        "keep_art_value": 2
+      },
+      "ethical_research": {
+        "title": "Slayed Sophia and allowed Avernus ethical research",
+        "description": "The Warden slayed Sophia and allowed Avernus to continue his research under more ethical constraints.",
+        "tile_caption": "Slayed Sophia and allowed Avernus ethical research",
+        "keep_art_value": 3
+      }
+    }
+  },
+  "dao.shale_fate": {
+    "game": "dao",
+    "category_id": "dao.stone_prisoner",
+    "category": "The Stone Prisoner",
+    "title": "Shale’s fate",
+    "question": "What happened to Shale?",
+    "art_flag": "dao_shale_fate",
+    "quick_kind": "select",
+    "answers": {
+      "not_recruited": {
+        "title": "Didn't recruit Shale",
+        "description": "The Warden did not recruit Shale.",
+        "tile_caption": "Didn't recruit Shale"
+      },
+      "alive": {
+        "title": "Shale is alive and well",
+        "description": "Shale is alive and well.",
+        "tile_caption": "Shale is alive and well"
+      },
+      "died_with_branka": {
+        "title": "Shale died when the Warden sided with Branka",
+        "description": "Shale died when the Warden sided with Branka in the Deep Roads.",
+        "tile_caption": "Shale died when the Warden sided with Branka"
+      }
+    },
+    "art_value_field": "dao_shale_fate"
+  },
+  "dao.kitty_amalia": {
+    "game": "dao",
+    "category_id": "dao.stone_prisoner",
+    "category": "The Stone Prisoner",
+    "title": "Kitty and Amalia",
+    "question": "What was the fate of Kitty and Amalia?",
+    "art_flag": "dao_stone_prisoner_kitty",
+    "quick_kind": "select",
+    "answers": {
+      "both_unpossessed": {
+        "title": "Matthias and Amalia both alive, neither possessed",
+        "description": "The Warden killed Kitty and saved Amalia, returning the girl to her grateful father.",
+        "tile_caption": "Matthias and Amalia both alive, neither possessed",
+        "keep_art_value": 0
+      },
+      "amalia_possessed": {
+        "title": "Matthias and Amalia both alive, Amalia possessed",
+        "description": "The Warden freed Kitty, who immediately possessed Amalia. Nonetheless, the Warden sent the girl back to her father.",
+        "tile_caption": "Matthias and Amalia both alive, Amalia possessed",
+        "keep_art_value": 1
+      },
+      "matthias_possessed": {
+        "title": "Matthias and Amalia both alive, Matthias possessed",
+        "description": "The Warden did not deal with Kitty; when Matthias went to do the job himself, the demon possessed him, though it left Amalia alive.",
+        "tile_caption": "Matthias and Amalia both alive, Matthias possessed",
+        "keep_art_value": 2
+      },
+      "matthias_dead": {
+        "title": "Amalia is alive, Matthias is dead",
+        "description": "The Warden did not deal with Kitty; when Matthias went to do the job himself, the demon killed him, and left his traumatized daughter alive.",
+        "tile_caption": "Amalia is alive, Matthias is dead",
+        "keep_art_value": 3
+      },
+      "amalia_dead": {
+        "title": "Amalia is dead, Matthias is alive",
+        "description": "The Warden attacked Kitty; when the demon died, its connection to Amalia killed the girl, as well. Matthias was broken-hearted at his daughter's death.",
+        "tile_caption": "Amalia is dead, Matthias is alive",
+        "keep_art_value": 4
+      }
+    },
+    "export_behavior": "profile-only",
+    "export_note": "Not exported to DAI",
+    "custom_answer_label": "Not selected",
+    "placeholder_answer": "both_unpossessed",
+    "verification_note": "Not exported to DAI. This answer is saved only in your profile."
+  },
+  "dao.shale_recruited": {
+    "game": "dao",
+    "category_id": "dao.stone_prisoner",
+    "category": "The Stone Prisoner",
+    "title": "Shale’s recruitment",
+    "question": "Did the Warden recruit Shale?",
+    "art_flag": "dao_shale_recruited",
+    "quick_kind": "checkbox",
+    "answers": {
+      "not_recruited": {
+        "title": "Shale not recruited",
+        "description": "Shale did not join the Warden's struggles against the Fifth Blight.",
+        "tile_caption": "Shale not recruited"
+      },
+      "recruited": {
+        "title": "Shale recruited",
+        "description": "Shale joined the Warden's group, lending her might against the Blight.",
+        "tile_caption": "Shale recruited"
+      }
+    },
+    "art_value_field": "dao_shale_recruited",
+    "checked_answer": "recruited",
+    "unchecked_answer": "not_recruited",
+    "checkbox_label": "Recruited Shale"
+  },
+  "dao.witch_hunt": {
+    "game": "dao",
+    "category_id": "dao.witch_hunt",
+    "category": "Witch Hunt",
+    "title": "Witch Hunt: Morrigan and the eluvian",
+    "question": "Did the Warden go through the eluvian with Morrigan?",
+    "art_flag": "dao_warden_eluvian",
+    "art_value_field": "dao_warden_eluvian",
+    "quick_kind": "select",
+    "verification_note": "“Warden stabbed Morrigan” follows Keep value 2 beyond the original boolean range; its DAI effects are unconfirmed.",
+    "answers": {
+      "did_not_follow": {
+        "title": "Didn't go through the eluvian",
+        "description": "The Warden did not go through the eluvian.",
+        "tile_caption": "Didn't go through the eluvian"
+      },
+      "followed": {
+        "title": "Went through the eluvian",
+        "description": "Morrigan and the Warden went through together.",
+        "tile_caption": "Went through the eluvian"
+      },
+      "stabbed": {
+        "title": "Warden stabbed Morrigan",
+        "description": "The Warden stabbed Morrigan, who fell backwards through the eluvian portal.",
+        "tile_caption": "Warden stabbed Morrigan"
+      }
+    }
+  }
+}

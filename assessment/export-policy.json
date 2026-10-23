@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "decisions": {
+    "anders_fate": {
+      "status": "provisional_user_tested_mapping",
+      "basis": "User direction on 2026-10-18; follow the supplied documentation until gameplay testing warrants a change.",
+      "choices": {
+        "alive": {
+          "keep_art_value": 1,
+          "export_values": {
+            "da2_anders_fate": 0,
+            "da2_anders_alive": 1,
+            "da2_anders_executed": 0
+          }
+        },
+        "executed": {
+          "keep_art_value": 0,
+          "export_values": {
+            "da2_anders_fate": 1,
+            "da2_anders_alive": 0,
+            "da2_anders_executed": 1
+          }
+        }
+      },
+      "conflicting_evidence": "The captured Keep definitions and original game descriptions label fate 0 executed and fate 1 alive. This policy intentionally follows the user's documented mod behavior instead."
+    }
+  }
+}

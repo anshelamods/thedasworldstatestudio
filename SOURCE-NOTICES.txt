@@ -1,0 +1,11 @@
+Thedas World State Studio - source distribution
+
+Unofficial fan project.
+Dragon Age artwork, interface assets, fonts and game data: EA / BioWare and their respective owners.
+Optional Queen Cousland / Rogue Hawke presets: anshela, supplied for inclusion with this tool.
+EBX reader: DAI Exporter.
+No project-wide license or additional rights for third-party material are granted by this archive.
+
+The Python runtime and build dependencies are not included in the source ZIP.
+Pinned dependency names/versions are in prototype/beta-build-requirements.txt.
+Generated Windows builds include their Python, Tcl/Tk and PyInstaller notices.

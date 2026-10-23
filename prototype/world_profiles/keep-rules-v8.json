@@ -1,0 +1,2267 @@
+{
+  "version": 8,
+  "source": "assessment/reference/worldstate-evidence.json: captured Keep rules; original evidence remains unchanged",
+  "normalizations": {
+    "da2_anders_fate": {
+      "0": 1,
+      "1": 0
+    }
+  },
+  "rules": [
+    {
+      "target": "da2_act1_ginnis_alive",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_act1_seamus",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_act1_ginnis_alive",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_act1_seamus",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_act1_karras_killed",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_act1_templars",
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_act1_karras_killed",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_act1_templars",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_act2_fools_gold",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_awakenings_nathaniel_live",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_act2_fools_gold",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_awakenings_nathaniel_live",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_act2_merchants_inside_job",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_act1_bonepit_completed",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_act2_petrice_side",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_act2_varnell_side",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_act3_finding_nathaniel",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_awakenings_nathaniel_live",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_act3_finding_nathaniel",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_awakenings_nathaniel_live",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_act3_finding_nathaniel",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_awakenings_nathaniel_live",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_act3_murder_of_crows",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_zevran_alive",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_act3_murder_of_crows",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_zevran_alive",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_act3_murder_of_crows",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_zevran_alive",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_act3_zevran_freed",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_act3_murder_of_crows",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_act3_zevran_freed",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "da2_act3_murder_of_crows",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_arishok_killed",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_isabela_turned_over",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_arishok_killed",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_isabela_turned_over",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_aveline_remained",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_hawke_chosen_side",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "da2_fenris_alive",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_bethany_career",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_hawke_class",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_bethany_career",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_hawke_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_bethany_career",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "da2_hawke_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_bethany_career",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "da2_hawke_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_bethany_final_battle_death",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_bethany_career",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_bethany_final_battle_death",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_bethany_career",
+          "min": 3,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "target": "da2_bethany_final_battle_death",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_bethany_career",
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_bethany_final_battle_death",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "da2_bethany_career",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_hawke_chosen_side",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_carver_career",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_hawke_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_carver_career",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_hawke_class",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_carver_career",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "da2_hawke_class",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_carver_career",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "da2_hawke_class",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_fenris_alive",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_fenris_alive",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_hawke_chosen_side",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "da2_fenris_joined",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_fenris_alive",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_fenris_alive",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_fenris_alive",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_hawke_romance",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "da2_fenris_alive",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_hawke_romance",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "da2_isabela_returned_with_book",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "question": "da2_isabela_turned_over",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_hawke_romance",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "da2_merrill_alive",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_merrill_remained",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_hawke_romance",
+      "value": 5,
+      "dependencies": [
+        {
+          "question": "da2_hawke_mf",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_anders_fate",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "da2_sebastian_joined",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_isabela_returned_with_book",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_isabela_joined",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_isabela_returned_with_book",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_isabela_joined",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_isabela_returned_with_book",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "da2_isabela_joined",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_isabela_turned_over",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_isabela_returned_with_book",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "da2_mark_tallis_kiss",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_mark_tallis_angry",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_merrill_alive",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_hawke_chosen_side",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_merrill_remained",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "da2_merrils_clan",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_merrill_remained",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_merrils_clan",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_hawke_chosen_side",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_varric_bartrand_killed",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_varric_plot_complete",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "da2_varric_has_idol_piece",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_varric_plot_complete",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_loghain_fate",
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_loghain_fate",
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_archdemon_killer",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_archdemon_killer",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_loghain_fate",
+          "min": 4,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_archdemon_killer",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_archdemon_killer",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_archdemon_killer",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 3,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "target": "dao_archdemon_killer",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 3,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "target": "dao_broken_circle_choice",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_bc_irving_survive",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_connor_state",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_warden_class",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_dog_recruited",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_warden_background",
+          "min": 1,
+          "max": 6
+        }
+      ]
+    },
+    {
+      "target": "dao_dog_recruited",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_warden_background",
+          "min": 1,
+          "max": 6
+        },
+        {
+          "question": "dao_pre_mabari_hound",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_dog_recruited",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_warden_background",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_isolde_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_bc_irving_survive",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_isolde_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_connor_state",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_isolde_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_connor_state",
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_leliana_fate",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_urn_of_sacred_ashes_destroyed",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_leliana_fate",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_urn_of_sacred_ashes_destroyed",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_morrigan_baby",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_morrigan_baby",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_morrigan_baby",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_loghain_fate",
+          "min": 4,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_morrigan_baby",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_par_unlikely_scholar",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_broken_circle_choice",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_pre_mabari_hound",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_warden_background",
+          "min": 1,
+          "max": 6
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_alistair_state",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "question": "dao_warden_background",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_alistair_state",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_alistair_state",
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "question": "dao_warden_background",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_background",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "question": "dao_warden_background",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_background",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "question": "dao_warden_background",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_ruler_state",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        },
+        {
+          "question": "dao_warden_background",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_loghain_fate",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "question": "dao_alistair_state",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_sten_recruited",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_lot_qunari_prisoner",
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "target": "dao_sten_sword",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_sten_recruited",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_sten_sword",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_sten_recruited",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_sten_sword",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_sten_recruited",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_king_mistress",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_ruler_state",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_king_mistress",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_ruler_state",
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_king_mistress",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_warden_state",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "dao_ruler_state",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_king_mistress",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_warden_state",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "dao_ruler_state",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_king_mistress",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_ruler_state",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_king_mistress",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_ruler_state",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_romance",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_warden_mf",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_romance",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_romance",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_leliana_fate",
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_romance",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_zevran_alive",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "dao_zevran_recruited",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_morrigan_baby",
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_archdemon_killer",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "question": "dao_morrigan_baby",
+          "min": 4,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "target": "dao_wynne_fate",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_wynne_recruited",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_wynne_fate",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_wynne_recruited",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_wynne_fate",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_wynne_recruited",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_wynne_fate",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_urn_of_sacred_ashes_destroyed",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "dao_wynne_recruited",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_background",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_warden_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_background",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_warden_class",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_background",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_warden_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_background",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_warden_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_background",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_warden_class",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_background",
+      "value": 5,
+      "dependencies": [
+        {
+          "question": "dao_warden_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_warden_background",
+      "value": 6,
+      "dependencies": [
+        {
+          "question": "dao_warden_class",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_alistair_royal_status",
+          "min": 0,
+          "max": 0
+        }
+      ],
+      "group": "royal-status"
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_alistair_royal_status",
+          "min": 0,
+          "max": 0
+        }
+      ],
+      "group": "royal-status"
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_alistair_royal_status",
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "group": "royal-status"
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_alistair_royal_status",
+          "min": 0,
+          "max": 0
+        }
+      ],
+      "group": "royal-status"
+    },
+    {
+      "target": "dao_alistair_state",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "dao_alistair_royal_status",
+          "min": 0,
+          "max": 0
+        }
+      ],
+      "group": "royal-status"
+    },
+    {
+      "group": "illustrated-composition",
+      "target": "da2_fenris_alive",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "da2_fenris_enslaved",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "question": "da2_fenris_returned_to_master",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "group": "illustrated-composition",
+      "target": "da2_fenris_alive",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_fenris_enslaved",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_fenris_returned_to_master",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "group": "illustrated-composition",
+      "target": "da2_fenris_alive",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_fenris_enslaved",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_fenris_returned_to_master",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "group": "illustrated-composition",
+      "target": "da2_fenris_alive",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_fenris_enslaved",
+          "min": 2,
+          "max": 2
+        },
+        {
+          "question": "da2_fenris_returned_to_master",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "group": "illustrated-composition",
+      "target": "da2_fenris_alive",
+      "value": 4,
+      "dependencies": [
+        {
+          "question": "da2_fenris_joined",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_fenris_enslaved",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "da2_fenris_returned_to_master",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_red_attack_nightfall",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_red_village_siege",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_red_bella_tavern",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_red_village_siege",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_red_bella_tavern",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_red_village_siege",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_red_bella_tavern",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_red_village_siege",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_red_bella_tavern",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_red_village_siege",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_par_zerlinda_woe",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_par_chant_deeps",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_dno_mardy_son",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_warden_background",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_dno_mardy_son",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_warden_background",
+          "min": 5,
+          "max": 5
+        },
+        {
+          "question": "dao_warden_mf",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_par_noble_birth",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_dno_mardy_son",
+          "min": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_par_noble_birth",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_dno_mardy_son",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_par_noble_birth",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_dno_mardy_son",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_par_noble_birth",
+      "value": 3,
+      "dependencies": [
+        {
+          "question": "dao_dno_mardy_son",
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "target": "dao_den_crimson_oars",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_den_pearls_swine",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_den_lelianas_past",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_leliana_fate",
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "target": "dao_den_lelianas_past",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_leliana_fate",
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "target": "dao_bc_irving_survive",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_broken_circle_cullen_request",
+          "min": 0,
+          "max": 0
+        }
+      ],
+      "when_known": "dao_broken_circle_cullen_request"
+    },
+    {
+      "target": "dao_wynne_recruited",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_broken_circle_cullen_request",
+          "min": 0,
+          "max": 0
+        }
+      ],
+      "when_known": "dao_broken_circle_cullen_request"
+    },
+    {
+      "target": "dao_awakening_oghren_felsi",
+      "value": 1,
+      "dependencies": [
+        {
+          "question": "dao_oghren_recruited",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_awakening_oghren_felsi",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_oghren_recruited",
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "target": "dao_shale_fate",
+      "value": 0,
+      "dependencies": [
+        {
+          "question": "dao_shale_recruited",
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "target": "dao_shale_fate",
+      "value": 2,
+      "dependencies": [
+        {
+          "question": "dao_shale_recruited",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "question": "dao_paragon_anvil_fate",
+          "min": 1,
+          "max": 2
+        }
+      ]
+    }
+  ],
+  "deferred": [],
+  "profile_inputs": {
+    "dao.bella_fate": {
+      "field": "dao_red_bella_tavern",
+      "answers": {
+        "left": 0,
+        "tavern_owner": 1,
+        "brewery": 2,
+        "died": 3
+      }
+    },
+    "dao.leliana_past": {
+      "field": "dao_den_lelianas_past",
+      "answers": {
+        "not_encountered": 0,
+        "sent_away": 1,
+        "killed": 2
+      }
+    },
+    "dao.cullen_request": {
+      "field": "dao_broken_circle_cullen_request",
+      "answers": {
+        "disagreed": 0,
+        "agreed": 1
+      }
+    },
+    "dao.oghren_felsi": {
+      "field": "dao_awakening_oghren_felsi",
+      "answers": {
+        "not_helped": 0,
+        "reunited": 1,
+        "parted": 2
+      }
+    }
+  }
+}

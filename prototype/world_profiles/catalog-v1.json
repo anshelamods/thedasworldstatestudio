@@ -1,0 +1,117 @@
+{
+  "mapping_version": 1,
+  "scope": "Initial profile slice only. Gameplay tests pending; unedited history is inherited from a reviewed preset.",
+  "baseline": {
+    "id": "early-tests-v1",
+    "label": "Early-test baseline: Bethany Circle, Alistair king, Loghain executed",
+    "template_sha256": "8a03712331e995d7b41323c868b203a1059eb654c39a038cf730ae1e89811484",
+    "basis": "Existing early-test common assignments, kept unchanged for comparison.",
+    "export_values": {
+      "dao_played": 1,
+      "dao_or_da2_played": 1,
+      "da2_played": 1,
+      "dao_ruler_state": 0,
+      "dao_alistair_alive": 1,
+      "dao_alistair_executed": 0,
+      "dao_alistair_killed_archdemon": 0,
+      "dao_alistair_king_alone": 1,
+      "dao_alistair_king_with_anora": 0,
+      "dao_alistair_king_with_warden": 0,
+      "dao_alistair_royal_status": 1,
+      "dao_alistair_state": 2,
+      "dao_alistair_drunk": 0,
+      "dao_anora_queen_alone": 0,
+      "dao_anora_queen_alone_or_with_warden": 0,
+      "dao_anora_queen_with_warden": 0,
+      "dao_warden_married_alistair": 0,
+      "dao_warden_married_alistair_anora": 0,
+      "dao_warden_king_mistress": 0,
+      "dao_warden_romance": 0,
+      "dao_warden_romance_alistair": 0,
+      "dao_warden_romance_morrigan": 0,
+      "dao_warden_romance_leliana": 0,
+      "dao_warden_romance_zevran": 0,
+      "dao_loghain_alive": 0,
+      "dao_loghain_executed": 1,
+      "dao_loghain_fate": 0,
+      "dao_loghain_killed_archdemon": 0,
+      "dao_loghain_recruited": 0,
+      "da2_hawke_class": 1,
+      "da2_hawke_class_mage": 0,
+      "da2_hawke_class_rogue": 1,
+      "da2_hawke_class_warrior": 0,
+      "da2_bethany_alive": 1,
+      "da2_bethany_career": 1,
+      "da2_bethany_final_battle_death": 1,
+      "da2_bethany_is_warden": 0,
+      "da2_bethany_died_deep_roads": 0,
+      "da2_carver_alive": 0,
+      "da2_carver_career": 0,
+      "da2_carver_is_warden": 0,
+      "da2_carver_died_deep_roads": 0
+    }
+  },
+  "choices": {
+    "da2.anders_fate": {
+      "label": "Anders's fate",
+      "basis": "User-directed provisional policy, with conflicting Keep/game descriptions retained in assessment/export-policy.json.",
+      "evidence_status": "disputed",
+      "export_policy": "anders_fate",
+      "answers": {
+        "alive": {"label": "Anders lives"},
+        "executed": {"label": "Hawke executed Anders"}
+      }
+    },
+    "da2.bethany_fate": {
+      "label": "Bethany's fate",
+      "basis": "Reviewed early comparison cases; exact gameplay observations pending.",
+      "evidence_status": "file-verified",
+      "requires": {"da2_hawke_class_mage": 0, "da2_carver_alive": 0},
+      "answers": {
+        "circle": {
+          "label": "Bethany lives in the Circle",
+          "export_values": {"da2_bethany_alive": 1, "da2_bethany_career": 1, "da2_bethany_final_battle_death": 1, "da2_bethany_is_warden": 0, "da2_bethany_died_deep_roads": 0}
+        },
+        "warden": {
+          "label": "Bethany lives as a Grey Warden",
+          "export_values": {"da2_bethany_alive": 1, "da2_bethany_career": 2, "da2_bethany_final_battle_death": 1, "da2_bethany_is_warden": 1, "da2_bethany_died_deep_roads": 0}
+        },
+        "deep_roads_death": {
+          "label": "Bethany died in the Deep Roads",
+          "export_values": {"da2_bethany_alive": 0, "da2_bethany_career": 3, "da2_bethany_final_battle_death": 0, "da2_bethany_is_warden": 0, "da2_bethany_died_deep_roads": 1}
+        }
+      }
+    },
+    "dao.ferelden_leadership": {
+      "label": "Ferelden's ruler and Alistair's role (initial supported combinations)",
+      "basis": "Reviewed early comparison cases; broader marriage/ruler combinations are not yet exposed.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "alistair_king_alone": {
+          "label": "Alistair rules alone; no royal marriage to the Warden",
+          "export_values": {"dao_ruler_state": 0, "dao_alistair_alive": 1, "dao_alistair_executed": 0, "dao_alistair_killed_archdemon": 0, "dao_alistair_king_alone": 1, "dao_alistair_king_with_anora": 0, "dao_alistair_king_with_warden": 0, "dao_alistair_royal_status": 1, "dao_alistair_state": 2, "dao_alistair_drunk": 0, "dao_anora_queen_alone": 0, "dao_anora_queen_alone_or_with_warden": 0, "dao_anora_queen_with_warden": 0, "dao_warden_married_alistair": 0, "dao_warden_married_alistair_anora": 0, "dao_warden_king_mistress": 0}
+        },
+        "anora_queen_alistair_warden": {
+          "label": "Anora rules alone; Alistair remains a Grey Warden",
+          "export_values": {"dao_ruler_state": 3, "dao_alistair_alive": 1, "dao_alistair_executed": 0, "dao_alistair_killed_archdemon": 0, "dao_alistair_king_alone": 0, "dao_alistair_king_with_anora": 0, "dao_alistair_king_with_warden": 0, "dao_alistair_royal_status": 0, "dao_alistair_state": 3, "dao_alistair_drunk": 0, "dao_anora_queen_alone": 1, "dao_anora_queen_alone_or_with_warden": 1, "dao_anora_queen_with_warden": 0, "dao_warden_married_alistair": 0, "dao_warden_married_alistair_anora": 0, "dao_warden_king_mistress": 0}
+        }
+      }
+    },
+    "dao.loghain_fate": {
+      "label": "Loghain's fate (initial supported outcomes)",
+      "basis": "User documentation and Keep definitions; original description/range disagree about the alive enum. Gameplay tests pending.",
+      "evidence_status": "disputed",
+      "answers": {
+        "executed_by_warden": {
+          "label": "The Warden executed Loghain",
+          "export_values": {"dao_loghain_alive": 0, "dao_loghain_executed": 1, "dao_loghain_fate": 0, "dao_loghain_killed_archdemon": 0, "dao_loghain_recruited": 0}
+        },
+        "alive_recruited": {
+          "label": "Loghain was recruited and remains alive",
+          "export_values": {"dao_loghain_alive": 1, "dao_loghain_executed": 0, "dao_loghain_fate": 4, "dao_loghain_killed_archdemon": 0, "dao_loghain_recruited": 1},
+          "max_value_overrides": {"dao_loghain_fate": 4}
+        }
+      }
+    }
+  }
+}

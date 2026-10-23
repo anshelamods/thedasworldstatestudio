@@ -1,0 +1,2128 @@
+{
+  "mapping_version": 15,
+  "scope": "Initial profile slice only. Gameplay tests pending; unedited history is inherited from a reviewed preset.",
+  "baseline": {
+    "id": "early-tests-v1",
+    "label": "Early-test baseline: Bethany Circle, Alistair king, Loghain executed",
+    "template_sha256": "8a03712331e995d7b41323c868b203a1059eb654c39a038cf730ae1e89811484",
+    "basis": "Existing early-test common assignments, kept unchanged for comparison.",
+    "export_values": {
+      "dao_played": 1,
+      "dao_or_da2_played": 1,
+      "da2_played": 1,
+      "dao_ruler_state": 0,
+      "dao_alistair_alive": 1,
+      "dao_alistair_executed": 0,
+      "dao_alistair_killed_archdemon": 0,
+      "dao_alistair_king_alone": 1,
+      "dao_alistair_king_with_anora": 0,
+      "dao_alistair_king_with_warden": 0,
+      "dao_alistair_royal_status": 1,
+      "dao_alistair_state": 2,
+      "dao_alistair_drunk": 0,
+      "dao_anora_queen_alone": 0,
+      "dao_anora_queen_alone_or_with_warden": 0,
+      "dao_anora_queen_with_warden": 0,
+      "dao_warden_married_alistair": 0,
+      "dao_warden_married_alistair_anora": 0,
+      "dao_warden_king_mistress": 0,
+      "dao_warden_romance": 0,
+      "dao_warden_romance_alistair": 0,
+      "dao_warden_romance_morrigan": 0,
+      "dao_warden_romance_leliana": 0,
+      "dao_warden_romance_zevran": 0,
+      "dao_loghain_alive": 0,
+      "dao_loghain_executed": 1,
+      "dao_loghain_fate": 0,
+      "dao_loghain_killed_archdemon": 0,
+      "dao_loghain_recruited": 0,
+      "da2_hawke_class": 1,
+      "da2_hawke_class_mage": 0,
+      "da2_hawke_class_rogue": 1,
+      "da2_hawke_class_warrior": 0,
+      "da2_bethany_alive": 1,
+      "da2_bethany_career": 1,
+      "da2_bethany_final_battle_death": 1,
+      "da2_bethany_is_warden": 0,
+      "da2_bethany_died_deep_roads": 0,
+      "da2_carver_alive": 0,
+      "da2_carver_career": 0,
+      "da2_carver_is_warden": 0,
+      "da2_carver_died_deep_roads": 0
+    }
+  },
+  "choices": {
+    "da2.anders_fate": {
+      "label": "Anders's fate",
+      "basis": "User-directed provisional policy, with conflicting Keep/game descriptions retained in assessment/export-policy.json.",
+      "evidence_status": "disputed",
+      "export_policy": "anders_fate",
+      "answers": {
+        "alive": {
+          "label": "Anders lives"
+        },
+        "executed": {
+          "label": "Hawke executed Anders"
+        }
+      }
+    },
+    "da2.bethany_fate": {
+      "label": "Bethany's fate",
+      "basis": "Reviewed early comparison cases; exact gameplay observations pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "circle": {
+          "label": "Bethany lives in the Circle",
+          "export_values": {
+            "da2_bethany_alive": 1,
+            "da2_bethany_career": 1,
+            "da2_bethany_final_battle_death": 1,
+            "da2_bethany_is_warden": 0,
+            "da2_bethany_died_deep_roads": 0
+          }
+        },
+        "warden": {
+          "label": "Bethany lives as a Grey Warden",
+          "export_values": {
+            "da2_bethany_alive": 1,
+            "da2_bethany_career": 2,
+            "da2_bethany_final_battle_death": 1,
+            "da2_bethany_is_warden": 1,
+            "da2_bethany_died_deep_roads": 0
+          }
+        },
+        "deep_roads_death": {
+          "label": "Bethany died in the Deep Roads",
+          "export_values": {
+            "da2_bethany_alive": 0,
+            "da2_bethany_career": 3,
+            "da2_bethany_final_battle_death": 0,
+            "da2_bethany_is_warden": 0,
+            "da2_bethany_died_deep_roads": 1
+          }
+        },
+        "lothering_death": {
+          "label": "Bethany died while escaping Lothering",
+          "export_values": {
+            "da2_bethany_alive": 0,
+            "da2_bethany_career": 0,
+            "da2_bethany_final_battle_death": 0,
+            "da2_bethany_is_warden": 0,
+            "da2_bethany_died_deep_roads": 0
+          }
+        }
+      }
+    },
+    "da2.carver_fate": {
+      "label": "Carver's fate",
+      "basis": "Career 0/1/2/3 agrees between captured Keep definitions, original game descriptions and supplied editor; redundant alive/Warden/Deep Roads booleans reviewed in worldstate-evidence.json. New outcomes need gameplay observations.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "templar": {
+          "label": "Carver lives as a templar",
+          "export_values": {
+            "da2_carver_alive": 1,
+            "da2_carver_career": 1,
+            "da2_carver_is_warden": 0,
+            "da2_carver_died_deep_roads": 0
+          }
+        },
+        "warden": {
+          "label": "Carver lives as a Grey Warden",
+          "export_values": {
+            "da2_carver_alive": 1,
+            "da2_carver_career": 2,
+            "da2_carver_is_warden": 1,
+            "da2_carver_died_deep_roads": 0
+          }
+        },
+        "deep_roads_death": {
+          "label": "Carver died in the Deep Roads",
+          "export_values": {
+            "da2_carver_alive": 0,
+            "da2_carver_career": 3,
+            "da2_carver_is_warden": 0,
+            "da2_carver_died_deep_roads": 1
+          }
+        },
+        "lothering_death": {
+          "label": "Carver died while escaping Lothering",
+          "export_values": {
+            "da2_carver_alive": 0,
+            "da2_carver_career": 0,
+            "da2_carver_is_warden": 0,
+            "da2_carver_died_deep_roads": 0
+          }
+        }
+      }
+    },
+    "da2.hawke_class": {
+      "label": "Hawke's class",
+      "basis": "Keep and game descriptions agree on warrior 0, rogue 1, mage 2; matching class booleans are set together. Sibling outcomes are independent of class by user direction.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "warrior": {
+          "label": "Warrior Hawke",
+          "export_values": {
+            "da2_hawke_class": 0,
+            "da2_hawke_class_warrior": 1,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 0
+          }
+        },
+        "rogue": {
+          "label": "Rogue Hawke",
+          "export_values": {
+            "da2_hawke_class": 1,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 1,
+            "da2_hawke_class_mage": 0
+          }
+        },
+        "mage": {
+          "label": "Mage Hawke",
+          "export_values": {
+            "da2_hawke_class": 2,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 1
+          }
+        }
+      }
+    },
+    "dao.ferelden_leadership": {
+      "label": "Ferelden's ruler and Alistair's role (initial supported combinations)",
+      "basis": "Reviewed early comparison cases; broader marriage/ruler combinations are not yet exposed.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "alistair_king_alone": {
+          "label": "Alistair rules alone; no royal marriage to the Warden",
+          "export_values": {
+            "dao_ruler_state": 0,
+            "dao_alistair_alive": 1,
+            "dao_alistair_executed": 0,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_alistair_king_alone": 1,
+            "dao_alistair_king_with_anora": 0,
+            "dao_alistair_king_with_warden": 0,
+            "dao_alistair_royal_status": 1,
+            "dao_alistair_state": 2,
+            "dao_alistair_drunk": 0,
+            "dao_anora_queen_alone": 0,
+            "dao_anora_queen_alone_or_with_warden": 0,
+            "dao_anora_queen_with_warden": 0,
+            "dao_warden_married_alistair": 0,
+            "dao_warden_married_alistair_anora": 0,
+            "dao_warden_king_mistress": 0
+          }
+        },
+        "anora_queen_alistair_warden": {
+          "label": "Anora rules alone; Alistair remains a Grey Warden",
+          "export_values": {
+            "dao_ruler_state": 3,
+            "dao_alistair_alive": 1,
+            "dao_alistair_executed": 0,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_alistair_king_alone": 0,
+            "dao_alistair_king_with_anora": 0,
+            "dao_alistair_king_with_warden": 0,
+            "dao_alistair_royal_status": 0,
+            "dao_alistair_state": 3,
+            "dao_alistair_drunk": 0,
+            "dao_anora_queen_alone": 1,
+            "dao_anora_queen_alone_or_with_warden": 1,
+            "dao_anora_queen_with_warden": 0,
+            "dao_warden_married_alistair": 0,
+            "dao_warden_married_alistair_anora": 0,
+            "dao_warden_king_mistress": 0
+          }
+        }
+      }
+    },
+    "dao.loghain_fate": {
+      "label": "Loghain’s fate",
+      "basis": "User documentation and Keep definitions; original description/range disagree about the alive enum. Gameplay tests pending. The sacrifice answer follows the same documented Keep/editor sequence as the working alive value 4, and released Experimental v4/v5 pair fate 3 with the Archdemon-kill boolean. The original enum conflict remains unresolved; this does not claim new gameplay verification.",
+      "evidence_status": "disputed",
+      "answers": {
+        "executed_by_warden": {
+          "label": "The Warden executed Loghain",
+          "export_values": {
+            "dao_loghain_alive": 0,
+            "dao_loghain_executed": 1,
+            "dao_loghain_fate": 0,
+            "dao_loghain_killed_archdemon": 0,
+            "dao_loghain_recruited": 0
+          }
+        },
+        "alive_recruited": {
+          "label": "Loghain was recruited and remains alive",
+          "export_values": {
+            "dao_loghain_alive": 1,
+            "dao_loghain_executed": 0,
+            "dao_loghain_fate": 4,
+            "dao_loghain_killed_archdemon": 0,
+            "dao_loghain_recruited": 1
+          },
+          "max_value_overrides": {
+            "dao_loghain_fate": 4
+          }
+        },
+        "sacrificed": {
+          "label": "Loghain died killing the Archdemon",
+          "export_values": {
+            "dao_loghain_alive": 0,
+            "dao_loghain_executed": 0,
+            "dao_loghain_fate": 3,
+            "dao_loghain_killed_archdemon": 1,
+            "dao_loghain_recruited": 1
+          }
+        }
+      }
+    },
+    "da2.hawke_personality": {
+      "label": "Hawke's personality",
+      "basis": "Enum values agree between original game descriptions, captured Keep definitions and supplied editor; redundant booleans reviewed in worldstate-evidence.json. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "diplomatic": {
+          "label": "Diplomatic",
+          "export_values": {
+            "da2_hawke_personality_type": 0,
+            "da2_hawke_personality_diplomatic": 1,
+            "da2_hawke_personality_humourous": 0,
+            "da2_hawke_personality_aggressive": 0
+          }
+        },
+        "humourous": {
+          "label": "Humourous",
+          "export_values": {
+            "da2_hawke_personality_type": 1,
+            "da2_hawke_personality_diplomatic": 0,
+            "da2_hawke_personality_humourous": 1,
+            "da2_hawke_personality_aggressive": 0
+          }
+        },
+        "aggressive": {
+          "label": "Aggressive",
+          "export_values": {
+            "da2_hawke_personality_type": 2,
+            "da2_hawke_personality_diplomatic": 0,
+            "da2_hawke_personality_humourous": 0,
+            "da2_hawke_personality_aggressive": 1
+          }
+        }
+      }
+    },
+    "dao.warden_class": {
+      "label": "The Warden's class",
+      "basis": "Enum values agree between original game descriptions, captured Keep definitions and supplied editor; redundant booleans reviewed in worldstate-evidence.json. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "warrior": {
+          "label": "Warrior",
+          "export_values": {
+            "dao_warden_class": 0,
+            "dao_warden_class_warrior": 1,
+            "dao_warden_class_rogue": 0,
+            "dao_warden_class_mage": 0
+          }
+        },
+        "rogue": {
+          "label": "Rogue",
+          "export_values": {
+            "dao_warden_class": 1,
+            "dao_warden_class_warrior": 0,
+            "dao_warden_class_rogue": 1,
+            "dao_warden_class_mage": 0
+          }
+        },
+        "mage": {
+          "label": "Mage",
+          "export_values": {
+            "dao_warden_class": 2,
+            "dao_warden_class_warrior": 0,
+            "dao_warden_class_rogue": 0,
+            "dao_warden_class_mage": 1
+          }
+        }
+      }
+    },
+    "dao.warden_origin": {
+      "label": "The Warden's origin",
+      "basis": "Enum values agree between original game descriptions, captured Keep definitions and supplied editor; redundant booleans reviewed in worldstate-evidence.json. Gameplay verification pending. Origin also sets its matching race. dao_warden_background_human_mage has original range 0..0, is 0 in every supplied preset, and is deliberately preserved; Human mage uses the independently verified background enum value 1. Class remains a separate selection.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "human_noble": {
+          "label": "Human noble",
+          "export_values": {
+            "dao_warden_background": 0,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 1,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "human_mage": {
+          "label": "Human mage",
+          "export_values": {
+            "dao_warden_background": 1,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "dalish_elf": {
+          "label": "Dalish elf",
+          "export_values": {
+            "dao_warden_background": 2,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 1,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "city_elf": {
+          "label": "City elf",
+          "export_values": {
+            "dao_warden_background": 3,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 1,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "elven_mage": {
+          "label": "Elf mage",
+          "export_values": {
+            "dao_warden_background": 4,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 1,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "dwarf_noble": {
+          "label": "Dwarf noble",
+          "export_values": {
+            "dao_warden_background": 5,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 1,
+            "dao_warden_background_dwarf_commoner": 0
+          }
+        },
+        "dwarf_commoner": {
+          "label": "Dwarf commoner",
+          "export_values": {
+            "dao_warden_background": 6,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 1
+          }
+        }
+      }
+    },
+    "da2.hawke_identity": {
+      "label": "Hawke's gender and class",
+      "basis": "Gender enum 0 male / 1 female agrees between original game descriptions, captured Keep definitions and supplied editor. Class and race enum/booleans use the reviewed existing mappings. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "male_warrior": {
+          "label": "Male Warrior",
+          "export_values": {
+            "da2_hawke_class": 0,
+            "da2_hawke_class_warrior": 1,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 0,
+            "da2_hawke_mf": 0
+          }
+        },
+        "male_rogue": {
+          "label": "Male Rogue",
+          "export_values": {
+            "da2_hawke_class": 1,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 1,
+            "da2_hawke_class_mage": 0,
+            "da2_hawke_mf": 0
+          }
+        },
+        "male_mage": {
+          "label": "Male Mage",
+          "export_values": {
+            "da2_hawke_class": 2,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 1,
+            "da2_hawke_mf": 0
+          }
+        },
+        "female_warrior": {
+          "label": "Female Warrior",
+          "export_values": {
+            "da2_hawke_class": 0,
+            "da2_hawke_class_warrior": 1,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 0,
+            "da2_hawke_mf": 1
+          }
+        },
+        "female_rogue": {
+          "label": "Female Rogue",
+          "export_values": {
+            "da2_hawke_class": 1,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 1,
+            "da2_hawke_class_mage": 0,
+            "da2_hawke_mf": 1
+          }
+        },
+        "female_mage": {
+          "label": "Female Mage",
+          "export_values": {
+            "da2_hawke_class": 2,
+            "da2_hawke_class_warrior": 0,
+            "da2_hawke_class_rogue": 0,
+            "da2_hawke_class_mage": 1,
+            "da2_hawke_mf": 1
+          }
+        }
+      }
+    },
+    "dao.warden_identity": {
+      "label": "The Warden's gender and origin",
+      "basis": "Gender enum 0 male / 1 female agrees across original game descriptions, captured Keep definitions and supplied editor. Origin supplies the reviewed background enum, six usable origin booleans and matching race enum/booleans from v3. Class remains separate. The zero-range human-mage field remains untouched. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "male_human_noble": {
+          "label": "Male Human noble",
+          "export_values": {
+            "dao_warden_background": 0,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 1,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_human_noble": {
+          "label": "Female Human noble",
+          "export_values": {
+            "dao_warden_background": 0,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 1,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_human_mage": {
+          "label": "Male Human mage",
+          "export_values": {
+            "dao_warden_background": 1,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_human_mage": {
+          "label": "Female Human mage",
+          "export_values": {
+            "dao_warden_background": 1,
+            "dao_warden_race": 0,
+            "dao_warden_race_human": 1,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_dalish_elf": {
+          "label": "Male Dalish elf",
+          "export_values": {
+            "dao_warden_background": 2,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 1,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_dalish_elf": {
+          "label": "Female Dalish elf",
+          "export_values": {
+            "dao_warden_background": 2,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 1,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_city_elf": {
+          "label": "Male City elf",
+          "export_values": {
+            "dao_warden_background": 3,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 1,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_city_elf": {
+          "label": "Female City elf",
+          "export_values": {
+            "dao_warden_background": 3,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 1,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_elven_mage": {
+          "label": "Male Elf mage",
+          "export_values": {
+            "dao_warden_background": 4,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 1,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_elven_mage": {
+          "label": "Female Elf mage",
+          "export_values": {
+            "dao_warden_background": 4,
+            "dao_warden_race": 1,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 1,
+            "dao_warden_race_dwarf": 0,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 1,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_dwarf_noble": {
+          "label": "Male Dwarf noble",
+          "export_values": {
+            "dao_warden_background": 5,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 1,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_dwarf_noble": {
+          "label": "Female Dwarf noble",
+          "export_values": {
+            "dao_warden_background": 5,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 1,
+            "dao_warden_background_dwarf_commoner": 0,
+            "dao_warden_mf": 1
+          }
+        },
+        "male_dwarf_commoner": {
+          "label": "Male Dwarf commoner",
+          "export_values": {
+            "dao_warden_background": 6,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 1,
+            "dao_warden_mf": 0
+          }
+        },
+        "female_dwarf_commoner": {
+          "label": "Female Dwarf commoner",
+          "export_values": {
+            "dao_warden_background": 6,
+            "dao_warden_race": 2,
+            "dao_warden_race_human": 0,
+            "dao_warden_race_elf": 0,
+            "dao_warden_race_dwarf": 1,
+            "dao_warden_background_human_noble": 0,
+            "dao_warden_background_dalish_elf": 0,
+            "dao_warden_background_city_elf": 0,
+            "dao_warden_background_elven_mage": 0,
+            "dao_warden_background_dwarf_noble": 0,
+            "dao_warden_background_dwarf_commoner": 1,
+            "dao_warden_mf": 1
+          }
+        }
+      }
+    },
+    "dao.warden_romance": {
+      "label": "The Warden's romance",
+      "basis": "Enum labels agree across original game descriptions, captured Keep metadata and the supplied editor. Matching romance booleans and plot GUIDs agree in direct readback of all eight supplied released presets; see assessment/reference/romance-mapping-review.json. Only the romance enum and its booleans are changed. Companion fates, identities, political marriages, Alistair final relationship status and child/ritual history remain independent/inherited. Keep dependency rules are recorded for later review, not silently applied. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "none": {
+          "label": "No romance",
+          "export_values": {
+            "dao_warden_romance": 0,
+            "dao_warden_romance_alistair": 0,
+            "dao_warden_romance_morrigan": 0,
+            "dao_warden_romance_leliana": 0,
+            "dao_warden_romance_zevran": 0
+          }
+        },
+        "alistair": {
+          "label": "Alistair",
+          "export_values": {
+            "dao_warden_romance": 1,
+            "dao_warden_romance_alistair": 1,
+            "dao_warden_romance_morrigan": 0,
+            "dao_warden_romance_leliana": 0,
+            "dao_warden_romance_zevran": 0
+          }
+        },
+        "morrigan": {
+          "label": "Morrigan",
+          "export_values": {
+            "dao_warden_romance": 2,
+            "dao_warden_romance_alistair": 0,
+            "dao_warden_romance_morrigan": 1,
+            "dao_warden_romance_leliana": 0,
+            "dao_warden_romance_zevran": 0
+          }
+        },
+        "leliana": {
+          "label": "Leliana",
+          "export_values": {
+            "dao_warden_romance": 3,
+            "dao_warden_romance_alistair": 0,
+            "dao_warden_romance_morrigan": 0,
+            "dao_warden_romance_leliana": 1,
+            "dao_warden_romance_zevran": 0
+          }
+        },
+        "zevran": {
+          "label": "Zevran",
+          "export_values": {
+            "dao_warden_romance": 4,
+            "dao_warden_romance_alistair": 0,
+            "dao_warden_romance_morrigan": 0,
+            "dao_warden_romance_leliana": 0,
+            "dao_warden_romance_zevran": 1
+          }
+        }
+      }
+    },
+    "da2.hawke_romance": {
+      "label": "Hawke's romance",
+      "basis": "Enum labels agree across original game descriptions, captured Keep metadata and the supplied editor. Matching romance booleans and plot GUIDs agree in direct readback of all eight supplied released presets; see assessment/reference/romance-mapping-review.json. Only the romance enum and its booleans are changed. Companion fates, identities, political marriages, Alistair final relationship status and child/ritual history remain independent/inherited. Keep dependency rules are recorded for later review, not silently applied. Gameplay verification pending.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "none": {
+          "label": "No romance",
+          "export_values": {
+            "da2_hawke_romance": 0,
+            "da2_hawke_romance_none": 1,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "anders": {
+          "label": "Anders",
+          "export_values": {
+            "da2_hawke_romance": 1,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 1,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "fenris": {
+          "label": "Fenris",
+          "export_values": {
+            "da2_hawke_romance": 2,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 1,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "isabela": {
+          "label": "Isabela",
+          "export_values": {
+            "da2_hawke_romance": 3,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 1,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "merrill": {
+          "label": "Merrill",
+          "export_values": {
+            "da2_hawke_romance": 4,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 1,
+            "da2_hawke_romance_sebastian": 0
+          }
+        },
+        "sebastian": {
+          "label": "Sebastian",
+          "export_values": {
+            "da2_hawke_romance": 5,
+            "da2_hawke_romance_none": 0,
+            "da2_hawke_romance_anders": 0,
+            "da2_hawke_romance_fenris": 0,
+            "da2_hawke_romance_isabela": 0,
+            "da2_hawke_romance_merrill": 0,
+            "da2_hawke_romance_sebastian": 1
+          }
+        }
+      }
+    },
+    "dao.ferelden_ruler": {
+      "label": "Ferelden's rulers",
+      "basis": "Ruler enum corroborated by original game descriptions, Keep metadata, and supplied editor. Related crown booleans follow the supplied field labels and released preset readback; the ambiguously named married_alistair_anora flag follows the Anora/Warden preset. Gameplay validation covers only the reported Alistair-alone setup.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "alistair_alone": {
+          "label": "Alistair rules alone",
+          "export_values": {
+            "dao_ruler_state": 0,
+            "dao_alistair_king_alone": 1,
+            "dao_alistair_king_with_anora": 0,
+            "dao_alistair_king_with_warden": 0,
+            "dao_alistair_royal_status": 1,
+            "dao_anora_queen_alone": 0,
+            "dao_anora_queen_alone_or_with_warden": 0,
+            "dao_anora_queen_with_warden": 0,
+            "dao_warden_married_alistair": 0,
+            "dao_warden_married_alistair_anora": 0
+          }
+        },
+        "alistair_anora": {
+          "label": "Alistair and Anora rule",
+          "export_values": {
+            "dao_ruler_state": 1,
+            "dao_alistair_king_alone": 0,
+            "dao_alistair_king_with_anora": 1,
+            "dao_alistair_king_with_warden": 0,
+            "dao_alistair_royal_status": 1,
+            "dao_anora_queen_alone": 0,
+            "dao_anora_queen_alone_or_with_warden": 0,
+            "dao_anora_queen_with_warden": 0,
+            "dao_warden_married_alistair": 0,
+            "dao_warden_married_alistair_anora": 0
+          }
+        },
+        "alistair_warden": {
+          "label": "Alistair and the Warden rule",
+          "export_values": {
+            "dao_ruler_state": 2,
+            "dao_alistair_king_alone": 0,
+            "dao_alistair_king_with_anora": 0,
+            "dao_alistair_king_with_warden": 1,
+            "dao_alistair_royal_status": 1,
+            "dao_anora_queen_alone": 0,
+            "dao_anora_queen_alone_or_with_warden": 0,
+            "dao_anora_queen_with_warden": 0,
+            "dao_warden_married_alistair": 1,
+            "dao_warden_married_alistair_anora": 0
+          }
+        },
+        "anora_alone": {
+          "label": "Anora rules alone",
+          "export_values": {
+            "dao_ruler_state": 3,
+            "dao_alistair_king_alone": 0,
+            "dao_alistair_king_with_anora": 0,
+            "dao_alistair_king_with_warden": 0,
+            "dao_alistair_royal_status": 0,
+            "dao_anora_queen_alone": 1,
+            "dao_anora_queen_alone_or_with_warden": 1,
+            "dao_anora_queen_with_warden": 0,
+            "dao_warden_married_alistair": 0,
+            "dao_warden_married_alistair_anora": 0
+          }
+        },
+        "anora_warden": {
+          "label": "Anora and the Warden rule",
+          "export_values": {
+            "dao_ruler_state": 4,
+            "dao_alistair_king_alone": 0,
+            "dao_alistair_king_with_anora": 0,
+            "dao_alistair_king_with_warden": 0,
+            "dao_alistair_royal_status": 0,
+            "dao_anora_queen_alone": 0,
+            "dao_anora_queen_alone_or_with_warden": 1,
+            "dao_anora_queen_with_warden": 1,
+            "dao_warden_married_alistair": 0,
+            "dao_warden_married_alistair_anora": 1
+          }
+        }
+      }
+    },
+    "dao.alistair_fate": {
+      "label": "Alistair's final fate",
+      "basis": "Enum corroborated by original game descriptions, captured Keep metadata, and supplied editor. Associated alive/executed/Archdemon/drunk booleans follow matching original fields. Crown, ritual and final-battle history are separate; new branches await gameplay observations.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "sacrificed": {
+          "label": "Alistair died killing the Archdemon",
+          "export_values": {
+            "dao_alistair_state": 0,
+            "dao_alistair_alive": 0,
+            "dao_alistair_executed": 0,
+            "dao_alistair_killed_archdemon": 1,
+            "dao_alistair_drunk": 0
+          }
+        },
+        "executed": {
+          "label": "Alistair was executed",
+          "export_values": {
+            "dao_alistair_state": 1,
+            "dao_alistair_alive": 0,
+            "dao_alistair_executed": 1,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_alistair_drunk": 0
+          }
+        },
+        "king": {
+          "label": "Alistair became king",
+          "export_values": {
+            "dao_alistair_state": 2,
+            "dao_alistair_alive": 1,
+            "dao_alistair_executed": 0,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_alistair_drunk": 0
+          }
+        },
+        "warden": {
+          "label": "Alistair remained a Grey Warden",
+          "export_values": {
+            "dao_alistair_state": 3,
+            "dao_alistair_alive": 1,
+            "dao_alistair_executed": 0,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_alistair_drunk": 0
+          }
+        },
+        "drunk": {
+          "label": "Alistair became a wandering drunk",
+          "export_values": {
+            "dao_alistair_state": 4,
+            "dao_alistair_alive": 1,
+            "dao_alistair_executed": 0,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_alistair_drunk": 1
+          }
+        }
+      }
+    },
+    "dao.alistair_relationship": {
+      "label": "Alistair and the Warden's final relationship",
+      "basis": "Values 0–3 agree across original descriptions, Keep metadata and supplied editor. Value 4 is a Keep/editor extension beyond the original 0–3 range; use the captured Keep maximum of 4. Primary romance and royal marriage flags are independent controls; no automatic dependent edits.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "never_lovers": {
+          "label": "The Warden and Alistair were not lovers",
+          "export_values": {
+            "dao_warden_king_mistress": 0
+          }
+        },
+        "mistress": {
+          "label": "The Warden remained Alistair's mistress",
+          "export_values": {
+            "dao_warden_king_mistress": 1
+          }
+        },
+        "ended": {
+          "label": "The Warden did not remain with Alistair",
+          "export_values": {
+            "dao_warden_king_mistress": 2
+          }
+        },
+        "queen": {
+          "label": "The Warden became Alistair's queen",
+          "export_values": {
+            "dao_warden_king_mistress": 3
+          }
+        },
+        "wardens_together": {
+          "label": "Alistair remained with the Wardens and the Warden",
+          "export_values": {
+            "dao_warden_king_mistress": 4
+          },
+          "max_value_overrides": {
+            "dao_warden_king_mistress": 4
+          }
+        }
+      }
+    },
+    "dao.warden_fate": {
+      "label": "The Warden’s survival",
+      "basis": "The author’s tested documentation is the working reference. Survival boolean and state 0/1 agree with original game descriptions, captured Keep definitions and supplied editor. Missing state 2 is not reinterpreted.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "sacrificed": {
+          "label": "The Warden died killing the Archdemon",
+          "export_values": {
+            "dao_warden_alive": 0,
+            "dao_warden_state": 0
+          }
+        },
+        "alive": {
+          "label": "The Warden survived the Fifth Blight",
+          "export_values": {
+            "dao_warden_alive": 1,
+            "dao_warden_state": 1
+          }
+        }
+      }
+    },
+    "dao.archdemon_killer": {
+      "label": "Who killed the Archdemon",
+      "basis": "The author’s documentation agrees with original game descriptions, Keep and supplied editor: Warden 0, Alistair 1, Loghain 2. Explicit selection owns the two corresponding killed-Archdemon booleans, superseding their legacy fate-control copies without changing survival/career fields.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "warden": {
+          "label": "The Warden killed the Archdemon",
+          "export_values": {
+            "dao_archdemon_killer": 0,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_loghain_killed_archdemon": 0
+          }
+        },
+        "alistair": {
+          "label": "Alistair killed the Archdemon",
+          "export_values": {
+            "dao_archdemon_killer": 1,
+            "dao_alistair_killed_archdemon": 1,
+            "dao_loghain_killed_archdemon": 0
+          }
+        },
+        "loghain": {
+          "label": "Loghain killed the Archdemon",
+          "export_values": {
+            "dao_archdemon_killer": 2,
+            "dao_alistair_killed_archdemon": 0,
+            "dao_loghain_killed_archdemon": 1
+          }
+        }
+      }
+    },
+    "dao.morrigan_child": {
+      "label": "Morrigan’s ritual and child",
+      "basis": "Follow the author’s documented enum and released-mod behavior. Values 0–3 agree with original descriptions, Keep and editor; Keep/editor/documentation add human-child value 4. has_child=1 for any child follows the released Queen Cousland Old God-child presets and Experimental v1 human child; the supplied editor’s normal-child-only label conflicts and is retained as unresolved evidence.",
+      "evidence_status": "disputed",
+      "answers": {
+        "none": {
+          "label": "Morrigan had no child",
+          "export_values": {
+            "dao_morrigan_baby": 0,
+            "dao_morrigan_baby_warden": 0,
+            "dao_morrigan_baby_alistair": 0,
+            "dao_morrigan_baby_loghain": 0,
+            "dao_morrigan_dark_ritual": 0,
+            "dao_morrigan_dark_ritual_warden": 0,
+            "dao_morrigan_has_child": 0
+          }
+        },
+        "old_god_warden": {
+          "label": "Old God child with the Warden",
+          "export_values": {
+            "dao_morrigan_baby": 1,
+            "dao_morrigan_baby_warden": 1,
+            "dao_morrigan_baby_alistair": 0,
+            "dao_morrigan_baby_loghain": 0,
+            "dao_morrigan_dark_ritual": 1,
+            "dao_morrigan_dark_ritual_warden": 1,
+            "dao_morrigan_has_child": 1
+          }
+        },
+        "old_god_alistair": {
+          "label": "Old God child with Alistair",
+          "export_values": {
+            "dao_morrigan_baby": 2,
+            "dao_morrigan_baby_warden": 0,
+            "dao_morrigan_baby_alistair": 1,
+            "dao_morrigan_baby_loghain": 0,
+            "dao_morrigan_dark_ritual": 1,
+            "dao_morrigan_dark_ritual_warden": 0,
+            "dao_morrigan_has_child": 1
+          }
+        },
+        "old_god_loghain": {
+          "label": "Old God child with Loghain",
+          "export_values": {
+            "dao_morrigan_baby": 3,
+            "dao_morrigan_baby_warden": 0,
+            "dao_morrigan_baby_alistair": 0,
+            "dao_morrigan_baby_loghain": 1,
+            "dao_morrigan_dark_ritual": 1,
+            "dao_morrigan_dark_ritual_warden": 0,
+            "dao_morrigan_has_child": 1
+          }
+        },
+        "human_warden": {
+          "label": "Human child with the Warden",
+          "export_values": {
+            "dao_morrigan_baby": 4,
+            "dao_morrigan_baby_warden": 1,
+            "dao_morrigan_baby_alistair": 0,
+            "dao_morrigan_baby_loghain": 0,
+            "dao_morrigan_dark_ritual": 0,
+            "dao_morrigan_dark_ritual_warden": 0,
+            "dao_morrigan_has_child": 1
+          },
+          "max_value_overrides": {
+            "dao_morrigan_baby": 4
+          }
+        }
+      }
+    },
+    "dao.broken_circle": {
+      "label": "Broken Circle allegiance",
+      "basis": "The author’s extensively tested documentation is the working reference. Values and related field labels agree with original game data, captured Keep definitions and the supplied editor; released presets provide direct file corroboration. New generated branches are not individually gameplay-verified.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "mages": {
+          "label": "Supported the mages",
+          "export_values": {
+            "dao_broken_circle_choice": 0,
+            "dao_broken_circle_mages": 1,
+            "dao_broken_circle_templars": 0
+          }
+        },
+        "templars": {
+          "label": "Supported the templars",
+          "export_values": {
+            "dao_broken_circle_choice": 1,
+            "dao_broken_circle_mages": 0,
+            "dao_broken_circle_templars": 1
+          }
+        }
+      }
+    },
+    "dao.connor_fate": {
+      "label": "Connor’s fate",
+      "basis": "The author’s extensively tested documentation is the working reference. Values and related field labels agree with original game data, captured Keep definitions and the supplied editor; released presets provide direct file corroboration. New generated branches are not individually gameplay-verified.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "dead": {
+          "label": "Connor died",
+          "export_values": {
+            "dao_connor_state": 0,
+            "dao_connor_dead": 1,
+            "dao_connor_alive_and_not_possessed": 0,
+            "dao_connor_alive_and_possessed": 0
+          }
+        },
+        "freed": {
+          "label": "Connor is alive and no longer possessed",
+          "export_values": {
+            "dao_connor_state": 1,
+            "dao_connor_dead": 0,
+            "dao_connor_alive_and_not_possessed": 1,
+            "dao_connor_alive_and_possessed": 0
+          }
+        },
+        "possessed": {
+          "label": "Connor is alive and still possessed",
+          "export_values": {
+            "dao_connor_state": 2,
+            "dao_connor_dead": 0,
+            "dao_connor_alive_and_not_possessed": 0,
+            "dao_connor_alive_and_possessed": 1
+          }
+        }
+      }
+    },
+    "dao.isolde_fate": {
+      "label": "Isolde’s sacrifice",
+      "basis": "The author’s extensively tested documentation is the working reference. Values and related field labels agree with original game data, captured Keep definitions and the supplied editor; released presets provide direct file corroboration. New generated branches are not individually gameplay-verified.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "alive": {
+          "label": "Isolde survived",
+          "export_values": {
+            "dao_isolde_state": 0
+          }
+        },
+        "sacrificed": {
+          "label": "Isolde sacrificed herself",
+          "export_values": {
+            "dao_isolde_state": 1
+          }
+        }
+      }
+    },
+    "dao.nature_outcome": {
+      "label": "Nature of the Beast",
+      "basis": "Use the author’s tested documentation as the working reference; use the supplied World State Editor as fallback where the documentation is silent. This batch is documented. Captured Keep definitions, game variable GUIDs/descriptions where present, editor labels and released preset readback provide corroboration. No new gameplay observation is claimed.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "peace": {
+          "label": "Brokered peace",
+          "export_values": {
+            "dao_nb_werewolf_elf_choice": 0,
+            "dao_ntb_brokered_peace": 1,
+            "dao_ntb_side_werewolves": 0,
+            "dao_ntb_side_elves": 0
+          }
+        },
+        "werewolves": {
+          "label": "Sided with the werewolves",
+          "export_values": {
+            "dao_nb_werewolf_elf_choice": 1,
+            "dao_ntb_brokered_peace": 0,
+            "dao_ntb_side_werewolves": 1,
+            "dao_ntb_side_elves": 0
+          }
+        },
+        "elves": {
+          "label": "Sided with the elves",
+          "export_values": {
+            "dao_nb_werewolf_elf_choice": 2,
+            "dao_ntb_brokered_peace": 0,
+            "dao_ntb_side_werewolves": 0,
+            "dao_ntb_side_elves": 1
+          }
+        }
+      }
+    },
+    "dao.orzammar_ruler": {
+      "label": "Orzammar’s ruler",
+      "basis": "Use the author’s tested documentation as the working reference; use the supplied World State Editor as fallback where the documentation is silent. This batch is documented. Captured Keep definitions, game variable GUIDs/descriptions where present, editor labels and released preset readback provide corroboration. No new gameplay observation is claimed.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "harrowmont": {
+          "label": "Harrowmont rules Orzammar",
+          "export_values": {
+            "dao_orzammar_ruler": 0,
+            "dao_harrowmont_is_king": 1,
+            "dao_bhelen_is_king": 0
+          }
+        },
+        "bhelen": {
+          "label": "Bhelen rules Orzammar",
+          "export_values": {
+            "dao_orzammar_ruler": 1,
+            "dao_harrowmont_is_king": 0,
+            "dao_bhelen_is_king": 1
+          }
+        }
+      }
+    },
+    "dao.anvil_fate": {
+      "label": "The Anvil of the Void",
+      "basis": "Use the author’s tested documentation as the working reference; use the supplied World State Editor as fallback where the documentation is silent. This batch is documented. Captured Keep definitions, game variable GUIDs/descriptions where present, editor labels and released preset readback provide corroboration. No new gameplay observation is claimed. The documented Paragon/side/Anvil flags are grouped with each outcome. The supplied editor cautions that dao_par_chose_caridin may be misidentified; retain the documented 1 for the Caridin branch, also present in all eight released presets, and flag its identification for verification.",
+      "evidence_status": "disputed",
+      "answers": {
+        "warden_destroyed": {
+          "label": "The Warden destroyed the Anvil",
+          "export_values": {
+            "dao_paragon_anvil_fate": 0,
+            "dao_paragon_chosen": 0,
+            "dao_par_chose_caridin": 1,
+            "dao_par_chose_branka": 0,
+            "dao_par_caridin_destroyed_anvil": 1,
+            "dao_par_branka_destroyed_anvil": 0,
+            "dao_par_branka_kept_anvil": 0
+          }
+        },
+        "branka_destroyed": {
+          "label": "Branka destroyed the Anvil",
+          "export_values": {
+            "dao_paragon_anvil_fate": 1,
+            "dao_paragon_chosen": 1,
+            "dao_par_chose_caridin": 0,
+            "dao_par_chose_branka": 1,
+            "dao_par_caridin_destroyed_anvil": 0,
+            "dao_par_branka_destroyed_anvil": 1,
+            "dao_par_branka_kept_anvil": 0
+          }
+        },
+        "preserved": {
+          "label": "The Anvil was preserved",
+          "export_values": {
+            "dao_paragon_anvil_fate": 2,
+            "dao_paragon_chosen": 1,
+            "dao_par_chose_caridin": 0,
+            "dao_par_chose_branka": 1,
+            "dao_par_caridin_destroyed_anvil": 0,
+            "dao_par_branka_destroyed_anvil": 0,
+            "dao_par_branka_kept_anvil": 1
+          }
+        }
+      }
+    },
+    "dao.leliana_fate": {
+      "label": "Leliana’s fate",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. Captured Keep metadata, original game field definitions and released presets provide corroboration. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Value 3 follows the author/editor/Keep departure interpretation despite the original game enum description calling it a different death. dao_leliana_killed is a distinct non-Urn death condition in original game descriptions, so it remains 0 for all four documented answers; the Urn-death answer sets dao_leliana_killed_sacred_ashes instead. Non-recruitment alone is interpreted as alive, not a death. These interpretations remain explicit verification items.",
+      "evidence_status": "disputed",
+      "answers": {
+        "not_recruited": {
+          "label": "Leliana was not recruited",
+          "export_values": {
+            "dao_leliana_fate": 0,
+            "dao_leliana_alive": 1,
+            "dao_leliana_recruited": 0,
+            "dao_leliana_killed": 0,
+            "dao_leliana_killed_sacred_ashes": 0,
+            "dao_leliana_crisis": 0
+          }
+        },
+        "alive": {
+          "label": "Leliana is alive and well",
+          "export_values": {
+            "dao_leliana_fate": 1,
+            "dao_leliana_alive": 1,
+            "dao_leliana_recruited": 1,
+            "dao_leliana_killed": 0,
+            "dao_leliana_killed_sacred_ashes": 0,
+            "dao_leliana_crisis": 0
+          }
+        },
+        "killed_at_urn": {
+          "label": "Leliana was killed after poisoning the Urn",
+          "export_values": {
+            "dao_leliana_fate": 2,
+            "dao_leliana_alive": 0,
+            "dao_leliana_recruited": 1,
+            "dao_leliana_killed": 0,
+            "dao_leliana_killed_sacred_ashes": 1,
+            "dao_leliana_crisis": 0
+          }
+        },
+        "left_after_urn": {
+          "label": "Leliana left after poisoning the Urn",
+          "export_values": {
+            "dao_leliana_fate": 3,
+            "dao_leliana_alive": 1,
+            "dao_leliana_recruited": 1,
+            "dao_leliana_killed": 0,
+            "dao_leliana_killed_sacred_ashes": 0,
+            "dao_leliana_crisis": 1
+          }
+        }
+      }
+    },
+    "dao.wynne_fate": {
+      "label": "Wynne’s fate",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. Captured Keep metadata, original game field definitions and released presets provide corroboration. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment is 0 for non-recruitment or death at Broken Circle and 1 for alive or killed after the Urn, consistent with captured Keep dependencies. The displayed final option follows the documented Urn-specific wording rather than the broader Keep caption.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Wynne was not recruited",
+          "export_values": {
+            "dao_wynne_fate": 0,
+            "dao_wynne_recruited": 0
+          }
+        },
+        "alive": {
+          "label": "Wynne is alive and well",
+          "export_values": {
+            "dao_wynne_fate": 1,
+            "dao_wynne_recruited": 1
+          }
+        },
+        "died_at_circle": {
+          "label": "Wynne died at Broken Circle",
+          "export_values": {
+            "dao_wynne_fate": 2,
+            "dao_wynne_recruited": 0
+          }
+        },
+        "killed_at_urn": {
+          "label": "Wynne was killed after poisoning the Urn",
+          "export_values": {
+            "dao_wynne_fate": 3,
+            "dao_wynne_recruited": 1
+          }
+        }
+      }
+    },
+    "dao.zevran_recruited": {
+      "label": "Zevran’s recruitment",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. Captured Keep metadata, original game field definitions and released presets provide corroboration. No new gameplay observation is claimed; unknown in-game relevance does not block coverage.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Zevran was not recruited",
+          "export_values": {
+            "dao_zevran_recruited": 0
+          }
+        },
+        "recruited": {
+          "label": "Zevran was recruited",
+          "export_values": {
+            "dao_zevran_recruited": 1
+          }
+        }
+      }
+    },
+    "dao.zevran_fate": {
+      "label": "Zevran’s survival",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. Captured Keep metadata, original game field definitions and released presets provide corroboration. No new gameplay observation is claimed; unknown in-game relevance does not block coverage.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "dead": {
+          "label": "Zevran died",
+          "export_values": {
+            "dao_zevran_alive": 0
+          }
+        },
+        "alive": {
+          "label": "Zevran is alive and well",
+          "export_values": {
+            "dao_zevran_alive": 1
+          }
+        }
+      }
+    },
+    "dao.sten_recruited": {
+      "label": "Sten’s recruitment",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. The documented numeric values agree with original game descriptions where present and captured Keep definitions. Released-preset readback corroborates the existing combination. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls remain independently editable; unreviewed Keep dependencies are recorded, not automatically enforced or used to rewrite other choices.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Sten was not recruited",
+          "export_values": {
+            "dao_sten_recruited": 0
+          }
+        },
+        "recruited": {
+          "label": "Sten was recruited",
+          "export_values": {
+            "dao_sten_recruited": 1
+          }
+        }
+      }
+    },
+    "dao.sten_release": {
+      "label": "Sten’s imprisonment",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. The documented numeric values agree with original game descriptions where present and captured Keep definitions. Released-preset readback corroborates the existing combination. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls remain independently editable; unreviewed Keep dependencies are recorded, not automatically enforced or used to rewrite other choices.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_freed": {
+          "label": "Sten was not freed",
+          "export_values": {
+            "dao_lot_qunari_prisoner": 0
+          }
+        },
+        "picked_lock": {
+          "label": "Picked the lock",
+          "export_values": {
+            "dao_lot_qunari_prisoner": 1
+          }
+        },
+        "persuaded": {
+          "label": "Persuaded the Revered Mother",
+          "export_values": {
+            "dao_lot_qunari_prisoner": 2
+          }
+        },
+        "intimidated": {
+          "label": "Intimidated the Revered Mother",
+          "export_values": {
+            "dao_lot_qunari_prisoner": 3
+          }
+        }
+      }
+    },
+    "dao.sten_sword": {
+      "label": "Sten’s sword",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. The documented numeric values agree with original game descriptions where present and captured Keep definitions. Released-preset readback corroborates the existing combination. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls remain independently editable; unreviewed Keep dependencies are recorded, not automatically enforced or used to rewrite other choices.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Sten was not recruited",
+          "export_values": {
+            "dao_sten_sword": 0
+          }
+        },
+        "not_returned": {
+          "label": "The sword was not returned",
+          "export_values": {
+            "dao_sten_sword": 1
+          }
+        },
+        "returned": {
+          "label": "The sword was returned",
+          "export_values": {
+            "dao_sten_sword": 2
+          }
+        }
+      }
+    },
+    "dao.dagna_outcome": {
+      "label": "Dagna’s request",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. The documented numeric values agree with original game descriptions where present and captured Keep definitions. Released-preset readback corroborates the existing combination. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. The documentation calls line 56 dao_unlikely_scholar; the reviewed game field at that index is dao_par_unlikely_scholar, with the same five documented values. Keep the separate dao_par_dagna_circle flag independent: all eight released presets combine outcome 4 with permission 1. No relationship or alias normalization is assumed. Controls remain independently editable; unreviewed Keep dependencies are recorded, not automatically enforced or used to rewrite other choices.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_met": {
+          "label": "Did not speak to Dagna",
+          "export_values": {
+            "dao_par_unlikely_scholar": 0
+          }
+        },
+        "refused": {
+          "label": "Refused to help",
+          "export_values": {
+            "dao_par_unlikely_scholar": 1
+          }
+        },
+        "stayed": {
+          "label": "Convinced Dagna to stay with her father",
+          "export_values": {
+            "dao_par_unlikely_scholar": 2
+          }
+        },
+        "studied": {
+          "label": "Dagna left to study",
+          "export_values": {
+            "dao_par_unlikely_scholar": 3
+          }
+        },
+        "circle_destroyed": {
+          "label": "Told Dagna the Circle was destroyed",
+          "export_values": {
+            "dao_par_unlikely_scholar": 4
+          }
+        }
+      }
+    },
+    "dao.dagna_permission": {
+      "label": "Permission for Dagna to study",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback for unspecified details. The documented numeric values agree with original game descriptions where present and captured Keep definitions. Released-preset readback corroborates the existing combination. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. The documentation calls line 56 dao_unlikely_scholar; the reviewed game field at that index is dao_par_unlikely_scholar, with the same five documented values. Keep the separate dao_par_dagna_circle flag independent: all eight released presets combine outcome 4 with permission 1. No relationship or alias normalization is assumed. This flag has no standalone captured Keep painting; reuse the Dagna permission and never-met paintings as illustrations only. Controls remain independently editable; unreviewed Keep dependencies are recorded, not automatically enforced or used to rewrite other choices.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_requested": {
+          "label": "Permission was not requested",
+          "export_values": {
+            "dao_par_dagna_circle": 0
+          },
+          "keep_art_value": 0
+        },
+        "requested": {
+          "label": "Permission was requested",
+          "export_values": {
+            "dao_par_dagna_circle": 1
+          },
+          "keep_art_value": 3
+        }
+      }
+    },
+    "da2.fenris_recruited": {
+      "label": "Fenris’s recruitment",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced. No separate recruitment painting is archived; the illustrated selector reuses Fenris’s not-recruited and alive paintings.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Not recruited",
+          "export_values": {
+            "da2_fenris_joined": 0
+          },
+          "keep_art_value": 0
+        },
+        "recruited": {
+          "label": "Recruited",
+          "export_values": {
+            "da2_fenris_joined": 1
+          },
+          "keep_art_value": 2
+        }
+      }
+    },
+    "da2.fenris_fate": {
+      "label": "Fenris’s fate",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced. The final-status selector owns da2_fenris_alive and the separate survival boolean da2_fenris_still_alive. Survival is interpreted as 0 only for the death answer and 1 for the other four answers, including non-recruitment and enslavement; these companion-boolean interpretations are not individually gameplay-verified. Value 4 (still pursued) is documented and present in the supplied editor and Keep but exceeds the original maximum 3; only that answer expands the maximum to the captured Keep maximum 4. The other answers retain the inherited range.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Not recruited",
+          "export_values": {
+            "da2_fenris_alive": 0,
+            "da2_fenris_still_alive": 1
+          }
+        },
+        "dead": {
+          "label": "Died",
+          "export_values": {
+            "da2_fenris_alive": 1,
+            "da2_fenris_still_alive": 0
+          }
+        },
+        "alive": {
+          "label": "Alive and well",
+          "export_values": {
+            "da2_fenris_alive": 2,
+            "da2_fenris_still_alive": 1
+          }
+        },
+        "returned": {
+          "label": "Returned to Danarius",
+          "export_values": {
+            "da2_fenris_alive": 3,
+            "da2_fenris_still_alive": 1
+          }
+        },
+        "pursued": {
+          "label": "Alive, still pursued",
+          "export_values": {
+            "da2_fenris_alive": 4,
+            "da2_fenris_still_alive": 1
+          },
+          "max_value_overrides": {
+            "da2_fenris_alive": 4
+          }
+        }
+      }
+    },
+    "da2.fenris_danarius": {
+      "label": "Fenris and Danarius",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced. The documented 0/1/2 quest enum sets the related returned-to-master boolean to 1 only for value 2. The illustrated view reuses the final-status paintings; the quest and final-status enums are distinct fields, not aliases.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Not recruited",
+          "export_values": {
+            "da2_fenris_enslaved": 0,
+            "da2_fenris_returned_to_master": 0
+          },
+          "keep_art_value": 0
+        },
+        "not_returned": {
+          "label": "Not returned",
+          "export_values": {
+            "da2_fenris_enslaved": 1,
+            "da2_fenris_returned_to_master": 0
+          },
+          "keep_art_value": 2
+        },
+        "returned": {
+          "label": "Returned to Danarius",
+          "export_values": {
+            "da2_fenris_enslaved": 2,
+            "da2_fenris_returned_to_master": 1
+          },
+          "keep_art_value": 3
+        }
+      }
+    },
+    "da2.isabela_recruited": {
+      "label": "Isabela’s recruitment",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Not recruited",
+          "export_values": {
+            "da2_isabela_joined": 0
+          }
+        },
+        "recruited": {
+          "label": "Recruited",
+          "export_values": {
+            "da2_isabela_joined": 1
+          }
+        }
+      }
+    },
+    "da2.isabela_book": {
+      "label": "Isabela and the book",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Not recruited",
+          "export_values": {
+            "da2_isabela_returned_with_book": 0
+          }
+        },
+        "not_returned": {
+          "label": "Did not return",
+          "export_values": {
+            "da2_isabela_returned_with_book": 1
+          }
+        },
+        "returned": {
+          "label": "Returned with the book",
+          "export_values": {
+            "da2_isabela_returned_with_book": 2
+          }
+        }
+      }
+    },
+    "da2.isabela_handover": {
+      "label": "Isabela and the Arishok",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced. Use the author’s boolean interpretation, corroborated by the supplied BOOL editor, original maximum 1, Keep maximum 1 and Keep answer labels 0 no / 1 yes. Original game descriptions instead say 0 absent / 1 no / 2 yes; that conflict is retained for verification, not used to silently replace the working mapping. The captured painting for Keep value 1 shows Isabela in chains despite its misleading not-present_detail.jpg filename; use the captured value association, not the filename. All eight released presets use 0, so they cannot settle the positive branch.",
+      "evidence_status": "disputed",
+      "answers": {
+        "not_handed_over": {
+          "label": "Not handed over",
+          "export_values": {
+            "da2_isabela_turned_over": 0
+          }
+        },
+        "handed_over": {
+          "label": "Handed to the Arishok",
+          "export_values": {
+            "da2_isabela_turned_over": 1
+          }
+        }
+      }
+    },
+    "da2.merrill_fate": {
+      "label": "Merrill’s survival",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "dead": {
+          "label": "Died",
+          "export_values": {
+            "da2_merrill_alive": 0
+          }
+        },
+        "alive": {
+          "label": "Alive and well",
+          "export_values": {
+            "da2_merrill_alive": 1
+          }
+        }
+      }
+    },
+    "da2.merrill_eluvian": {
+      "label": "Merrill’s eluvian",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "preserved": {
+          "label": "Kept the eluvian",
+          "export_values": {
+            "da2_merrill_eluvian_destroy": 0
+          }
+        },
+        "destroyed": {
+          "label": "Destroyed the eluvian",
+          "export_values": {
+            "da2_merrill_eluvian_destroy": 1
+          }
+        }
+      }
+    },
+    "da2.merrill_remained": {
+      "label": "Merrill and Hawke",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "left": {
+          "label": "Did not stay",
+          "export_values": {
+            "da2_merrill_remained": 0
+          }
+        },
+        "stayed": {
+          "label": "Stayed with Hawke",
+          "export_values": {
+            "da2_merrill_remained": 1
+          }
+        }
+      }
+    },
+    "da2.merrill_clan": {
+      "label": "Merrill’s clan",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game definitions, captured Keep metadata and direct released-preset readbacks corroborate the identified fields. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Recruitment, quest outcome and final fate stay independently editable; no unreviewed Keep dependencies or automatic changes to romance, class, siblings or other history are introduced. Retain the game’s actual field spelling da2_merrils_clan, documented at DA2 index 94; do not invent a renamed Merrill field.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "survived": {
+          "label": "Clan survived",
+          "export_values": {
+            "da2_merrils_clan": 0
+          }
+        },
+        "killed": {
+          "label": "Clan killed",
+          "export_values": {
+            "da2_merrils_clan": 1
+          }
+        }
+      }
+    },
+    "da2.aveline_marriage": {
+      "label": "Aveline’s marriage",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. The documented values agree with original game definitions where descriptions exist and captured Keep metadata. Direct readback of all eight released presets corroborates the inherited combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls are independent; no automatic changes to Hawke’s romance, class, siblings, Anders, allegiance or other history, and no unreviewed Keep dependency gates, are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_married": {
+          "label": "Did not marry Donnic",
+          "export_values": {
+            "da2_aveline_married": 0
+          }
+        },
+        "married": {
+          "label": "Married Donnic",
+          "export_values": {
+            "da2_aveline_married": 1
+          }
+        }
+      }
+    },
+    "da2.aveline_remained": {
+      "label": "Aveline and Hawke",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. The documented values agree with original game definitions where descriptions exist and captured Keep metadata. Direct readback of all eight released presets corroborates the inherited combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls are independent; no automatic changes to Hawke’s romance, class, siblings, Anders, allegiance or other history, and no unreviewed Keep dependency gates, are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "left": {
+          "label": "Did not stay",
+          "export_values": {
+            "da2_aveline_remained": 0
+          }
+        },
+        "stayed": {
+          "label": "Stayed with Hawke",
+          "export_values": {
+            "da2_aveline_remained": 1
+          }
+        }
+      }
+    },
+    "da2.varric_relationship": {
+      "label": "Hawke and Varric",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. The documented values agree with original game definitions where descriptions exist and captured Keep metadata. Direct readback of all eight released presets corroborates the inherited combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls are independent; no automatic changes to Hawke’s romance, class, siblings, Anders, allegiance or other history, and no unreviewed Keep dependency gates, are introduced. The documented relationship enum at DA2 index 69 is inverse to the friendship boolean at index 88. One selector sets both. Seven released presets corroborate 0/1 friends and Experimental v7 corroborates 1/0 rivals.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "friends": {
+          "label": "Friends",
+          "export_values": {
+            "da2_hawke_varric_relationship": 0,
+            "da2_varric_friendship": 1
+          }
+        },
+        "rivals": {
+          "label": "Rivals",
+          "export_values": {
+            "da2_hawke_varric_relationship": 1,
+            "da2_varric_friendship": 0
+          }
+        }
+      }
+    },
+    "da2.bartrand_fate": {
+      "label": "Bartrand’s fate",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. The documented values agree with original game definitions where descriptions exist and captured Keep metadata. Direct readback of all eight released presets corroborates the inherited combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls are independent; no automatic changes to Hawke’s romance, class, siblings, Anders, allegiance or other history, and no unreviewed Keep dependency gates, are introduced. Correct the documentation’s repeated line 86 reference: da2_varric_bartrand_killed is at DA2 index 87, verified by variable name, plot GUID, original field definition, editor and Keep labels; index 86 is da2_sided_with_templars and must not be edited here. Pair the death boolean with inverse da2_bartrand_alive at index 36. All eight released presets corroborate spared/alive 0/1; the killed/dead pair follows the documented boolean meanings.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "alive": {
+          "label": "Spared Bartrand",
+          "export_values": {
+            "da2_varric_bartrand_killed": 0,
+            "da2_bartrand_alive": 1
+          }
+        },
+        "killed": {
+          "label": "Killed Bartrand",
+          "export_values": {
+            "da2_varric_bartrand_killed": 1,
+            "da2_bartrand_alive": 0
+          }
+        }
+      }
+    },
+    "da2.varric_idol": {
+      "label": "Varric’s idol fragment",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. The documented values agree with original game definitions where descriptions exist and captured Keep metadata. Direct readback of all eight released presets corroborates the inherited combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls are independent; no automatic changes to Hawke’s romance, class, siblings, Anders, allegiance or other history, and no unreviewed Keep dependency gates, are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_kept": {
+          "label": "Did not keep the fragment",
+          "export_values": {
+            "da2_varric_has_idol_piece": 0
+          }
+        },
+        "kept": {
+          "label": "Kept the fragment",
+          "export_values": {
+            "da2_varric_has_idol_piece": 1
+          }
+        }
+      }
+    },
+    "da2.varric_quest": {
+      "label": "Varric’s haunted mansion quest",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. The documented values agree with original game definitions where descriptions exist and captured Keep metadata. Direct readback of all eight released presets corroborates the inherited combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls are independent; no automatic changes to Hawke’s romance, class, siblings, Anders, allegiance or other history, and no unreviewed Keep dependency gates, are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_completed": {
+          "label": "Did not investigate",
+          "export_values": {
+            "da2_varric_plot_complete": 0
+          }
+        },
+        "completed": {
+          "label": "Investigated the haunting",
+          "export_values": {
+            "da2_varric_plot_complete": 1
+          }
+        }
+      }
+    },
+    "da2.sebastian_recruited": {
+      "label": "Sebastian’s recruitment",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. The documented values agree with original game definitions where descriptions exist and captured Keep metadata. Direct readback of all eight released presets corroborates the inherited combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Controls are independent; no automatic changes to Hawke’s romance, class, siblings, Anders, allegiance or other history, and no unreviewed Keep dependency gates, are introduced.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_recruited": {
+          "label": "Not recruited",
+          "export_values": {
+            "da2_sebastian_joined": 0
+          }
+        },
+        "recruited": {
+          "label": "Recruited",
+          "export_values": {
+            "da2_sebastian_joined": 1
+          }
+        }
+      }
+    },
+    "da2.final_allegiance": {
+      "label": "Hawke’s final allegiance",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game field descriptions and captured Keep metadata agree with the documented numeric values; direct readback of all eight released presets corroborates their existing combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Preserve independently edited companion fates, Anders’s execution, Isabela’s handover, Hawke’s identity/romance and sibling outcomes; no new Keep dependency gates or automatic edits to other history are introduced. One selector owns the documented DA2 index 50 enum plus the complementary booleans at indices 85 and 86. All eight released presets use the mages tuple 0/1/0; the templars tuple follows the documented enum and boolean meanings. This control must not edit Bartrand’s death at index 87.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "mages": {
+          "label": "Sided with the mages",
+          "export_values": {
+            "da2_hawke_chosen_side": 0,
+            "da2_sided_with_mages": 1,
+            "da2_sided_with_templars": 0
+          }
+        },
+        "templars": {
+          "label": "Sided with the templars",
+          "export_values": {
+            "da2_hawke_chosen_side": 1,
+            "da2_sided_with_mages": 0,
+            "da2_sided_with_templars": 1
+          }
+        }
+      }
+    },
+    "da2.anders_approval": {
+      "label": "Approval of Anders’s actions",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game field descriptions and captured Keep metadata agree with the documented numeric values; direct readback of all eight released presets corroborates their existing combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Preserve independently edited companion fates, Anders’s execution, Isabela’s handover, Hawke’s identity/romance and sibling outcomes; no new Keep dependency gates or automatic edits to other history are introduced. Approval is the independent boolean at DA2 index 49, separate from the disputed alive/executed enum and its booleans. Experimental v6 corroborates approval 1; the other seven released presets use 0.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "disapproved": {
+          "label": "Did not approve",
+          "export_values": {
+            "da2_hawke_approves_of_anders_action": 0
+          }
+        },
+        "approved": {
+          "label": "Approved",
+          "export_values": {
+            "da2_hawke_approves_of_anders_action": 1
+          }
+        }
+      }
+    },
+    "da2.arishok_fate": {
+      "label": "The Arishok’s fate",
+      "basis": "The author’s documentation is the working reference, with the supplied World State Editor as fallback. Original game field descriptions and captured Keep metadata agree with the documented numeric values; direct readback of all eight released presets corroborates their existing combinations. No new gameplay observation is claimed; unknown in-game relevance does not block coverage. Preserve independently edited companion fates, Anders’s execution, Isabela’s handover, Hawke’s identity/romance and sibling outcomes; no new Keep dependency gates or automatic edits to other history are introduced. This is the documented boolean at DA2 index 33. All eight released presets use 1. Captured Keep dependencies link it to Isabela’s handover, but the requested independent control does not rewrite that disputed boolean or enforce those dependencies.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_killed": {
+          "label": "Did not kill the Arishok",
+          "export_values": {
+            "da2_arishok_killed": 0
+          }
+        },
+        "killed": {
+          "label": "Killed the Arishok",
+          "export_values": {
+            "da2_arishok_killed": 1
+          }
+        }
+      }
+    },
+    "da2.legacy_played": {
+      "label": "Legacy played",
+      "basis": "The author’s tested documentation is the working reference. DA2 indices 44 and 74–76 agree with the supplied World State Editor; original game descriptions and captured Keep metadata also confirm Larius 0 / Janeka 1. Direct readback of all eight released presets confirms Legacy played 1 and Larius tuple 0/0/1. The Janeka tuple follows the documented enum and complementary named booleans. No new gameplay verification is claimed. Played status and side remain independent; selecting either does not rewrite Malcolm’s will, companions, class, romance or sibling outcomes.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "not_played": {
+          "label": "Did not play Legacy",
+          "export_values": {
+            "da2_dlc_legacy_played": 0
+          }
+        },
+        "played": {
+          "label": "Played Legacy",
+          "export_values": {
+            "da2_dlc_legacy_played": 1
+          }
+        }
+      }
+    },
+    "da2.legacy_side": {
+      "label": "Legacy allegiance",
+      "basis": "The author’s tested documentation is the working reference. DA2 indices 44 and 74–76 agree with the supplied World State Editor; original game descriptions and captured Keep metadata also confirm Larius 0 / Janeka 1. Direct readback of all eight released presets confirms Legacy played 1 and Larius tuple 0/0/1. The Janeka tuple follows the documented enum and complementary named booleans. No new gameplay verification is claimed. Played status and side remain independent; selecting either does not rewrite Malcolm’s will, companions, class, romance or sibling outcomes.",
+      "evidence_status": "file-verified",
+      "answers": {
+        "larius": {
+          "label": "Sided with Larius",
+          "export_values": {
+            "da2_legacy_side_chosen": 0,
+            "da2_legacy_hawke_sided_with_janeka": 0,
+            "da2_legacy_hawke_sided_with_larius": 1
+          }
+        },
+        "janeka": {
+          "label": "Sided with Janeka",
+          "export_values": {
+            "da2_legacy_side_chosen": 1,
+            "da2_legacy_hawke_sided_with_janeka": 1,
+            "da2_legacy_hawke_sided_with_larius": 0
+          }
+        }
+      }
+    }
+  }
+}

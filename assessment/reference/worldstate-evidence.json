@@ -1,0 +1,1605 @@
+[
+  {
+    "name": "da2_act1_bonepit_completed",
+    "plot_guid": "14be99b3-6460-435f-8663-555e4c2a0140",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_danzig_killed",
+    "plot_guid": "c17fce0f-5b08-4532-bd38-ff8eabf0011d",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_feynriel_complete",
+    "plot_guid": "100c3927-0ee7-43b0-86de-08c0aa7703f7",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_ghyslain_truth",
+    "plot_guid": "5d128d13-5cb5-44da-8f12-b36b0b5f03be",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_act1_ginnis_alive",
+    "plot_guid": "8dd82efe-a09e-40fa-aa44-cfc1a028013e",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_idunna_killed",
+    "plot_guid": "fae3f916-a99d-45ff-9537-a8c66f4f01c0",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_karras_killed",
+    "plot_guid": "98591eb8-fdbb-480f-b9c2-f1e09e5f01e3",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_kelder_killed",
+    "plot_guid": "fb2db9f7-8139-4325-a0ea-c18f5faa019a",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_keran_templars",
+    "plot_guid": "8112d6a2-80eb-4e28-9fe5-5f9405f1038f",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_martin_cargo_returned",
+    "plot_guid": "e3f57d86-c95f-46cf-814a-3d0923ff0141",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_saarebas_defended",
+    "plot_guid": "a6ee7a41-a5d4-4b51-bdb6-85af0f4e035a",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_seamus",
+    "plot_guid": "005caf32-572f-411f-b7b3-12665ba901e2",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act1_templars",
+    "plot_guid": "e9e00d2b-73d6-4ef1-93f2-fe88d8c20303",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_act1_thrask_blackmailed",
+    "plot_guid": "5b9bbb6a-ab92-4edb-83ae-b3a16ba60131",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act2_fenriel_end",
+    "plot_guid": "b6ee9457-429e-464c-abc2-70445bec03e4",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_act2_fools_gold",
+    "plot_guid": "2f11e1ce-8660-4d3a-91df-e2a6c826038f",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_act2_gamlen_greatest_treasure",
+    "plot_guid": "73abba20-236d-41c0-bf54-38191dea03d9",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_act2_gascard_killed",
+    "plot_guid": "86f4f8a2-1c21-4bd9-b983-836c9e69015a",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act2_javaris_dead",
+    "plot_guid": "e05c99ee-6b64-47fa-ba41-c96d2e59014d",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act2_merchants_inside_job",
+    "plot_guid": "868f9ca2-1a2a-4d27-bfa0-378483ad01b6",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act2_petrice_side",
+    "plot_guid": "3df59a9a-c237-4f5c-89f3-cd6e11a70181",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act2_raiders_on_cliffs",
+    "plot_guid": "73fc5c5d-0d76-4f1b-8ae8-6831eddd03fe",
+    "keep": {
+      "maximum": 3
+    }
+  },
+  {
+    "name": "da2_act2_varnell_side",
+    "plot_guid": "36010f20-99b2-4a6f-beb4-e2c374f0011e",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act3_conspirators_end",
+    "plot_guid": "bd31b7a0-d48c-490b-9ece-6bf0287403d1",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act3_emile_end",
+    "plot_guid": "c158d211-e511-4256-b7e3-2ddca0660359",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_act3_finding_nathaniel",
+    "plot_guid": "0d119913-654c-4420-b95e-ba9e501203e9",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_act3_keran_end",
+    "plot_guid": "c5a25c03-44a6-46f5-adee-87a6887803cc",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_act3_murder_of_crows",
+    "plot_guid": "b56253e0-f214-4dc8-b0fe-d7d3f0c0034a",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_act3_samson_reinstated",
+    "plot_guid": "54421195-729b-48c1-a2df-6993e6840185",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_act3_zevran_freed",
+    "plot_guid": "1a96a108-a053-4698-acfc-1724d24a0373",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_anders_alive",
+    "plot_guid": "6646dd42-2582-4d56-add7-bfe6ff400155",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_anders_executed",
+    "plot_guid": "a9d496bd-f4d1-4e99-a6c6-c0c7f91e01d6",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_anders_fate",
+    "plot_guid": "795a1b8f-0db5-4e0c-b3b4-84aad5fc03c9",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_arishok_killed",
+    "plot_guid": "154b840e-f2f6-487b-a534-41174f4301ab",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_aveline_married",
+    "plot_guid": "98e7b122-8ddf-4d78-af6a-8059f32a0174",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_aveline_remained",
+    "plot_guid": "9d423b51-0fa4-432b-8d92-51b79cc0013c",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_bartrand_alive",
+    "plot_guid": "58c3ac57-44c3-4e94-9586-4d1de6e00189",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_bethany_alive",
+    "plot_guid": "43a43cac-7258-4592-91cc-742ac85901f9",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_bethany_career",
+    "plot_guid": "876521c7-1e18-44d3-a5a4-d2983adc036e",
+    "keep": {
+      "maximum": 3
+    }
+  },
+  {
+    "name": "da2_bethany_final_battle_death",
+    "plot_guid": "55926c4c-5a84-4698-bd45-6da8f3d80396",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_bethany_is_warden",
+    "plot_guid": "5a4f7766-a5e6-416f-908f-896554a301dc",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_carver_alive",
+    "plot_guid": "fab27b61-3963-4d73-a1a6-abd3eaad01b4",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_carver_career",
+    "plot_guid": "d84e7760-b666-492c-9f30-51fb324103b7",
+    "keep": {
+      "maximum": 3
+    }
+  },
+  {
+    "name": "da2_carver_is_warden",
+    "plot_guid": "fb26f50d-3698-4567-8fd5-379ee2960116",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_dlc_legacy_played",
+    "plot_guid": "257ca7b7-5d08-497b-b816-87e19c300178",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_fenris_alive",
+    "plot_guid": "843ec362-41dd-4abc-a121-fe55e197038e",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "da2_fenris_enslaved",
+    "plot_guid": "fa847247-a9f3-4552-aba0-26a8c5de0388",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_fenris_joined",
+    "plot_guid": "33e9739c-aad0-4da1-aebc-d3d3525201d8",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_hawke_appearance",
+    "plot_guid": "2473a150-1408-46a4-ae73-324315a30111",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_hawke_approves_of_anders_action",
+    "plot_guid": "3de7e67e-e1a5-42cc-9877-410d15ad0104",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_hawke_chosen_side",
+    "plot_guid": "215811c9-2d13-4d6e-8c02-924e73ff03a3",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_hawke_class",
+    "plot_guid": "c58c342f-2a56-49ef-b8c3-221a9d5003db",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_hawke_class_mage",
+    "plot_guid": "b2dc5d77-ecf8-4219-a0be-f3a1c87d010b",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_class_rogue",
+    "plot_guid": "1161d572-b3b4-49ed-a10e-c974e4910104",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_class_warrior",
+    "plot_guid": "f5d67305-a5f6-42a7-b17f-103b73040179",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_is_female",
+    "plot_guid": "de4e4a88-d1c1-4aff-8f02-2869769601f8",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_is_male",
+    "plot_guid": "ce78385f-f291-4669-9ff1-4ab2c90a014e",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_mf",
+    "plot_guid": "35150a15-00bb-4ef4-8956-64fe65cc03fd",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_hawke_personality_aggressive",
+    "plot_guid": "506f74b3-9049-4af5-a195-e37911030187",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_personality_diplomatic",
+    "plot_guid": "9e91e319-cb8f-42ca-b442-e3834e490194",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_personality_humourous",
+    "plot_guid": "d33db1e7-9189-4bc6-ace1-6528aa3e012b",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_personality_type",
+    "plot_guid": "e731c742-6b96-4f7c-9704-5fe6339503cb",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_hawke_romance",
+    "plot_guid": "20f5c6e1-6267-4b48-9820-b5ba003b038c",
+    "keep": {
+      "maximum": 5
+    }
+  },
+  {
+    "name": "da2_hawke_romance_anders",
+    "plot_guid": "b1b65e96-f66d-411c-835d-c0676bcb011f",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_romance_fenris",
+    "plot_guid": "71f2cedb-67fc-402f-9554-523db6ba0133",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_romance_isabela",
+    "plot_guid": "7657787d-2284-4613-b666-0afbda2f0117",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_romance_merrill",
+    "plot_guid": "96304172-14a9-461b-bf86-bfc1ef13010f",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_romance_none",
+    "plot_guid": "1b5d9255-7f96-4e95-b628-bdb650c70134",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_romance_sebastian",
+    "plot_guid": "afbb1ab4-62f4-4d3a-b7b5-f9054e830132",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_hawke_varric_relationship",
+    "plot_guid": "4d0fc6b2-ec70-447e-98dd-65c0bf2f03f1",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_isabela_joined",
+    "plot_guid": "96625cc3-d614-4c98-87b7-ad1590b601db",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_isabela_returned_with_book",
+    "plot_guid": "ef6c0f43-2b0f-453e-b679-0fa55f070383",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_isabela_turned_over",
+    "plot_guid": "dec54384-03f8-41ac-bde3-d3552b5201fe",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_legacy_malcolm_will",
+    "plot_guid": "f37662e5-5a23-4a26-8960-a3085f390139",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_legacy_side_chosen",
+    "plot_guid": "0f2ede0a-ca3d-40b3-92de-d21e311903a6",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_legacy_hawke_sided_with_janeka",
+    "plot_guid": "86d30a94-0413-4a92-aa51-64b816ed01fb",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_legacy_hawke_sided_with_larius",
+    "plot_guid": "13193fa0-fb8e-4ea5-aac6-982d1ac801ac",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_mark_tallis_angry",
+    "plot_guid": "98c8a1cd-0b5b-4fe9-b620-efc7488301a2",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "da2_mark_tallis_kiss",
+    "plot_guid": "afc843f1-13d0-4f73-9007-df1e906e01ad",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_merrill_alive",
+    "plot_guid": "98808ffb-1266-4476-a7d1-1da589b0014f",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_merrill_eluvian_destroy",
+    "plot_guid": "80180a62-8615-4fcf-9d27-d086874c01fc",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_merrill_remained",
+    "plot_guid": "3b2e09ad-f9d9-4c1f-9d86-22632306018a",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_played",
+    "plot_guid": "cc9401ac-1aae-4ba5-b278-69627f860108",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_pro_choice",
+    "plot_guid": "aa941eb6-11b6-4890-a8fd-249ecb330329",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_sebastian_joined",
+    "plot_guid": "af549bc3-b38c-4eae-9cdd-f2d538cd01e1",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_sided_with_mages",
+    "plot_guid": "63e6974d-d488-4d9c-bcc1-82e777740162",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_sided_with_templars",
+    "plot_guid": "516a7aa5-9a39-4017-ab55-0911790501eb",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_varric_bartrand_killed",
+    "plot_guid": "f323982a-d4d0-4dde-915f-3163887701c6",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_varric_friendship",
+    "plot_guid": "48f7cd9c-0949-42c1-97ce-3de694000142",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_varric_has_idol_piece",
+    "plot_guid": "4890fe11-9a41-41e8-b125-777fd7e20161",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_varric_plot_complete",
+    "plot_guid": "198be1e1-0b3c-4597-a518-320d98a60136",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_bethany_died_deep_roads",
+    "plot_guid": "b88e5ada-dacb-4cc0-bcf4-f89002a801ba",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_carver_died_deep_roads",
+    "plot_guid": "9b69f419-1c56-42c8-9a79-d630503c01df",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_fenris_returned_to_master",
+    "plot_guid": "1f5716a3-7cda-4d86-886e-c9f74454019b",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "da2_merrils_clan",
+    "plot_guid": "fbbe50bf-25cb-40b6-8381-492f56a20179",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "da2_fenris_still_alive",
+    "plot_guid": "93952b57-51de-42ca-bc46-4d83a9c801d8",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_alive",
+    "plot_guid": "adafa434-851d-4dcf-920e-c549b6fb01b1",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_executed",
+    "plot_guid": "79fe5e4d-6e99-4e88-8387-550d3b370195",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_killed_archdemon",
+    "plot_guid": "adac57b2-0f61-4a46-91fa-7ca9f39c01da",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_king_alone",
+    "plot_guid": "9a5ab374-e54d-4d70-8064-099b359b0111",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_king_with_anora",
+    "plot_guid": "2ef412f9-8b1c-4f16-99e6-ced6132401e7",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_king_with_warden",
+    "plot_guid": "dab4568a-2f33-49ec-abf9-2a479a630115",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_royal_status",
+    "plot_guid": "9ab022af-092d-4dc9-bd14-fe817bda01b2",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_state",
+    "plot_guid": "873dd2bf-95f0-4e17-82d1-e74a9119033f",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "dao_anora_queen_alone",
+    "plot_guid": "be8f5e20-3333-41b0-a5fb-4b601bb6012b",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_anora_queen_alone_or_with_warden",
+    "plot_guid": "7aaae0a7-2e83-42cc-a333-a1777afd0193",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_anora_queen_with_warden",
+    "plot_guid": "3ebd7466-1329-4bc0-b98c-6284401201f2",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_archdemon_killer",
+    "plot_guid": "5b94c4c2-8aa9-491f-aba9-ef8c13e1037f",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_awakenings_nathaniel_live",
+    "plot_guid": "222a01de-ad56-4d84-b631-7414de120301",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_awakenings_played",
+    "plot_guid": "68082319-f639-410c-bd71-ec7500ed01f1",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_bc_irving_survive",
+    "plot_guid": "38fff219-9e26-4373-84e7-052cd5560190",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_broken_circle_choice",
+    "plot_guid": "79bd7901-2950-4a29-85ab-74a08d310387",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_connor_state",
+    "plot_guid": "d0aedb7b-3339-4ff4-9f30-318bfa840313",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_den_crime_wave",
+    "plot_guid": "256f0e13-12d0-4050-8670-fe3d53a90173",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_den_crimson_oars",
+    "plot_guid": "3354ca25-7325-4216-943a-66126f570155",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_den_forgotten_verses",
+    "plot_guid": "3c5877c5-5f0b-4859-8070-943aa0330164",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_den_hearing_voices",
+    "plot_guid": "7e309dc2-6ef5-4aba-a8aa-03b090f601c1",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_den_honor_bound",
+    "plot_guid": "3b9e359d-4c30-4459-874b-09776c20016b",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_den_lost_templar",
+    "plot_guid": "41a3db95-29b8-46bd-8d3d-82b68e5b01c0",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_den_murder_crows",
+    "plot_guid": "343b2400-79c8-446d-a2eb-d871796c0143",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_den_pearls_swine",
+    "plot_guid": "9d3565f2-9f80-4fde-a932-bfb6628b0173",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_den_tortured_noble",
+    "plot_guid": "72cba927-1a40-4a98-8fdb-57b1ba23019c",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_dno_mardy_son",
+    "plot_guid": "7866fbd8-0c18-49eb-9179-20e98919038e",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_dog_recruited",
+    "plot_guid": "cbbfbfcb-207d-424a-b50b-851817fd016c",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_leliana_alive",
+    "plot_guid": "c2ec54e5-722e-4dde-98c3-60e3d94e01e6",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_leliana_fate",
+    "plot_guid": "d824be4b-691d-42fc-a0e0-2355bcf2036d",
+    "keep": {
+      "maximum": 3
+    }
+  },
+  {
+    "name": "dao_leliana_killed",
+    "plot_guid": "05290f18-0cd0-47a9-af19-515b74ea019a",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_leliana_killed_sacred_ashes",
+    "plot_guid": "046a8664-3aa6-40e9-9766-9d64e67f01ea",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_leliana_recruited",
+    "plot_guid": "e62358bf-6c96-4fdd-9ee9-e003df6c0145",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_loghain_alive",
+    "plot_guid": "87a17093-6b62-4926-ab75-01a713d901cd",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_loghain_executed",
+    "plot_guid": "d56a6223-2018-4f6e-8083-d7717767035e",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_loghain_fate",
+    "plot_guid": "899e5c8b-e2d7-40df-89af-57f6e2b50382",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "dao_loghain_killed_archdemon",
+    "plot_guid": "f996df63-923c-4911-9a4f-495033ac01ed",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_loghain_recruited",
+    "plot_guid": "a60f5a05-47f3-4743-add2-1ae69b1d01ee",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_lot_qunari_prisoner",
+    "plot_guid": "bb89db1e-fe3e-48fa-93a8-d6844bd60368",
+    "keep": {
+      "maximum": 3
+    }
+  },
+  {
+    "name": "dao_morrigan_baby",
+    "plot_guid": "7bb91d35-8830-4101-96bb-a91e36cc03b7",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "dao_nb_werewolf_elf_choice",
+    "plot_guid": "0d407267-17c1-4383-a5c2-b483f0110325",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_ntb_cammen_lament",
+    "plot_guid": "8a2717d9-4fca-4c79-aaaf-3fd9b1f4034a",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_ntb_elora_halla",
+    "plot_guid": "69cdd66f-5343-4586-a5de-6a6508710358",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_ntb_lost_curse",
+    "plot_guid": "19305050-469d-48c1-a30f-cedffcac0177",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_ntb_rare_ironbark",
+    "plot_guid": "bced3f86-b60d-426e-9616-42aaf46901c5",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_ntb_wounded_forest",
+    "plot_guid": "0026074e-5b83-4d1b-8721-6edbcc00036e",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_oghren_recruited",
+    "plot_guid": "cbbdd706-5f13-41ba-b687-3c44f1180164",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_orzammar_ruler",
+    "plot_guid": "51008438-0724-40e5-a882-ee2c04e80362",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_paragon_chosen",
+    "plot_guid": "225cf712-7475-494f-9c0f-305d1ca50319",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_par_chant_deeps",
+    "plot_guid": "31e87abf-fb2b-4c6f-af99-fcba048301a2",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_par_dead_caste",
+    "plot_guid": "b27565ce-7516-4c0e-89b1-cffc531e012f",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_par_lost_memories",
+    "plot_guid": "bcebacb3-f430-408c-89a3-00aa808e01e9",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_par_mothers_hope",
+    "plot_guid": "0369e042-11c7-4c63-a860-586e89e3035c",
+    "keep": {
+      "maximum": 5
+    }
+  },
+  {
+    "name": "dao_par_noble_birth",
+    "plot_guid": "195f27bc-6af6-4c70-93f3-582d70bf03f8",
+    "keep": {
+      "maximum": 3
+    }
+  },
+  {
+    "name": "dao_par_precious_metals",
+    "plot_guid": "44f18b6c-247d-4097-8b49-0ab87cf40166",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_par_thief_house_learning",
+    "plot_guid": "fbde5f2d-4486-4655-ab06-256e23640314",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_par_unlikely_scholar",
+    "plot_guid": "5a64b453-f00f-4ffa-ba0f-007b8740030e",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "dao_par_zerlinda_woe",
+    "plot_guid": "c54f86fb-ec85-443c-a9bf-a242d65a01f3",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "dao_played",
+    "plot_guid": "5dd89736-74bd-4da2-917c-80062e0c010e",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_pre_hungry_deserter",
+    "plot_guid": "9b8396f3-9b4e-40ad-8c00-167035590302",
+    "keep": {
+      "maximum": 5
+    }
+  },
+  {
+    "name": "dao_pre_mabari_hound",
+    "plot_guid": "85c30d47-b1bb-4018-b643-1582681c0367",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_red_attack_nightfall",
+    "plot_guid": "a2e3a543-4eb0-4d8b-9474-12a58eb801f7",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_red_lost_castle",
+    "plot_guid": "97d36276-9c62-4137-8072-4d8138ca01f5",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_red_missing_child",
+    "plot_guid": "a1e0eb5f-5df1-4245-9606-c0ed9f7c03ab",
+    "keep": {
+      "maximum": 5
+    }
+  },
+  {
+    "name": "dao_red_village_siege",
+    "plot_guid": "0b6c6243-6c8b-4fe3-b49b-a29414bd01b5",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_ruler_state",
+    "plot_guid": "acea9cd6-6992-46df-a8e9-265b01d003e2",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "dao_urn_of_sacred_ashes_destroyed",
+    "plot_guid": "e6dd1147-aac4-498a-9e4d-fb7655ed0125",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_sten_recruited",
+    "plot_guid": "791b0d6b-8d26-4515-b5f1-428843e501c3",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_sten_sword",
+    "plot_guid": "b21ec61a-fd22-434e-9cec-78c583cf03a4",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_warden_alive",
+    "plot_guid": "69ab104a-df5f-44fd-8637-7c3d566b0157",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_background",
+    "plot_guid": "d2a445f0-c857-404d-8715-d6c717c20391",
+    "keep": {
+      "maximum": 6
+    }
+  },
+  {
+    "name": "dao_warden_class",
+    "plot_guid": "c7f5f213-a431-48c6-ab84-792813e503b7",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_warden_eluvian",
+    "plot_guid": "67824ec6-f5b1-46a3-8ba9-a35724f5015c",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_warden_king_mistress",
+    "plot_guid": "fb258652-2c28-4f1a-80c6-29d0820a033f",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "dao_warden_mf",
+    "plot_guid": "2016201e-c86b-45dd-8d57-14a975310380",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_morrigan_baby_warden",
+    "plot_guid": "0b35d01b-c8b5-4cc6-929c-f2f6f92c0189",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_race",
+    "plot_guid": "fbe0a965-1bc6-4080-bb02-9245b23f0309",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_romance",
+    "plot_guid": "3a7cb980-b2ed-49b3-884b-10632f600317",
+    "keep": {
+      "maximum": 4
+    }
+  },
+  {
+    "name": "dao_warden_state",
+    "plot_guid": "bd30504e-9aeb-4d66-b6a7-754b115b03c9",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_wynne_recruited",
+    "plot_guid": "c87d28eb-8690-4645-a279-0a5776930144",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_zevran_alive",
+    "plot_guid": "838b4770-ca76-4d60-83ce-4cd41c3b0304",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_zevran_recruited",
+    "plot_guid": "85dffe4c-0e7f-4217-9eda-7b4131b801b1",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_awakenings_architect_fate",
+    "plot_guid": "b895b76f-0def-4954-991d-847d228f0171",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_harrowmont_is_king",
+    "plot_guid": "b186b9c9-d6f2-4de5-8cea-bd569d1001c5",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_isolde_state",
+    "plot_guid": "0a97f0ff-c18c-4cfe-a5a3-189ea12e0121",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_leliana_crisis",
+    "plot_guid": "be009c7f-f8c9-4f95-bd7a-f92224b20131",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_morrigan_baby_alistair",
+    "plot_guid": "356599ab-84b7-4554-88e7-18e04e050172",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_morrigan_baby_loghain",
+    "plot_guid": "553e7665-f8b5-4fdc-acbd-dd81671001c2",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_morrigan_dark_ritual",
+    "plot_guid": "fa17bfde-8acc-4ac7-83a7-ecfc00a601a3",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_morrigan_dark_ritual_warden",
+    "plot_guid": "da469bb0-cdf1-4716-be5a-afa72f050162",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_morrigan_has_child",
+    "plot_guid": "7f909387-4981-45a3-bffe-7bfae33101a2",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_or_da2_played",
+    "plot_guid": "684915e2-3a26-425e-b1d8-bedae2b50120",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_paragon_anvil_fate",
+    "plot_guid": "db09da5b-f299-4442-831f-c0f8ca5303db",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_shale_fate",
+    "plot_guid": "d053d583-eded-46c5-8b89-4af00cd90345",
+    "keep": {
+      "maximum": 2
+    }
+  },
+  {
+    "name": "dao_shale_recruited",
+    "plot_guid": "59b17185-b2b6-404a-9ef9-4bc9d211018a",
+    "keep": {
+      "maximum": 1
+    }
+  },
+  {
+    "name": "dao_warden_background_city_elf",
+    "plot_guid": "67b3db98-6bd0-405f-baa0-c347967a014f",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_background_dalish_elf",
+    "plot_guid": "a39f5acd-828e-402e-a0ee-732c1f9f01e5",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_background_dwarf_commoner",
+    "plot_guid": "cf64b1e9-82b1-40a2-bf19-abc60c5701a9",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_background_dwarf_noble",
+    "plot_guid": "cacc6f7f-72a0-4db9-aa81-19e9a8f00166",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_background_elven_mage",
+    "plot_guid": "cde6acf4-1225-4da6-a08a-1ddbf29a0184",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_background_human_mage",
+    "plot_guid": "5841c28a-5862-4f31-ab2a-0e29ecc201d2",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_background_human_noble",
+    "plot_guid": "14d408e6-5f6e-46ec-869e-3d5dc5eb014d",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_class_mage",
+    "plot_guid": "cb3ba0ff-bf0c-4dc7-b231-5ed1556f01ed",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_class_rogue",
+    "plot_guid": "71579efa-cbfc-4f82-8e72-a0f916b0011c",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_class_warrior",
+    "plot_guid": "1f54fe45-b6af-4cb5-a1d6-c9143209017e",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_is_female",
+    "plot_guid": "09450e1b-b766-44dd-ae67-af9adb6101fc",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_is_male",
+    "plot_guid": "31997180-eb55-483c-82d1-6a51dcab012d",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_married_alistair",
+    "plot_guid": "c9a0d0dd-e7ff-4862-a1b0-17e4df9501fd",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_married_alistair_anora",
+    "plot_guid": "9c110222-1c2d-43a9-a83d-b74732a10149",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_race_dwarf",
+    "plot_guid": "70ddba81-91a1-44da-bb3f-6ca13242019e",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_race_elf",
+    "plot_guid": "70dfc976-cd3e-4de8-a3b4-ee679c2b01de",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_race_human",
+    "plot_guid": "309bcf90-3250-4086-a8ee-bdfcb75901c2",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_romance_alistair",
+    "plot_guid": "d03126f1-8f50-4ae5-ba1e-b6f3683a01e0",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_romance_leliana",
+    "plot_guid": "6523cf79-d375-4049-a7cf-12865342012e",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_romance_morrigan",
+    "plot_guid": "f05b1a0a-64a7-4e26-b067-a4f6e3bd016a",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_warden_romance_zevran",
+    "plot_guid": "f9e7c33b-37cb-4ef5-9002-a2f89ab9016a",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_wynne_fate",
+    "plot_guid": "e10ec4d5-de6c-417c-a4be-e1f7d0ca03c7",
+    "keep": {
+      "maximum": 3
+    }
+  },
+  {
+    "name": "dao_connor_alive_and_not_possessed",
+    "plot_guid": "434aab85-f1c9-4d7b-8272-2345336a01cc",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_connor_alive_and_possessed",
+    "plot_guid": "207742ae-1579-47c3-9b59-0304e9a30182",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_connor_dead",
+    "plot_guid": "e9c11361-3ad2-458e-af23-b3dd3b8801d8",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_broken_circle_mages",
+    "plot_guid": "17b4f702-d077-4474-ab1f-de9a73ce01f0",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_broken_circle_templars",
+    "plot_guid": "ace78fe0-62fb-4d57-8af5-906a601c010c",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_ntb_side_werewolves",
+    "plot_guid": "5b9b7d56-748d-4843-9013-3e69e96e017e",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_ntb_side_elves",
+    "plot_guid": "c991e973-f173-4150-897e-2640f72501d8",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_par_chose_caridin",
+    "plot_guid": "0746e7c4-9f5c-4831-8d75-5b7c095801a7",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_par_chose_branka",
+    "plot_guid": "7ee76a29-4e66-4c6a-9ebc-c42a657d0118",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_par_caridin_destroyed_anvil",
+    "plot_guid": "23c9912d-be75-498d-9c30-fc47d925018d",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_par_branka_destroyed_anvil",
+    "plot_guid": "634f08bc-3635-48f3-af3b-da01fdca01a8",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_par_branka_kept_anvil",
+    "plot_guid": "46520663-9c4a-473f-8af6-0d2bfe1101fd",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_bhelen_is_king",
+    "plot_guid": "f830917d-6e9a-4a2d-817e-2363c13d0176",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_ntb_brokered_peace",
+    "plot_guid": "92a808a6-e485-4a44-898c-0d6250e40180",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_alistair_drunk",
+    "plot_guid": "f7b06ff6-8050-44d9-828e-43df935401be",
+    "keep": {
+      "maximum": null
+    }
+  },
+  {
+    "name": "dao_par_dagna_circle",
+    "plot_guid": "de6f8dc9-615f-4440-8c40-7f96ef880113",
+    "keep": {
+      "maximum": null
+    }
+  }
+]
